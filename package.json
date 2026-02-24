@@ -4,8 +4,8 @@
   "description": "Repo de travail collaboratif pour la préparation du talk REX à Lyon Craft.",
   "main": "index.js",
   "scripts": {
-    "start": "reveal-md support/REX_Lyon_Craft.md --watch",
-    "build": "reveal-md support/REX_Lyon_Craft.md --static support/dist"
+    "start": "reveal-md support/ --watch",
+    "build": "reveal-md support/ --static support/dist"
   },
   "repository": {
     "type": "git",
