@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(contenu/**)",
+      "Read(support/**)",
+      "Write(contenu/**)",
+      "Write(support/**)"
+    ],
+    "deny": []
+  }
+}
