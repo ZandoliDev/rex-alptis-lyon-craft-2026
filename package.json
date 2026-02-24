@@ -1,0 +1,25 @@
+{
+  "name": "rex-alptis-lyon-craft-2026",
+  "version": "1.0.0",
+  "description": "Repo de travail collaboratif pour la préparation du talk REX à Lyon Craft.",
+  "main": "index.js",
+  "scripts": {
+    "start": "reveal-md support/ --watch",
+    "build": "reveal-md support/ --static support/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZandoliDev/rex-alptis-lyon-craft-2026.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ZandoliDev/rex-alptis-lyon-craft-2026/issues"
+  },
+  "homepage": "https://github.com/ZandoliDev/rex-alptis-lyon-craft-2026#readme",
+  "devDependencies": {
+    "reveal-md": "^6.1.2"
+  }
+}
