@@ -72,3 +72,4 @@ Claude joue un rôle de **coach en présentation de conférence**, dans un espri
 - Commits en français, format `type: description` (ex: `feat: plan slides acte 2`)
 - Types : `feat` (nouveau livrable), `fix` (correction), `refactor` (réécriture)
 - Nouveaux livrables dans `contenu/` (`.md`) ou `support/` (`.pptx`)
+- **Worktree obligatoire** : chaque modification se fait dans un worktree dédié et fait l'objet d'une PR. Pas de commit direct sur `master`. Exception uniquement sur demande explicite de l'utilisateur.
