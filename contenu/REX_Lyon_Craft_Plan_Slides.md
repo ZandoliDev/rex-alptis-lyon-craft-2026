@@ -62,8 +62,8 @@
 - **Intention** : Concret, pas théorique. Le public craft connaît ces pratiques — ce qui l'intéresse c'est le contexte réel. Les deux derniers piliers montrent que le craft ne se limite pas aux pratiques de code.
 
 ### Slide 9 — Ce qui se passe vraiment
-- **Affichage** : Frise des 5 phases — mob → pair → solo → sans Didier → dev seul
-- **Idée** : ~3 semaines de friction organisationnelle. Variations d'effectifs. Congés successifs. Pression de deadline. Un dev senior qui ne se sent pas à l'aise pour pratiquer le TDD seul.
+- **Affichage** : Frise des 4 phases back — Mob (~1,5 mois) → Pair (~1,5 mois) → Hybride (~1 mois) → Sans Didier (~2 mois). Note : côté front, 1 dev formé en pair par Didier, adopte le TDD en autonomie.
+- **Idée** : L'accompagnement craft se réduit progressivement. ~3 semaines de friction orga. Congés successifs. Phase hybride avec absences alternées. Puis dev senior seul, pression de deadline, TDD lâché sur certaines zones.
 - **Intention** : Honnêteté brute. Le public craft sait que la réalité ne ressemble jamais au plan. C'est ici qu'on gagne leur confiance.
 
 ### Slide 10 — Le résultat contrasté
