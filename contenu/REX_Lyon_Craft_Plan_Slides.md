@@ -52,12 +52,14 @@
 - **Intention** : Montrer que ce n'est pas un laboratoire confortable — c'est un vrai produit, avec de vraies contraintes.
 
 ### Slide 8 — Ce qu'on met en place
-- **Affichage** : 3 piliers visuels — TDD / Mob programming / Méthode Kanban
+- **Affichage** : 5 piliers visuels — TDD / Mob programming / Kanban / Livraison continue en prod / Allègement du périmètre
 - **Idée** :
   - TDD : conception émergente, code qui exprime l'intention métier
   - Mob : transfert de compétences craft ↔ contexte Alptis, review et recette allégées
   - Kanban : design sprint 2-3 jours, pas de cahier des charges complet, demandes métier en cours de route
-- **Intention** : Concret, pas théorique. Le public craft connaît ces pratiques — ce qui l'intéresse c'est le contexte réel.
+  - Livraison continue en prod : déployer tout au long du projet, pas uniquement à la mise en marché — réduit la charge mentale de la mise en prod finale
+  - Allègement du périmètre : fonctionnalités de confort retirées, focus sur le cœur métier — ajoutées après coup
+- **Intention** : Concret, pas théorique. Le public craft connaît ces pratiques — ce qui l'intéresse c'est le contexte réel. Les deux derniers piliers montrent que le craft ne se limite pas aux pratiques de code.
 
 ### Slide 9 — Ce qui se passe vraiment
 - **Affichage** : Frise des 5 phases — mob → pair → solo → sans Didier → dev seul
@@ -73,7 +75,7 @@
 
 ### Slide 11 — Les chiffres : 7 mois
 - **Affichage** : "7 mois" en grand — avec le contexte en dessous (équipe neuve, friction orga, double apprentissage)
-- **Idée** : Autant que l'existant. Mais : livraison continue en prod (choix délibéré), mise en marché retardée d'1 mois. En conditions normales : ~6 mois.
+- **Idée** : Autant que l'existant. Les décisions posées slide 8 (livraison continue, allègement périmètre) produisent leurs effets : le produit est en prod avant la mise en marché. Mise en marché retardée d'1 mois (durée des dev). En conditions normales : ~6 mois.
 - **Donnée** : 7 mois SFR vs 6-7 mois avant
 
 ### Slide 12 — Formulation clé acte 2
