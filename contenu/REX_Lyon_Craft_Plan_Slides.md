@@ -1,7 +1,7 @@
 # Plan slide-by-slide — REX Lyon Craft
 
 > Livrable de l'étape 2.
-> Talk de 45 minutes — 18 slides.
+> Talk de 45 minutes — 19 slides.
 > Répartition duo Didier/Laure : à définir à l'étape suivante.
 > Formulation clé acte 1 : `[À TRANCHER]` (discussion en cours sur PR #2).
 
@@ -85,23 +85,27 @@
 
 ---
 
-## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 13-16) — ~12 min
+## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 13-17) — ~12 min
 
 ### Slide 13 — Santé Équilibre : la duplication
 - **Affichage** : "2 mois" en grand — périmètre plus complet que SFR, zéro retard côté dev
 - **Idée** : Produit plus standard. Duplication de SFR comme base. 2 mois pour une première version quasi complète en prod, avant la date de mise en marché.
 - **Donnée** : 2 mois vs 7 mois vs 6-7 mois — la courbe se dessine
 
-### Slide 14 — Ce qui rend ça possible (les 4 leviers)
-- **Affichage** : 4 blocs visuels
+### Slide 14 — Le rapprochement métier/DSI
+- **Affichage** : À définir — illustrer la bascule (avant/après)
+- **Idée** : Premier levier, et pas des moindres. La complexité du produit à développer dépend directement des exigences métier. Avant : les actuaires conçoivent des produits indépendamment de la faisabilité technique et du budget. Après : les métiers se rapprochent d'eux-mêmes de la DSI pour co-concevoir des produits réalisables rapidement, en évitant les règles métier exotiques. Mouvement initié côté métier — étonnant et très apprécié des équipes de dev.
+- **Intention** : Laure illustre ce levier — d'où la relation est partie, comment le rapprochement s'est construit chez Alptis.
+
+### Slide 15 — Les 3 leviers techniques
+- **Affichage** : 3 blocs visuels
 - **Idée** :
   1. Capture de l'intention (tests = documentation du sens)
   2. Structure du code (découplage, patterns, conçu pour évoluer)
   3. Autonomie vis-à-vis des dépendances (contrats d'interface, mock/réel par config)
-  4. Rapprochement métier/DSI (actuaires co-conçoivent avec dev, PO, DSI)
-- **Intention** : Aucun levier ne suffit seul. C'est la combinaison qui produit le résultat.
+- **Intention** : La combinaison de ces leviers techniques avec le rapprochement métier produit le résultat.
 
-### Slide 15 — Le déclic du template + projection
+### Slide 16 — Le déclic du template + projection
 - **Affichage** : Schéma template → déclinaison produit
 - **Idée** :
   - "On a une base livrable en prod. Pourquoi ne pas en faire un template ?"
@@ -111,21 +115,21 @@
   - TDD continue sur les produits livrés (évolutions/maintenance)
 - **Intention** : L'histoire ne s'arrête pas au départ de Didier. L'organisation a internalisé.
 
-### Slide 16 — Formulation clé acte 3
+### Slide 17 — Formulation clé acte 3
 - **Affichage** : *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
 - **Idée** : Ce n'est plus le dev qui bloque. +1 mois pour les services externes sur Santé Équilibre. Quasi aucun retour en recette.
 - **Intention** : Le public craft comprend immédiatement ce que ça signifie.
 
 ---
 
-## Conclusion (slides 17-18) — ~5 min
+## Conclusion (slides 18-19) — ~5 min
 
-### Slide 17 — Retour à l'atelier
+### Slide 18 — Retour à l'atelier
 - **Affichage** : L'atelier transformé — même image qu'en ouverture, mais l'atelier a changé
 - **Idée** : On ne réinvente plus la chaise à chaque commande. On a conçu un modèle de fabrication — testé, validé, vivant. Les artisans se concentrent sur les spécificités, pas sur ce qui est déjà résolu. Honnêteté : compromis, zones sans TDD, turbulences. Le craft n'est pas une recette magique — c'est un investissement avec une courbe d'apprentissage réelle. Mais là où l'intention a été tenue : pas de régression, pas de surprise, de la prévisibilité.
 - **Intention** : Boucler l'analogie. Émotion + lucidité.
 
-### Slide 18 — Punchline
+### Slide 19 — Punchline
 - **Affichage** : *"Développer est un métier. Être artisan développeur en est un autre."*
 - **Idée** : Silence. Laisser la phrase agir.
 - **Intention** : Le public repart avec cette phrase. Provocation assumée, crédibilisée par les 40 minutes qui précèdent.
