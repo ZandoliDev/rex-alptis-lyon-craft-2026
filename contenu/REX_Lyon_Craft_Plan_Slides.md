@@ -1,7 +1,7 @@
 # Plan slide-by-slide — REX Lyon Craft
 
 > Livrable de l'étape 2.
-> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 18 slides.
+> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 17 slides.
 > Répartition duo Didier/Laure : à définir à l'étape suivante.
 > Formulation clé acte 1 : `[À TRANCHER]` (discussion en cours sur PR #2).
 
@@ -80,7 +80,7 @@
 
 ---
 
-## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 12-17) — ~10 min
+## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 12-17) — ~12 min
 
 ### Slide 12 — Santé Équilibre : la duplication
 - **Affichage** : "2 mois" en grand — périmètre plus complet que SFR, zéro retard côté dev
@@ -115,18 +115,9 @@
 - **Idée** : Ce n'est plus le dev qui bloque. +1 mois pour les services externes sur Santé Équilibre. Quasi aucun retour en recette.
 - **Intention** : Le public craft comprend immédiatement ce que ça signifie.
 
-### Slide 17 — Analogie conclusion : l'atelier transformé
-- **Affichage** : L'atelier — même lieu, mais transformé. On sait comment faire une chaise qui tient debout. On se concentre maintenant sur la personnalisation de la chaise vis-à-vis de la demande du client.
-- **Intention** : Boucler l'analogie. Émotion + lucidité. Le chemin parcouru tient en une image.
-
----
-
-## Conclusion (slide 18) — ~2 min
-
-### Slide 18 — Punchline
-- **Affichage** : *"Développer est un métier. Être artisan développeur en est un autre."*
-- **Idée** : Silence. Laisser la phrase agir.
-- **Intention** : Le public repart avec cette phrase. Provocation assumée, crédibilisée par les 35 minutes qui précèdent.
+### Slide 17 — L'atelier transformé + punchline
+- **Affichage** : L'atelier — même lieu, mais transformé. On sait comment faire une chaise qui tient debout. On se concentre maintenant sur la personnalisation de la chaise vis-à-vis de la demande du client. Puis : *"Développer est un métier. Être artisan développeur en est un autre."*
+- **Intention** : Boucler l'analogie — émotion, lucidité. Silence. La punchline arrive sur l'émotion. Le public repart avec cette phrase et cette image. Provocation assumée, crédibilisée par les 35 minutes qui précèdent.
 
 ---
 
@@ -150,5 +141,4 @@
 | 14 | Acte 3 | Les 3 leviers techniques | ~28 min |
 | 15 | Acte 3 | Template + projection 2026 | ~30 min |
 | 16 | Acte 3 | Formulation clé acte 3 | ~31 min |
-| 17 | Acte 3 | Analogie — l'atelier transformé | ~33 min |
-| 18 | Conclusion | Punchline | ~35 min |
+| 17 | Acte 3 | L'atelier transformé + punchline | ~35 min |
