@@ -76,8 +76,8 @@ Nouveau produit from scratch : Santé Frontaliers Suisses (SFR). L'occasion de r
 **Chiffre :** 7 mois pour SFR. Soit autant que l'existant — avec une équipe qui démarre de zéro, un mois de friction organisationnelle, et une courbe d'apprentissage double (craft + contexte Alptis). En conditions normales : ~6 mois.
 
 **Ce qui a changé (constat) :**
-- La livraison continue et l'allègement du périmètre (décisions posées plus haut) produisent leurs effets : le produit est en prod bien avant la mise en marché.
-- La mise en marché a été retardée d'un mois, principalement due à la durée des développements. Malgré ce retard, livrer en 7 mois dans ce contexte d'expérimentation et de contraintes était déjà considéré comme une bonne performance.
+- La livraison continue a réduit la charge mentale de la mise en production finale — plus de big bang. L'allègement du périmètre a permis de se concentrer sur le cœur métier.
+- Mais le résultat en durée reste similaire : 7 mois, avec un mois de retard sur la mise en marché. Les pratiques craft ne produisent pas encore un gain de temps visible — elles posent les fondations.
 - La certitude sur l'intention implémentée est là. Le goulot commence à se déplacer.
 
 **Formulation clé :** *"On n'a pas fait mieux en temps. On a fait autrement — et on a posé les fondations."*
