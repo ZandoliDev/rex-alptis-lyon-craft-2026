@@ -58,6 +58,8 @@ Nouveau produit from scratch : Santé Frontaliers Suisses (SFR). L'occasion de r
 - TDD : conception émergente plutôt que projetée, refactorisation permanente, code qui exprime l'intention métier.
 - Mob programming : transfert de compétences entre Didier (craft) et les membres de l'équipe (contexte fonctionnel et technique Alptis). Review et recette croisée allégées quand l'équipe travaille ensemble.
 - Focalisation sur les règles métier avant les briques techniques : les scénarios sont validés tôt, la recette devient surtout un contrôle d'assemblage.
+- Livraison continue en prod : choix délibéré de déployer en production tout au long du projet, pas uniquement à la mise en marché. Techniquement possible avant, mais c'est une décision prise dès SFR pour réduire la charge mentale de la mise en production finale.
+- Allègement du périmètre : retrait des fonctionnalités de confort pour se concentrer sur le cœur métier. Ces fonctionnalités sont ajoutées après coup, une fois le produit en production.
 
 **Méthode de travail :**
 - Approche Kanban — pas de cahier des charges complet au démarrage.
@@ -73,9 +75,9 @@ Nouveau produit from scratch : Santé Frontaliers Suisses (SFR). L'occasion de r
 
 **Chiffre :** 7 mois pour SFR. Soit autant que l'existant — avec une équipe qui démarre de zéro, un mois de friction organisationnelle, et une courbe d'apprentissage double (craft + contexte Alptis). En conditions normales : ~6 mois.
 
-**Ce qui a changé :**
-- Avant : on déployait en prod à la date de mise en marché, souvent avec retard.
-- SFR : choix délibéré de livrer en prod en continu tout au long du projet — ce mode était techniquement possible avant, mais c'est une décision prise dès SFR pour réduire la charge mentale de la mise en production finale. La mise en marché a été retardée d'un mois, principalement due à la durée des développements. Malgré ce retard, livrer en 7 mois dans ce contexte d'expérimentation et de contraintes était déjà considéré comme une bonne performance.
+**Ce qui a changé (constat) :**
+- La livraison continue et l'allègement du périmètre (décisions posées plus haut) produisent leurs effets : le produit est en prod bien avant la mise en marché.
+- La mise en marché a été retardée d'un mois, principalement due à la durée des développements. Malgré ce retard, livrer en 7 mois dans ce contexte d'expérimentation et de contraintes était déjà considéré comme une bonne performance.
 - La certitude sur l'intention implémentée est là. Le goulot commence à se déplacer.
 
 **Formulation clé :** *"On n'a pas fait mieux en temps. On a fait autrement — et on a posé les fondations."*
