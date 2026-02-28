@@ -75,7 +75,7 @@
 
 ### Slide 11 — Les chiffres : 7 mois
 - **Affichage** : "7 mois" en grand — avec le contexte en dessous (équipe neuve, friction orga, double apprentissage)
-- **Idée** : Autant que l'existant. Les décisions posées slide 8 (livraison continue, allègement périmètre) produisent leurs effets : le produit est en prod avant la mise en marché. Mise en marché retardée d'1 mois (durée des dev). En conditions normales : ~6 mois.
+- **Idée** : Autant que l'existant. Les pratiques posées slide 8 réduisent l'incertitude et la charge mentale — plus de big bang. Mais pas encore de gain de temps visible : mise en marché retardée d'1 mois. Les fondations sont posées, le gain se matérialisera à l'acte 3. En conditions normales : ~6 mois.
 - **Donnée** : 7 mois SFR vs 6-7 mois avant
 
 ### Slide 12 — Formulation clé acte 2
