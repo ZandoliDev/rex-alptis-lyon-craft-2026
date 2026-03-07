@@ -3,7 +3,7 @@
 > Livrable de l'étape 2.
 > Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 17 slides.
 > Répartition duo Didier/Laure : à définir à l'étape suivante.
-> Formulation clé acte 1 : `[À TRANCHER]` (discussion en cours sur PR #2).
+> Formulation clé acte 1 : tranchée (PR #2).
 
 ---
 
@@ -30,13 +30,13 @@
 
 ### Slide 4 — La douleur et le déclic
 - **Affichage** : Visuel d'allers-retours dev ↔ recette (boucle)
-- **Idée** : La migration Java 11 → 21 s'étire. Bugs et régressions détectés tardivement. Cycles qui auraient pu être raccourcis avec un filet de tests. C'est cette douleur qui motive la proposition craft. L'envie d'aller plus vite existe (design system, composants business). Mais sans filet, chaque accélération reste un pari. L'ambition est là — il manque un levier.
+- **Idée** : La migration Java 11 → 21 s'étire. Bugs et régressions détectés tardivement. Cycles qui auraient pu être raccourcis avec un filet de tests. C'est cette douleur qui motive la proposition craft. L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari. On veut produire plus vite, mais on n'a aucune garantie sur ce qu'on produit.
 - **Anecdote** : Arrivée de Didier en pleine migration, l'incertitude permanente du "qu'est-ce que j'ai cassé ?"
 
-### Slide 5 — Analogie + question
-- **Affichage** : L'atelier — "on teste les chaises à la fin. Quand ça craque, on retourne à l'établi." Puis : "Et si le vrai problème n'était pas la vitesse — mais la façon dont on fabrique ?"
-- **Idée** : Le public a vu le problème concret (migration, allers-retours). L'analogie le cristallise. La question ouvre l'acte 2.
-- **Intention** : Charnière entre acte 1 et acte 2. Le public fait le lien lui-même.
+### Slide 5 — Analogie + formulation clé + question
+- **Affichage** : L'atelier — "on teste les chaises à la fin. Quand ça craque, on retourne à l'établi." Puis la formulation clé : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."* Puis : "Et si le vrai problème n'était pas la vitesse — mais la façon dont on fabrique ?"
+- **Idée** : Le public a vu le problème concret (migration, allers-retours). L'analogie le cristallise. La formulation clé fait mouche — elle dit en une phrase ce que la slide 4 a montré. La question ouvre l'acte 2.
+- **Intention** : Charnière entre acte 1 et acte 2. L'analogie, la formulation et la question forment un crescendo. Le public fait le lien lui-même.
 
 ---
 
@@ -87,10 +87,10 @@
 - **Idée** : Produit plus standard. Duplication de SFR comme base. 2 mois pour une première version quasi complète en prod, avant la date de mise en marché.
 - **Donnée** : 2 mois vs 7 mois vs 6-7 mois — la courbe se dessine
 
-### Slide 13 — Le rapprochement métier/DSI
-- **Affichage** : À définir — illustrer la bascule (avant/après)
-- **Idée** : Premier levier, et pas des moindres. La complexité du produit à développer dépend directement des exigences métier. Avant : les actuaires conçoivent des produits indépendamment de la faisabilité technique et du budget. Après : les métiers se rapprochent d'eux-mêmes de la DSI pour co-concevoir des produits réalisables rapidement, en évitant les règles métier exotiques. Mouvement initié côté métier — étonnant et très apprécié des équipes de dev.
-- **Intention** : Laure illustre ce levier — d'où la relation est partie, comment le rapprochement s'est construit chez Alptis.
+### Slide 13 — Le renversement : le métier vient à nous
+- **Affichage** : Anecdote visuelle — invitation à une réunion, objectif flou. Puis le retournement.
+- **Idée** : On reçoit une invitation. On ne sait pas trop pourquoi. On arrive — et on comprend : le métier nous demande comment concevoir le produit pour minimiser le temps de réalisation. "Si x, ça ira vite. Si y, il nous faudra plus de temps — on préconise x." → "OK pour x." Rechallenge des règles spécifiques pour qu'elles conviennent au plus grand nombre. Ce renversement n'est pas tombé du ciel — il a fallu des années pour construire cette confiance.
+- **Intention** : C'est Laure qui raconte — c'est son vécu, la continuité qu'elle incarne. Didier réagit en tant que témoin surpris de ce retournement. Le public comprend que le craft seul ne suffit pas — il faut que l'organisation bouge aussi. Et que ça prend du temps.
 
 ### Slide 14 — Les 3 leviers techniques
 - **Affichage** : 3 blocs visuels
@@ -137,7 +137,7 @@
 | 10 | Acte 2 | 7 mois — fondations posées | ~21 min |
 | 11 | Acte 2 | Analogie — l'apprentissage | ~22 min |
 | 12 | Acte 3 | 2 mois — Santé Équilibre | ~24 min |
-| 13 | Acte 3 | Rapprochement métier/DSI | ~26 min |
+| 13 | Acte 3 | Le renversement : le métier vient à nous | ~26 min |
 | 14 | Acte 3 | Les 3 leviers techniques | ~28 min |
 | 15 | Acte 3 | Template + projection 2026 | ~30 min |
 | 16 | Acte 3 | Formulation clé acte 3 | ~31 min |
