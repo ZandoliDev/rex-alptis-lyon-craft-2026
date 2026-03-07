@@ -66,9 +66,9 @@ Personne ne remet cette norme en question.
 
 ## Le vrai sujet
 
-> *"On ne se demande pas si on peut aller plus vite. On se demande comment ne pas tout casser."*
+> *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*
 
-Note: Formulation clé de l'acte 1. Laisser un silence après.
+Note: Formulation clé de l'acte 1. Laisser un silence après — la salle va sourire.
 
 ---
 

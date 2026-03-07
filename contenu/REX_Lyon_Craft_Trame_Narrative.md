@@ -11,7 +11,7 @@
 | Avant craft (moyenne sur 3 produits : Select, Protect, Select Pro) | 6-7 mois | 4-5 personnes constantes (PO, SA, 3 dev) | Standard — mise en prod = mise en marché, souvent avec retard | Référence de départ indiscutable : confirmée par l'équipe sur 3 produits |
 | Produit 1 craft — SFR (Santé Frontaliers Suisses) | 7 mois | Variable sur 5 phases (1+3+1+1+1) | Standard — périmètre légèrement réduit sur les fonctionnalités de confort (ajoutées après coup) | ~3 semaines absorbées par friction organisationnelle (standardisation produit) ; équipe sans aucune expérience Alptis, apprend craft ET contexte simultanément ; mise en marché retardée d'1 mois (durée des dev) — malgré ce retard, livrer en 7 mois dans ce contexte d'expérimentation et de contraintes est considéré comme une bonne performance |
 | Produit 2 craft — Santé Équilibre | 2 mois pour une première version quasi complète en prod, avant mise en marché | Non précisé | Plus standard, avec spécificités éditiques ; périmètre fonctionnel plus complet que SFR dès la mise en prod | +1 mois pour branchement services externes → mise en prod définitive avant la date de mise en marché, zéro retard côté dev |
-| Produit 3 (projection) | ~3 mois (à confirmer avec Laure) | — | À ajuster selon spécificités | Chiffre indicatif, non définitif |
+| Template / industrialisation (2026) | Objectif 150j (budget 200j) | — | Parcours de vente — construction du template pour industrialiser les offres | Acté au budget DSI 2026 ; formation TDD (ihexa) en cours pour les devs hors équipe expérimentale |
 
 ---
 
@@ -32,18 +32,18 @@ Ce n'est pas de la négligence. C'est simplement la façon dont l'atelier a touj
 **Thèse de l'acte :** Sans filet, chaque changement est une prise de risque. On avance, mais on subit.
 
 **Situation concrète (anecdote d'entrée) :**
-Didier arrive chez Alptis en pleine migration technique Java 11 → Java 21. Les produits existants — Select, Protect, Select Pro — sont en production depuis plusieurs mois. La migration s'étire, avec de nombreux allers-retours entre développement et recette, des bugs et régressions détectés tardivement. Des cycles qui auraient pu être raccourcis avec une batterie de tests complète et pertinente. *(Durée et coût précis à confirmer avec Laure.)*
+Didier arrive chez Alptis en pleine migration technique Java 11 → Java 21. Les produits existants — Select, Protect, Select Pro — sont en production depuis plusieurs mois. La migration s'étire, avec de nombreux allers-retours entre développement et recette, des bugs et régressions détectés tardivement. Des cycles qui auraient pu être raccourcis avec une batterie de tests complète et pertinente. C'est cette douleur concrète qui motive la proposition d'expérimenter le craft.
 
 **Ce que ça révèle :**
 - Travailler sur un existant sans filet de tests suffisant, c'est avancer avec l'incertitude permanente de "qu'est-ce que j'ai cassé sans le savoir ?".
 - Conséquences concrètes : demandes de validation fréquentes, recettes lourdes par précaution, charge mentale élevée, process de delivery ralenti.
 - La qualité des produits existants n'est pas en cause — peu de bugs visibles en prod. Mais la qualité de *conception* et l'absence de filet rendent chaque évolution coûteuse.
 
-**Chiffre de référence :** 6-7 mois par produit. Équipe de 4-5 personnes. C'est la norme. Personne ne la remet en question.
+**Chiffre de référence :** 6-7 mois par produit. Équipe de 4-5 personnes. C'est la norme.
 
-**Formulation clé :** *"On ne se demande pas si on peut aller plus vite. On se demande comment ne pas tout casser."*
+**Formulation clé :** *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*
 
-**Pont vers l'acte 2 :** C'est dans ce contexte que commence l'expérimentation. Non pas pour aller plus vite — mais pour retrouver de la maîtrise.
+**Pont vers l'acte 2 :** C'est dans ce contexte que commence l'expérimentation. L'ambition est là — il manque un levier pour la concrétiser.
 
 ---
 
@@ -58,19 +58,31 @@ Nouveau produit from scratch : Santé Frontaliers Suisses (SFR). L'occasion de r
 - TDD : conception émergente plutôt que projetée, refactorisation permanente, code qui exprime l'intention métier.
 - Mob programming : transfert de compétences entre Didier (craft) et les membres de l'équipe (contexte fonctionnel et technique Alptis). Review et recette croisée allégées quand l'équipe travaille ensemble.
 - Focalisation sur les règles métier avant les briques techniques : les scénarios sont validés tôt, la recette devient surtout un contrôle d'assemblage.
+- Livraison continue en prod : choix délibéré de déployer en production tout au long du projet, pas uniquement à la mise en marché. Techniquement possible avant, mais c'est une décision prise dès SFR pour réduire la charge mentale de la mise en production finale.
+- Allègement du périmètre : retrait des fonctionnalités de confort pour se concentrer sur le cœur métier. Ces fonctionnalités sont ajoutées après coup, une fois le produit en production.
+
+**Méthode de travail :**
+- Approche Kanban — pas de cahier des charges complet au démarrage.
+- Design sprint sur 2-3 jours pour définir les grandes lignes du produit.
+- Les demandes métier peuvent arriver en cours de route, avec un impact potentiel sur les dates de mise en marché.
 
 **Ce qui se passe vraiment (honnêteté sur les limites) :**
+
+Note : les phases ci-dessous concernent le back. Côté front, un seul dev (aussi tech lead front) : Didier lui a montré la démarche TDD en pair programming, il a été conquis et l'a adoptée en autonomie sur toute la durée du projet.
+
 - ~3 semaines absorbées par des contraintes organisationnelles (standardisation des produits) — pas de la complexité technique.
-- Variations d'effectifs sur 5 phases : mob → pair → solo → sans Didier → dev seul.
-- Période de congés successifs : perte d'expertise temporaire, retours tardifs en recette.
-- Phase 3 : arrivée d'une dev expérimentée Alptis, qui suit le mode TDD sur les modules intégrés en TDD. Mais le dev senior présent tout au long de la mission, seul sur certains modules, sous pression de deadline et sans Didier pour leader le TDD, ne se sent pas suffisamment à l'aise pour le pratiquer de manière autonome. Résultat : certaines zones livrées sans TDD.
+- L'accompagnement craft se réduit progressivement en 4 phases :
+  1. **Mob** (~1,5 mois, fév–mi-mars) : 3 back dont Didier. Transfert craft + expertise fonctionnelle. Review et recette croisée allégées.
+  2. **Pair** (~1,5 mois, mi-mars–avr) : 2 back dont Didier. TDD maintenu, review pour ancrer les bonnes pratiques.
+  3. **Hybride** (~1 mois, mai–juin) : solo, pair et review en alternance. Absences tantôt de Didier, tantôt du dev expérimenté. Arrivée d'une dev expérimentée Alptis, qui suit le TDD sur les modules intégrés en TDD.
+  4. **Sans Didier** (~2 mois, juil–août) : dev senior seul sur certains modules, sous pression de deadline, pas suffisamment à l'aise pour pratiquer le TDD de manière autonome. Résultat : certaines zones livrées sans TDD.
 - Résultat : là où le craft est appliqué, l'intention est garantie sans régression. Là où il est abandonné sous pression, les modules livrés sont globalement éprouvés — peu de bugs — mais on perd la certitude avant les tests. On retourne à la dépendance à la recette pour valider ce qu'on ne sait plus garantir soi-même.
 
 **Chiffre :** 7 mois pour SFR. Soit autant que l'existant — avec une équipe qui démarre de zéro, un mois de friction organisationnelle, et une courbe d'apprentissage double (craft + contexte Alptis). En conditions normales : ~6 mois.
 
-**Ce qui a changé :**
-- Avant : on déployait en prod à la date de mise en marché, souvent avec retard.
-- SFR : choix délibéré de livrer en prod en continu tout au long du projet — ce mode était techniquement possible avant, mais c'est une décision prise dès SFR pour réduire la charge mentale de la mise en production finale. La mise en marché a été retardée d'un mois, principalement due à la durée des développements. Malgré ce retard, livrer en 7 mois dans ce contexte d'expérimentation et de contraintes était déjà considéré comme une bonne performance.
+**Ce qui a changé (constat) :**
+- La livraison continue a réduit la charge mentale de la mise en production finale — plus de big bang. L'allègement du périmètre a permis de se concentrer sur le cœur métier.
+- Mais le résultat en durée reste similaire : 7 mois, avec un mois de retard sur la mise en marché. Les pratiques craft ne produisent pas encore un gain de temps visible — elles posent les fondations.
 - La certitude sur l'intention implémentée est là. Le goulot commence à se déplacer.
 
 **Formulation clé :** *"On n'a pas fait mieux en temps. On a fait autrement — et on a posé les fondations."*
@@ -107,7 +119,10 @@ Quatre éléments combinés — aucun ne suffit seul :
 - Chaque nouveau produit part du template — les déclinaisons se concentrent sur les spécificités.
 
 **Projection :**
-Un 3e produit avec le template en place : ~3 mois (à confirmer avec Laure, à ajuster selon spécificités).
+- Objectif DSI acté au budget 2026 : parcours de vente en **150 jours** (budget de 200j).
+- Pas de nouveau produit santé pour le moment — le template est en cours de construction.
+- Formation TDD en cours (ihexa) pour les développeurs hors équipe expérimentale, qui avaient besoin de monter en compétence.
+- Le TDD continue sur les produits déjà livrés pour les évolutions et la maintenance.
 
 **Formulation clé :** *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
 
@@ -132,7 +147,7 @@ Mais là où l'intention a été tenue : pas de régression. Pas de surprise. De
 
 ## Points à confirmer avec Laure avant le talk
 
-- Durée et coût approximatif de la migration Java 11 → Java 21 (allers-retours dev-recette).
-- Projection 3e produit : ~3 mois à valider.
-- Détails sur l'organisation post-départ (template, formations, budget débloqué).
+- ~~Durée et coût approximatif de la migration Java 11 → Java 21~~ → retiré, pas pertinent pour la narration.
+- ~~Projection 3e produit~~ → remplacé par objectif DSI 150j acté au budget 2026.
+- ~~Détails sur l'organisation post-départ~~ → template en construction, formation TDD ihexa en cours.
 - Arbitrage sur les éléments citables publiquement (noms de produits, chiffres internes).
