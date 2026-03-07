@@ -41,7 +41,7 @@ Didier arrive chez Alptis en pleine migration technique Java 11 → Java 21. Les
 
 **Chiffre de référence :** 6-7 mois par produit. Équipe de 4-5 personnes. C'est la norme.
 
-**Formulation clé :** *"L'envie d'aller plus vite existe — le design system, les composants business réutilisables le montrent. Mais on n'arrive pas à valoriser ces initiatives, à obtenir le budget pour les pousser plus loin."*
+**Formulation clé :** *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*
 
 **Pont vers l'acte 2 :** C'est dans ce contexte que commence l'expérimentation. L'ambition est là — il manque un levier pour la concrétiser.
 
