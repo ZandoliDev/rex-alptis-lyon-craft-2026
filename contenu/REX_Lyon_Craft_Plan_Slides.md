@@ -129,7 +129,7 @@
 | 2 | Ouverture | Qui sommes-nous | ~3 min |
 | 3 | Acte 1 | Contexte Alptis | ~5 min |
 | 4 | Acte 1 | La douleur et le déclic | ~8 min |
-| 5 | Acte 1 | Analogie + question | ~10 min |
+| 5 | Acte 1 | Analogie + formulation + question | ~10 min |
 | 6 | Acte 2 | Le pari SFR | ~12 min |
 | 7 | Acte 2 | Ce qu'on met en place | ~15 min |
 | 8 | Acte 2 | Ce qui se passe vraiment | ~17 min |
