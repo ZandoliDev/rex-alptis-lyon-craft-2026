@@ -44,7 +44,7 @@
 
 ## Étape B — Réécrire la formulation clé acte 2
 
-**Statut** : 🔲 À faire — dépend de l'étape A
+**Statut** : ✅ Fait
 
 **Diagnostic** : La formulation actuelle *"On n'a pas fait mieux en temps. On a fait autrement — et on a posé les fondations."* est explicative, pas percutante. "Poser les fondations" est une métaphore morte. Comparée aux formulations des actes 1 et 3, elle ne se retient pas.
 

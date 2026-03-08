@@ -85,7 +85,7 @@ Note : les phases ci-dessous concernent le back. Côté front, un seul dev (auss
 - Mais le résultat en durée reste similaire : 7 mois, avec un mois de retard sur la mise en marché. Les pratiques craft ne produisent pas encore un gain de temps visible — elles posent les fondations.
 - La certitude sur l'intention implémentée est là. Le goulot commence à se déplacer.
 
-**Formulation clé :** *"On n'a pas fait mieux en temps. On a fait autrement — et on a posé les fondations."*
+**Formulation clé :** *"On a mis 7 mois. Mais on desserre les fesses."*
 
 **Pont vers l'acte 3 :** Une fois l'intention capturée, la structure posée, les compétences acquises — une question émerge naturellement : et si on dupliquait ?
 
