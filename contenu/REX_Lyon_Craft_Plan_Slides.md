@@ -7,36 +7,32 @@
 
 ---
 
-## Ouverture (slides 1-2) — ~3 min
+## Ouverture + Acte 1 — L'héritage : travailler sans filet (slides 1-5) — ~10 min
 
 ### Slide 1 — L'atelier
-- **Affichage** : Image/métaphore visuelle d'un atelier de menuiserie — on fabrique des chaises
-- **Idée** : "Un atelier. On fabrique des chaises."
-- **Intention** : Poser l'image. Pas de jugement, pas de contexte, juste un lieu et une activité. Le public entre dans l'histoire.
+- **Affichage** : Image/métaphore visuelle d'un atelier de menuiserie
+- **Idée** : "On a fini de construire la chaise. On s'assoit dessus. Ça craque. On retourne à l'établi. Ce n'est pas de la négligence — c'est comme ça qu'on a toujours fait."
+- **Intention** : Tension immédiate. Le public entend le craquement avant de comprendre l'histoire. Pas de jugement — un constat. Amorce l'analogie menuiserie qui traverse tout le talk.
 
-### Slide 2 — Qui sommes-nous
-- **Affichage** : Didier + Laure — noms, rôles
-- **Idée** : "On va vous raconter comment cet atelier s'est transformé." Didier : l'artisan qui arrive, impulse le craft, structure les pivots. Laure : l'ancrage dans l'organisation, la continuité après le départ de Didier.
-- **Intention** : Inclure le public — vous allez observer cette transformation avec nous. Poser le duo naturellement, pas un slide CV.
-
----
-
-## Acte 1 — L'héritage : travailler sans filet (slides 3-5) — ~7 min
-
-### Slide 3 — Le contexte Alptis
-- **Affichage** : Chiffres clés — 6-7 mois / produit, équipe de 4-5 personnes (PO, SA, 3 dev), 3 produits livrés (Select, Protect, Select Pro)
-- **Idée** : Poser le décor. C'est la norme. Ça fonctionne.
-- **Donnée** : 6-7 mois par produit, confirmé sur 3 produits
-
-### Slide 4 — La douleur et le déclic
+### Slide 2 — La douleur et le déclic
 - **Affichage** : Visuel d'allers-retours dev ↔ recette (boucle)
 - **Idée** : La migration Java 11 → 21 s'étire. Bugs et régressions détectés tardivement. Cycles qui auraient pu être raccourcis avec un filet de tests. C'est cette douleur qui motive la proposition craft. L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari. On veut produire plus vite, mais on n'a aucune garantie sur ce qu'on produit.
 - **Anecdote** : Arrivée de Didier en pleine migration, l'incertitude permanente du "qu'est-ce que j'ai cassé ?"
 
-### Slide 5 — Analogie + formulation clé + question
-- **Affichage** : L'atelier — "on teste les chaises à la fin. Quand ça craque, on retourne à l'établi." Puis la formulation clé : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."* Puis : "Et si le vrai problème n'était pas la vitesse — mais la façon dont on fabrique ?"
-- **Idée** : Le public a vu le problème concret (migration, allers-retours). L'analogie le cristallise. La formulation clé fait mouche — elle dit en une phrase ce que la slide 4 a montré. La question ouvre l'acte 2.
-- **Intention** : Charnière entre acte 1 et acte 2. L'analogie, la formulation et la question forment un crescendo. Le public fait le lien lui-même.
+### Slide 3 — Qui sommes-nous
+- **Affichage** : Didier + Laure — noms, rôles
+- **Idée** : "On va vous raconter comment cet atelier s'est transformé." Didier : l'artisan qui arrive, impulse le craft, structure les pivots. Laure : l'ancrage dans l'organisation, la continuité après le départ de Didier.
+- **Intention** : La présentation arrive après la douleur — le public veut savoir qui parle. Pas un slide CV, une réponse à une question que le public se pose déjà.
+
+### Slide 4 — La norme
+- **Affichage** : Chiffres clés — 6-7 mois / produit, équipe de 4-5 personnes (PO, SA, 3 dev), 3 produits livrés (Select, Protect, Select Pro)
+- **Idée** : Voilà d'où on part. C'est la norme. Ça fonctionne. Personne ne la remet en question.
+- **Donnée** : 6-7 mois par produit, confirmé sur 3 produits
+
+### Slide 5 — Formulation clé + question
+- **Affichage** : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."* Puis : "Et si le vrai problème n'était pas la vitesse — mais la façon dont on fabrique ?"
+- **Idée** : La formulation clé fait écho au craquement de la slide 1. La question ouvre l'acte 2.
+- **Intention** : Charnière entre acte 1 et acte 2. Le public boucle mentalement sur l'image de la slide 1. Le crescendo est plus court — l'analogie est déjà posée, la formulation clé et la question suffisent.
 
 ---
 
@@ -113,11 +109,11 @@
 
 | Slide | Acte | Titre court | Durée cumulée |
 |-------|------|-------------|---------------|
-| 1 | Ouverture | L'atelier | ~1 min |
-| 2 | Ouverture | Qui sommes-nous | ~3 min |
-| 3 | Acte 1 | Contexte Alptis | ~5 min |
-| 4 | Acte 1 | La douleur et le déclic | ~8 min |
-| 5 | Acte 1 | Analogie + formulation + question | ~10 min |
+| 1 | Ouverture | L'atelier — "ça craque" | ~1 min |
+| 2 | Acte 1 | La douleur et le déclic | ~4 min |
+| 3 | Acte 1 | Qui sommes-nous | ~6 min |
+| 4 | Acte 1 | La norme | ~8 min |
+| 5 | Acte 1 | Formulation clé + question | ~10 min |
 | 6 | Acte 2 | Le pari SFR | ~12 min |
 | 7 | Acte 2 | Ce qu'on met en place | ~14 min |
 | 8 | Acte 2 | Ce qui se passe vraiment | ~16 min |
