@@ -17,9 +17,9 @@
 
 ---
 
-## Étape A — Resserrer l'acte 2 (slides 6-11)
+## Étape A — Resserrer l'acte 2 (slides 6-10)
 
-**Statut** : 🔲 À faire
+**Statut** : ✅ Fait
 
 **Diagnostic** : L'acte 2 fait 6 slides (~13 min) pour un message qui tient en une phrase : "on a fait du craft sur SFR, c'était dur, on n'a pas gagné de temps mais on a posé les bases". Le public craft connaît TDD, mob, Kanban — il n'a pas besoin d'une liste. Ce qui l'intéresse c'est la friction avec le réel.
 
