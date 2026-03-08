@@ -65,7 +65,7 @@
 - **Affichage** :
   - "7 mois" en grand, puis en sous-titre : *dont 1 mois de retard*
   - Deux colonnes — "Craft tenu" (intention garantie, pas de régression) vs "Craft lâché" (modules éprouvés mais retour à la dépendance recette)
-  - Formulation clé : *"On n'a pas fait mieux en temps. On a fait autrement — et on a posé les fondations."*
+  - Formulation clé : *"On a mis 7 mois. Mais on desserre les fesses."*
   - Thèse : *"Pour aller plus vite, il faut apprendre à livrer sûr."*
 - **Idée** : Le chiffre frappe d'abord — 7 mois, autant qu'avant. Les deux colonnes montrent que c'est nuancé, pas triomphal. La formulation clé assume le résultat. La thèse donne le sens. Le contexte (équipe neuve, friction orga, double apprentissage) passe à l'oral.
 - **Donnée** : 7 mois SFR vs 6-7 mois avant
