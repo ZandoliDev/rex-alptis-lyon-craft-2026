@@ -68,25 +68,32 @@
 
 ---
 
-## Étape C — Réordonner l'acte 3 (slides 12-17)
+## Étape C — Réordonner l'acte 3 (slides 11-16 → 11-14)
 
-**Statut** : 🔲 À faire — dépend de l'étape A (numérotation)
+**Statut** : ✅ Fait
 
 **Diagnostic** : L'acte 3 est raconté de manière factuelle. La slide 13 (renversement métier) est la pépite émotionnelle mais elle est coincée entre des slides techniques. La slide 16 (formulation clé isolée) risque de tomber à plat comme un panneau qu'on lit. La slide 15 est trop dense (4 idées).
 
-**Actions** :
+**Diagnostic révisé** : La chronologie réelle a inversé l'ordre prévu par l'audit. Le renversement métier (rapprochement actuaires/DSI) est une **condition préalable** à SEQ, pas une conséquence. Les acquis craft de SFR (capture de l'intention, structure du code) sont hérités par duplication. Le seul levier nouveau sur SEQ est le découplage vis-à-vis des services externes. La slide "3 leviers techniques" n'a donc plus de raison d'exister en tant que telle.
 
-1. **Réordonner** : placer les leviers techniques (ex-slide 14) AVANT le renversement métier (ex-slide 13). Logique narrative : les chiffres (2 mois) → comment c'est techniquement possible (leviers) → ce que ça a changé dans l'organisation (le renversement = climax de l'acte 3). Le renversement métier doit arriver en dernier dans la séquence, avec de l'espace narratif autour de lui.
+**Actions réalisées** :
 
-2. **Intégrer la formulation clé acte 3** (*"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*) dans une slide existante — soit après les chiffres de Santé Équilibre (quand le public réalise que 2 mois c'est un tiers du temps d'avant), soit dans la slide du renversement métier. Supprimer la slide isolée (ex-slide 16).
+1. **Réordonné** : le renversement métier ouvre l'acte 3 (slide 11) — c'est ce qui rend la duplication envisageable. Puis SEQ avec les chiffres décomposés (slide 12). La slide "3 leviers techniques" est supprimée — les acquis SFR passent à l'oral, le découplage services externes est intégré dans la slide SEQ.
 
-3. **Alléger la slide 15 (template + projection)** : garder en affichage le template vivant + l'objectif 150j. Passer à l'oral : formation ihexa, TDD en maintenance sur produits livrés.
+2. **Formulation clé acte 3** intégrée dans la slide SEQ (slide 12), après la décomposition "2 mois + 1 mois" — la décomposition du chiffre EST la preuve du déplacement du goulot. Slide isolée supprimée.
 
-4. **Mettre à jour la vue d'ensemble** : renuméroter, recalculer les durées.
+3. **Slide template + projection allégée** (slide 13) : en affichage le template vivant + objectif 150j. À l'oral : formation ihexa, TDD en maintenance.
 
-**Fichiers modifiés** : `contenu/REX_Lyon_Craft_Plan_Slides.md`
+4. **Vue d'ensemble mise à jour** : renuméroté (14 slides), durées recalculées.
 
-**Résultat attendu** : acte 3 passe de 6 à 4-5 slides, avec le renversement métier comme climax clair. Plus de slide "citation" isolée.
+**Précisions factuelles intégrées** (échanges avec Didier) :
+- 2 mois = version quasi complète en prod, **recette comprise**. Le code est prêt rapidement, la recette déroule par prudence un process "from scratch" — quasi aucun retour, ceux qui remontent sont reproductibles sur SFR. Pendant ces 2 mois, la recette est le goulot.
+- +1 mois = branchements services externes + spécificités SEQ. Le goulot se déplace une deuxième fois.
+- Le dev n'est le goulot à aucun moment.
+
+**Fichiers modifiés** : `contenu/REX_Lyon_Craft_Plan_Slides.md`, `contenu/REX_Lyon_Craft_Audit_Actions.md`
+
+**Résultat** : acte 3 passe de 6 à 4 slides (~11 min), avec le renversement métier en ouverture d'acte et le chiffre décomposé comme climax. Plus de slide "citation" isolée, plus de slide "leviers techniques" redondante.
 
 ---
 
