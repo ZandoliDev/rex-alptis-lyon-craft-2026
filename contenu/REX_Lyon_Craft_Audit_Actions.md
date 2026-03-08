@@ -99,27 +99,23 @@
 
 ## Étape D — Dynamiser l'ouverture (slide 1)
 
-**Statut** : 🔲 À faire — indépendante des étapes A-C
+**Statut** : ✅ Fait
 
 **Diagnostic** : L'ouverture actuelle décrit un atelier paisible ("Un atelier. On fabrique des chaises."). Pour un public expert à Lyon Craft, les 90 premières secondes décident de l'attention. L'analogie menuiserie est bonne, mais l'entrée manque de friction — on décrit un décor au lieu de créer une tension.
 
-**Actions** :
+**Actions réalisées** :
 
-1. Proposer 2 à 3 variantes d'attaque pour la slide 1. Pistes :
-   - Commencer par le test qui échoue : "Une chaise sort de l'atelier. On s'assoit dessus. Ça craque." — puis zoom arrière sur l'atelier.
-   - Commencer par la question : "Combien de chaises vous avez livrées cette semaine sans être sûrs qu'elles tiennent ?"
-   - Commencer par le geste : "Dans cet atelier, on vérifie les chaises à la fin. Et quand ça craque, on retourne à l'établi."
-   - Chaque variante doit poser une tension immédiate, pas un décor.
+1. **Slide 1 dynamisée** : "On a fini de construire la chaise. On s'assoit dessus. Ça craque. On retourne à l'établi. Ce n'est pas de la négligence — c'est comme ça qu'on a toujours fait." Tension immédiate, image sensorielle (le craquement), pas de décor.
 
-2. Vérifier la cohérence avec la formulation clé de l'acte 1 (*"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*) — l'ouverture doit amorcer cette image sans la griller.
+2. **Réordonnancement des 5 premières slides** (1-4-2-3-5 → 1-2-3-4-5) : L'atelier (tension) → La douleur (migration, allers-retours) → Qui sommes-nous (après la douleur, le public veut savoir) → La norme (chiffres comme explication) → Formulation clé + question (charnière vers acte 2). La tension arrive dès la slide 1 au lieu de la slide 4-5.
 
-3. Présenter les options à l'utilisateur avec recommandation. Laisser trancher.
+3. **Slide 5 allégée** : le rappel de l'analogie ("on teste les chaises à la fin") est supprimé — déjà posé en slide 1. La slide se concentre sur la formulation clé et la question d'ouverture vers l'acte 2.
 
-4. Mettre à jour la slide 1 dans `REX_Lyon_Craft_Plan_Slides.md` et la section "Ouverture" dans `REX_Lyon_Craft_Trame_Narrative.md`.
+4. **Cohérence vérifiée** : le "ça craque" de la slide 1 amorce le "on serre les fesses quand on s'assoit dessus" de la slide 5 sans le griller.
 
 **Fichiers modifiés** : `contenu/REX_Lyon_Craft_Plan_Slides.md`, `contenu/REX_Lyon_Craft_Trame_Narrative.md`
 
-**Résultat attendu** : le public est accroché dès les 30 premières secondes.
+**Résultat** : le public est accroché dès les 30 premières secondes. La présentation du duo arrive après la douleur (slide 3, ~6 min).
 
 ---
 

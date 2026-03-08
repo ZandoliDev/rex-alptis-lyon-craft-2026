@@ -17,13 +17,11 @@
 
 ## Ouverture — L'analogie pour entrer dans le sujet
 
-**Image de départ :** Un atelier de menuiserie. Des artisans fabriquent des chaises. Chaque chaise est construite, puis testée en fin de chaîne — on vérifie que ça tient quand on s'assoit dessus. Quand ça craque, on retourne à l'établi.
+**Image de départ :** On a fini de construire la chaise. On s'assoit dessus. Ça craque. On retourne à l'établi. Ce n'est pas de la négligence — c'est comme ça qu'on a toujours fait.
 
-Ce n'est pas de la négligence. C'est simplement la façon dont l'atelier a toujours fonctionné.
+**Enchaînement :** L'ouverture bascule immédiatement dans la douleur concrète (migration Java 11→21, allers-retours dev↔recette, incertitude), puis la présentation du duo (Didier + Laure), puis la norme (6-7 mois/produit). L'analogie est posée dès la slide 1 ; la formulation clé de l'acte 1 et la question d'ouverture vers l'acte 2 viennent en slide 5, sans re-décrire l'analogie.
 
-**Tension posée :** Ce mode de fonctionnement a un coût invisible. Pas de catastrophe, mais des allers-retours, de l'incertitude, de la charge mentale. Et surtout : une difficulté croissante à fabriquer plus, plus vite, sans perdre en qualité.
-
-**Question ouverte au public :** Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais la façon dont on fabrique ?
+**Question ouverte au public (slide 5) :** Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais la façon dont on fabrique ?
 
 ---
 
