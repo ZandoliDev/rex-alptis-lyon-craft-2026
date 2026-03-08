@@ -1,7 +1,7 @@
 # Plan slide-by-slide — REX Lyon Craft
 
 > Livrable de l'étape 2.
-> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 16 slides.
+> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 14 slides.
 > Répartition duo Didier/Laure : à définir à l'étape suivante.
 > Formulation clé acte 1 : tranchée (PR #2).
 
@@ -77,42 +77,33 @@
 
 ---
 
-## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 11-16) — ~12 min
+## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 11-14) — ~12 min
 
-### Slide 11 — Santé Équilibre : la duplication
-- **Affichage** : "2 mois" en grand — périmètre plus complet que SFR, zéro retard côté dev
-- **Idée** : Produit plus standard. Duplication de SFR comme base. 2 mois pour une première version quasi complète en prod, avant la date de mise en marché.
-- **Donnée** : 2 mois vs 7 mois vs 6-7 mois — la courbe se dessine
-
-### Slide 12 — Le renversement : le métier vient à nous
+### Slide 11 — Le renversement : le métier vient à nous
 - **Affichage** : Anecdote visuelle — invitation à une réunion, objectif flou. Puis le retournement.
-- **Idée** : On reçoit une invitation. On ne sait pas trop pourquoi. On arrive — et on comprend : le métier nous demande comment concevoir le produit pour minimiser le temps de réalisation. "Si x, ça ira vite. Si y, il nous faudra plus de temps — on préconise x." → "OK pour x." Rechallenge des règles spécifiques pour qu'elles conviennent au plus grand nombre. Ce renversement n'est pas tombé du ciel — il a fallu des années pour construire cette confiance.
-- **Intention** : C'est Laure qui raconte — c'est son vécu, la continuité qu'elle incarne. Didier réagit en tant que témoin surpris de ce retournement. Le public comprend que le craft seul ne suffit pas — il faut que l'organisation bouge aussi. Et que ça prend du temps.
+- **Idée** : On reçoit une invitation. On ne sait pas trop pourquoi. On arrive — et on comprend : le métier nous demande comment concevoir le produit pour minimiser le temps de réalisation. "Si x, ça ira vite. Si y, il nous faudra plus de temps — on préconise x." → "OK pour x." Rechallenge des règles spécifiques pour qu'elles conviennent au plus grand nombre. Ce renversement n'est pas tombé du ciel — il a fallu des années pour construire cette confiance. C'est ce renversement qui rend la duplication envisageable.
+- **Intention** : Le renversement ouvre l'acte 3 — c'est la condition préalable, pas une conséquence. C'est Laure qui raconte — c'est son vécu, la continuité qu'elle incarne. Didier réagit en tant que témoin surpris. Le public comprend que le craft seul ne suffit pas — il faut que l'organisation bouge aussi.
 
-### Slide 13 — Les 3 leviers techniques
-- **Affichage** : 3 blocs visuels
-- **Idée** :
-  1. Capture de l'intention (tests = documentation du sens)
-  2. Structure du code (découplage, patterns, conçu pour évoluer)
-  3. Autonomie vis-à-vis des dépendances (contrats d'interface, mock/réel par config)
-- **Intention** : La combinaison de ces leviers techniques avec le rapprochement métier produit le résultat.
+### Slide 12 — Santé Équilibre : 2 mois + 1 mois
+- **Affichage** :
+  - "2 mois" en grand — version quasi complète en prod, recette comprise, périmètre plus complet que SFR
+  - Puis "+1 mois" — branchements services externes + spécificités SEQ
+  - Formulation clé : *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
+  - Thèse : *"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
+- **Idée** : Duplication de SFR comme base — on part avec les tests (capture de l'intention) et la structure du code, acquis de l'acte 2. Nouveau levier : découplage vis-à-vis des services externes (contrats d'interface, mock/réel par config), qui permet de travailler sans attendre leur disponibilité. Le code est prêt rapidement. La recette déroule par prudence un process "from scratch" — quasi aucun retour, et ceux qui remontent sont reproductibles sur SFR. Pendant 2 mois, c'est la recette qui est le goulot. Puis +1 mois pour les services externes. Le dev n'est plus le goulot à aucun moment.
+- **Donnée** : 2 mois (recette comprise) + 1 mois (services externes) vs 7 mois vs 6-7 mois — la courbe se dessine
+- **Intention** : La décomposition du chiffre EST la preuve. Le public fait le calcul lui-même. La formulation clé cristallise ce que les chiffres montrent.
 
-### Slide 14 — Le déclic du template + projection
-- **Affichage** : Schéma template → déclinaison produit
+### Slide 13 — Le déclic du template + projection
+- **Affichage** : Schéma template → déclinaison produit + objectif DSI 150j (budget 200j) acté au budget 2026
 - **Idée** :
   - "On a une base livrable en prod. Pourquoi ne pas en faire un template ?"
-  - Template vivant, recetté, toujours à jour. Corrections portées sur produit ET template.
-  - Projection 2026 : objectif DSI parcours de vente en 150j (budget 200j), acté au budget
-  - Formation TDD (ihexa) pour les devs hors équipe expérimentale
-  - TDD continue sur les produits livrés (évolutions/maintenance)
+  - Template vivant, recetté, toujours à jour. Corrections portées sur produit ET template. Chaque nouveau produit part du template — les déclinaisons se concentrent sur les spécificités.
+  - Projection 2026 : objectif DSI parcours de vente en 150j (budget 200j), acté au budget.
+- **Oral** : Formation TDD (ihexa) pour les devs hors équipe expérimentale. TDD continue sur les produits livrés (évolutions/maintenance).
 - **Intention** : L'histoire ne s'arrête pas au départ de Didier. L'organisation a internalisé.
 
-### Slide 15 — Formulation clé acte 3
-- **Affichage** : *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
-- **Idée** : Ce n'est plus le dev qui bloque. +1 mois pour les services externes sur Santé Équilibre. Quasi aucun retour en recette.
-- **Intention** : Le public craft comprend immédiatement ce que ça signifie.
-
-### Slide 16 — L'atelier transformé + punchline
+### Slide 14 — L'atelier transformé + punchline
 - **Affichage** : L'atelier — même lieu, mais transformé. On sait comment faire une chaise qui tient debout. On se concentre maintenant sur la personnalisation de la chaise vis-à-vis de la demande du client. Puis : *"Développer est un métier. Être artisan développeur en est un autre."*
 - **Intention** : Boucler l'analogie — émotion, lucidité. Silence. La punchline arrive sur l'émotion. Le public repart avec cette phrase et cette image. Provocation assumée, crédibilisée par les 35 minutes qui précèdent.
 
@@ -132,9 +123,7 @@
 | 8 | Acte 2 | Ce qui se passe vraiment | ~16 min |
 | 9 | Acte 2 | 7 mois — résultat contrasté | ~19 min |
 | 10 | Acte 2 | Analogie — l'apprentissage | ~20 min |
-| 11 | Acte 3 | 2 mois — Santé Équilibre | ~22 min |
-| 12 | Acte 3 | Le renversement : le métier vient à nous | ~24 min |
-| 13 | Acte 3 | Les 3 leviers techniques | ~26 min |
-| 14 | Acte 3 | Template + projection 2026 | ~28 min |
-| 15 | Acte 3 | Formulation clé acte 3 | ~29 min |
-| 16 | Acte 3 | L'atelier transformé + punchline | ~33 min |
+| 11 | Acte 3 | Le renversement : le métier vient à nous | ~23 min |
+| 12 | Acte 3 | SEQ : 2 mois + 1 mois | ~26 min |
+| 13 | Acte 3 | Template + projection 2026 | ~28 min |
+| 14 | Acte 3 | L'atelier transformé + punchline | ~31 min |
