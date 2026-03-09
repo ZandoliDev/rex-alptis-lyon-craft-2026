@@ -121,33 +121,31 @@
 
 ## Étape E — Structurer le duo Didier/Laure
 
-**Statut** : 🔲 À faire — dépend des étapes A, C et D (plan slides stabilisé)
+**Statut** : ✅ Fait
 
 **Diagnostic** : En l'état, la trame est écrite comme un monologue de Didier avec Laure qui intervient sur la slide 13 (renversement métier) et peut-être la slide 15 (projection). Si Laure ne parle pas avant la minute 26, le public l'a oubliée. Un talk en duo raté, c'est un monologue avec un témoin.
 
-**Contexte important** (voir `CLAUDE.md` et `REX_Lyon_Craft_Compte_Rendu.md`) :
-- **Didier** : freelance craft, impulsion, structuration, pivots techniques. Ce talk sert aussi à valoriser ses compétences.
-- **Laure** : toujours chez Alptis, ancrage organisationnel, continuité et résultats post-départ de Didier.
-- La répartition doit être une **conversation**, pas des relais.
+**Actions réalisées** :
 
-**Actions** :
+1. **Répartition complète slide par slide** définie avec Didier :
+   - Didier solo : slides 1, 5, 7, 9, 10, 12 (~13 min)
+   - Laure solo : slides 4, 11, 13 (~8 min)
+   - Duo : slides 2, 3, 6, 8, 14 (~10 min)
 
-1. Proposer une répartition complète slide par slide. Pistes à explorer :
-   - **Laure ouvre l'acte 1** : le contexte Alptis (slides 3-4), c'est son terrain — elle y est encore, elle incarne l'organisation.
-   - **Didier prend le lead sur l'acte 2** : l'expérimentation craft, c'est son expertise.
-   - **Alternance sur l'acte 3** : Laure sur le renversement métier et la projection, Didier sur les leviers techniques.
-   - **Ouverture** : Didier seul (analogie menuiserie, c'est sa voix narrative) ou en duo (l'un décrit, l'autre complète).
-   - **Conclusion** : Didier pour la punchline (c'est sa conviction), Laure pour l'honnêteté finale (les compromis, ce qui reste à faire).
+2. **Moments de duo identifiés** :
+   - Slide 2 (~4 min) : Laure lead sur la douleur et le contexte, Didier réagit sur son arrivée
+   - Slide 3 (~6 min) : chacun se présente
+   - Slide 6 (~12 min) : Laure contexte orga, Didier pari craft
+   - Slide 8 (~16 min) : Didier raconte les 4 phases, Laure réagit côté orga
+   - Slide 14 (~31 min) : duo sur la conclusion
 
-2. Identifier **3 à 4 moments de ping-pong** : pas des relais formels mais des réactions naturelles. Ex : Didier raconte les 4 phases (slide 8), Laure réagit sur ce qu'elle observait côté orga. Laure raconte le renversement métier, Didier exprime sa surprise. Ces moments doivent être répartis dans le talk, pas concentrés à la fin.
+3. **Laure parle dès la slide 2** (~1 min). Jamais plus de 2 slides consécutives sans elle. Présente sur 8 slides sur 14 (3 solo + 5 duo).
 
-3. Valider que Laure a du temps de parole **dès les 10 premières minutes** — pas seulement à la fin.
-
-4. Mettre à jour `REX_Lyon_Craft_Plan_Slides.md` : ajouter pour chaque slide une ligne "**Qui parle**" avec le format `Didier`, `Laure`, ou `Duo (Didier lead, Laure réagit)`.
+4. **Plan slides mis à jour** : ligne "Qui parle" ajoutée à chaque slide + tableau de répartition en vue d'ensemble.
 
 **Fichiers modifiés** : `contenu/REX_Lyon_Craft_Plan_Slides.md`
 
-**Résultat attendu** : le duo est visible et équilibré tout au long du talk. Laure n'est pas un témoin silencieux pendant 25 minutes.
+**Résultat** : le duo est visible et équilibré. Laure parle dès la minute 1, avec des interventions réparties sur tout le talk.
 
 ---
 
