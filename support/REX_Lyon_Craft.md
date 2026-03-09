@@ -1,54 +1,49 @@
 ---
-title: "Développer est un métier. Être artisan développeur en est un autre."
+title: "REX Lyon Craft 2026"
 theme: moon
 revealOptions:
   transition: slide
   slideNumber: true
+  hash: true
 ---
 
-# Du craft à l'industrialisation
-
-### REX Alptis — Lyon Craft 2026
-
-**Didier** · **Laure**
-
----
+<!-- .slide: data-background="#0d1b2a" -->
 
 ## L'atelier
 
-Un atelier de menuiserie. Des artisans fabriquent des chaises.
+On a fini de construire la chaise.
 
-Chaque chaise est construite, puis testée en fin de chaîne — on vérifie que ça tient quand on s'assoit dessus.
+On s'assoit dessus. **Ça craque.**
 
-Quand ça craque, on retourne à l'établi.
+On retourne à l'établi.
 
-Note: Analogie d'ouverture — poser l'image mentale. Ton calme, descriptif.
+Ce n'est pas de la négligence — c'est comme ça qu'on a toujours fait.
 
----
-
-## La question
-
-Et si le vrai problème n'était pas **la vitesse** à laquelle on fabrique —
-
-mais **la façon** dont on fabrique ?
+Note: Didier. Tension immédiate — le public entend le craquement avant de comprendre l'histoire. Ton calme, constat.
 
 ---
 
-<!-- .slide: data-background="#1a1a2e" -->
+## La douleur et le déclic
 
-# Acte 1
+Migration Java 11 → 21 en cours. Bugs et régressions détectés tardivement.
 
-## L'héritage : travailler sans filet
+Allers-retours dev ↔ recette. Cycles qui s'étirent.
+
+L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari.
+
+Note: Duo (Laure lead, Didier réagit). Laure présente la douleur et le contexte dans lequel Didier arrive. Didier enchaîne sur ce qu'il constate : l'incertitude permanente du "qu'est-ce que j'ai cassé ?"
 
 ---
 
-## Le contexte
+## Qui sommes-nous
 
-Migration Java 11 → Java 21 en cours.
+**Didier** — l'artisan qui arrive, impulse le craft, structure les pivots
 
-3 produits en production : Select, Protect, Select Pro.
+**Laure** — l'ancrage dans l'organisation, la continuité après le départ de Didier
 
-Allers-retours dev ↔ recette. Bugs détectés tard. Cycles qui s'étirent.
+*On va vous raconter comment cet atelier s'est transformé.*
+
+Note: Duo — chacun se présente en une phrase. La présentation arrive après la douleur — le public veut savoir qui parle.
 
 ---
 
@@ -58,115 +53,136 @@ Allers-retours dev ↔ recette. Bugs détectés tard. Cycles qui s'étirent.
 |---|---|
 | **Durée** | 6 à 7 mois / produit |
 | **Équipe** | 4-5 personnes (PO, SA, 3 dev) |
-| **Livraison** | Mise en prod = mise en marché |
+| **Produits** | Select, Protect, Select Pro |
 
-Personne ne remet cette norme en question.
+C'est la norme. Ça fonctionne. Personne ne la remet en question.
 
----
-
-## Le vrai sujet
-
-> *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*
-
-Note: Formulation clé de l'acte 1. Laisser un silence après — la salle va sourire.
+Note: Laure. Chiffres confirmés sur 3 produits. Le ton est factuel — pas de jugement.
 
 ---
 
 <!-- .slide: data-background="#1a1a2e" -->
 
-# Acte 2
+> *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*
 
-## L'expérimentation : repartir de zéro
+Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais **la façon** dont on fabrique ?
+
+Note: Didier. Formulation clé acte 1. Écho au craquement de la slide 1. Laisser un silence après — la salle va sourire. La question ouvre l'acte 2.
+
+---
+
+<!-- .slide: data-background="#0d1b2a" -->
+
+# Acte 2 — L'expérimentation
 
 *"Pour aller plus vite, il faut apprendre à livrer sûr."*
 
 ---
 
-## SFR — Santé Frontaliers Suisses
+## Le pari : SFR
 
-Nouveau produit, from scratch.
+**Santé Frontaliers Suisses** — nouveau produit, from scratch.
 
-Équipe nouvelle — sans expérience Alptis.
+Équipe nouvelle — zéro expérience Alptis.
 
 Double courbe d'apprentissage : **craft** + **contexte métier**.
 
+Note: Duo (Laure contexte orga, Didier pari craft). Ce n'est pas un laboratoire confortable — c'est un vrai produit, avec de vraies contraintes.
+
 ---
 
-## Ce qui se met en place
+## Ce qu'on met en place
 
-- **TDD** — conception émergente, refactorisation permanente
-- **Mob programming** — transfert de compétences craft ↔ contexte
-- **Règles métier d'abord** — scénarios validés tôt, recette allégée
+- **TDD** — conception émergente, code construit par petits pas, refactoré en continu
+- **Mob programming** — montée en compétence craft et fonctionnelle, en temps réel
+- **US itératives** — pas de cahier des charges figé, le produit émerge par incréments
+- **Livraison continue en prod** — on déploie tout au long du projet
+- **Allègement du périmètre** — focus sur le cœur métier
+
+Note: Didier. Chaque levier est là pour une raison dans cette transformation. Le public comprend le pourquoi, pas juste le quoi.
 
 ---
 
 ## Ce qui se passe vraiment
 
-- ~3 semaines absorbées par la friction organisationnelle
-- Effectifs variables sur 5 phases
-- Zones livrées sans TDD sous pression de deadline
+```
+Mob (~1,5 mois) → Pair (~1,5 mois) → Hybride (~1 mois) → Sans Didier (~2 mois)
+```
 
-Le craft n'est pas une recette magique.
+~3 semaines de friction organisationnelle. Congés successifs. TDD lâché sous pression de deadline sur certaines zones.
 
----
-
-## Le résultat
-
-**7 mois** — autant que l'existant.
-
-Mais avec une équipe qui démarre de zéro, un mois de friction, et une double courbe d'apprentissage.
-
-> *"On n'a pas fait mieux en temps. On a fait autrement — et on a posé les fondations."*
+Note: Duo (Didier raconte les 4 phases, Laure réagit côté orga). Honnêteté brute. Le public craft sait que la réalité ne ressemble jamais au plan. C'est ici qu'on gagne leur confiance. Côté front : 1 dev formé en pair par Didier, adopte le TDD en autonomie.
 
 ---
 
-## Ce qui a changé
+## 7 mois — résultat contrasté
 
-**Avant** : on déploie en prod à la date de mise en marché, souvent avec retard.
+# 7 mois
 
-**SFR** : livraisons en prod en continu tout au long du projet.
+*dont 1 mois de retard*
 
-Le goulot commence à se déplacer.
+| Craft tenu | Craft lâché |
+|---|---|
+| Intention garantie | Modules éprouvés |
+| Pas de régression | Retour à la dépendance recette |
+
+> *"On a mis 7 mois. Mais on desserre les fesses."*
+
+*"Pour aller plus vite, il faut apprendre à livrer sûr."*
+
+Note: Didier. Le chiffre frappe d'abord — 7 mois, autant qu'avant. Les deux colonnes montrent que c'est nuancé, pas triomphal. Le contexte (équipe neuve, friction orga, double apprentissage) passe à l'oral.
 
 ---
 
-<!-- .slide: data-background="#1a1a2e" -->
+## L'atelier — l'apprentissage
 
-# Acte 3
+L'artisan a montré les techniques d'assemblage, le tenon-mortaise, formé sur les outils adaptés.
 
-## L'industrialisation
+On a retenu les techniques, on essaye de se les approprier.
+
+On n'est pas encore complètement à l'aise.
+
+Note: Didier. Respiration. Le public fait le parallèle avec la réalité qu'on vient de raconter. Transition vers l'acte 3.
+
+---
+
+<!-- .slide: data-background="#0d1b2a" -->
+
+# Acte 3 — L'industrialisation
 
 *"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
 
 ---
 
-## Ce qui rend la duplication possible
+## Le renversement : le métier vient à nous
 
-1. **Capture de l'intention** — les tests documentent le sens
-2. **Structure du code** — découplage, lisibilité, patterns
-3. **Autonomie** — contrats d'interface, mocks par configuration
-4. **Rapprochement métier / DSI** — co-conception dès le départ
+On reçoit une invitation à une réunion. Objectif flou.
+
+On arrive — et on comprend : le métier nous demande **comment concevoir le produit pour minimiser le temps de réalisation**.
+
+*"Si x, ça ira vite. Si y, il nous faudra plus de temps — on préconise x."*
+
+→ *"OK pour x."*
+
+Note: Laure. Ce renversement n'est pas tombé du ciel — il a fallu des années pour construire cette confiance. C'est ce qui rend la duplication envisageable. Le craft seul ne suffit pas — il faut que l'organisation bouge aussi.
 
 ---
 
 ## Santé Équilibre
 
-| | |
-|---|---|
-| **Durée** | **2 mois** (première version en prod) |
-| **Périmètre** | Plus complet que SFR à sa mise en marché |
-| **Retard dev** | Zéro |
-| **Retours en recette** | Quasi aucun |
+# 2 mois
 
-+1 mois pour le branchement des services externes.
+version quasi complète en prod — recette comprise — périmètre plus complet que SFR
 
----
+# + 1 mois
 
-## Le goulot s'est déplacé
+branchements services externes
 
 > *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
 
-Ce n'est plus le développement qui bloque.
+*"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
+
+Note: Didier. La décomposition du chiffre EST la preuve. Pendant 2 mois, la recette est le goulot. Puis +1 mois pour les services externes. Le dev n'est le goulot à aucun moment.
 
 ---
 
@@ -176,35 +192,29 @@ Un produit vivant, recetté, toujours à jour.
 
 Chaque nouveau produit part du template — les déclinaisons se concentrent sur les **spécificités**.
 
-Projection 3e produit : **~3 mois**.
+**Objectif DSI 2026** : parcours de vente en **150 jours** *(budget 200j)*
+
+Note: Laure. Formation TDD en cours pour les devs hors équipe expérimentale. TDD continue sur les produits livrés. L'histoire ne s'arrête pas au départ de Didier — l'organisation a internalisé.
 
 ---
 
-<!-- .slide: data-background="#1a1a2e" -->
-
-# Conclusion
-
----
+<!-- .slide: data-background="#0d1b2a" -->
 
 ## L'atelier, aujourd'hui
 
-On ne réinvente plus la chaise à chaque commande.
+On sait comment faire une chaise qui tient debout.
 
-On a conçu un **modèle de fabrication** — testé, validé, vivant.
-
-Ce n'est pas de l'industrialisation fordiste.
-
-C'est de la **maîtrise artisanale mise à l'échelle**.
-
----
-
-## La punchline
+On se concentre maintenant sur la **personnalisation** de la chaise vis-à-vis de la demande du client.
 
 > *"Développer est un métier.*
 >
 > *Être artisan développeur en est un autre."*
 
+Note: Duo. Boucler l'analogie — émotion, lucidité. Silence avant la punchline. Le public repart avec cette phrase et cette image.
+
 ---
+
+<!-- .slide: data-background="#0d1b2a" -->
 
 ## Merci
 
