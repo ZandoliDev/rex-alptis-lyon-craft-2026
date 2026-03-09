@@ -59,8 +59,8 @@
 - Arbitrage public/interne sur les chiffres et détails citables
 
 **Dépend de** : Étape 2  
-**Livrable** : `REX_Lyon_Craft_Decisions.md`  
-**Statut** : 🔲 À faire
+**Livrable** : `REX_Lyon_Craft_Decisions.md`
+**Statut** : ✅ Fait
 
 ---
 
@@ -88,6 +88,6 @@
 | `REX_Lyon_Craft_Plan_Action.md` | Ce document | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Trame_Narrative.md` | Trame avec chiffres intégrés | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ Disponible dans le projet |
-| `REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | 🔲 |
+| `REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Discours.md` | Notes orales par slide | 🔲 |
 | `REX_Lyon_Craft.pptx` | Support final | 🔲 |
