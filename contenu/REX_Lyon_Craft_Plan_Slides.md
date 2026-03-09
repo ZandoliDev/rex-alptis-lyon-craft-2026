@@ -109,7 +109,7 @@
   - "On a une base livrable en prod. Pourquoi ne pas en faire un template ?"
   - Template vivant, recetté, toujours à jour. Corrections portées sur produit ET template. Chaque nouveau produit part du template — les déclinaisons se concentrent sur les spécificités.
   - Projection 2026 : objectif DSI parcours de vente en 150j (budget 200j), acté au budget.
-- **Oral** : Formation TDD (ihexa) pour les devs hors équipe expérimentale. TDD continue sur les produits livrés (évolutions/maintenance).
+- **Oral** : Formation TDD pour les devs hors équipe expérimentale. TDD continue sur les produits livrés (évolutions/maintenance).
 - **Intention** : L'histoire ne s'arrête pas au départ de Didier. L'organisation a internalisé.
 
 ### Slide 14 — L'atelier transformé + punchline

@@ -11,7 +11,7 @@
 | Avant craft (moyenne sur 3 produits : Select, Protect, Select Pro) | 6-7 mois | 4-5 personnes constantes (PO, SA, 3 dev) | Standard — mise en prod = mise en marché, souvent avec retard | Référence de départ indiscutable : confirmée par l'équipe sur 3 produits |
 | Produit 1 craft — SFR (Santé Frontaliers Suisses) | 7 mois | Variable sur 5 phases (1+3+1+1+1) | Standard — périmètre légèrement réduit sur les fonctionnalités de confort (ajoutées après coup) | ~3 semaines absorbées par friction organisationnelle (standardisation produit) ; équipe sans aucune expérience Alptis, apprend craft ET contexte simultanément ; mise en marché retardée d'1 mois (durée des dev) — malgré ce retard, livrer en 7 mois dans ce contexte d'expérimentation et de contraintes est considéré comme une bonne performance |
 | Produit 2 craft — Santé Équilibre | 2 mois pour une première version quasi complète en prod, avant mise en marché | Non précisé | Plus standard, avec spécificités éditiques ; périmètre fonctionnel plus complet que SFR dès la mise en prod | +1 mois pour branchement services externes → mise en prod définitive avant la date de mise en marché, zéro retard côté dev |
-| Template / industrialisation (2026) | Objectif 150j (budget 200j) | — | Parcours de vente — construction du template pour industrialiser les offres | Acté au budget DSI 2026 ; formation TDD (ihexa) en cours pour les devs hors équipe expérimentale |
+| Template / industrialisation (2026) | Objectif 150j (budget 200j) | — | Parcours de vente — construction du template pour industrialiser les offres | Acté au budget DSI 2026 ; formation TDD en cours pour les devs hors équipe expérimentale |
 
 ---
 
@@ -119,7 +119,7 @@ Quatre éléments combinés — aucun ne suffit seul :
 **Projection :**
 - Objectif DSI acté au budget 2026 : parcours de vente en **150 jours** (budget de 200j).
 - Pas de nouveau produit santé pour le moment — le template est en cours de construction.
-- Formation TDD en cours (ihexa) pour les développeurs hors équipe expérimentale, qui avaient besoin de monter en compétence.
+- Formation TDD en cours pour les développeurs hors équipe expérimentale, qui avaient besoin de monter en compétence.
 - Le TDD continue sur les produits déjà livrés pour les évolutions et la maintenance.
 
 **Formulation clé :** *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
@@ -147,5 +147,5 @@ Mais là où l'intention a été tenue : pas de régression. Pas de surprise. De
 
 - ~~Durée et coût approximatif de la migration Java 11 → Java 21~~ → retiré, pas pertinent pour la narration.
 - ~~Projection 3e produit~~ → remplacé par objectif DSI 150j acté au budget 2026.
-- ~~Détails sur l'organisation post-départ~~ → template en construction, formation TDD ihexa en cours.
+- ~~Détails sur l'organisation post-départ~~ → template en construction, formation TDD en cours.
 - Arbitrage sur les éléments citables publiquement (noms de produits, chiffres internes).
