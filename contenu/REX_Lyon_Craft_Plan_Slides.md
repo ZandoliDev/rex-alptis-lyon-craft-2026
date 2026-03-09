@@ -35,7 +35,7 @@
 
 ### Slide 5 — Formulation clé + question
 - **Qui parle** : Didier
-- **Affichage** : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."* Puis : "Et si le vrai problème n'était pas la vitesse — mais la façon dont on fabrique ?"
+- **Affichage** : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."* Puis : "Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais la façon dont on fabrique ?"
 - **Idée** : La formulation clé fait écho au craquement de la slide 1. La question ouvre l'acte 2.
 - **Intention** : Charnière entre acte 1 et acte 2. Le public boucle mentalement sur l'image de la slide 1. Le crescendo est plus court — l'analogie est déjà posée, la formulation clé et la question suffisent.
 
