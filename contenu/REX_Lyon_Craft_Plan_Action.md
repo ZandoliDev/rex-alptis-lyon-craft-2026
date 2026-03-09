@@ -48,7 +48,7 @@
 **Objectif** : Produire le squelette complet du talk : titre de chaque slide, idée centrale, donnée ou anecdote associée, répartition Didier / Laure.  
 **Dépend de** : Étape 1  
 **Livrable** : `REX_Lyon_Craft_Plan_Slides.md`  
-**Statut** : 🔲 À faire
+**Statut** : ✅ Fait
 
 ---
 
@@ -87,7 +87,7 @@
 | `REX_Lyon_Craft_Compte_Rendu.md` | Trace complète de la conversation initiale (ChatGPT) | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Plan_Action.md` | Ce document | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Trame_Narrative.md` | Trame avec chiffres intégrés | ✅ Disponible dans le projet |
-| `REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | 🔲 |
+| `REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | 🔲 |
 | `REX_Lyon_Craft_Discours.md` | Notes orales par slide | 🔲 |
 | `REX_Lyon_Craft.pptx` | Support final | 🔲 |

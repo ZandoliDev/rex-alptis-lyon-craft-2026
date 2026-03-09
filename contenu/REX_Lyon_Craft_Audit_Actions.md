@@ -151,7 +151,7 @@
 
 ## Étape F — Stabiliser le plan slides final
 
-**Statut** : 🔲 À faire — dépend de toutes les étapes précédentes (A à E)
+**Statut** : ✅ Fait
 
 **Diagnostic** : Après les modifications des étapes A à E, le plan slides doit être cohérent, renuméroté, avec des durées réalistes.
 
