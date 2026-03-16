@@ -64,7 +64,7 @@
 
 ---
 
-### Étape 3b — Direction créative du support
+### Étape 4 — Direction créative du support
 **Objectif** : Définir l'identité visuelle et le titre du talk avant de produire le support final.
 - Titre du talk : trouver une accroche qui intrigue, donne envie — pas un titre descriptif
 - Logo Alptis : récupérer et intégrer
@@ -77,7 +77,7 @@
 
 ---
 
-### Étape 4 — Notes orales par slide
+### Étape 5 — Notes orales par slide
 **Objectif** : Pour chaque slide, rédiger ce qui se dit (pas ce qui s'affiche). Intégrer les transitions Didier ↔ Laure.
 **Dépend de** : Étapes 2 et 3
 **Livrable** : `REX_Lyon_Craft_Discours.md`
@@ -85,14 +85,14 @@
 
 ---
 
-### Étape 5 — Support de présentation
+### Étape 6 — Support de présentation
 **Objectif** : Créer le support visuel final (reveal-md → HTML autoporté, déployé via GitHub Pages).
 - Contenu adapté à la projection : mots-clés, chiffres, citations — pas de paragraphes
-- Notes speaker avec le script oral (étape 4)
-- Identité visuelle et titre définis à l'étape 3b
+- Notes speaker avec le script oral (étape 5)
+- Identité visuelle et titre définis à l'étape 4
 - Visuels intégrés
 
-**Dépend de** : Étapes 3b, 4
+**Dépend de** : Étapes 4, 5
 **Livrable** : `support/REX_Lyon_Craft.md` (source) + `support/dist/` (HTML autoporté)
 **Statut** : 🚧 V1 brute en place, à refaire
 
