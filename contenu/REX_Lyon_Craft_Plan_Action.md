@@ -64,19 +64,37 @@
 
 ---
 
-### Étape 4 — Notes orales par slide
-**Objectif** : Pour chaque slide, rédiger ce qui se dit (pas ce qui s'affiche). Intégrer les transitions Didier ↔ Laure.  
-**Dépend de** : Étapes 2 et 3  
-**Livrable** : `REX_Lyon_Craft_Discours.md`  
+### Étape 4 — Direction créative du support
+**Objectif** : Définir l'identité visuelle et le titre du talk avant de produire le support final.
+- Titre du talk : trouver une accroche qui intrigue, donne envie — pas un titre descriptif
+- Logo Alptis : récupérer et intégrer
+- Visuels : stratégie images (photos, illustrations, créations) pour chaque slide
+- Palette et typo : affiner l'identité indigo–sable, motif afro-caraïbéen discret
+
+**Dépend de** : Étape 3
+**Livrable** : décisions intégrées dans `REX_Lyon_Craft_Decisions.md`
 **Statut** : 🔲 À faire
 
 ---
 
-### Étape 5 — Support de présentation
-**Objectif** : Créer le support visuel final (identité Didier : indigo–sable, motif afro-caraïbéen discret).  
-**Dépend de** : Étapes 2, 3 et 4  
-**Livrable** : `REX_Lyon_Craft.pptx`  
+### Étape 5 — Notes orales par slide
+**Objectif** : Pour chaque slide, rédiger ce qui se dit (pas ce qui s'affiche). Intégrer les transitions Didier ↔ Laure.
+**Dépend de** : Étapes 2 et 3
+**Livrable** : `REX_Lyon_Craft_Discours.md`
 **Statut** : 🔲 À faire
+
+---
+
+### Étape 6 — Support de présentation
+**Objectif** : Créer le support visuel final (reveal-md → HTML autoporté, déployé via GitHub Pages).
+- Contenu adapté à la projection : mots-clés, chiffres, citations — pas de paragraphes
+- Notes speaker avec le script oral (étape 5)
+- Identité visuelle et titre définis à l'étape 4
+- Visuels intégrés
+
+**Dépend de** : Étapes 4, 5
+**Livrable** : `support/REX_Lyon_Craft.md` (source) + `support/dist/` (HTML autoporté)
+**Statut** : 🚧 V1 brute en place, à refaire
 
 ---
 
@@ -90,4 +108,5 @@
 | `REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Discours.md` | Notes orales par slide | 🔲 |
-| `REX_Lyon_Craft.pptx` | Support final | 🔲 |
+| `support/REX_Lyon_Craft.md` | Support reveal-md (source) | 🚧 V1 brute |
+| `support/dist/` | HTML autoporté (GitHub Pages) | 🚧 V1 brute |
