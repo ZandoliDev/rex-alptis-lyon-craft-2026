@@ -11,7 +11,7 @@
 
 ### Slide 1 — L'atelier
 - **Qui parle** : Didier
-- **Affichage** : Image/métaphore visuelle d'un atelier de menuiserie
+- **Affichage** : Mini BD — `support/assets/bd-atelier-avant.jpg`
 - **Idée** : "On a fini de construire la chaise. On s'assoit dessus. Ça craque. On retourne à l'établi. Ce n'est pas de la négligence — c'est comme ça qu'on a toujours fait."
 - **Intention** : Tension immédiate. Le public entend le craquement avant de comprendre l'histoire. Pas de jugement — un constat. Amorce l'analogie menuiserie qui traverse tout le talk.
 
@@ -78,7 +78,7 @@
 
 ### Slide 10 — Analogie : l'apprentissage
 - **Qui parle** : Didier
-- **Affichage** : L'atelier — l'artisan a montré les techniques d'assemblage, le tenon-mortaise, formé sur les outils adaptés. On a retenu les techniques, on essaye de se les approprier, on n'est pas encore complètement à l'aise.
+- **Affichage** : Mini BD — `support/assets/bd-apprentissage.jpg`
 - **Intention** : Respiration. Le public fait le parallèle avec la réalité qu'on vient de raconter. Transition vers l'acte 3.
 
 ---
@@ -114,7 +114,7 @@
 
 ### Slide 14 — L'atelier transformé + punchline
 - **Qui parle** : Duo
-- **Affichage** : L'atelier — même lieu, mais transformé. On sait comment faire une chaise qui tient debout. On se concentre maintenant sur la personnalisation de la chaise vis-à-vis de la demande du client. Puis : *"Développer est un métier. Être artisan développeur en est un autre."*
+- **Affichage** : Mini BD — `support/assets/bd-atelier-transforme.jpg` + *"Développer est un métier. Être artisan développeur en est un autre."*
 - **Intention** : Boucler l'analogie — émotion, lucidité. Silence. La punchline arrive sur l'émotion. Le public repart avec cette phrase et cette image. Provocation assumée, crédibilisée par les 35 minutes qui précèdent.
 
 ---
