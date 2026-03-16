@@ -127,7 +127,6 @@ apparaît dans les 3 planches — elle doit être reconnaissable.
 Scénario : le quotidien d'avant — on fabrique, on teste à la fin, ça casse, on recommence. Ton comique, pas tragique.
 
 ```
-[BASE COMMUNE]
 Planche de 4 vignettes, lue de gauche à droite :
 1. Une menuisière dans son atelier termine une chaise. Elle essuie
    la sueur, l'air satisfait de son travail. Outils dispersés
@@ -146,7 +145,6 @@ Planche de 4 vignettes, lue de gauche à droite :
 Scénario : le maître a montré les techniques, l'apprenti essaye. C'est prometteur mais pas encore abouti. Ton bienveillant.
 
 ```
-[BASE COMMUNE]
 Planche de 3 vignettes, lue de gauche à droite :
 1. Une maître artisane métisse montre une technique d'assemblage
    tenon-mortaise à la menuisière (même personnage que planche 1,
@@ -167,7 +165,6 @@ Planche de 3 vignettes, lue de gauche à droite :
 Scénario : même atelier, même menuisier, mais tout a changé — organisation, confiance, maîtrise. Le contraste avec la planche 1 doit être frappant. Ton calme et serein.
 
 ```
-[BASE COMMUNE]
 Planche de 4 vignettes, lue de gauche à droite :
 1. Même atelier que la planche 1, mais lumineux, rangé, organisé.
    Un gabarit/patron de fabrication bien visible sur l'établi.
