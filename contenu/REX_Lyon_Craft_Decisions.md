@@ -52,3 +52,23 @@ Jeu de mots sur "Et paf le chien" — référence connue du public tech françai
 
 **Logo retenu** : Alptis blanc classique (SVG) — `support/assets/logo-alptis-white.svg`
 Adapté aux fonds sombres de la palette indigo.
+
+---
+
+## 6. Palette et typographie
+
+**Palette :**
+
+| Rôle | Couleur | Hex |
+|------|---------|-----|
+| Fond principal | Indigo foncé | `#0d1b2a` |
+| Fond accentué (transitions d'actes) | Indigo moyen | `#1a1a2e` |
+| Texte principal | Sable clair | `#e6d5b8` |
+| Accents / chiffres clés | Or chaud | `#d4a03c` |
+| Citations / formulations clés | Blanc pur | `#ffffff` |
+
+**Typographie :**
+- Titres : Montserrat (bold, géométrique, moderne)
+- Corps : Source Sans Pro (lisibilité, inclus dans reveal.js)
+
+**Motif afro-caraïbéen** : pattern géométrique subtil (lignes, triangles) en filigrane sur les slides de transition d'actes. Format SVG ou CSS.
