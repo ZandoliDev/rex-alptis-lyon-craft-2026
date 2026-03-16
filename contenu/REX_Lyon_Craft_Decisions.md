@@ -108,44 +108,75 @@ Adapté aux fonds sombres de la palette indigo.
 
 Outil recommandé : **Midjourney** (cohérence de style) ou **DALL-E 3 / ChatGPT** (simplicité).
 
+Chaque mini BD est une planche de 3 ou 4 vignettes. Narration 100% visuelle — aucun texte, aucune bulle, aucune légende. L'histoire se raconte par les gestes, les expressions et la composition.
+
 ### Base commune (à ajouter au début de chaque prompt)
 
 ```
-Style : illustration en trait simple, type mini BD, peu de détails.
-Palette chaude : indigo foncé (#0d1b2a), sable (#e6d5b8), or (#d4a03c).
-Fond sombre. Pas de texte dans l'image.
-Motifs géométriques africains/caraïbéens discrets en bordure.
-Format 16:9.
+Style : mini bande dessinée en trait simple, type BD franco-belge épurée.
+Peu de détails, traits expressifs, narration visuelle uniquement.
+Aucun texte, aucune bulle, aucune onomatopée, aucune légende.
+Format 16:9, vignettes séparées par des bordures nettes.
+Couleurs libres — palette chaleureuse et lisible.
+Le même personnage principal (menuisier, homme, tablier de travail)
+apparaît dans les 3 planches — il doit être reconnaissable.
 ```
 
-### Slide 1 — L'atelier (avant)
+### Slide 1 — "Ça craque" (4 vignettes)
 
-```
-[BASE COMMUNE]
-Un atelier de menuiserie faiblement éclairé. Un artisan vient de
-s'asseoir sur une chaise qu'il a fabriquée. La chaise craque sous lui.
-Expression de surprise résignée. Outils dispersés sur l'établi.
-Ambiance : routine, fatalité — pas de drame.
-```
-
-### Slide 10 — L'atelier (apprentissage)
+Scénario : le quotidien d'avant — on fabrique, on teste à la fin, ça casse, on recommence. Ton comique, pas tragique.
 
 ```
 [BASE COMMUNE]
-Même atelier de menuiserie, un peu plus lumineux. Un maître artisan
-montre une technique d'assemblage tenon-mortaise à un apprenti.
-L'apprenti tient les outils avec hésitation mais concentration.
-Les outils sont mieux rangés sur l'établi qu'avant.
-Ambiance : transmission, effort, pas encore de maîtrise.
+Planche de 4 vignettes, lue de gauche à droite :
+1. Un menuisier dans son atelier termine une chaise. Il essuie
+   la sueur, l'air satisfait de son travail. Outils dispersés
+   sur l'établi, atelier un peu désordonné.
+2. Il s'assoit sur la chaise, sourire confiant, les bras croisés
+   fièrement.
+3. La chaise cède sous lui — il se retrouve par terre, les pieds
+   en l'air, entouré de morceaux de bois. Expression de surprise.
+4. Il se relève, épousette son tablier, retourne vers l'établi
+   avec un air résigné. Il a l'habitude. Pas de colère — de la
+   lassitude.
 ```
 
-### Slide 14 — L'atelier (transformé)
+### Slide 10 — "L'apprentissage" (3 vignettes)
+
+Scénario : le maître a montré les techniques, l'apprenti essaye. C'est prometteur mais pas encore abouti. Ton bienveillant.
 
 ```
 [BASE COMMUNE]
-Même atelier de menuiserie, bien éclairé et organisé. Sur l'établi,
-un gabarit/patron de fabrication. L'artisan personnalise une chaise
-avec confiance et précision. Plusieurs chaises terminées en
-arrière-plan, chacune légèrement différente.
-Ambiance : maîtrise, sérénité, fierté calme.
+Planche de 3 vignettes, lue de gauche à droite :
+1. Le même menuisier, dans le rôle du maître, montre une technique
+   d'assemblage tenon-mortaise à un apprenti. Son geste est précis
+   et assuré. Il tient les pièces de bois avec aisance.
+2. L'apprenti essaye à son tour — concentration intense, langue
+   tirée, geste hésitant. Il tient les outils maladroitement mais
+   avec détermination. Le maître observe en retrait.
+3. Le joint tient, mais c'est brut et imparfait. L'apprenti regarde
+   le maître, mi-fier mi-inquiet. Le maître hoche la tête avec un
+   léger sourire d'approbation. Les outils sont mieux rangés sur
+   l'établi qu'avant.
+```
+
+### Slide 14 — "L'atelier transformé" (4 vignettes)
+
+Scénario : même atelier, même menuisier, mais tout a changé — organisation, confiance, maîtrise. Le contraste avec la planche 1 doit être frappant. Ton calme et serein.
+
+```
+[BASE COMMUNE]
+Planche de 4 vignettes, lue de gauche à droite :
+1. Même atelier que la planche 1, mais lumineux, rangé, organisé.
+   Un gabarit/patron de fabrication bien visible sur l'établi.
+   Les outils sont à leur place.
+2. Le menuisier pose une chaise sur le gabarit, vérifie les
+   alignements — tout est parfait. Son geste est détendu et précis.
+3. Un client entre dans l'atelier avec un croquis/dessin d'une
+   chaise personnalisée. Le menuisier regarde le croquis et fait
+   un pouce levé, confiant.
+4. Vue large de l'atelier : plusieurs chaises terminées en
+   arrière-plan, chacune légèrement différente (formes, dossiers)
+   mais toutes solides et bien finies. Le menuisier au centre,
+   bras croisés, serein.
 ```
