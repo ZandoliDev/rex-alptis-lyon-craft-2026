@@ -118,8 +118,8 @@ Peu de détails, traits expressifs, narration visuelle uniquement.
 Aucun texte, aucune bulle, aucune onomatopée, aucune légende.
 Format 16:9, vignettes séparées par des bordures nettes.
 Couleurs libres — palette chaleureuse et lisible.
-Le même personnage principal (menuisier, homme, tablier de travail)
-apparaît dans les 3 planches — il doit être reconnaissable.
+Le même personnage principal (menuisière, femme, tablier de travail)
+apparaît dans les 3 planches — elle doit être reconnaissable.
 ```
 
 ### Slide 1 — "Ça craque" (4 vignettes)
@@ -129,15 +129,15 @@ Scénario : le quotidien d'avant — on fabrique, on teste à la fin, ça casse,
 ```
 [BASE COMMUNE]
 Planche de 4 vignettes, lue de gauche à droite :
-1. Un menuisier dans son atelier termine une chaise. Il essuie
+1. Une menuisière dans son atelier termine une chaise. Elle essuie
    la sueur, l'air satisfait de son travail. Outils dispersés
    sur l'établi, atelier un peu désordonné.
-2. Il s'assoit sur la chaise, sourire confiant, les bras croisés
+2. Elle s'assoit sur la chaise, sourire confiant, les bras croisés
    fièrement.
-3. La chaise cède sous lui — il se retrouve par terre, les pieds
-   en l'air, entouré de morceaux de bois. Expression de surprise.
-4. Il se relève, épousette son tablier, retourne vers l'établi
-   avec un air résigné. Il a l'habitude. Pas de colère — de la
+3. La chaise cède sous elle — elle se retrouve par terre, les pieds
+   en l'air, entourée de morceaux de bois. Expression de surprise.
+4. Elle se relève, épousette son tablier, retourne vers l'établi
+   avec un air résigné. Elle a l'habitude. Pas de colère — de la
    lassitude.
 ```
 
@@ -148,16 +148,18 @@ Scénario : le maître a montré les techniques, l'apprenti essaye. C'est promet
 ```
 [BASE COMMUNE]
 Planche de 3 vignettes, lue de gauche à droite :
-1. Le même menuisier, dans le rôle du maître, montre une technique
-   d'assemblage tenon-mortaise à un apprenti. Son geste est précis
-   et assuré. Il tient les pièces de bois avec aisance.
-2. L'apprenti essaye à son tour — concentration intense, langue
-   tirée, geste hésitant. Il tient les outils maladroitement mais
-   avec détermination. Le maître observe en retrait.
-3. Le joint tient, mais c'est brut et imparfait. L'apprenti regarde
-   le maître, mi-fier mi-inquiet. Le maître hoche la tête avec un
-   léger sourire d'approbation. Les outils sont mieux rangés sur
-   l'établi qu'avant.
+1. Une maître artisane métisse montre une technique d'assemblage
+   tenon-mortaise à la menuisière (même personnage que planche 1,
+   dans le rôle de l'apprentie). Son geste est précis et assuré.
+   Elle tient les pièces de bois avec aisance.
+2. La menuisière/apprentie essaye à son tour — concentration
+   intense, langue tirée, geste hésitant. Elle tient les outils
+   maladroitement mais avec détermination. La maître artisane
+   observe en retrait.
+3. Le joint tient, mais c'est brut et imparfait. L'apprentie
+   regarde la maître artisane, mi-fière mi-inquiète. La maître
+   artisane hoche la tête avec un léger sourire d'approbation.
+   Les outils sont mieux rangés sur l'établi qu'avant.
 ```
 
 ### Slide 14 — "L'atelier transformé" (4 vignettes)
@@ -170,13 +172,13 @@ Planche de 4 vignettes, lue de gauche à droite :
 1. Même atelier que la planche 1, mais lumineux, rangé, organisé.
    Un gabarit/patron de fabrication bien visible sur l'établi.
    Les outils sont à leur place.
-2. Le menuisier pose une chaise sur le gabarit, vérifie les
+2. La menuisière pose une chaise sur le gabarit, vérifie les
    alignements — tout est parfait. Son geste est détendu et précis.
 3. Un client entre dans l'atelier avec un croquis/dessin d'une
-   chaise personnalisée. Le menuisier regarde le croquis et fait
-   un pouce levé, confiant.
+   chaise personnalisée. La menuisière regarde le croquis et fait
+   un pouce levé, confiante.
 4. Vue large de l'atelier : plusieurs chaises terminées en
    arrière-plan, chacune légèrement différente (formes, dossiers)
-   mais toutes solides et bien finies. Le menuisier au centre,
-   bras croisés, serein.
+   mais toutes solides et bien finies. La menuisière au centre,
+   bras croisés, sereine.
 ```
