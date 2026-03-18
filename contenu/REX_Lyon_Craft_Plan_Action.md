@@ -77,10 +77,10 @@
 
 ---
 
-### Étape 5 — Notes orales par slide
-**Objectif** : Pour chaque slide, rédiger ce qui se dit (pas ce qui s'affiche). Intégrer les transitions Didier ↔ Laure.
+### Étape 5 — Notes speaker par slide
+**Objectif** : Pour chaque slide, lister les points à dire à l'oral (aide-mémoire, pas un script). Indiquer qui parle et les transitions Didier ↔ Laure.
 **Dépend de** : Étapes 2 et 3
-**Livrable** : `REX_Lyon_Craft_Discours.md`
+**Livrable** : `REX_Lyon_Craft_Notes_Speaker.md`
 **Statut** : 🔲 À faire
 
 ---
@@ -88,7 +88,7 @@
 ### Étape 6 — Support de présentation
 **Objectif** : Créer le support visuel final (reveal-md → HTML autoporté, déployé via GitHub Pages).
 - Contenu adapté à la projection : mots-clés, chiffres, citations — pas de paragraphes
-- Notes speaker avec le script oral (étape 5)
+- Notes speaker (étape 5)
 - Identité visuelle et titre définis à l'étape 4
 - Visuels intégrés
 
@@ -107,6 +107,6 @@
 | `REX_Lyon_Craft_Trame_Narrative.md` | Trame avec chiffres intégrés | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | ✅ Disponible dans le projet |
-| `REX_Lyon_Craft_Discours.md` | Notes orales par slide | 🔲 |
+| `REX_Lyon_Craft_Notes_Speaker.md` | Notes speaker par slide | 🔲 |
 | `support/REX_Lyon_Craft.md` | Support reveal-md (source) | 🚧 V1 brute |
 | `support/dist/` | HTML autoporté (GitHub Pages) | 🚧 V1 brute |

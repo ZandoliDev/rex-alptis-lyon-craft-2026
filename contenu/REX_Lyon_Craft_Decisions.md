@@ -42,7 +42,7 @@
 ## 4. Titre du talk
 
 **Titre** : *Et Craft la chaise*
-**Sous-titre** : *REX Alptis — Le TDD, un vrai gain de temps*
+**Sous-titre** : *REX Alptis — Le TDD, de l'optimisation à l'industrialisation*
 
 Jeu de mots sur "Et paf le chien" — référence connue du public tech français. Ancre le fil rouge menuiserie dès le titre. Le sous-titre apporte le factuel.
 
@@ -78,27 +78,27 @@ Adapté aux fonds sombres de la palette indigo.
 ## 7. Stratégie visuels par slide
 
 ### Slides "typo forte" (le texte est le visuel)
-- **Slide 4** (La norme) : chiffres en grand, or sur indigo
-- **Slide 5** (Formulation clé) : citation seule, fond accentué
-- **Slide 9** (7 mois) : "7 mois" en très grand, or sur indigo
-- **Slide 12** (Santé Équilibre) : "2 mois" + "+ 1 mois" en très grand
-- **Slide 14** (Punchline) : citation finale, fond sombre, silence visuel
+- **Slide 5** (La norme) : chiffres en grand, or sur indigo
+- **Slide 6** (Formulation clé) : citation seule, fond accentué
+- **Slide 10** (7 mois) : "7 mois" en très grand, or sur indigo
+- **Slide 13** (Santé Équilibre) : "2 mois" + "+ 1 mois" en très grand
+- **Slide 15** (Punchline) : citation finale, fond sombre, silence visuel
 
 ### Slides avec schéma (SVG/CSS dans reveal)
-- **Slide 2** (La douleur) : boucle dev ↔ recette, flèches circulaires
-- **Slide 8** (Ce qui se passe vraiment) : frise horizontale des 4 phases
-- **Slide 13** (Template) : schéma bloc central → déclinaisons produits
+- **Slide 3** (La douleur) : boucle dev ↔ recette, flèches circulaires
+- **Slide 9** (Ce qui se passe vraiment) : frise horizontale des 4 phases
+- **Slide 14** (Template) : schéma bloc central → déclinaisons produits
 
 ### Slides avec illustration (mini BD, générée par IA) — livrées
-- **Slide 1** (L'atelier — avant) : `support/assets/bd-atelier-avant.jpg`
-- **Slide 10** (L'apprentissage) : `support/assets/bd-apprentissage.jpg`
-- **Slide 14** (L'atelier transformé) : `support/assets/bd-atelier-transforme.jpg`
+- **Slide 2** (L'atelier — avant) : `support/assets/bd-atelier-avant.jpg`
+- **Slide 11** (L'apprentissage) : `support/assets/bd-apprentissage.jpg`
+- **Slide 15** (L'atelier transformé) : `support/assets/bd-atelier-transforme.jpg`
 
 ### Slides avec icônes minimalistes
-- **Slide 6** (Le pari SFR) : page blanche / fondation
-- **Slide 7** (Ce qu'on met en place) : une icône par levier
-- **Slide 11** (Le renversement) : flèche inversée / déclic
+- **Slide 7** (Le pari SFR) : page blanche / fondation
+- **Slide 8** (Ce qu'on met en place) : une icône par levier
+- **Slide 12** (Le renversement) : flèche inversée / déclic
 
 ### Slides avec photos (à fournir)
-- **Slide 3** (Qui sommes-nous) : photos Didier et Laure
+- **Slide 4** (Qui sommes-nous) : photos Didier et Laure
 
