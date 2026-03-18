@@ -1,55 +1,61 @@
 # Plan slide-by-slide — REX Lyon Craft
 
 > Livrable de l'étape 2.
-> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 14 slides.
+> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 15 slides.
 > Répartition duo Didier/Laure : définie (étape E de l'audit).
 > Formulation clé acte 1 : tranchée (PR #2).
 
 ---
 
-## Ouverture + Acte 1 — L'héritage : travailler sans filet (slides 1-5) — ~10 min
+## Slide 1 — Titre
 
-### Slide 1 — L'atelier
+- **Affichage** : *Et Craft la chaise* — *REX Alptis — Le TDD, un vrai gain de temps* + logo Alptis (`support/assets/logo-alptis-white.svg`) + Didier & Laure + Lyon Craft 2026
+
+---
+
+## Ouverture + Acte 1 — L'héritage : travailler sans filet (slides 2-6) — ~10 min
+
+### Slide 2 — L'atelier
 - **Qui parle** : Didier
 - **Affichage** : Mini BD — `support/assets/bd-atelier-avant.jpg`
 - **Idée** : "On a fini de construire la chaise. On s'assoit dessus. Ça craque. On retourne à l'établi. Ce n'est pas de la négligence — c'est comme ça qu'on a toujours fait."
 - **Intention** : Tension immédiate. Le public entend le craquement avant de comprendre l'histoire. Pas de jugement — un constat. Amorce l'analogie menuiserie qui traverse tout le talk.
 
-### Slide 2 — La douleur et le déclic
+### Slide 3 — La douleur et le déclic
 - **Qui parle** : Duo (Laure lead, Didier réagit) — Laure présente la douleur et le contexte dans lequel Didier arrive, Didier enchaîne sur ce qu'il constate.
 - **Affichage** : Visuel d'allers-retours dev ↔ recette (boucle)
 - **Idée** : La migration Java 11 → 21 s'étire. Bugs et régressions détectés tardivement. Cycles qui auraient pu être raccourcis avec un filet de tests. C'est cette douleur qui motive la proposition craft. L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari. On veut produire plus vite, mais on n'a aucune garantie sur ce qu'on produit.
 - **Anecdote** : Arrivée de Didier en pleine migration, l'incertitude permanente du "qu'est-ce que j'ai cassé ?"
 
-### Slide 3 — Qui sommes-nous
+### Slide 4 — Qui sommes-nous
 - **Qui parle** : Duo — chacun se présente en une phrase.
 - **Affichage** : Didier + Laure — noms, rôles
 - **Idée** : "On va vous raconter comment cet atelier s'est transformé." Didier : l'artisan qui arrive, impulse le craft, structure les pivots. Laure : l'ancrage dans l'organisation, la continuité après le départ de Didier.
 - **Intention** : La présentation arrive après la douleur — le public veut savoir qui parle. Pas un slide CV, une réponse à une question que le public se pose déjà.
 
-### Slide 4 — La norme
+### Slide 5 — La norme
 - **Qui parle** : Laure
 - **Affichage** : Chiffres clés — 6-7 mois / produit, équipe de 4-5 personnes (PO, SA, 3 dev), 3 produits livrés (Select, Protect, Select Pro)
 - **Idée** : Voilà d'où on part. C'est la norme. Ça fonctionne. Personne ne la remet en question.
 - **Donnée** : 6-7 mois par produit, confirmé sur 3 produits
 
-### Slide 5 — Formulation clé + question
+### Slide 6 — Formulation clé + question
 - **Qui parle** : Didier
 - **Affichage** : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."* Puis : "Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais la façon dont on fabrique ?"
-- **Idée** : La formulation clé fait écho au craquement de la slide 1. La question ouvre l'acte 2.
-- **Intention** : Charnière entre acte 1 et acte 2. Le public boucle mentalement sur l'image de la slide 1. Le crescendo est plus court — l'analogie est déjà posée, la formulation clé et la question suffisent.
+- **Idée** : La formulation clé fait écho au craquement de la slide 2. La question ouvre l'acte 2.
+- **Intention** : Charnière entre acte 1 et acte 2. Le public boucle mentalement sur l'image de la slide 2. Le crescendo est plus court — l'analogie est déjà posée, la formulation clé et la question suffisent.
 
 ---
 
-## Acte 2 — L'expérimentation : repartir de zéro (slides 6-10) — ~11 min
+## Acte 2 — L'expérimentation : repartir de zéro (slides 7-11) — ~11 min
 
-### Slide 6 — Le pari : un nouveau produit from scratch
+### Slide 7 — Le pari : un nouveau produit from scratch
 - **Qui parle** : Duo (Laure contexte orga, Didier pari craft)
 - **Affichage** : "SFR — Santé Frontaliers Suisses" + contexte (équipe nouvelle, zéro expérience Alptis)
 - **Idée** : L'occasion de repartir sur des bases saines. Mais double courbe d'apprentissage : craft + contexte métier.
 - **Intention** : Montrer que ce n'est pas un laboratoire confortable — c'est un vrai produit, avec de vraies contraintes.
 
-### Slide 7 — Ce qu'on met en place
+### Slide 8 — Ce qu'on met en place
 - **Qui parle** : Didier
 - **Affichage** : 5 leviers de transformation
   - TDD — conception émergente : code construit par petits pas, refactoré en continu — c'est ce qui le rend industrialisable
@@ -59,13 +65,13 @@
   - Allègement du périmètre : fonctionnalités de confort retirées, focus sur le cœur métier
 - **Intention** : Pas une liste de pratiques craft — chaque levier est là pour une raison dans cette transformation. Le public comprend le pourquoi, pas juste le quoi.
 
-### Slide 8 — Ce qui se passe vraiment
+### Slide 9 — Ce qui se passe vraiment
 - **Qui parle** : Duo (Didier raconte les 4 phases, Laure réagit sur ce qu'elle observait côté orga)
 - **Affichage** : Frise des 4 phases back — Mob (~1,5 mois) → Pair (~1,5 mois) → Hybride (~1 mois) → Sans Didier (~2 mois). Note : côté front, 1 dev formé en pair par Didier, adopte le TDD en autonomie.
 - **Idée** : L'accompagnement craft se réduit progressivement. ~3 semaines de friction orga. Congés successifs. Phase hybride avec absences alternées. Puis dev senior seul, pression de deadline, TDD lâché sur certaines zones.
 - **Intention** : Honnêteté brute. Le public craft sait que la réalité ne ressemble jamais au plan. C'est ici qu'on gagne leur confiance.
 
-### Slide 9 — 7 mois : résultat contrasté
+### Slide 10 — 7 mois : résultat contrasté
 - **Qui parle** : Didier
 - **Affichage** :
   - "7 mois" en grand, puis en sous-titre : *dont 1 mois de retard*
@@ -76,22 +82,22 @@
 - **Donnée** : 7 mois SFR vs 6-7 mois avant
 - **Intention** : Honnêteté + courage. Le public respecte qu'on ne triche pas sur les chiffres. Le gain se matérialisera à l'acte 3.
 
-### Slide 10 — Analogie : l'apprentissage
+### Slide 11 — Analogie : l'apprentissage
 - **Qui parle** : Didier
 - **Affichage** : Mini BD — `support/assets/bd-apprentissage.jpg`
 - **Intention** : Respiration. Le public fait le parallèle avec la réalité qu'on vient de raconter. Transition vers l'acte 3.
 
 ---
 
-## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 11-14) — ~12 min
+## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 12-15) — ~12 min
 
-### Slide 11 — Le renversement : le métier vient à nous
+### Slide 12 — Le renversement : le métier vient à nous
 - **Qui parle** : Laure
 - **Affichage** : Anecdote visuelle — invitation à une réunion, objectif flou. Puis le retournement.
 - **Idée** : On reçoit une invitation. On ne sait pas trop pourquoi. On arrive — et on comprend : le métier nous demande comment concevoir le produit pour minimiser le temps de réalisation. "Si x, ça ira vite. Si y, il nous faudra plus de temps — on préconise x." → "OK pour x." Rechallenge des règles spécifiques pour qu'elles conviennent au plus grand nombre. Ce renversement n'est pas tombé du ciel — il a fallu des années pour construire cette confiance. C'est ce renversement qui rend la duplication envisageable.
 - **Intention** : Le renversement ouvre l'acte 3 — c'est la condition préalable, pas une conséquence. C'est le vécu de Laure, la continuité qu'elle incarne. Le public comprend que le craft seul ne suffit pas — il faut que l'organisation bouge aussi.
 
-### Slide 12 — Santé Équilibre : 2 mois + 1 mois
+### Slide 13 — Santé Équilibre : 2 mois + 1 mois
 - **Qui parle** : Didier
 - **Affichage** :
   - "2 mois" en grand — version quasi complète en prod, recette comprise, périmètre plus complet que SFR
@@ -102,7 +108,7 @@
 - **Donnée** : 2 mois (recette comprise) + 1 mois (services externes) vs 7 mois vs 6-7 mois — la courbe se dessine
 - **Intention** : La décomposition du chiffre EST la preuve. Le public fait le calcul lui-même. La formulation clé cristallise ce que les chiffres montrent.
 
-### Slide 13 — Le déclic du template + projection
+### Slide 14 — Le déclic du template + projection
 - **Qui parle** : Laure
 - **Affichage** : Schéma template → déclinaison produit + objectif DSI 150j (budget 200j) acté au budget 2026
 - **Idée** :
@@ -112,7 +118,7 @@
 - **Oral** : Formation TDD pour les devs hors équipe expérimentale. TDD continue sur les produits livrés (évolutions/maintenance).
 - **Intention** : L'histoire ne s'arrête pas au départ de Didier. L'organisation a internalisé.
 
-### Slide 14 — L'atelier transformé + punchline
+### Slide 15 — L'atelier transformé + punchline
 - **Qui parle** : Duo
 - **Affichage** : Mini BD — `support/assets/bd-atelier-transforme.jpg` + *"Développer est un métier. Être artisan développeur en est un autre."*
 - **Intention** : Boucler l'analogie — émotion, lucidité. Silence. La punchline arrive sur l'émotion. Le public repart avec cette phrase et cette image. Provocation assumée, crédibilisée par les 35 minutes qui précèdent.
@@ -123,25 +129,26 @@
 
 | Slide | Acte | Titre court | Qui parle | Durée cumulée |
 |-------|------|-------------|-----------|---------------|
-| 1 | Ouverture | L'atelier — "ça craque" | Didier | ~1 min |
-| 2 | Acte 1 | La douleur et le déclic | Duo (Laure lead) | ~4 min |
-| 3 | Acte 1 | Qui sommes-nous | Duo | ~6 min |
-| 4 | Acte 1 | La norme | Laure | ~8 min |
-| 5 | Acte 1 | Formulation clé + question | Didier | ~10 min |
-| 6 | Acte 2 | Le pari SFR | Duo | ~12 min |
-| 7 | Acte 2 | Ce qu'on met en place | Didier | ~14 min |
-| 8 | Acte 2 | Ce qui se passe vraiment | Duo | ~16 min |
-| 9 | Acte 2 | 7 mois — résultat contrasté | Didier | ~19 min |
-| 10 | Acte 2 | Analogie — l'apprentissage | Didier | ~20 min |
-| 11 | Acte 3 | Le renversement : le métier vient à nous | Laure | ~23 min |
-| 12 | Acte 3 | SEQ : 2 mois + 1 mois | Didier | ~26 min |
-| 13 | Acte 3 | Template + projection 2026 | Laure | ~28 min |
-| 14 | Acte 3 | L'atelier transformé + punchline | Duo | ~31 min |
+| 1 | — | Titre | — | ~0 min |
+| 2 | Ouverture | L'atelier — "ça craque" | Didier | ~1 min |
+| 3 | Acte 1 | La douleur et le déclic | Duo (Laure lead) | ~4 min |
+| 4 | Acte 1 | Qui sommes-nous | Duo | ~6 min |
+| 5 | Acte 1 | La norme | Laure | ~8 min |
+| 6 | Acte 1 | Formulation clé + question | Didier | ~10 min |
+| 7 | Acte 2 | Le pari SFR | Duo | ~12 min |
+| 8 | Acte 2 | Ce qu'on met en place | Didier | ~14 min |
+| 9 | Acte 2 | Ce qui se passe vraiment | Duo | ~16 min |
+| 10 | Acte 2 | 7 mois — résultat contrasté | Didier | ~19 min |
+| 11 | Acte 2 | Analogie — l'apprentissage | Didier | ~20 min |
+| 12 | Acte 3 | Le renversement : le métier vient à nous | Laure | ~23 min |
+| 13 | Acte 3 | SEQ : 2 mois + 1 mois | Didier | ~26 min |
+| 14 | Acte 3 | Template + projection 2026 | Laure | ~28 min |
+| 15 | Acte 3 | L'atelier transformé + punchline | Duo | ~31 min |
 
 ### Répartition du temps de parole
 
 | | Didier solo | Laure solo | Duo |
 |---|---|---|---|
-| Slides | 1, 5, 7, 9, 10, 12 | 4, 11, 13 | 2, 3, 6, 8, 14 |
+| Slides | 2, 6, 8, 10, 11, 13 | 5, 12, 14 | 3, 4, 7, 9, 15 |
 | Nombre | 6 | 3 | 5 |
 | Durée estimée | ~13 min | ~8 min | ~10 min |
