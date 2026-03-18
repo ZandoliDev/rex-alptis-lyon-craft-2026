@@ -9,7 +9,7 @@
 
 ## Slide 1 — Titre
 
-- **Affichage** : *Et Craft la chaise* — *REX Alptis — Le TDD, un vrai gain de temps* + logo Alptis (`support/assets/logo-alptis-white.svg`) + Didier & Laure + Lyon Craft 2026
+- **Affichage** : *Et Craft la chaise* — *REX Alptis — Le TDD, de l'optimisation à l'industrialisation* + logo Alptis (`support/assets/logo-alptis-white.svg`) + Didier & Laure + Lyon Craft 2026
 
 ---
 

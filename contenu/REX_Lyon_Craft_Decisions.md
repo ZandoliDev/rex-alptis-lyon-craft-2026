@@ -42,7 +42,7 @@
 ## 4. Titre du talk
 
 **Titre** : *Et Craft la chaise*
-**Sous-titre** : *REX Alptis — Le TDD, un vrai gain de temps*
+**Sous-titre** : *REX Alptis — Le TDD, de l'optimisation à l'industrialisation*
 
 Jeu de mots sur "Et paf le chien" — référence connue du public tech français. Ancre le fil rouge menuiserie dès le titre. Le sous-titre apporte le factuel.
 
