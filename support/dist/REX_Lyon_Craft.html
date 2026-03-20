@@ -21,13 +21,14 @@
 
 <!-- .slide: data-background="#0d1b2a" -->
 
-# Et Craft la chaise
+# Et Craft la chaise !
 
-### REX Alptis — Le TDD, de l'optimisation à l'industrialisation
+### REX Alptis Assurances 
+### Le TDD, de l'optimisation à l'industrialisation
 
 ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; margin-top: 2em;" -->
 
-**Didier** · **Laure** — Lyon Craft 2026
+**Didier ERIN** · **Laure CHAMPEL** — Lyon Craft 2026
 
 Note: Slide de titre. Laisser la salle s'installer.
 
@@ -45,25 +46,26 @@ Note: Didier. Vignette 1 : on a fini la chaise, on s'assoit. Vignette 2 : ça cr
 
 ## La douleur et le déclic
 
-Migration Java 11 → 21 en cours. Bugs et régressions détectés tardivement.
+Le contexte : migration Java 11 → 21 en cours<br/>
+ Bugs et régressions détectés tardivement.
 
-Allers-retours dev ↔ recette. Cycles qui s'étirent.
+Beaucoups d'aller/retours dev ↔ recette. Cycles qui s'étirent.
 
 L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari.
 
-Note: Duo (Laure lead, Didier réagit). L : migration, bugs tard, allers-retours. D : incertitude « qu'est-ce que j'ai cassé ? », recette rallongée par précaution. D : c'est cette douleur qui fait émerger l'idée.
+Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs tard, allers-retours. D : incertitude « qu'est-ce que j'ai cassé ? », recette rallongée par précaution. D : c'est cette douleur qui fait émerger l'idée.
 
 ---
 
 ## Qui sommes-nous
 
-**Didier** — l'artisan qui arrive, impulse le craft, structure les pivots
+**Didier ERIN** — Tech lead java, l'artisan qui arrive, impulse le craft, structure les pivots
 
-**Laure** — l'ancrage dans l'organisation, la continuité après le départ de Didier
+**Laure CHAMPEL** — Engineering manager, l'ancrage dans l'organisation de l'atelier
 
 *On va vous raconter comment cet atelier s'est transformé.*
 
-Note: Duo — chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : [rôle — à compléter]. Continuité post-départ Didier.
+Note: Duo — chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : [Engineering manager]. Continuité post-départ Didier.
 
 ---
 
@@ -72,18 +74,20 @@ Note: Duo — chacun se présente en une phrase. D : freelance craft, propositio
 | | |
 |---|---|
 | **Durée** | 6 à 7 mois / produit |
-| **Équipe** | 4-5 personnes (PO, SA, 3 dev) |
-| **Produits** | Select, Protect, Select Pro |
+| **Équipe** | 4-5 personnes (PO, QA, 3 devs) |
+| **Produits** | Santé Select, Santé Protect, Santé Pro + |
 
-C'est la norme. Ça fonctionne. Personne ne la remet en question.
+C'est la norme et le produit est satisfaisant, <br/>
+mais besoin de produire plus vite pour en sortir plus.
 
-Note: Laure. Confirmé sur 3 produits. Ça fonctionne, personne ne remet en question.
+
+Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on produise plus vite pour sortir plus de produits.
 
 ---
 
 <!-- .slide: data-background="#1a1a2e" -->
 
-> *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*
+> *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
 
 Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais **la façon** dont on fabrique ?
 
@@ -91,15 +95,17 @@ Note: Didier. Écho au craquement de la slide 2. La question ouvre l'acte 2.
 
 ---
 
-## Le pari : SFR
+## Repartir de zéro avec le craft
 
-**Santé Frontaliers Suisses** — nouveau produit, from scratch.
+> *"Pour aller plus vite, il faut apprendre à livrer sûr."*
+
+**Santé Frontaliers Suisses** — nouveau produit.
 
 Équipe nouvelle — zéro expérience Alptis.
 
 Double courbe d'apprentissage : **craft** + **contexte métier**.
 
-Note: Duo (L puis D). L : équipe nouvelle, zéro expérience Alptis. D : double pari craft + contexte métier. Pas un labo, un vrai produit avec une vraie date.
+Note: Duo (L puis D). L : L'occasion de repartir sur des bases saines, nouveau produit, nouvelle équipe, nous décisons d'expérimenter le TDD. D : double pari craft + contexte métier. Pas un labo, un vrai produit avec une vraie date.
 
 ---
 
@@ -112,6 +118,17 @@ Note: Duo (L puis D). L : équipe nouvelle, zéro expérience Alptis. D : double
 - **Allègement du périmètre** — focus sur le cœur métier
 
 Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
+
+---
+
+<!-- .slide: data-background="#0d1b2a" -->
+
+## L'apprentissage
+
+![BD — L'apprentissage](assets/bd-apprentissage.jpg) <!-- .element: style="max-height: 70vh;" -->
+
+Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 : l'apprentie essaye. Vignette 3 : pas encore à l'aise, mais quelque chose a changé.
+
 
 ---
 
@@ -129,56 +146,36 @@ Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers m
 
 ## 7 mois — résultat contrasté
 
-# 7 mois
-
 *dont 1 mois de retard*
 
-| Craft tenu | Craft lâché |
-|---|---|
-| Intention garantie | Modules éprouvés |
-| Pas de régression | Retour à la dépendance recette |
+**Périmètre en TDD** — Intention garantie, pas de régression<br/>
+**Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette<br/>
 
 > *"On a mis 7 mois. Mais on desserre les fesses."*
-
-*"Pour aller plus vite, il faut apprendre à livrer sûr."*
 
 Note: Didier. Rappeler le contexte : équipe neuve, friction orga, double apprentissage → en conditions normales ~6 mois. Thèse : « pour aller plus vite, il faut apprendre à livrer sûr ».
 
 ---
 
-<!-- .slide: data-background="#0d1b2a" -->
+## Le métier vient à nous
 
-## L'apprentissage
+On doit sortir un nouveau produit.
 
-![BD — L'apprentissage](assets/bd-apprentissage.jpg) <!-- .element: style="max-height: 70vh;" -->
+Le métier nous demande<br/> **comment concevoir le produit pour minimiser le temps de réalisation ?**
 
-Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 : l'apprentie essaye. Vignette 3 : pas encore à l'aise, mais quelque chose a changé.
+*"Si la chaise a les mêmes pieds, ça ira vite. Si vous voulez des pieds ronds devant, il nous faudra plus de temps — on préconise d'avoir les mêmes pieds."*
 
----
-
-## Le renversement : le métier vient à nous
-
-On reçoit une invitation à une réunion. Objectif flou.
-
-On arrive — et on comprend : le métier nous demande **comment concevoir le produit pour minimiser le temps de réalisation**.
-
-*"Si x, ça ira vite. Si y, il nous faudra plus de temps — on préconise x."*
-
-→ *"OK pour x."*
+→ *"OK pour les mêmes pieds."* — Décision technique de dupliquer Santé Frontaliers Suisses 
 
 Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craft seul ne suffit pas.
 
 ---
 
-## Santé Équilibre
+## Résultat : Santé Équilibre en 3 mois
 
-# 2 mois
 
-version quasi complète en prod — recette comprise — périmètre plus complet que SFR
-
-# + 1 mois
-
-branchements services externes
++ Au bout de 2 mois, version quasi complète en prod
++ 1 mois pour gérer les branchements aux services externes
 
 > *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
 
@@ -194,7 +191,9 @@ Un produit vivant, recetté, toujours à jour.
 
 Chaque nouveau produit part du template — les déclinaisons se concentrent sur les **spécificités**.
 
-**Objectif DSI 2026** : parcours de vente en **150 jours** *(budget 200j)*
+**Objectif DSI 2026** : parcours de vente en **150 jours**
+> *Plan de la chaise en cours de réalisation*
+
 
 Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD en cours hors équipe expérimentale. L'organisation a internalisé.
 
@@ -218,7 +217,7 @@ Note: Duo (D puis L). Vignette 1 : l'atelier transformé, les chaises tiennent. 
 
 ## Merci
 
-**Didier** · **Laure**
+**Didier ERIN** · **Laure CHAMPEL**
 
 Lyon Craft 2026
 
