@@ -17,7 +17,7 @@ Intervenants : **Didier** (freelance craft) + **Laure** (Alptis, continuité pos
 ## Éléments non négociables
 
 ### Chiffres
-- Référence avant craft : **6 à 7 mois** / produit — équipe de 4-5 personnes (PO, SA, 3 dev)
+- Référence avant craft : **6 à 7 mois** / produit — équipe de 4-5 personnes (PO, QA, 3 dev)
 - Produit 1 craft from scratch (SFR) : **7 mois**
 - Produit 2 duplication craft (Santé Équilibre) : **2 mois**
 

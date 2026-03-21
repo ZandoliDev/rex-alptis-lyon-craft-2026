@@ -35,7 +35,7 @@
 
 ### Slide 5 — La norme
 - **Qui parle** : Laure
-- **Affichage** : Chiffres clés — 6-7 mois / produit, équipe de 4-5 personnes (PO, SA, 3 dev), 3 produits livrés (Select, Protect, Select Pro)
+- **Affichage** : Chiffres clés — 6-7 mois / produit, équipe de 4-5 personnes (PO, QA, 3 dev), 3 produits livrés (Select, Protect, Select Pro)
 - **Idée** : Voilà d'où on part. C'est la norme. Ça fonctionne. Personne ne la remet en question.
 - **Donnée** : 6-7 mois par produit, confirmé sur 3 produits
 
