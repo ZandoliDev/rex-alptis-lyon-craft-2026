@@ -10,7 +10,7 @@
 - **Format** : Talk REX en duo (Didier + Laure) — public Lyon Craft (initié craft)
 - **Angle** : Pas "comment faire du craft" mais "comment convaincre" et "quel impact organisationnel"
 - **Chiffres structurants** :
-  - Avant : 1 produit = 6 à 7 mois / équipe de 4 à 5 personnes (PO, SA, 3 dev)
+  - Avant : 1 produit = 6 à 7 mois / équipe de 4 à 5 personnes (PO, QA, 3 dev)
   - Produit 1 (craft from scratch) : 7 mois
   - Produit 2 (duplication craft) : 2 mois
 - **Thèses retenues** :
