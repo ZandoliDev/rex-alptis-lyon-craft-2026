@@ -8,7 +8,7 @@
 
 | Moment | Durée | Équipe | Périmètre | Nuances |
 |--------|-------|--------|-----------|---------|
-| Avant craft (moyenne sur 3 produits : Select, Protect, Select Pro) | 6-7 mois | 4-5 personnes constantes (PO, SA, 3 dev) | Standard — mise en prod = mise en marché, souvent avec retard | Référence de départ indiscutable : confirmée par l'équipe sur 3 produits |
+| Avant craft (moyenne sur 3 produits : Santé Select, Santé Protect, Santé Pro +) | 6-7 mois | 4-5 personnes constantes (PO, QA, 3 dev) | Standard — mise en prod = mise en marché, souvent avec retard | Référence de départ indiscutable : confirmée par l'équipe sur 3 produits |
 | Produit 1 craft — SFR (Santé Frontaliers Suisses) | 7 mois | Variable sur 5 phases (1+3+1+1+1) | Standard — périmètre légèrement réduit sur les fonctionnalités de confort (ajoutées après coup) | ~3 semaines absorbées par friction organisationnelle (standardisation produit) ; équipe sans aucune expérience Alptis, apprend craft ET contexte simultanément ; mise en marché retardée d'1 mois (durée des dev) — malgré ce retard, livrer en 7 mois dans ce contexte d'expérimentation et de contraintes est considéré comme une bonne performance |
 | Produit 2 craft — Santé Équilibre | 2 mois pour une première version quasi complète en prod, avant mise en marché | Non précisé | Plus standard, avec spécificités éditiques ; périmètre fonctionnel plus complet que SFR dès la mise en prod | +1 mois pour branchement services externes → mise en prod définitive avant la date de mise en marché, zéro retard côté dev |
 | Template / industrialisation (2026) | Objectif 150j (budget 200j) | — | Parcours de vente — construction du template pour industrialiser les offres | Acté au budget DSI 2026 ; formation TDD en cours pour les devs hors équipe expérimentale |
@@ -39,7 +39,7 @@ Didier arrive chez Alptis en pleine migration technique Java 11 → Java 21. Les
 
 **Chiffre de référence :** 6-7 mois par produit. Équipe de 4-5 personnes. C'est la norme.
 
-**Formulation clé :** *"On veut produire plus vite, mais on serre les fesses quand on s'assoit dessus."*
+**Formulation clé :** *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
 
 **Pont vers l'acte 2 :** C'est dans ce contexte que commence l'expérimentation. L'ambition est là — il manque un levier pour la concrétiser.
 
@@ -50,7 +50,7 @@ Didier arrive chez Alptis en pleine migration technique Java 11 → Java 21. Les
 **Thèse de l'acte :** *"Pour aller plus vite, il faut apprendre à livrer sûr."*
 
 **Situation concrète :**
-Nouveau produit from scratch : Santé Frontaliers Suisses (SFR). L'occasion de repartir sur des bases saines. Équipe nouvelle, sans expérience Alptis — qui apprend le craft et le contexte métier en même temps.
+Nouveau produit : Santé Frontaliers Suisses (SFR). L'occasion de repartir sur des bases saines. Équipe nouvelle, sans expérience Alptis — qui apprend le craft et le contexte métier en même temps.
 
 **Ce qui se met en place :**
 - TDD : conception émergente plutôt que projetée, refactorisation permanente, code qui exprime l'intention métier.

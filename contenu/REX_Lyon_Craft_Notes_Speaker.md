@@ -26,53 +26,53 @@
 ## Slide 4 — Qui sommes-nous (D puis L)
 
 - **D** : freelance craft, proposition de repartir sur des bases saines
-- **L** : [rôle chez Alptis — à compléter]. Continuité post-départ Didier
+- **L** : Engineering manager. Continuité post-départ Didier
 - « On va vous raconter comment cet atelier s'est transformé »
 
 ## Slide 5 — La norme (L)
 
-- Confirmé sur 3 produits : Select, Protect, Select Pro
-- Ça fonctionne, personne ne remet en question
+- Confirmé sur 3 produits : Santé Select, Santé Protect, Santé Pro +
+- Ça fonctionne, le métier voudrait qu'on produise plus vite pour sortir plus de produits
 
 ## Slide 6 — Formulation clé + question (D)
 
 - Écho au craquement de la slide 2
 - La question ouvre l'acte 2
 
-## Slide 7 — Le pari SFR (L puis D)
+## Slide 7 — Repartir de zéro avec le craft (L puis D)
 
-- **L** : équipe nouvelle, zéro expérience Alptis
+- **L** : L'occasion de repartir sur des bases saines, nouveau produit, nouvelle équipe, on décide d'expérimenter le TDD
 - **D** : double pari craft + contexte métier. Pas un labo, un vrai produit avec une vraie date
 
 ## Slide 8 — Ce qu'on met en place (D)
 
 - Donner le **pourquoi** de chaque levier, pas juste le quoi
 
-## Slide 9 — Ce qui se passe vraiment (D puis L)
-
-- **D** : détailler les 4 phases, insister sur les 2 derniers mois (TDD lâché sous pression)
-- **L** : ~3 semaines de friction orga (standardisation produit)
-- **D** : côté front — 1 dev formé en pair, adopte le TDD en autonomie
-
-## Slide 10 — 7 mois : résultat contrasté (D)
-
-- Rappeler le contexte : équipe neuve, friction orga, double apprentissage → en conditions normales ~6 mois
-- Thèse : « pour aller plus vite, il faut apprendre à livrer sûr »
-
-## Slide 11 — L'apprentissage (D)
+## Slide 9 — L'apprentissage (D)
 
 - Vignette 1 : le maître artisan montre les techniques
 - Vignette 2 : l'apprentie essaye de se les approprier
 - Vignette 3 : pas encore complètement à l'aise, mais quelque chose a changé
 
-## Slide 12 — Le renversement (L)
+## Slide 10 — Ce qui se passe vraiment (D puis L)
 
-- Raconter l'anecdote : invitation réunion, objectif flou
-- Le métier (actuaires) demande comment minimiser le temps de réalisation
-- « Si x, vite. Si y, plus long. On préconise x. » → « OK pour x. »
+- **D** : détailler les 4 phases, insister sur les 2 derniers mois (TDD lâché sous pression)
+- **L** : ~3 semaines de friction orga (standardisation produit)
+- **D** : côté front — 1 dev formé en pair, adopte le TDD en autonomie
+
+## Slide 11 — 7 mois : résultat contrasté (D)
+
+- Rappeler le contexte : équipe neuve, friction orga, double apprentissage → en conditions normales ~6 mois
+- Thèse : « pour aller plus vite, il faut apprendre à livrer sûr »
+
+## Slide 12 — Le métier vient à nous (L)
+
+- On doit sortir un nouveau produit, le métier demande comment minimiser le temps de réalisation
+- « Si la chaise a les mêmes pieds, ça ira vite. Sinon, plus long — on préconise les mêmes pieds. » → « OK pour les mêmes pieds. »
+- Décision technique de dupliquer SFR
 - Ce renversement a pris des années — le craft seul ne suffit pas
 
-## Slide 13 — Santé Équilibre : 2 mois + 1 mois (D)
+## Slide 13 — Résultat : Santé Équilibre en 3 mois (D)
 
 - Duplication SFR : tests + structure du code
 - Nouveau levier : découplage services externes (contrats d'interface, mock/réel par config)

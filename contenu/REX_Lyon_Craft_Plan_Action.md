@@ -10,7 +10,7 @@
 - **Format** : Talk REX en duo (Didier + Laure) — public Lyon Craft (initié craft)
 - **Angle** : Pas "comment faire du craft" mais "comment convaincre" et "quel impact organisationnel"
 - **Chiffres structurants** :
-  - Avant : 1 produit = 6 à 7 mois / équipe de 4 à 5 personnes (PO, SA, 3 dev)
+  - Avant : 1 produit = 6 à 7 mois / équipe de 4 à 5 personnes (PO, QA, 3 dev)
   - Produit 1 (craft from scratch) : 7 mois
   - Produit 2 (duplication craft) : 2 mois
 - **Thèses retenues** :
@@ -73,15 +73,15 @@
 
 **Dépend de** : Étape 3
 **Livrable** : décisions intégrées dans `REX_Lyon_Craft_Decisions.md`
-**Statut** : ✅ Fait — titre "Et Craft la chaise", logo Alptis intégré, BD (atelier avant, apprentissage, atelier transformé), palette indigo–sable
+**Statut** : 🔲 À faire
 
 ---
 
 ### Étape 5 — Notes speaker par slide
 **Objectif** : Pour chaque slide, lister les points à dire à l'oral (aide-mémoire, pas un script). Indiquer qui parle et les transitions Didier ↔ Laure.
 **Dépend de** : Étapes 2 et 3
-**Livrable** : Intégré directement dans les slides (sections `Note:`) — pas de fichier séparé
-**Statut** : ✅ Fait — intégré dans le support
+**Livrable** : `REX_Lyon_Craft_Notes_Speaker.md`
+**Statut** : ✅ Fait
 
 ---
 
@@ -94,7 +94,7 @@
 
 **Dépend de** : Étapes 4, 5
 **Livrable** : `support/REX_Lyon_Craft.md` (source) + `support/dist/` (HTML autoporté)
-**Statut** : 🚧 V1 en place, en review par Laure (PR #22)
+**Statut** : 🚧 V1 brute en place, à refaire
 
 ---
 
@@ -107,6 +107,6 @@
 | `REX_Lyon_Craft_Trame_Narrative.md` | Trame avec chiffres intégrés | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | ✅ Disponible dans le projet |
-| `REX_Lyon_Craft_Notes_Speaker.md` | Notes speaker par slide | ✅ Intégré dans les slides |
-| `support/REX_Lyon_Craft.md` | Support reveal-md (source) | 🚧 En review (PR #22) |
-| `support/dist/` | HTML autoporté (GitHub Pages) | 🚧 En review (PR #22) |
+| `REX_Lyon_Craft_Notes_Speaker.md` | Notes speaker par slide | ✅ Disponible dans le projet |
+| `support/REX_Lyon_Craft.md` | Support reveal-md (source) | 🚧 V1 brute |
+| `support/dist/` | HTML autoporté (GitHub Pages) | 🚧 V1 brute |

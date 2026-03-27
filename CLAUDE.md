@@ -17,7 +17,7 @@ Intervenants : **Didier** (freelance craft) + **Laure** (Alptis, continuité pos
 ## Éléments non négociables
 
 ### Chiffres
-- Référence avant craft : **6 à 7 mois** / produit — équipe de 4-5 personnes (PO, SA, 3 dev)
+- Référence avant craft : **6 à 7 mois** / produit — équipe de 4-5 personnes (PO, QA, 3 dev)
 - Produit 1 craft from scratch (SFR) : **7 mois**
 - Produit 2 duplication craft (Santé Équilibre) : **2 mois**
 
@@ -51,9 +51,9 @@ Intervenants : **Didier** (freelance craft) + **Laure** (Alptis, continuité pos
 | `contenu/REX_Lyon_Craft_Compte_Rendu.md` | Trace initiale — décisions, anecdotes, pivots | ✅ immuable |
 | `contenu/REX_Lyon_Craft_Plan_Action.md` | Étapes et statuts | ✅ |
 | `contenu/REX_Lyon_Craft_Trame_Narrative.md` | Trame narrative avec chiffres | ✅ |
-| `contenu/REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | 🔲 |
-| `contenu/REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | 🔲 |
-| `contenu/REX_Lyon_Craft_Discours.md` | Notes orales par slide | 🔲 |
+| `contenu/REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ |
+| `contenu/REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | ✅ |
+| `contenu/REX_Lyon_Craft_Notes_Speaker.md` | Notes orales par slide | ✅ |
 | `support/REX_Lyon_Craft.md` | Support final (reveal-md) | 🚧 |
 
 ---
