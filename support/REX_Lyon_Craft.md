@@ -126,11 +126,27 @@ Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 
 
 ## Ce qui se passe vraiment
 
-```
-Mob (~1,5 mois) → Pair (~1,5 mois) → Hybride (~1 mois) → Sans Didier (~2 mois)
-```
+<div class="frise">
+  <div class="frise-phase" style="flex: 1.5;">
+    <span class="frise-label">Mob</span>
+    <span class="frise-duree">~1,5 mois</span>
+  </div>
+  <div class="frise-phase" style="flex: 1.5;">
+    <span class="frise-label">Pair</span>
+    <span class="frise-duree">~1,5 mois</span>
+  </div>
+  <div class="frise-phase" style="flex: 1;">
+    <span class="frise-label">Hybride</span>
+    <span class="frise-duree">~1 mois</span>
+  </div>
+  <div class="frise-phase frise-phase--warning" style="flex: 2;">
+    <span class="frise-label">Sans Didier</span>
+    <span class="frise-duree">~2 mois</span>
+  </div>
+</div>
 
-~3 semaines de friction organisationnelle. Congés successifs. TDD lâché sous pression de deadline sur certaines zones.
+~3 semaines de friction organisationnelle. Congés successifs.<br/>
+TDD lâché sous pression de deadline sur certaines zones.
 
 Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers mois (TDD lâché sous pression). L : ~3 semaines de friction orga (standardisation produit). D : côté front — 1 dev formé en pair, adopte le TDD en autonomie.
 

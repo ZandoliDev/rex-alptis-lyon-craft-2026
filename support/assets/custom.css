@@ -101,16 +101,42 @@
   background: rgba(58, 45, 125, 0.2);
 }
 
-/* ---- Code (frise des phases) ---- */
-.reveal pre {
-  background: rgba(94, 77, 178, 0.15) !important;
-  border: 1px solid var(--indigo-light) !important;
-  border-radius: 8px;
-  box-shadow: none !important;
+/* ---- Frise des phases (slide 10) ---- */
+.frise {
+  display: flex !important;
+  gap: 4px;
+  margin: 1.2em auto;
+  max-width: 90%;
+  min-height: 80px;
+  align-items: stretch;
 }
 
-.reveal code {
-  color: var(--sable-light) !important;
+.frise-phase {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: linear-gradient(135deg, var(--indigo), var(--indigo-light)) !important;
+  border-radius: 8px;
+  border: 2px solid var(--sable);
+  padding: 0.4em 0.6em;
+}
+
+.frise-phase--warning {
+  background: linear-gradient(135deg, #4a1942, #6b2158) !important;
+  border-color: var(--terre) !important;
+}
+
+.frise-label {
+  font-weight: 700 !important;
+  font-size: 0.9em !important;
+  color: var(--sable) !important;
+}
+
+.frise-duree {
+  font-size: 0.75em !important;
+  color: var(--text-muted) !important;
+  margin-top: 0.2em;
 }
 
 /* ---- Listes ---- */
