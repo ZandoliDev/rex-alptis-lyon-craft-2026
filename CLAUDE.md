@@ -53,7 +53,7 @@ Intervenants : **Didier** (freelance craft) + **Laure** (Alptis, continuité pos
 | `contenu/REX_Lyon_Craft_Trame_Narrative.md` | Trame narrative avec chiffres | ✅ |
 | `contenu/REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ |
 | `contenu/REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | ✅ |
-| `contenu/REX_Lyon_Craft_Discours.md` | Notes orales par slide | 🔲 |
+| `contenu/REX_Lyon_Craft_Notes_Speaker.md` | Notes orales par slide | ✅ |
 | `support/REX_Lyon_Craft.md` | Support final (reveal-md) | 🚧 |
 
 ---
