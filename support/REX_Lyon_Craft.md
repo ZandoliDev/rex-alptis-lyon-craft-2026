@@ -1,13 +1,14 @@
 ---
 title: "Et Craft la chaise !"
 theme: moon
+css: assets/custom.css
 revealOptions:
   transition: slide
   slideNumber: true
   hash: true
 ---
 
-<!-- .slide: data-background="#0d1b2a" -->
+<!-- .slide: data-background="#1b1040" -->
 
 # Et Craft la chaise !
 
@@ -22,11 +23,11 @@ Note: Slide de titre. Laisser la salle s'installer.
 
 ---
 
-<!-- .slide: data-background="#0d1b2a" -->
+<!-- .slide: data-background="#1b1040" -->
 
 ## L'atelier
 
-![BD — L'atelier avant](assets/bd-atelier-avant.jpg) <!-- .element: style="max-height: 70vh;" -->
+![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
 
 Note: Didier. Vignette 1 : on a fini la chaise, on s'assoit. Vignette 2 : ça craque. Vignette 3 : retour à l'établi. « C'est pas de la négligence — c'est comme ça qu'on a toujours fait. »
 
@@ -47,13 +48,20 @@ Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs ta
 
 ## Qui sommes-nous
 
-**Didier ERIN** — Tech lead java, l'artisan qui arrive, impulse le craft, structure les pivots
-
-**Laure CHAMPEL** — Engineering manager, l'ancrage dans l'organisation de l'atelier
+<div class="speaker-row">
+  <div class="speaker-card">
+    <img src="assets/Didier.jpg" alt="Didier ERIN"/>
+    <p><strong>Didier ERIN</strong><br/>Tech lead java<br/>L'artisan qui arrive, impulse le craft, structure les pivots</p>
+  </div>
+  <div class="speaker-card">
+    <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
+    <p><strong>Laure CHAMPEL</strong><br/>Engineering manager<br/>L'ancrage dans l'organisation de l'atelier</p>
+  </div>
+</div>
 
 *On va vous raconter comment cet atelier s'est transformé.*
 
-Note: Duo — chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : [Engineering manager]. Continuité post-départ Didier.
+Note: Duo — chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : Engineering manager. Continuité post-départ Didier.
 
 ---
 
@@ -72,7 +80,7 @@ Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on
 
 ---
 
-<!-- .slide: data-background="#1a1a2e" -->
+<!-- .slide: data-background="#1b1040" -->
 
 > *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
 
@@ -106,11 +114,11 @@ Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
 
 ---
 
-<!-- .slide: data-background="#0d1b2a" -->
+<!-- .slide: data-background="#1b1040" -->
 
 ## L'apprentissage
 
-![BD — L'apprentissage](assets/bd-apprentissage.jpg) <!-- .element: style="max-height: 70vh;" -->
+![BD — L'apprentissage](assets/2_l_apprentissage.png) <!-- .element: style="max-height: 65vh;" -->
 
 Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 : l'apprentie essaye. Vignette 3 : pas encore à l'aise, mais quelque chose a changé.
 
@@ -184,11 +192,11 @@ Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD
 
 ---
 
-<!-- .slide: data-background="#0d1b2a" -->
+<!-- .slide: data-background="#1b1040" -->
 
 ## L'atelier, aujourd'hui
 
-![BD — L'atelier transformé](assets/bd-atelier-transforme.jpg) <!-- .element: style="max-height: 50vh;" -->
+![BD — L'atelier transformé](assets/3_atelier_transforme.png) <!-- .element: style="max-height: 50vh;" -->
 
 > *"Développer est un métier.*
 >
@@ -198,10 +206,19 @@ Note: Duo (D puis L). Vignette 1 : l'atelier transformé, les chaises tiennent. 
 
 ---
 
-<!-- .slide: data-background="#0d1b2a" -->
+<!-- .slide: data-background="#1b1040" -->
 
 ## Merci
 
-**Didier ERIN** · **Laure CHAMPEL**
+<div class="speaker-row">
+  <div class="speaker-card">
+    <img src="assets/Didier.jpg" alt="Didier ERIN"/>
+    <p><strong>Didier ERIN</strong></p>
+  </div>
+  <div class="speaker-card">
+    <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
+    <p><strong>Laure CHAMPEL</strong></p>
+  </div>
+</div>
 
 Lyon Craft 2026
