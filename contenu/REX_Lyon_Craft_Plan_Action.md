@@ -73,7 +73,7 @@
 
 **Dépend de** : Étape 3
 **Livrable** : décisions intégrées dans `REX_Lyon_Craft_Decisions.md`
-**Statut** : 🔲 À faire
+**Statut** : ✅ Fait
 
 ---
 
@@ -94,7 +94,7 @@
 
 **Dépend de** : Étapes 4, 5
 **Livrable** : `support/REX_Lyon_Craft.md` (source) + `support/dist/` (HTML autoporté)
-**Statut** : 🚧 V1 brute en place, à refaire
+**Statut** : 🚧 Identité visuelle intégrée, ajustements possibles
 
 ---
 
@@ -108,5 +108,5 @@
 | `REX_Lyon_Craft_Plan_Slides.md` | Plan slide-by-slide | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Decisions.md` | Points ouverts tranchés | ✅ Disponible dans le projet |
 | `REX_Lyon_Craft_Notes_Speaker.md` | Notes speaker par slide | ✅ Disponible dans le projet |
-| `support/REX_Lyon_Craft.md` | Support reveal-md (source) | 🚧 V1 brute |
-| `support/dist/` | HTML autoporté (GitHub Pages) | 🚧 V1 brute |
+| `support/REX_Lyon_Craft.md` | Support reveal-md (source) | 🚧 Identité visuelle intégrée |
+| `support/dist/` | HTML autoporté (GitHub Pages) | 🚧 Identité visuelle intégrée |
