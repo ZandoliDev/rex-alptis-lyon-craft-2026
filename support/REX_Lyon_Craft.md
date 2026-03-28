@@ -35,12 +35,18 @@ Note: Didier. Vignette 1 : on a fini la chaise, on s'assoit. Vignette 2 : ça cr
 
 ## La douleur et le déclic
 
-Le contexte : migration Java 11 → 21 en cours<br/>
- Bugs et régressions détectés tardivement.
+Migration Java 11 → 21
 
-Beaucoup d'allers-retours dev ↔ recette. Cycles qui s'étirent.
+<div class="boucle">
+  <span class="boucle-node">Dev</span>
+  <span class="boucle-fleche">→</span>
+  <span class="boucle-node">Recette</span>
+  <span class="boucle-fleche">→</span>
+  <span class="boucle-node boucle-node--alert">Bugs</span>
+  <span class="boucle-fleche boucle-fleche--retour">↩</span>
+</div>
 
-L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari.
+Sans filet, chaque accélération reste un pari.
 
 Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs tard, allers-retours. D : incertitude « qu'est-ce que j'ai cassé ? », recette rallongée par précaution. D : c'est cette douleur qui fait émerger l'idée.
 
@@ -104,11 +110,11 @@ Note: Duo (L puis D). L : L'occasion de repartir sur des bases saines, nouveau p
 
 ## Ce qu'on met en place
 
-- **TDD** — conception émergente, code construit par petits pas, refactoré en continu
-- **Mob programming** — montée en compétence craft et fonctionnelle, en temps réel
-- **US itératives** — pas de cahier des charges figé, le produit émerge par incréments
-- **Livraison continue en prod** — on déploie tout au long du projet
-- **Allègement du périmètre** — focus sur le cœur métier
+- **TDD** — conception émergente, refactorisation continue
+- **Mob programming** — montée en compétence en temps réel
+- **US itératives** — le produit émerge par incréments
+- **Livraison continue** — déploiement tout au long du projet
+- **Périmètre allégé** — focus cœur métier
 
 Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
 
@@ -169,23 +175,28 @@ Note: Didier. Rappeler le contexte : équipe neuve, friction orga, double appren
 
 ## Le métier vient à nous
 
-On doit sortir un nouveau produit.
+Nouveau produit à sortir. Le métier demande :
 
-Le métier nous demande<br/> **comment concevoir le produit pour minimiser le temps de réalisation ?**
+**"Comment minimiser le temps de réalisation ?"**
 
-*"Si la chaise a les mêmes pieds, ça ira vite. Si vous voulez des pieds ronds devant, il nous faudra plus de temps — on préconise d'avoir les mêmes pieds."*
+*"Si la chaise a les mêmes pieds, ça ira vite."*<br/>
+→ *"OK pour les mêmes pieds."*
 
-→ *"OK pour les mêmes pieds."* — Décision technique de dupliquer Santé Frontaliers Suisses
+Décision : **dupliquer Santé Frontaliers Suisses**
 
 Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craft seul ne suffit pas.
 
 ---
 
-## Résultat : Santé Équilibre en 3 mois
+## Résultat : Santé Équilibre
 
+<div class="chiffre-hero">2 mois</div>
 
-+ Au bout de 2 mois, version quasi complète en prod
-+ 1 mois pour gérer les branchements aux services externes
+version quasi complète en prod
+
+<div class="chiffre-sub">+ 1 mois</div>
+
+branchements aux services externes
 
 > *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
 
@@ -197,11 +208,24 @@ Note: Didier. Duplication SFR : tests + structure du code. Nouveau levier : déc
 
 ## Le déclic du template
 
-Un produit vivant, recetté, toujours à jour.
+<div class="schema-template">
+  <div class="schema-source">Template vivant<br/><span class="schema-detail">recetté, toujours à jour</span></div>
+  <div class="schema-fleches">
+    <span>→</span>
+    <span>→</span>
+    <span>→</span>
+  </div>
+  <div class="schema-produits">
+    <span class="schema-produit">Produit A</span>
+    <span class="schema-produit">Produit B</span>
+    <span class="schema-produit">Produit …</span>
+  </div>
+</div>
 
-Chaque nouveau produit part du template — les déclinaisons se concentrent sur les **spécificités**.
+Déclinaisons concentrées sur les **spécificités**
 
 **Objectif DSI 2026** : parcours de vente en **150 jours**
+
 > *Plan de la chaise en cours de réalisation*
 
 Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD en cours hors équipe expérimentale. L'organisation a internalisé.
