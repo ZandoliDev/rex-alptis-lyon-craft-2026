@@ -1,0 +1,368 @@
+/* ===================================================
+   Thème REX Lyon Craft — Indigo & Sable
+   Identité visuelle Didier ERIN
+   =================================================== */
+
+:root {
+  --indigo-deep: #1b1040;
+  --indigo: #3a2d7d;
+  --indigo-light: #5e4db2;
+  --sable: #e8b944;
+  --sable-light: #f2d06b;
+  --sable-pale: #fdf0d0;
+  --terre: #c47a2a;
+  --ivoire: #faf6ee;
+  --text-main: #f0ece4;
+  --text-muted: #b8b0c8;
+}
+
+/* ---- Fond global ---- */
+.reveal-viewport {
+  background: linear-gradient(160deg, var(--indigo-deep) 0%, #0f0a28 100%) !important;
+}
+
+/* ---- Typographie ---- */
+.reveal {
+  color: var(--text-main) !important;
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.reveal h1 {
+  color: var(--sable) !important;
+  font-weight: 800 !important;
+  text-shadow: 0 2px 12px rgba(232, 185, 68, 0.25) !important;
+  font-size: 2.2em !important;
+}
+
+.reveal h2 {
+  color: var(--sable-light) !important;
+  font-weight: 700 !important;
+  border-bottom: 3px solid var(--sable);
+  padding-bottom: 0.3em;
+  display: inline-block;
+}
+
+.reveal h3 {
+  color: var(--terre) !important;
+  font-weight: 600 !important;
+}
+
+/* ---- Accentuations ---- */
+.reveal strong {
+  color: var(--sable) !important;
+}
+
+.reveal em {
+  color: var(--sable-pale) !important;
+  font-style: italic;
+}
+
+.reveal a {
+  color: var(--sable-light) !important;
+  text-decoration: underline;
+}
+
+/* ---- Blockquotes (thèses & punchlines) ---- */
+.reveal blockquote {
+  background: linear-gradient(135deg, rgba(58, 45, 125, 0.5), rgba(27, 16, 64, 0.7)) !important;
+  border-left: 5px solid var(--sable) !important;
+  border-radius: 8px;
+  padding: 0.8em 1.2em !important;
+  margin: 0.8em auto !important;
+  max-width: 85%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  color: var(--ivoire) !important;
+  font-size: 1.1em !important;
+}
+
+.reveal blockquote p {
+  color: var(--ivoire) !important;
+}
+
+/* ---- Tableaux ---- */
+.reveal table {
+  border-collapse: collapse;
+  margin: 1em auto;
+}
+
+.reveal table th,
+.reveal table td {
+  border: 1px solid var(--indigo-light) !important;
+  padding: 0.5em 1em !important;
+  color: var(--text-main) !important;
+}
+
+.reveal table th {
+  background: var(--indigo) !important;
+  color: var(--sable) !important;
+}
+
+.reveal table tr:nth-child(even) {
+  background: rgba(58, 45, 125, 0.2);
+}
+
+/* ---- Frise des phases (slide 10) ---- */
+.frise {
+  display: flex !important;
+  gap: 4px;
+  margin: 1.2em auto;
+  max-width: 90%;
+  min-height: 80px;
+  align-items: stretch;
+}
+
+.frise-phase {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: linear-gradient(135deg, var(--indigo), var(--indigo-light)) !important;
+  border-radius: 8px;
+  border: 2px solid var(--sable);
+  padding: 0.4em 0.6em;
+}
+
+.frise-phase--warning {
+  background: linear-gradient(135deg, #4a1942, #6b2158) !important;
+  border-color: var(--terre) !important;
+}
+
+.frise-label {
+  font-weight: 700 !important;
+  font-size: 0.9em !important;
+  color: var(--sable) !important;
+}
+
+.frise-duree {
+  font-size: 0.75em !important;
+  color: var(--text-muted) !important;
+  margin-top: 0.2em;
+}
+
+/* ---- Boucle dev ↔ recette (slide 3) ---- */
+.boucle {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5em;
+  margin: 1.2em auto;
+  font-size: 1.3em;
+}
+
+.boucle-node {
+  background: linear-gradient(135deg, var(--indigo), var(--indigo-light)) !important;
+  border: 2px solid var(--sable);
+  border-radius: 12px;
+  padding: 0.4em 1em;
+  font-weight: 700;
+  color: var(--sable) !important;
+}
+
+.boucle-node--alert {
+  background: linear-gradient(135deg, #4a1942, #6b2158) !important;
+  border-color: var(--terre) !important;
+  color: var(--terre) !important;
+}
+
+.boucle-fleche {
+  color: var(--text-muted) !important;
+  font-size: 1.2em;
+}
+
+.boucle-fleche--retour {
+  color: var(--terre) !important;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+/* ---- Chiffres hero (slide 13) ---- */
+.chiffre-hero {
+  font-size: 3em !important;
+  font-weight: 800 !important;
+  color: var(--sable) !important;
+  text-shadow: 0 2px 12px rgba(232, 185, 68, 0.3);
+  margin: 0.3em 0 0.1em;
+}
+
+.chiffre-sub {
+  font-size: 1.8em !important;
+  font-weight: 700 !important;
+  color: var(--terre) !important;
+  margin: 0.4em 0 0.1em;
+}
+
+/* ---- Schéma template (slide 14) ---- */
+.schema-template {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 1em;
+  margin: 1em auto;
+}
+
+.schema-source {
+  background: linear-gradient(135deg, var(--indigo), var(--indigo-light)) !important;
+  border: 3px solid var(--sable);
+  border-radius: 12px;
+  padding: 0.8em 1.2em;
+  font-weight: 700;
+  color: var(--sable) !important;
+  text-align: center;
+  font-size: 1em;
+}
+
+.schema-detail {
+  font-size: 0.7em;
+  color: var(--text-muted) !important;
+  font-weight: 400;
+}
+
+.schema-fleches {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.3em;
+  color: var(--sable) !important;
+  font-size: 1.4em;
+}
+
+.schema-produits {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.4em;
+}
+
+.schema-produit {
+  background: rgba(94, 77, 178, 0.25) !important;
+  border: 1px solid var(--indigo-light);
+  border-radius: 8px;
+  padding: 0.3em 0.8em;
+  color: var(--text-main) !important;
+  font-size: 0.85em;
+}
+
+/* ---- Listes ---- */
+.reveal ul,
+.reveal ol {
+  text-align: left;
+}
+
+.reveal li {
+  margin-bottom: 0.4em;
+  color: var(--text-main) !important;
+}
+
+.reveal li::marker {
+  color: var(--sable) !important;
+}
+
+/* ---- Slides d'acte (data-background) ---- */
+.reveal section[data-background-color="#1a1a2e"],
+.reveal section[data-background="#1a1a2e"] {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* ---- Slide de titre ---- */
+.reveal .slides > section:first-child h1 {
+  font-size: 2.6em !important;
+  margin-bottom: 0.2em;
+}
+
+/* ---- Photos speakers ---- */
+.speaker-row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  gap: 3em;
+  margin: 1em 0;
+}
+
+.speaker-card {
+  text-align: center;
+  max-width: 280px;
+}
+
+.speaker-card img {
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  border: 3px solid var(--sable) !important;
+  box-shadow: 0 4px 16px rgba(232, 185, 68, 0.3) !important;
+}
+
+.speaker-card p {
+  margin-top: 0.5em;
+  font-size: 0.85em;
+  color: var(--text-muted) !important;
+}
+
+/* ---- Images BD ---- */
+.reveal section img {
+  border: none !important;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4) !important;
+  background: none !important;
+}
+
+/* ---- Séparateurs d'acte ---- */
+.acte-header {
+  background: linear-gradient(135deg, var(--indigo), var(--indigo-deep)) !important;
+  border-radius: 16px;
+  padding: 1.5em 2em;
+  border: 2px solid var(--sable);
+  box-shadow: 0 4px 24px rgba(232, 185, 68, 0.15);
+  display: inline-block;
+}
+
+/* ---- Motif décoratif afro-caraïbéen discret ---- */
+.reveal .slides > section::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg,
+    var(--sable) 0%,
+    var(--terre) 33%,
+    var(--indigo-light) 66%,
+    var(--sable) 100%
+  );
+  border-radius: 2px;
+  opacity: 0.6;
+}
+
+/* ---- Numéro de slide ---- */
+.reveal .slide-number {
+  color: var(--sable) !important;
+  background: rgba(27, 16, 64, 0.7) !important;
+  font-size: 0.7em;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+/* ---- Slide Merci ---- */
+.reveal section:last-child h2 {
+  color: var(--sable) !important;
+  font-size: 2.4em !important;
+}
+
+/* ---- Transitions d'acte (backgrounds indigo) ---- */
+[data-background-color="#1b1040"] h1,
+[data-background-color="#1b1040"] h2 {
+  color: var(--sable) !important;
+}
+
+/* ---- Progress bar ---- */
+.reveal .progress span {
+  background: var(--sable) !important;
+}
+
+/* ---- Controls ---- */
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-down {
+  color: var(--sable) !important;
+}
