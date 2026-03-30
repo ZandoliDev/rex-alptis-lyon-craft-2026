@@ -35,12 +35,13 @@ Note: Didier. Vignette 1 : on a fini la chaise, on s'assoit. Vignette 2 : ça cr
 
 ## La douleur et le déclic
 
-Migration Java 11 → 21 en cours.<br/>
-Bugs et régressions détectés tardivement.
+Migration Java 11 → 21 en cours
 
-Allers-retours dev ↔ recette. Cycles qui s'étirent.
+- Bugs et régressions détectés tardivement <!-- .element: class="fragment" -->
+- Allers-retours dev ↔ recette — cycles qui s'étirent <!-- .element: class="fragment" -->
+- Incertitude permanente : « qu'est-ce que j'ai cassé ? » <!-- .element: class="fragment" -->
 
-Sans filet, chaque accélération reste un pari.
+**Sans filet, chaque accélération reste un pari.** <!-- .element: class="fragment" -->
 
 Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs tard, allers-retours. D : incertitude « qu'est-ce que j'ai cassé ? », recette rallongée par précaution. D : c'est cette douleur qui fait émerger l'idée.
 
@@ -73,8 +74,9 @@ Note: Duo — chacun se présente en une phrase. D : freelance craft, propositio
 | **Équipe** | 4-5 personnes (PO, QA, 3 devs) |
 | **Produits** | Santé Select, Santé Protect, Santé Pro + |
 
-C'est la norme et le produit est satisfaisant, <br/>
-mais besoin de produire plus vite pour en sortir plus.
+C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
+
+Mais besoin de produire **plus vite** pour en sortir **plus**. <!-- .element: class="fragment" -->
 
 Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on produise plus vite pour sortir plus de produits.
 
@@ -84,7 +86,7 @@ Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on
 
 > *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
 
-Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais **la façon** dont on fabrique ?
+Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais **la façon** dont on fabrique ? <!-- .element: class="fragment" -->
 
 Note: Didier. Écho au craquement de la slide 2. La question ouvre l'acte 2.
 
@@ -104,11 +106,11 @@ Note: Duo (L puis D). L : L'occasion de repartir sur des bases saines, nouveau p
 
 ## Ce qu'on met en place
 
-- **TDD** — conception émergente, refactorisation continue
-- **Mob programming** — montée en compétence en temps réel
-- **US itératives** — le produit émerge par incréments
-- **Livraison continue** — déploiement tout au long du projet
-- **Périmètre allégé** — focus cœur métier
+- **TDD** — conception émergente, refactorisation continue <!-- .element: class="fragment" -->
+- **Mob programming** — montée en compétence en temps réel <!-- .element: class="fragment" -->
+- **US itératives** — le produit émerge par incréments <!-- .element: class="fragment" -->
+- **Livraison continue** — déploiement tout au long du projet <!-- .element: class="fragment" -->
+- **Périmètre allégé** — focus cœur métier <!-- .element: class="fragment" -->
 
 Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
 
@@ -145,8 +147,9 @@ Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 
   </div>
 </div>
 
-~3 semaines de friction organisationnelle. Congés successifs.<br/>
-TDD lâché sous pression de deadline sur certaines zones.
+~3 semaines de friction organisationnelle. Congés successifs. <!-- .element: class="fragment" -->
+
+TDD lâché sous pression de deadline sur certaines zones. <!-- .element: class="fragment" -->
 
 Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers mois (TDD lâché sous pression). L : ~3 semaines de friction orga (standardisation produit). D : côté front — 1 dev formé en pair, adopte le TDD en autonomie.
 
@@ -156,12 +159,13 @@ Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers m
 
 *dont 1 mois de retard*
 
-**Périmètre en TDD** — Intention garantie, pas de régression<br/>
-**Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette<br/>
+**Périmètre en TDD** — Intention garantie, pas de régression <!-- .element: class="fragment" -->
 
-> *"On a mis 7 mois. Mais on desserre les fesses."*
+**Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette <!-- .element: class="fragment" -->
 
-*"Pour aller plus vite, il faut apprendre à livrer sûr."*
+> *"On a mis 7 mois. Mais on desserre les fesses."* <!-- .element: class="fragment" -->
+
+*"Pour aller plus vite, il faut apprendre à livrer sûr."* <!-- .element: class="fragment" -->
 
 Note: Didier. Rappeler le contexte : équipe neuve, friction orga, double apprentissage → en conditions normales ~6 mois. Thèse : « pour aller plus vite, il faut apprendre à livrer sûr ».
 
@@ -173,10 +177,11 @@ Nouveau produit à sortir. Le métier demande :
 
 **"Comment minimiser le temps de réalisation ?"**
 
-*"Si la chaise a les mêmes pieds, ça ira vite."*<br/>
-→ *"OK pour les mêmes pieds."*
+*"Si la chaise a les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
 
-Décision : **dupliquer Santé Frontaliers Suisses**
+→ *"OK pour les mêmes pieds."* <!-- .element: class="fragment" -->
+
+Décision : **dupliquer Santé Frontaliers Suisses** <!-- .element: class="fragment" -->
 
 Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craft seul ne suffit pas.
 
@@ -187,9 +192,9 @@ Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craf
 Au bout de 2 mois, version quasi complète en prod.<br/>
 \+ 1 mois pour les branchements aux services externes.
 
-> *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
+> *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."* <!-- .element: class="fragment" -->
 
-*"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
+*"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."* <!-- .element: class="fragment" -->
 
 Note: Didier. Duplication SFR : tests + structure du code. Nouveau levier : découplage services externes. En recette : quasi aucun retour. Le dev n'est le goulot à aucun moment.
 
