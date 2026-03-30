@@ -35,16 +35,10 @@ Note: Didier. Vignette 1 : on a fini la chaise, on s'assoit. Vignette 2 : ça cr
 
 ## La douleur et le déclic
 
-Migration Java 11 → 21
+Migration Java 11 → 21 en cours.<br/>
+Bugs et régressions détectés tardivement.
 
-<div class="boucle">
-  <span class="boucle-node">Dev</span>
-  <span class="boucle-fleche">→</span>
-  <span class="boucle-node">Recette</span>
-  <span class="boucle-fleche">→</span>
-  <span class="boucle-node boucle-node--alert">Bugs</span>
-  <span class="boucle-fleche boucle-fleche--retour">↩</span>
-</div>
+Allers-retours dev ↔ recette. Cycles qui s'étirent.
 
 Sans filet, chaque accélération reste un pari.
 
@@ -188,15 +182,10 @@ Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craf
 
 ---
 
-## Résultat : Santé Équilibre
+## Résultat : Santé Équilibre en 3 mois
 
-<div class="chiffre-hero">2 mois</div>
-
-version quasi complète en prod
-
-<div class="chiffre-sub">+ 1 mois</div>
-
-branchements aux services externes
+Au bout de 2 mois, version quasi complète en prod.<br/>
+\+ 1 mois pour les branchements aux services externes.
 
 > *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
 
@@ -208,24 +197,11 @@ Note: Didier. Duplication SFR : tests + structure du code. Nouveau levier : déc
 
 ## Le déclic du template
 
-<div class="schema-template">
-  <div class="schema-source">Template vivant<br/><span class="schema-detail">recetté, toujours à jour</span></div>
-  <div class="schema-fleches">
-    <span>→</span>
-    <span>→</span>
-    <span>→</span>
-  </div>
-  <div class="schema-produits">
-    <span class="schema-produit">Produit A</span>
-    <span class="schema-produit">Produit B</span>
-    <span class="schema-produit">Produit …</span>
-  </div>
-</div>
+Un produit vivant, recetté, toujours à jour.
 
-Déclinaisons concentrées sur les **spécificités**
+Chaque nouveau produit part du template — les déclinaisons se concentrent sur les **spécificités**.
 
 **Objectif DSI 2026** : parcours de vente en **150 jours**
-
 > *Plan de la chaise en cours de réalisation*
 
 Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD en cours hors équipe expérimentale. L'organisation a internalisé.
