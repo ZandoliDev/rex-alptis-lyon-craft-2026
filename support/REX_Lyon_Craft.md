@@ -4,7 +4,7 @@ theme: moon
 css: assets/custom.css
 revealOptions:
   transition: slide
-  slideNumber: true
+  slideNumber: false
   hash: true
 ---
 
