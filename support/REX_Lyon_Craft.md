@@ -22,7 +22,7 @@ REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 20
 
 <!-- .slide: class="slide-accent" -->
 
-## L'atelier
+## L'atelier de Liza
 
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
 
@@ -68,7 +68,7 @@ Il va falloit changer la façon de travailler"
 <div class="speaker-row">
   <div class="speaker-card">
     <img src="assets/Didier.jpg" alt="Didier ERIN"/>
-    <p><strong>Didier ERIN</strong><br/>Tech lead java<br/>L'artisan qui arrive, impulse le craft, structure les pivots</p>
+    <p><strong>Didier ERIN</strong><br/>Tech lead java<br/>Piqué par le Craft depuis 3 ans, souhaite expérimenter ça en vrai</p>
   </div>
   <div class="speaker-card">
     <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
@@ -76,9 +76,18 @@ Il va falloit changer la façon de travailler"
   </div>
 </div>
 
-*On va vous raconter comment cet atelier s'est transformé.*
+*On va vous raconter comment l'atelier de Liza s'est transformé.*
 
-Note: Duo — chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : Engineering manager. Continuité post-départ Didier.
+Note: Didier / Laure
+
+Didier<br/>
+Bonjour à tous et merci pour votre présence, il est temps de faire les présentation<br/> 
+Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'année.<br/>
+ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimneter ça grandeur nature.
+
+Laure<br/>
+
+— chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : Engineering manager. Continuité post-départ Didier.
 
 ---
 
