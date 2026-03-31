@@ -247,9 +247,13 @@
   font-size: 2.4em !important;
 }
 
-/* ---- Transitions d'acte (backgrounds indigo) ---- */
-[data-background-color="#1b1040"] h1,
-[data-background-color="#1b1040"] h2 {
+/* ---- Slides accentuées (transitions d'acte, titre, conclusion) ---- */
+.slide-accent {
+  background: var(--indigo-deep) !important;
+}
+
+.slide-accent h1,
+.slide-accent h2 {
   color: var(--sable) !important;
 }
 

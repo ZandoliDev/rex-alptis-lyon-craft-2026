@@ -8,7 +8,7 @@ revealOptions:
   hash: true
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 # Et Craft la chaise !
 
@@ -23,7 +23,7 @@ Note: Slide de titre. Laisser la salle s'installer.
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 ## L'atelier
 
@@ -82,7 +82,7 @@ Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 > *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
 
@@ -116,7 +116,7 @@ Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 ## L'apprentissage
 
@@ -213,7 +213,7 @@ Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 ## L'atelier, aujourd'hui
 
@@ -227,7 +227,7 @@ Note: Duo (D puis L). Vignette 1 : l'atelier transformé, les chaises tiennent. 
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 ## Merci
 
