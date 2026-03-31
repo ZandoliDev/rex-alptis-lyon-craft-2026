@@ -3,7 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [master, feat/final-polish-support]
-    paths: [support/**]
+    paths:
+      - support/**
+      - .github/workflows/pages.yml
 
 permissions:
   pages: write
