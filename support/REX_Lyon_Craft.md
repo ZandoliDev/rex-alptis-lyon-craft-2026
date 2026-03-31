@@ -40,15 +40,26 @@ C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft 
 
 ## La douleur et le déclic
 
-Migration Java 11 → 21 en cours
+### Migration Java 11 → 21
 
+Absence d'une batterie de test pertinente
 - Bugs et régressions détectés tardivement <!-- .element: class="fragment" -->
-- Allers-retours dev ↔ recette — cycles qui s'étirent <!-- .element: class="fragment" -->
-- Incertitude permanente : « qu'est-ce que j'ai cassé ? » <!-- .element: class="fragment" -->
+- Allers-retours dev ↔ recette <!-- .element: class="fragment" -->
+- « Alors, ... qu'est-ce que j'ai cassé ? » <!-- .element: class="fragment" -->
 
 **Sans filet, chaque accélération reste un pari.** <!-- .element: class="fragment" -->
 
-Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs tard, allers-retours. D : incertitude « qu'est-ce que j'ai cassé ? », recette rallongée par précaution. D : c'est cette douleur qui fait émerger l'idée.
+Note: Laure / Didier
+
+Laure<br/>
+contexte migration en cours<br/>
+bugs tard<br/>
+allers-retours<br/>
+
+Didier<br/>
+C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead.
+"Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça <br/>
+Il va falloit changer la façon de travailler"
 
 ---
 
