@@ -14,7 +14,7 @@ revealOptions:
 
 ### Le TDD, de l'optimisation à l'industrialisation
 
-REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; vertical-align: middle;" -->
+REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
 **Didier ERIN** · **Laure CHAMPEL** — Lyon Craft 2026
 
@@ -26,7 +26,10 @@ REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 20
 
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
 
-Note: Didier. Vignette 1 : on a fini la chaise, on s'assoit. Vignette 2 : ça craque. Vignette 3 : retour à l'établi. « C'est pas de la négligence — c'est comme ça qu'on a toujours fait. »
+Note: Didier
+Voici un atelier d'une Liza, elle fabrique des chaises dans son atelier.
+Une fois que Liza a fini sa chaise, elle teste et CRAC ! 
+La chaise casse, mais bon, tant pis, elle va recommencer
 
 ---
 
