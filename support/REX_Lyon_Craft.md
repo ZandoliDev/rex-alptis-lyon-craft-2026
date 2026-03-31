@@ -14,7 +14,7 @@ revealOptions:
 
 ### Le TDD, de l'optimisation à l'industrialisation
 
-REX Alptis Assurances ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; margin-top: 2em;" -->
+![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; margin-top: 2em;" -->
 
 **Didier ERIN** · **Laure CHAMPEL** — Lyon Craft 2026
 
