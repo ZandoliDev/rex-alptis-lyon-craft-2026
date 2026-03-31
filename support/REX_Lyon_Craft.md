@@ -59,7 +59,7 @@ allers-retours<br/>
 Didier<br/>
 C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead.
 "Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça <br/>
-Il va falloit changer la façon de travailler"
+Il va falloir changer la façon de travailler"
 
 ---
 
@@ -81,9 +81,9 @@ Il va falloit changer la façon de travailler"
 Note: Didier / Laure
 
 Didier<br/>
-Bonjour à tous et merci pour votre présence, il est temps de faire les présentation<br/> 
-Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'année.<br/>
-ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimneter ça grandeur nature.
+Bonjour à tous et merci pour votre présence, il est temps de faire les présentations<br/>
+Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années.<br/>
+Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimenter ça grandeur nature.
 
 Laure<br/>
 

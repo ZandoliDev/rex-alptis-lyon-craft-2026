@@ -10,24 +10,24 @@
 
 - Pas de prise de parole, laisser la salle s'installer
 
-## Slide 2 — L'atelier (D)
+## Slide 2 — L'atelier de Liza (D)
 
-- Vignette 1 : on a fini la chaise, on s'assoit
-- Vignette 2 : ça craque
-- Vignette 3 : retour à l'établi
-- « C'est pas de la négligence — c'est comme ça qu'on a toujours fait »
+- Voici l'atelier de Liza, elle fabrique des chaises
+- Une fois que Liza a fini sa chaise, elle teste et CRAC ! La chaise casse, il n'y a plus qu'à recommencer
+- Cette histoire est une analogie de ce qui arrive sur de nombreux projets
+- C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permis de faire évoluer les choses
 
 ## Slide 3 — La douleur et le déclic (L puis D)
 
-- **L** : migration Java 11 → 21, bugs détectés tard, allers-retours dev ↔ recette
-- **D** : incertitude permanente « qu'est-ce que j'ai cassé ? », recette rallongée par précaution
-- **D** : c'est cette douleur qui fait émerger l'idée
+- **L** : contexte migration en cours, bugs tard, allers-retours
+- **D** : C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead
+- **D** : "Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler"
 
 ## Slide 4 — Qui sommes-nous (D puis L)
 
-- **D** : freelance craft, proposition de repartir sur des bases saines
-- **L** : Engineering manager. Continuité post-départ Didier
-- « On va vous raconter comment cet atelier s'est transformé »
+- **D** : Bonjour à tous et merci pour votre présence, il est temps de faire les présentations. Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années. Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimenter ça grandeur nature.
+- **L** : (se présente)
+- « On va vous raconter comment l'atelier de Liza s'est transformé »
 
 ## Slide 5 — La norme (L)
 

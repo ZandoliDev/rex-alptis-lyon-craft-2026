@@ -9,28 +9,28 @@
 
 ## Slide 1 — Titre
 
-- **Affichage** : *Et Craft la chaise !* — *REX Alptis Assurances* / *Le TDD, de l'optimisation à l'industrialisation* + logo Alptis (`support/assets/logo-alptis-white.svg`) + Didier ERIN & Laure CHAMPEL + Lyon Craft 2026
+- **Affichage** : *Et Craft la chaise !* — *Le TDD, de l'optimisation à l'industrialisation* + REX logo Alptis (`support/assets/logo-alptis-white.svg`) + Didier ERIN & Laure CHAMPEL + Lyon Craft 2026
 
 ---
 
 ## Ouverture + Acte 1 — L'héritage : travailler sans filet (slides 2-6) — ~10 min
 
-### Slide 2 — L'atelier
+### Slide 2 — L'atelier de Liza
 - **Qui parle** : Didier
-- **Affichage** : Mini BD — `support/assets/bd-atelier-avant.jpg`
-- **Idée** : "On a fini de construire la chaise. On s'assoit dessus. Ça craque. On retourne à l'établi. Ce n'est pas de la négligence — c'est comme ça qu'on a toujours fait."
+- **Affichage** : Mini BD — `support/assets/1_ca_craque.png`
+- **Idée** : Liza fabrique des chaises dans son atelier. Elle teste, ça craque, elle recommence. Analogie de ce qui arrive sur de nombreux projets — c'est ce qui arrivait chez Alptis.
 - **Intention** : Tension immédiate. Le public entend le craquement avant de comprendre l'histoire. Pas de jugement — un constat. Amorce l'analogie menuiserie qui traverse tout le talk.
 
 ### Slide 3 — La douleur et le déclic
-- **Qui parle** : Duo (Laure lead, Didier réagit) — Laure présente la douleur et le contexte dans lequel Didier arrive, Didier enchaîne sur ce qu'il constate.
-- **Affichage** : Visuel d'allers-retours dev ↔ recette (boucle)
-- **Idée** : La migration Java 11 → 21 s'étire. Bugs et régressions détectés tardivement. Cycles qui auraient pu être raccourcis avec un filet de tests. C'est cette douleur qui motive la proposition craft. L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari. On veut produire plus vite, mais on n'a aucune garantie sur ce qu'on produit.
-- **Anecdote** : Arrivée de Didier en pleine migration, l'incertitude permanente du "qu'est-ce que j'ai cassé ?"
+- **Qui parle** : Duo (Laure lead, Didier réagit) — Laure présente la douleur et le contexte, Didier enchaîne sur ce qu'il constate en arrivant.
+- **Affichage** : Sous-titre "Migration Java 11 → 21". Absence d'une batterie de tests pertinente, puis en fragments : bugs et régressions tardifs, allers-retours dev ↔ recette, « qu'est-ce que j'ai cassé ? ». Conclusion en fragment : "Sans filet, chaque accélération reste un pari."
+- **Idée** : C'est dans le cadre de la migration que la douleur se révèle. Didier arrive chez Alptis dans ce contexte et décide qu'il faut changer la façon de travailler.
+- **Anecdote** : Didier : "Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler"
 
 ### Slide 4 — Qui sommes-nous
-- **Qui parle** : Duo — chacun se présente en une phrase.
-- **Affichage** : Didier + Laure — noms, rôles
-- **Idée** : "On va vous raconter comment cet atelier s'est transformé." Didier ERIN : Tech lead java, l'artisan qui arrive, impulse le craft, structure les pivots. Laure CHAMPEL : Engineering manager, l'ancrage dans l'organisation de l'atelier.
+- **Qui parle** : Duo — chacun se présente.
+- **Affichage** : Photos Didier + Laure — noms, rôles. Didier ERIN : Tech lead java, piqué par le Craft depuis 3 ans, souhaite expérimenter ça en vrai. Laure CHAMPEL : Engineering manager, l'ancrage dans l'organisation de l'atelier.
+- **Idée** : "On va vous raconter comment l'atelier de Liza s'est transformé."
 - **Intention** : La présentation arrive après la douleur — le public veut savoir qui parle. Pas un slide CV, une réponse à une question que le public se pose déjà.
 
 ### Slide 5 — La norme
@@ -130,7 +130,7 @@
 | Slide | Acte | Titre court | Qui parle | Durée cumulée |
 |-------|------|-------------|-----------|---------------|
 | 1 | — | Titre | — | ~0 min |
-| 2 | Ouverture | L'atelier — "ça craque" | Didier | ~1 min |
+| 2 | Ouverture | L'atelier de Liza | Didier | ~1 min |
 | 3 | Acte 1 | La douleur et le déclic | Duo (Laure lead) | ~4 min |
 | 4 | Acte 1 | Qui sommes-nous | Duo | ~6 min |
 | 5 | Acte 1 | La norme | Laure | ~8 min |
