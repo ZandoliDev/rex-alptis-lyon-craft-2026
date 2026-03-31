@@ -99,7 +99,7 @@ Laure<br/>
 | **Équipe** | 4-5 personnes (PO, QA, 3 devs) |
 | **Produits** | Santé Select, Santé Protect, Santé Pro + |
 
-C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
+C'est la norme. Le produit est satisfaisant.
 
 Mais besoin de produire **plus vite** pour en sortir **plus**. <!-- .element: class="fragment" -->
 
