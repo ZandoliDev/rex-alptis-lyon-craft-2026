@@ -34,7 +34,7 @@ Une fois que Liza a fini sa chaise, elle teste et CRAC ! <br/>
 La chaise casse, dommage, il n'y a plus qu'à recommencer
 
 Cette histoire est une analogie de ce qui arrive sur de nombreux projets <br/>
-C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permit de faire évoluer les choses.
+C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permis de faire évoluer les choses.
 
 ---
 
