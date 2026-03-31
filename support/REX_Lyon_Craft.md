@@ -26,10 +26,15 @@ REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 20
 
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
 
-Note: Didier
-Voici un atelier d'une Liza, elle fabrique des chaises dans son atelier.
-Une fois que Liza a fini sa chaise, elle teste et CRAC ! 
-La chaise casse, mais bon, tant pis, elle va recommencer
+Note: 
+
+Didier<br/>
+Voici un atelier d'une Liza, elle fabrique des chaises dans son atelier.<br/>
+Une fois que Liza a fini sa chaise, elle teste et CRAC ! <br/>
+La chaise casse, dommage, il n'y a plus qu'à recommencer
+
+Cette histoire est une analogie de ce qui arrive sur de nombreux projets <br/>
+C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permit de faire évoluer les choses.
 
 ---
 
