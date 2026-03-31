@@ -12,14 +12,11 @@ revealOptions:
 
 # Et Craft la chaise !
 
-### REX Alptis Assurances
 ### Le TDD, de l'optimisation à l'industrialisation
 
-![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; margin-top: 2em;" -->
+REX Alptis Assurances ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; margin-top: 2em;" -->
 
 **Didier ERIN** · **Laure CHAMPEL** — Lyon Craft 2026
-
-Note: Slide de titre. Laisser la salle s'installer.
 
 ---
 
