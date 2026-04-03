@@ -92,7 +92,9 @@ Nous avons tout ce qu'il faut pour partir sur des bases solides. Les 2 derniers 
 L'idée du template maintenable et évolutif est là ! Cela nous pose des questions au niveau de l'organisation des équipes. Nous revoyons un peu les choses et décidons de créer une nouvelle équipe socle qui serait en charge de ce genre de projet.
 Le projet est remonté au niveau de la DSI afin de valider les changements d'organisation et un budget est décidé pour l'année suivante.
 Aujourd'hui, l'équipe socle est montée et le template est en cours de réalisation. 200 jours ont été alloué dans le budget de la DSI pour soutenir notre projet.
+Des réflexions sont en cours avec d'autres services au sein de la DSI afin de mettre en place cette notion de template plus largement notamment sur les documents contractuels.
 Des formations sont en cours également pour propager le TDD dans les autres équipes.
+
 
 ## Slide 15 — L'atelier transformé + punchline (D puis L)
 
