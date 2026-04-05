@@ -36,8 +36,11 @@
 
 ## Slide 6 — Formulation clé + question (D)
 
-- Écho au craquement de la slide 2
-- La question ouvre l'acte 2
+Pour le moment, la situation est la suivante : 
+On veut produire plus vite,
+mais on serre les fesses quand on s'assoit sur la chaise.
+
+Et si le vrai problème n'était pas la vitesse
 
 ## Slide 7 — Repartir de zéro avec le craft (L puis D)
 

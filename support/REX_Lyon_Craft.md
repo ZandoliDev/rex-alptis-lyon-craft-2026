@@ -48,7 +48,7 @@ Absence d'une batterie de test pertinente
 <div class="speaker-row">
   <div class="speaker-card">
     <img src="assets/Didier.jpg" alt="Didier ERIN"/>
-    <p><strong>Didier ERIN</strong><br/>Tech lead java<br/>Piqué par le Craft depuis 3 ans, souhaite expérimenter ça en vrai</p>
+    <p><strong>Didier ERIN</strong><br/>Tech lead java<br/>Piqué par le Craft depuis 3 ans</p>
   </div>
   <div class="speaker-card">
     <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
@@ -76,12 +76,10 @@ C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 
 <!-- .slide: class="slide-accent" -->
 
-> *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
+> *"On veut produire plus vite, <br>
+mais on serre les fesses quand on s'assoit sur la chaise."*
 
-Et si le vrai problème n'était pas la vitesse 
-
-Mais **la façon** dont on fabrique ? <!-- .element: class="fragment" -->
-
+**Faut-il revoir la façon dont on fabrique nos chaises ?** <!-- .element: class="fragment" -->
 
 ---
 
