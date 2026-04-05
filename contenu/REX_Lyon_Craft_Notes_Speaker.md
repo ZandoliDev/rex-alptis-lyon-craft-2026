@@ -62,9 +62,8 @@ On va quand même un peu plus loin :
 
 ## Slide 9 — L'apprentissage (D)
 
-- Vignette 1 : le maître artisan montre les techniques
-- Vignette 2 : l'apprentie essaye de se les approprier
-- Vignette 3 : pas encore complètement à l'aise, mais quelque chose a changé
+Revenons à Liza, il se trouve que dans son atelier aussi ça bouge.
+Elle a fait appel à un maître artisan qui lui apprend à maîtriser la technique du tenon-mortaise. Elle doit prendre le temps pour l'acquérir. Mais une fois acquise, elle n'aura plus besoin de vérifier la solidité de ses chaises.
 
 ## Slide 10 — Ce qui se passe vraiment (D puis L)
 

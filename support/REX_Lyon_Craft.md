@@ -116,8 +116,6 @@ Périmètre allégé <!-- .element: class="fragment" -->
 
 ![BD — L'apprentissage](assets/2_l_apprentissage.png) <!-- .element: style="max-height: 65vh;" -->
 
-Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 : l'apprentie essaye. Vignette 3 : pas encore à l'aise, mais quelque chose a changé.
-
 ---
 
 ## Ce qui se passe vraiment
