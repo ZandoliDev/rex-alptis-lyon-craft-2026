@@ -16,7 +16,9 @@ revealOptions:
 
 REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
-**Didier ERIN** · **Laure CHAMPEL** — Lyon Craft 2026
+**Didier ERIN** · **Laure CHAMPEL** 
+
+Lyon Craft 2026
 
 ---
 
@@ -68,7 +70,7 @@ Absence d'une batterie de test pertinente
 
 C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 
-Mais besoin de produire **plus vite** pour en sortir **plus**. <!-- .element: class="fragment" -->
+**Mais besoin de produire plus.** <!-- .element: class="fragment" -->
 
 ---
 
