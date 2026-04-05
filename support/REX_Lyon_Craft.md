@@ -85,13 +85,14 @@ mais on serre les fesses quand on s'assoit sur la chaise."*
 
 ## Repartir de zéro avec le craft
 
-**Santé Frontaliers Suisses** — nouveau produit.
+**?ouveau produit : Santé Frontaliers Suisses** <!-- .element: class="fragment" data-fragment-index="1" -->
 
-Équipe nouvelle — zéro expérience Alptis.
+Nouvelle équipe <!-- .element: class="fragment" data-fragment-index="2" -->
 
-Double courbe d'apprentissage : **craft** + **contexte métier**.
-
-Note: Duo (L puis D). L : L'occasion de repartir sur des bases saines, nouveau produit, nouvelle équipe, nous décidons d'expérimenter le TDD. D : double pari craft + contexte métier. Pas un labo, un vrai produit avec une vraie date.
+**Triple courbe d'apprentissage** <!-- .element: class="fragment" data-fragment-index="3" -->
+* TDD <!-- .element: class="fragment" data-fragment-index="3" -->
+* La santé individuelle <!-- .element: class="fragment" data-fragment-index="3" -->
+* L'environnement Alptis <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ---
 

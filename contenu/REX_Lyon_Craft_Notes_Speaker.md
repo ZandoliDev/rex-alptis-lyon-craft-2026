@@ -40,12 +40,16 @@ Pour le moment, la situation est la suivante :
 On veut produire plus vite,
 mais on serre les fesses quand on s'assoit sur la chaise.
 
-Et si le vrai problème n'était pas la vitesse
+Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique ?
 
 ## Slide 7 — Repartir de zéro avec le craft (L puis D)
 
-- **L** : L'occasion de repartir sur des bases saines, nouveau produit, nouvelle équipe, on décide d'expérimenter le TDD
-- **D** : double pari craft + contexte métier. Pas un labo, un vrai produit avec une vraie date
+- **L** : Cela faisait un moment qu'on parlait de craft avec Didier. J'en avais parlé au sein d'Alptis, nous parlions déjà DDD, mais peu ambitionnait le TDD. Pas toujours facile de s'y mettre quand personne ne le maitrise vraiment. 
+Nouveau produit, 
+nouvelle équipe, on décide d'expérimenter autre chose.
+C'est l'occasion de repartir sur des bases saines. Didier intègre cette nouvelle équipe et instaure le TDD.
+- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le tdd, l'environnement Alptis, ... C'est un autre histoire.
+Il faut donc monter en compétence sur ces trois axes.
 
 ## Slide 8 — Ce qu'on met en place (D)
 
