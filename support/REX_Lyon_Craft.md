@@ -37,7 +37,8 @@ Absence d'une batterie de test pertinente
 - Allers-retours dev ↔ recette 
 - « Alors, ... qu'est-ce que j'ai cassé ? »
 
-**Sans filet, vouloir accélérer reste un pari.**
+**Sans filet, vouloir accélérer reste un pari.** <!-- .element: class="fragment" -->
+
 ---
 
 ## Qui sommes-nous
@@ -65,15 +66,20 @@ Absence d'une batterie de test pertinente
 | **Équipe** | 4-5 personnes (PO, QA, 3 devs) |
 | **Produits** | Santé Select, Santé Protect, Santé Pro + |
 
-C'est la norme. Le produit est satisfaisant.
-Mais besoin de produire **plus vite** pour en sortir **plus**.
+C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
+
+Mais besoin de produire **plus vite** pour en sortir **plus**. <!-- .element: class="fragment" -->
+
 ---
 
 <!-- .slide: class="slide-accent" -->
 
 > *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
 
-Et si le vrai problème n'était pas la vitesse mais **la façon** dont on fabrique ?
+Et si le vrai problème n'était pas la vitesse 
+
+Mais **la façon** dont on fabrique ? <!-- .element: class="fragment" -->
+
 
 ---
 
@@ -91,7 +97,12 @@ Note: Duo (L puis D). L : L'occasion de repartir sur des bases saines, nouveau p
 
 ## Ce qu'on met en place
 
-- **TDD** — conception émergente, refactorisation continue- **Mob programming** — montée en compétence en temps réel- **US itératives** — le produit émerge par incréments- **Livraison continue** — déploiement tout au long du projet- **Périmètre allégé** — focus cœur métier
+- **TDD** — conception émergente, refactorisation continue <!-- .element: class="fragment" -->
+- **Mob programming** — montée en compétence en temps réel <!-- .element: class="fragment" -->
+- **US itératives** — le produit émerge par incréments <!-- .element: class="fragment" -->
+- **Livraison continue** — déploiement tout au long du projet <!-- .element: class="fragment" -->
+- **Périmètre allégé** — focus cœur métier <!-- .element: class="fragment" -->
+
 Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
 
 ---
@@ -127,8 +138,10 @@ Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 
   </div>
 </div>
 
-~3 semaines de friction organisationnelle. Congés successifs.
-TDD lâché sous pression de deadline sur certaines zones.
+~3 semaines de friction organisationnelle. Congés successifs. <!-- .element: class="fragment" -->
+
+TDD lâché sous pression de deadline sur certaines zones. <!-- .element: class="fragment" -->
+
 Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers mois (TDD lâché sous pression). L : ~3 semaines de friction orga (standardisation produit). D : côté front — 1 dev formé en pair, adopte le TDD en autonomie.
 
 ---
@@ -137,10 +150,14 @@ Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers m
 
 *dont 1 mois de retard*
 
-**Périmètre en TDD** — Intention garantie, pas de régression
-**Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette
-> *"On a mis 7 mois. Mais on desserre les fesses."*
-*"Pour aller plus vite, il faut apprendre à livrer sûr."*
+**Périmètre en TDD** — Intention garantie, pas de régression <!-- .element: class="fragment" -->
+
+**Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette <!-- .element: class="fragment" -->
+
+> *"On a mis 7 mois. Mais on desserre les fesses."* <!-- .element: class="fragment" -->
+
+*"Pour aller plus vite, il faut apprendre à livrer sûr."* <!-- .element: class="fragment" -->
+
 Note: Didier. Rappeler le contexte : équipe neuve, friction orga, double apprentissage → en conditions normales ~6 mois. Thèse : « pour aller plus vite, il faut apprendre à livrer sûr ».
 
 ---
@@ -151,9 +168,12 @@ Nouveau produit à sortir. Le métier demande :
 
 **"Comment minimiser le temps de réalisation ?"**
 
-*"Si la chaise a les mêmes pieds, ça ira vite."*
-→ *"OK pour les mêmes pieds."*
-Décision : **dupliquer Santé Frontaliers Suisses**
+*"Si la chaise a les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
+
+→ *"OK pour les mêmes pieds."* <!-- .element: class="fragment" -->
+
+Décision : **dupliquer Santé Frontaliers Suisses** <!-- .element: class="fragment" -->
+
 Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craft seul ne suffit pas.
 
 ---
@@ -163,8 +183,10 @@ Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craf
 Au bout de 2 mois, version quasi complète en prod.<br/>
 \+ 1 mois pour les branchements aux services externes.
 
-> *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
-*"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
+> *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."* <!-- .element: class="fragment" -->
+
+*"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."* <!-- .element: class="fragment" -->
+
 Note: Didier. Duplication SFR : tests + structure du code. Nouveau levier : découplage services externes. En recette : quasi aucun retour. Le dev n'est le goulot à aucun moment.
 
 ---
