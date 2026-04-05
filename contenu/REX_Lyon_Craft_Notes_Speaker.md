@@ -8,31 +8,31 @@
 
 ## Slide 1 — Titre
 
-- Pas de prise de parole, laisser la salle s'installer
+- Bonjour, Merci de votre présence pour ce retour d'expérience "Et Craft ! La chaise".
 
 ## Slide 2 — L'atelier de Liza (D)
 
 - Voici l'atelier de Liza, elle fabrique des chaises
 - Une fois que Liza a fini sa chaise, elle teste et CRAC ! La chaise casse, il n'y a plus qu'à recommencer
 - Cette histoire est une analogie de ce qui arrive sur de nombreux projets
-- C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permis de faire évoluer les choses
+- C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permis de faire évoluer les choses, de transformer l'atelier de Liza.
 
 ## Slide 3 — La douleur et le déclic (L puis D)
 
-- **L** : contexte migration en cours, bugs tard, allers-retours
+- **L** : Le contexte de l'équipe : en pleine migration de java 11 vers java 21 sur plusieurs applications. La migration prend du temps et s'avère compliquée. Il y a beaucoup d'aller/retour au niveau de la recette car pas mal de régressions dans le code. Les bugs sont détectés tard dans le workflow. Cela est inconfortable pour l'équipe et fait perdre du temps.
 - **D** : C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead
-- **D** : "Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler"
+- **D** : Ils sont bien gentils chez Alptis (et c'est vrais !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler. Ils veulent produire plus vite, sans filet, vouloir accélérer reste un pari.
 
 ## Slide 4 — Qui sommes-nous (D puis L)
 
 - **D** : Bonjour à tous et merci pour votre présence, il est temps de faire les présentations. Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années. Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimenter ça grandeur nature.
-- **L** : (se présente)
-- « On va vous raconter comment l'atelier de Liza s'est transformé »
+- **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. Arrivée chez Alptis en 2013, avec l'expérience et de l'ambition, j'ai été Lead et je suis maintenant Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
+- Nous allons vous raconter comment l'atelier de Liza s'est transformé.
 
 ## Slide 5 — La norme (L)
 
-- Confirmé sur 3 produits : Santé Select, Santé Protect, Santé Pro +
-- Ça fonctionne, le métier voudrait qu'on produise plus vite pour sortir plus de produits
+- Effectivement, jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers avec une équipe de 4 à 5 personnes (1 PO, 1 QA et 3 devs front/back). 
+- Cela s'est confirmé sur les 3 produits Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. Cela fonctionne, les métiers sont contents, mais (car il y a toujours un mais quelque part) ils aimeraient sortir plus de produits et notre cadence actuelle ne le permet pas.
 
 ## Slide 6 — Formulation clé + question (D)
 

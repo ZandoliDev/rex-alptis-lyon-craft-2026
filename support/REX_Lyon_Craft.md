@@ -26,16 +26,6 @@ REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 20
 
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
 
-Note: 
-
-Didier<br/>
-Voici un atelier d'une Liza, elle fabrique des chaises dans son atelier.<br/>
-Une fois que Liza a fini sa chaise, elle teste et CRAC ! <br/>
-La chaise casse, dommage, il n'y a plus qu'à recommencer
-
-Cette histoire est une analogie de ce qui arrive sur de nombreux projets <br/>
-C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permis de faire évoluer les choses.
-
 ---
 
 ## La douleur et le déclic
@@ -43,23 +33,11 @@ C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft 
 ### Migration Java 11 → 21
 
 Absence d'une batterie de test pertinente
-- Bugs et régressions détectés tardivement <!-- .element: class="fragment" -->
-- Allers-retours dev ↔ recette <!-- .element: class="fragment" -->
-- « Alors, ... qu'est-ce que j'ai cassé ? » <!-- .element: class="fragment" -->
+- Bugs et régressions détectés tardivement 
+- Allers-retours dev ↔ recette 
+- « Alors, ... qu'est-ce que j'ai cassé ? »
 
-**Sans filet, chaque accélération reste un pari.** <!-- .element: class="fragment" -->
-
-Note: Laure / Didier
-
-Laure<br/>
-contexte migration en cours<br/>
-bugs tard<br/>
-allers-retours<br/>
-
-Didier<br/>
-C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead.
-"Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça <br/>
-Il va falloir changer la façon de travailler"
+**Sans filet, vouloir accélérer reste un pari.** <!-- .element: class="fragment" -->
 
 ---
 
@@ -76,18 +54,7 @@ Il va falloir changer la façon de travailler"
   </div>
 </div>
 
-*On va vous raconter comment l'atelier de Liza s'est transformé.*
-
-Note: Didier / Laure
-
-Didier<br/>
-Bonjour à tous et merci pour votre présence, il est temps de faire les présentations<br/>
-Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années.<br/>
-Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimenter ça grandeur nature.
-
-Laure<br/>
-
-— chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : Engineering manager. Continuité post-départ Didier.
+*Comment l'atelier de Liza s'est transformé ?*
 
 ---
 
@@ -99,11 +66,9 @@ Laure<br/>
 | **Équipe** | 4-5 personnes (PO, QA, 3 devs) |
 | **Produits** | Santé Select, Santé Protect, Santé Pro + |
 
-C'est la norme. Le produit est satisfaisant.
+C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 
 Mais besoin de produire **plus vite** pour en sortir **plus**. <!-- .element: class="fragment" -->
-
-Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on produise plus vite pour sortir plus de produits.
 
 ---
 
@@ -111,9 +76,10 @@ Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on
 
 > *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
 
-Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais **la façon** dont on fabrique ? <!-- .element: class="fragment" -->
+Et si le vrai problème n'était pas la vitesse 
 
-Note: Didier. Écho au craquement de la slide 2. La question ouvre l'acte 2.
+Mais **la façon** dont on fabrique ? <!-- .element: class="fragment" -->
+
 
 ---
 
