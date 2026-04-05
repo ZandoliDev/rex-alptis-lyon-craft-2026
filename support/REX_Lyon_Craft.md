@@ -98,15 +98,15 @@ Nouvelle équipe <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ## Ce qu'on met en place
 
-TDD
+TDD <!-- .element: class="fragment" -->
 
-Mob programming
+Mob programming <!-- .element: class="fragment" -->
 
-US itératives
+US itératives <!-- .element: class="fragment" -->
 
-Livraison continue
+Livraison continue <!-- .element: class="fragment" -->
 
-Périmètre allégé
+Périmètre allégé <!-- .element: class="fragment" -->
 
 ---
 
