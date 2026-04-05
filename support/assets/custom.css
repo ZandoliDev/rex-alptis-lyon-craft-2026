@@ -232,24 +232,6 @@
   display: inline-block;
 }
 
-/* ---- Motif décoratif afro-caraïbéen discret ---- */
-.reveal .slides > section::after {
-  content: '';
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(90deg,
-    var(--sable) 0%,
-    var(--terre) 33%,
-    var(--indigo-light) 66%,
-    var(--sable) 100%
-  );
-  border-radius: 2px;
-  opacity: 0.6;
-}
 
 /* ---- Numéro de slide ---- */
 .reveal .slide-number {
