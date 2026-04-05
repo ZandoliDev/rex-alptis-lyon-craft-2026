@@ -31,6 +31,11 @@
 .reveal {
   color: var(--text-main) !important;
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 36px !important;
+}
+
+.reveal .slides section p {
+  margin: 0.3em 0 !important;
 }
 
 .reveal h1 {
@@ -44,7 +49,8 @@
   color: var(--sable-light) !important;
   font-weight: 700 !important;
   border-bottom: 3px solid var(--sable);
-  padding-bottom: 0.3em;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.3em !important;
   display: inline-block;
 }
 
@@ -73,8 +79,8 @@
   background: linear-gradient(135deg, rgba(58, 45, 125, 0.5), rgba(27, 16, 64, 0.7)) !important;
   border-left: 5px solid var(--sable) !important;
   border-radius: 8px;
-  padding: 0.8em 1.2em !important;
-  margin: 0.8em auto !important;
+  padding: 0.5em 1em !important;
+  margin: 0.4em auto !important;
   max-width: 85%;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   color: var(--ivoire) !important;
@@ -88,13 +94,13 @@
 /* ---- Tableaux ---- */
 .reveal table {
   border-collapse: collapse;
-  margin: 1em auto;
+  margin: 0.4em auto;
 }
 
 .reveal table th,
 .reveal table td {
   border: 1px solid var(--indigo-light) !important;
-  padding: 0.5em 1em !important;
+  padding: 0.3em 0.8em !important;
   color: var(--text-main) !important;
 }
 
