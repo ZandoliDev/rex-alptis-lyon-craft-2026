@@ -85,7 +85,7 @@ mais on serre les fesses quand on s'assoit sur la chaise."*
 
 ## Repartir de zéro avec le craft
 
-**?ouveau produit : Santé Frontaliers Suisses** <!-- .element: class="fragment" data-fragment-index="1" -->
+**Nouveau produit : Santé Frontaliers Suisses** <!-- .element: class="fragment" data-fragment-index="1" -->
 
 Nouvelle équipe <!-- .element: class="fragment" data-fragment-index="2" -->
 
@@ -98,13 +98,11 @@ Nouvelle équipe <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ## Ce qu'on met en place
 
-- **TDD** — conception émergente, refactorisation continue <!-- .element: class="fragment" -->
-- **Mob programming** — montée en compétence en temps réel <!-- .element: class="fragment" -->
-- **US itératives** — le produit émerge par incréments <!-- .element: class="fragment" -->
-- **Livraison continue** — déploiement tout au long du projet <!-- .element: class="fragment" -->
-- **Périmètre allégé** — focus cœur métier <!-- .element: class="fragment" -->
-
-Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
+- **TDD** <!-- .element: class="fragment" -->
+- **Mob programming** <!-- .element: class="fragment" -->
+- **US itératives** <!-- .element: class="fragment" -->
+- **Livraison continue**<!-- .element: class="fragment" -->
+- **Périmètre allégé** <!-- .element: class="fragment" -->
 
 ---
 

@@ -48,12 +48,14 @@ Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique
 Nouveau produit, 
 nouvelle équipe, on décide d'expérimenter autre chose.
 C'est l'occasion de repartir sur des bases saines. Didier intègre cette nouvelle équipe et instaure le TDD.
-- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le tdd, l'environnement Alptis, ... C'est un autre histoire.
+- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le TDD, l'environnement Alptis, ... C'est un autre histoire.
 Il faut donc monter en compétence sur ces trois axes.
 
 ## Slide 8 — Ce qu'on met en place (D)
 
-- Donner le **pourquoi** de chaque levier, pas juste le quoi
+On va quand même un peu plus loin : 
+- Le TDD pour la conception émergente et la refactorisation continue
+- Le Mob programming 
 
 ## Slide 9 — L'apprentissage (D)
 
