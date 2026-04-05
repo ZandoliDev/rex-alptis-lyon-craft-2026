@@ -98,11 +98,13 @@ Nouvelle équipe <!-- .element: class="fragment" data-fragment-index="2" -->
 
 ## Ce qu'on met en place
 
-- **TDD** <!-- .element: class="fragment" -->
-- **Mob programming** <!-- .element: class="fragment" -->
-- **US itératives** <!-- .element: class="fragment" -->
-- **Livraison continue**<!-- .element: class="fragment" -->
-- **Périmètre allégé** <!-- .element: class="fragment" -->
+<ul>
+<li class="fragment">TDD</li>
+<li class="fragment">Mob programming</li>
+<li class="fragment">US itératives</li>
+<li class="fragment">Livraison continue</li>
+<li class="fragment">Périmètre allégé</li>
+</ul>
 
 ---
 
