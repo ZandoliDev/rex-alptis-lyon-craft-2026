@@ -58,7 +58,7 @@ On va quand même un peu plus loin :
 - Le Mob programming, pour une montée en compétence plurielle et partagée (très efficace)
 - Des US itératives pour construire le produit pas à pas sans anticipation
 - Une livraison continue pour réduire la charge mentale liée à la MEP
-- Un périmètre allégé, on négocie avec le métier pour réduire au stricte minimum les fonctionnalités de confort et se cantonner à un MVP
+- Un périmètre allégé, on négocie avec le métier pour réduire au strict minimum les fonctionnalités de confort et se cantonner à un MVP
 
 ## Slide 9 — L'apprentissage (D)
 
