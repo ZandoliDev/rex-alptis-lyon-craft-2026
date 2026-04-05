@@ -2,14 +2,14 @@
 
 > Livrable de l'étape 2.
 > Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 15 slides.
-> Répartition duo Didier/Laure : définie (étape E de l'audit).
-> Formulation clé acte 1 : tranchée (PR #2).
+> Ce document décrit la **structure** de chaque slide : idée centrale, qui parle, intention.
+> Le détail de ce qui se dit à l'oral est dans `REX_Lyon_Craft_Notes_Speaker.md`.
 
 ---
 
 ## Slide 1 — Titre
 
-- **Affichage** : *Et Craft la chaise !* — *Le TDD, de l'optimisation à l'industrialisation* + REX logo Alptis (`support/assets/logo-alptis-white.svg`) + Didier ERIN & Laure CHAMPEL + Lyon Craft 2026
+- **Affichage** : Titre, sous-titre, logo Alptis, noms des speakers
 
 ---
 
@@ -17,33 +17,28 @@
 
 ### Slide 2 — L'atelier de Liza
 - **Qui parle** : Didier
-- **Affichage** : Mini BD — `support/assets/1_ca_craque.png`
-- **Idée** : Liza fabrique des chaises dans son atelier. Elle teste, ça craque, elle recommence. Analogie de ce qui arrive sur de nombreux projets — c'est ce qui arrivait chez Alptis.
-- **Intention** : Tension immédiate. Le public entend le craquement avant de comprendre l'histoire. Pas de jugement — un constat. Amorce l'analogie menuiserie qui traverse tout le talk.
+- **Affichage** : Mini BD — l'atelier, la chaise qui craque
+- **Intention** : Tension immédiate. Amorce l'analogie menuiserie qui traverse tout le talk. Constat sans jugement.
 
 ### Slide 3 — La douleur et le déclic
-- **Qui parle** : Duo (Laure lead, Didier réagit) — Laure présente la douleur et le contexte, Didier enchaîne sur ce qu'il constate en arrivant.
-- **Affichage** : Sous-titre "Migration Java 11 → 21". Absence d'une batterie de tests pertinente, puis : bugs et régressions tardifs, allers-retours dev ↔ recette, « qu'est-ce que j'ai cassé ? ». Conclusion en fragment : "Sans filet, vouloir accélérer reste un pari."
-- **Idée** : C'est dans le cadre de la migration que la douleur se révèle. Didier arrive chez Alptis dans ce contexte et décide qu'il faut changer la façon de travailler.
-- **Anecdote** : Didier : "Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler"
+- **Qui parle** : Duo (Laure lead, Didier réagit)
+- **Affichage** : Migration Java 11 → 21, liste de symptômes, conclusion "Sans filet, vouloir accélérer reste un pari."
+- **Intention** : Poser le contexte de douleur qui motive le changement. Laure décrit la situation, Didier exprime le déclic.
 
 ### Slide 4 — Qui sommes-nous
-- **Qui parle** : Duo — chacun se présente.
-- **Affichage** : Photos Didier + Laure — noms, rôles. Didier ERIN : Tech lead java, piqué par le Craft depuis 3 ans, souhaite expérimenter ça en vrai. Laure CHAMPEL : Engineering manager, l'ancrage dans l'organisation de l'atelier.
-- **Idée** : "Comment l'atelier de Liza s'est transformé ?"
-- **Intention** : La présentation arrive après la douleur — le public veut savoir qui parle. Pas un slide CV, une réponse à une question que le public se pose déjà.
+- **Qui parle** : Duo — chacun se présente
+- **Affichage** : Photos, noms, rôles
+- **Intention** : Répondre à la question que le public se pose après la douleur. Pas un slide CV.
 
 ### Slide 5 — La norme
 - **Qui parle** : Laure
-- **Affichage** : Chiffres clés — 6-7 mois / produit, équipe de 4-5 personnes (PO, QA, 3 devs), 3 produits livrés (Santé Select, Santé Protect, Santé Pro +)
-- **Idée** : Voilà d'où on part. C'est la norme et le produit est satisfaisant, mais besoin de produire plus vite pour en sortir plus.
-- **Donnée** : 6-7 mois par produit, confirmé sur 3 produits
+- **Affichage** : Chiffres clés (6-7 mois, 4-5 personnes, 3 produits)
+- **Intention** : Poser la référence chiffrée. Le produit est satisfaisant, mais le rythme ne suffit plus.
 
 ### Slide 6 — Formulation clé + question
 - **Qui parle** : Didier
-- **Affichage** : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."* Puis : "Et si le vrai problème n'était pas la vitesse" — fragment : "Mais **la façon** dont on fabrique ?"
-- **Idée** : La formulation clé fait écho au craquement de la slide 2. La question ouvre l'acte 2.
-- **Intention** : Charnière entre acte 1 et acte 2. Le public boucle mentalement sur l'image de la slide 2.
+- **Affichage** : Citation "serre les fesses" + question sur la façon de fabriquer
+- **Intention** : Charnière acte 1 → acte 2. Écho au craquement de la slide 2.
 
 ---
 
@@ -51,41 +46,29 @@
 
 ### Slide 7 — Repartir de zéro avec le craft
 - **Qui parle** : Duo (Laure contexte orga, Didier pari craft)
-- **Affichage** : "Santé Frontaliers Suisses — nouveau produit" + contexte (équipe nouvelle, zéro expérience Alptis)
-- **Idée** : L'occasion de repartir sur des bases saines, nouveau produit, nouvelle équipe, on décide d'expérimenter le TDD. Double courbe d'apprentissage : craft + contexte métier.
-- **Intention** : Montrer que ce n'est pas un laboratoire confortable — c'est un vrai produit, avec de vraies contraintes.
+- **Affichage** : Santé Frontaliers Suisses, équipe nouvelle, double apprentissage
+- **Intention** : Montrer que ce n'est pas un labo — un vrai produit, de vraies contraintes.
 
 ### Slide 8 — Ce qu'on met en place
 - **Qui parle** : Didier
-- **Affichage** : 5 leviers de transformation
-  - TDD — conception émergente : code construit par petits pas, refactoré en continu — c'est ce qui le rend industrialisable
-  - Mob programming : montée en compétence TDD et fonctionnelle de toute l'équipe, en temps réel
-  - US itératives : pas de cahier des charges figé, le produit émerge par incréments livrables
-  - Livraison continue en prod : on déploie tout au long du projet, pas un big bang à la mise en marché
-  - Allègement du périmètre : fonctionnalités de confort retirées, focus sur le cœur métier
-- **Intention** : Pas une liste de pratiques craft — chaque levier est là pour une raison dans cette transformation. Le public comprend le pourquoi, pas juste le quoi.
+- **Affichage** : 5 leviers (TDD, mob, US itératives, livraison continue, périmètre allégé)
+- **Intention** : Le public comprend le pourquoi de chaque levier, pas juste le quoi.
 
 ### Slide 9 — Analogie : l'apprentissage
 - **Qui parle** : Didier
-- **Affichage** : Mini BD — `support/assets/bd-apprentissage.jpg`
-- **Intention** : Illustre le temps d'apprentissage et pourquoi ça a pris du temps. L'atelier met en place les bonnes pratiques, fait des essais avant d'y arriver. Le résultat final arrive après.
+- **Affichage** : Mini BD — l'apprentissage dans l'atelier
+- **Intention** : Illustrer le temps nécessaire. Le résultat n'arrive qu'après les essais.
 
 ### Slide 10 — Ce qui se passe vraiment
-- **Qui parle** : Duo (Didier raconte les 4 phases, Laure réagit sur ce qu'elle observait côté orga)
-- **Affichage** : Frise des 4 phases back — Mob (~1,5 mois) → Pair (~1,5 mois) → Hybride (~1 mois) → Sans Didier (~2 mois). Note : côté front, 1 dev formé en pair par Didier, adopte le TDD en autonomie.
-- **Idée** : L'accompagnement craft se réduit progressivement. ~3 semaines de friction orga. Congés successifs. Phase hybride avec absences alternées. Puis dev senior seul, pression de deadline, TDD lâché sur certaines zones.
-- **Intention** : Honnêteté brute. Le public craft sait que la réalité ne ressemble jamais au plan. C'est ici qu'on gagne leur confiance.
+- **Qui parle** : Duo (Didier raconte les phases, Laure réagit côté orga)
+- **Affichage** : Frise des 4 phases (Mob → Pair → Hybride → Sans Didier)
+- **Intention** : Honnêteté brute. La réalité ne ressemble jamais au plan. C'est ici qu'on gagne la confiance du public.
 
 ### Slide 11 — 7 mois : résultat contrasté
 - **Qui parle** : Didier
-- **Affichage** :
-  - *dont 1 mois de retard*
-  - **Périmètre en TDD** — Intention garantie, pas de régression / **Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette
-  - Formulation clé : *"On a mis 7 mois. Mais on desserre les fesses."*
-  - Thèse : *"Pour aller plus vite, il faut apprendre à livrer sûr."*
-- **Idée** : Le chiffre frappe d'abord — 7 mois, autant qu'avant. Le contraste TDD/non-TDD montre que c'est nuancé, pas triomphal. La formulation clé assume le résultat. La thèse donne le sens. Le contexte (équipe neuve, friction orga, double apprentissage) passe à l'oral.
+- **Affichage** : Contraste TDD / sans TDD + thèse "livrer sûr"
 - **Donnée** : 7 mois SFR vs 6-7 mois avant
-- **Intention** : Honnêteté + courage. Le public respecte qu'on ne triche pas sur les chiffres. Le gain se matérialisera à l'acte 3.
+- **Intention** : Honnêteté sur les chiffres. Le gain se matérialisera à l'acte 3.
 
 ---
 
@@ -93,35 +76,24 @@
 
 ### Slide 12 — Le métier vient à nous
 - **Qui parle** : Laure
-- **Affichage** : On doit sortir un nouveau produit. Le métier nous demande **comment concevoir le produit pour minimiser le temps de réalisation ?**
-- **Idée** : *"Si la chaise a les mêmes pieds, ça ira vite. Si vous voulez des pieds ronds devant, il nous faudra plus de temps — on préconise d'avoir les mêmes pieds."* → *"OK pour les mêmes pieds."* — Décision technique de dupliquer Santé Frontaliers Suisses. Ce renversement n'est pas tombé du ciel — il a fallu des années pour construire cette confiance.
-- **Intention** : Le renversement ouvre l'acte 3 — c'est la condition préalable, pas une conséquence. C'est le vécu de Laure, la continuité qu'elle incarne. Le public comprend que le craft seul ne suffit pas — il faut que l'organisation bouge aussi.
+- **Affichage** : Le métier demande comment minimiser le temps → décision de dupliquer SFR
+- **Intention** : Le renversement ouvre l'acte 3. Le craft seul ne suffit pas — il faut que l'organisation bouge aussi.
 
 ### Slide 13 — Résultat : Santé Équilibre en 3 mois
 - **Qui parle** : Didier
-- **Affichage** :
-  - Au bout de 2 mois, version quasi complète en prod
-  - 1 mois pour gérer les branchements aux services externes
-  - Formulation clé : *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
-  - Thèse : *"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
-- **Idée** : Duplication de SFR comme base — on part avec les tests (capture de l'intention) et la structure du code, acquis de l'acte 2. Le produit est sorti en 3 mois au total. Le dev n'est plus le goulot à aucun moment.
-- **Donnée** : 3 mois (2 mois dev + 1 mois services externes) vs 7 mois vs 6-7 mois — la courbe se dessine
-- **Intention** : La décomposition du chiffre EST la preuve. Le public fait le calcul lui-même. La formulation clé cristallise ce que les chiffres montrent.
+- **Affichage** : 2 mois dev + 1 mois services externes + thèses
+- **Donnée** : 3 mois vs 7 mois vs 6-7 mois — la courbe se dessine
+- **Intention** : La décomposition du chiffre EST la preuve. Le public fait le calcul lui-même.
 
 ### Slide 14 — Le déclic du template + projection
 - **Qui parle** : Laure
-- **Affichage** : Schéma template → déclinaison produit + objectif DSI 150j acté au budget 2026 + *"Plan de la chaise en cours de réalisation"*
-- **Idée** :
-  - "On a une base livrable en prod. Pourquoi ne pas en faire un template ?"
-  - Template vivant, recetté, toujours à jour. Corrections portées sur produit ET template. Chaque nouveau produit part du template — les déclinaisons se concentrent sur les spécificités.
-  - Projection 2026 : objectif DSI parcours de vente en 150j, acté au budget.
-- **Oral** : Formation TDD pour les devs hors équipe expérimentale. TDD continue sur les produits livrés (évolutions/maintenance).
+- **Affichage** : Template → déclinaison produit + objectif DSI 150j
 - **Intention** : L'histoire ne s'arrête pas au départ de Didier. L'organisation a internalisé.
 
 ### Slide 15 — L'atelier transformé + punchline
 - **Qui parle** : Duo
-- **Affichage** : Mini BD — `support/assets/bd-atelier-transforme.jpg` + *"Développer est un métier. Être artisan développeur en est un autre."*
-- **Intention** : Boucler l'analogie — émotion, lucidité. Silence. La punchline arrive sur l'émotion. Le public repart avec cette phrase et cette image. Provocation assumée, crédibilisée par les 35 minutes qui précèdent.
+- **Affichage** : Mini BD + punchline "Développer est un métier. Être artisan développeur en est un autre."
+- **Intention** : Boucler l'analogie. Silence. Émotion. Le public repart avec cette phrase.
 
 ---
 
