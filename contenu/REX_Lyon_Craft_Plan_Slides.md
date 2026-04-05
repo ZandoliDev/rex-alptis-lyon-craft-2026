@@ -23,14 +23,14 @@
 
 ### Slide 3 — La douleur et le déclic
 - **Qui parle** : Duo (Laure lead, Didier réagit) — Laure présente la douleur et le contexte, Didier enchaîne sur ce qu'il constate en arrivant.
-- **Affichage** : Sous-titre "Migration Java 11 → 21". Absence d'une batterie de tests pertinente, puis en fragments : bugs et régressions tardifs, allers-retours dev ↔ recette, « qu'est-ce que j'ai cassé ? ». Conclusion en fragment : "Sans filet, chaque accélération reste un pari."
+- **Affichage** : Sous-titre "Migration Java 11 → 21". Absence d'une batterie de tests pertinente, puis : bugs et régressions tardifs, allers-retours dev ↔ recette, « qu'est-ce que j'ai cassé ? ». Conclusion en fragment : "Sans filet, vouloir accélérer reste un pari."
 - **Idée** : C'est dans le cadre de la migration que la douleur se révèle. Didier arrive chez Alptis dans ce contexte et décide qu'il faut changer la façon de travailler.
 - **Anecdote** : Didier : "Ils sont bien gentils chez Alptis, je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler"
 
 ### Slide 4 — Qui sommes-nous
 - **Qui parle** : Duo — chacun se présente.
 - **Affichage** : Photos Didier + Laure — noms, rôles. Didier ERIN : Tech lead java, piqué par le Craft depuis 3 ans, souhaite expérimenter ça en vrai. Laure CHAMPEL : Engineering manager, l'ancrage dans l'organisation de l'atelier.
-- **Idée** : "On va vous raconter comment l'atelier de Liza s'est transformé."
+- **Idée** : "Comment l'atelier de Liza s'est transformé ?"
 - **Intention** : La présentation arrive après la douleur — le public veut savoir qui parle. Pas un slide CV, une réponse à une question que le public se pose déjà.
 
 ### Slide 5 — La norme
@@ -41,9 +41,9 @@
 
 ### Slide 6 — Formulation clé + question
 - **Qui parle** : Didier
-- **Affichage** : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."* Puis : "Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais la façon dont on fabrique ?"
+- **Affichage** : *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."* Puis : "Et si le vrai problème n'était pas la vitesse" — fragment : "Mais **la façon** dont on fabrique ?"
 - **Idée** : La formulation clé fait écho au craquement de la slide 2. La question ouvre l'acte 2.
-- **Intention** : Charnière entre acte 1 et acte 2. Le public boucle mentalement sur l'image de la slide 2. Le crescendo est plus court — l'analogie est déjà posée, la formulation clé et la question suffisent.
+- **Intention** : Charnière entre acte 1 et acte 2. Le public boucle mentalement sur l'image de la slide 2.
 
 ---
 

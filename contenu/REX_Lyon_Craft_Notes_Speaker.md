@@ -21,7 +21,7 @@
 
 - **L** : Le contexte de l'équipe : en pleine migration de java 11 vers java 21 sur plusieurs applications. La migration prend du temps et s'avère compliquée. Il y a beaucoup d'aller/retour au niveau de la recette car pas mal de régressions dans le code. Les bugs sont détectés tard dans le workflow. Cela est inconfortable pour l'équipe et fait perdre du temps.
 - **D** : C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead
-- **D** : Ils sont bien gentils chez Alptis (et c'est vrais !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler. Ils veulent produire plus vite, sans filet, vouloir accélérer reste un pari.
+- **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler. Ils veulent produire plus vite, sans filet, vouloir accélérer reste un pari.
 
 ## Slide 4 — Qui sommes-nous (D puis L)
 
