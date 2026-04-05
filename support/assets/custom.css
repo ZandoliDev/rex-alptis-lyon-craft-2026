@@ -21,6 +21,12 @@
   background: linear-gradient(160deg, var(--indigo-deep) 0%, #0f0a28 100%) !important;
 }
 
+/* ---- Éviter le contenu coupé en bas ---- */
+.reveal .slides section {
+  padding: 20px 40px !important;
+  box-sizing: border-box;
+}
+
 /* ---- Typographie ---- */
 .reveal {
   color: var(--text-main) !important;
@@ -195,12 +201,19 @@
   color: var(--text-muted) !important;
 }
 
-/* ---- Images BD ---- */
+/* ---- Images (défaut) ---- */
 .reveal section img {
   border: none !important;
   border-radius: 12px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4) !important;
   background: none !important;
+}
+
+/* ---- Photos speakers (override) ---- */
+.reveal .speaker-card img {
+  border-radius: 50% !important;
+  border: 3px solid var(--sable) !important;
+  box-shadow: 0 4px 16px rgba(232, 185, 68, 0.3) !important;
 }
 
 /* ---- Séparateurs d'acte ---- */
