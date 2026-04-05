@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd support && reveal-md . --watch",
-    "build": "cd support && reveal-md . --static dist"
+    "build": "cd support && reveal-md . --static dist && cp -n assets/*.jpg assets/*.png dist/assets/ 2>/dev/null; true"
   },
   "repository": {
     "type": "git",
