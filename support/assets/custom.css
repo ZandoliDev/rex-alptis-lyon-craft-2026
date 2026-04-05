@@ -23,7 +23,7 @@
 
 /* ---- Éviter le contenu coupé en bas ---- */
 .reveal .slides section {
-  padding: 20px 40px !important;
+  padding: 5px 15px !important;
   box-sizing: border-box;
 }
 
