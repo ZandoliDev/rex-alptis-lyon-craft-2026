@@ -177,8 +177,8 @@
   display: flex !important;
   justify-content: center !important;
   align-items: flex-start !important;
-  gap: 3em;
-  margin: 1em 0;
+  gap: 2em;
+  margin: 0.5em 0;
 }
 
 .speaker-card {
@@ -187,8 +187,8 @@
 }
 
 .speaker-card img {
-  width: 160px !important;
-  height: 160px !important;
+  width: 120px !important;
+  height: 120px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
   border: 3px solid var(--sable) !important;
@@ -196,8 +196,8 @@
 }
 
 .speaker-card p {
-  margin-top: 0.5em;
-  font-size: 0.85em;
+  margin-top: 0.3em;
+  font-size: 0.8em;
   color: var(--text-muted) !important;
 }
 
