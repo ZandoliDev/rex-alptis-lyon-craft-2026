@@ -48,7 +48,7 @@ Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique
 Nouveau produit, 
 nouvelle équipe, on décide d'expérimenter autre chose.
 C'est l'occasion de repartir sur des bases saines. Didier intègre cette nouvelle équipe et instaure le TDD.
-- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le TDD, l'environnement Alptis, ... C'est un autre histoire.
+- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le TDD, l'environnement Alptis, ... C'est une autre histoire.
 Il faut donc monter en compétence sur ces trois axes.
 
 ## Slide 8 — Ce qu'on met en place (D)
@@ -91,7 +91,7 @@ Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code est con�
 
 ## Slide 12 — Le métier vient à nous (L)
 
-- Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Aller plus vite !
+- Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : aller plus vite !
 Pour cela, les personnes du métier ont compris qu'il va falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
 Nous avions déjà beaucoup discuté avec eux sur les autres produits en leur faisant des propositions pour aller plus vite, mais le métier n'était pas vraiment prêt à les entendre à l'époque.
 À force de rappel, finalement cela infuse ! Il est prêt à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.

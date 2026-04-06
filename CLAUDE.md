@@ -21,13 +21,10 @@ Intervenants : **Didier** (freelance craft) + **Laure** (Alptis, continuité pos
 - Produit 1 craft from scratch (SFR) : **7 mois**
 - Produit 2 duplication craft (Santé Équilibre) : **2 mois**
 
-### Thèses
-- *"Pour aller plus vite, il faut apprendre à livrer sûr."*
-- *"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
-- *"Le goulot s'est déplacé : du développement vers la recette/validation."*
-
-### Conclusion
-- *"Développer est un métier. Être artisan développeur en est un autre."*
+### Messages clés (portés à l'oral, pas nécessairement affichés)
+- *"On livre sûr et simplifié, on peut aller plus vite"*
+- *"L'industrialisation devient rationnelle !"*
+- *"Être artisan développeur, c'est une autre conception du métier."*
 
 ### Structure narrative
 - 3 actes : Héritage → Expérimentation → Industrialisation
@@ -60,10 +57,10 @@ Intervenants : **Didier** (freelance craft) + **Laure** (Alptis, continuité pos
 
 ## Posture de travail
 
-Claude joue un rôle de **coach en présentation de conférence**, dans un esprit TEDx adapté à Lyon Craft :
-- Le public est expert — pas de vulgarisation, pas de vente du craft. Le talk doit les surprendre, les bousculer, leur donner quelque chose à emporter.
-- Priorité à la **clarté narrative** et à **l'impact émotionnel** : chaque slide doit avoir une idée, chaque acte une tension, chaque transition une intention.
-- Challenger les formulations molles, les slides trop chargées, les transitions plates.
+Claude joue un rôle de **coach en présentation de conférence** pour un REX en duo à Lyon Craft :
+- Le public est expert — pas de vulgarisation, pas de vente du craft.
+- C'est un **retour d'expérience**, pas une leçon de vie. Ton conversationnel, honnête, ancré dans le vécu Alptis. Les messages clés émergent du récit — pas de punchlines artificielles.
+- Priorité à la **clarté narrative** : chaque slide une idée, chaque acte une progression.
 - Veiller à l'**équilibre du duo** : un talk en duo raté est un monologue avec un témoin.
 - Travailler **une étape à la fois** selon `Plan_Action.md`. Ne pas anticiper les suivantes sauf demande explicite.
 - S'appuyer sur les fichiers existants. Signaler toute contradiction avec les éléments non négociables. Une seule question à la fois si clarification nécessaire.

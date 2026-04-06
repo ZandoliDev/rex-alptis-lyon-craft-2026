@@ -66,7 +66,7 @@
 
 ### Slide 11 — 7 mois : résultat contrasté
 - **Qui parle** : Didier
-- **Affichage** : Contraste TDD / sans TDD + thèse "livrer sûr"
+- **Affichage** : "dont 1 mois de retard" + "on desserre les fesses" + "on livre sûr et simplifié"
 - **Donnée** : 7 mois SFR vs 6-7 mois avant
 - **Intention** : Honnêteté sur les chiffres. Le gain se matérialisera à l'acte 3.
 
