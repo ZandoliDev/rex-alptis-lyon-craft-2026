@@ -21,10 +21,21 @@
   background: linear-gradient(160deg, var(--indigo-deep) 0%, #0f0a28 100%) !important;
 }
 
+/* ---- Éviter le contenu coupé en bas ---- */
+.reveal .slides section {
+  padding: 5px 15px !important;
+  box-sizing: border-box;
+}
+
 /* ---- Typographie ---- */
 .reveal {
   color: var(--text-main) !important;
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 36px !important;
+}
+
+.reveal .slides section p {
+  margin: 0.3em 0 !important;
 }
 
 .reveal h1 {
@@ -38,7 +49,8 @@
   color: var(--sable-light) !important;
   font-weight: 700 !important;
   border-bottom: 3px solid var(--sable);
-  padding-bottom: 0.3em;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.3em !important;
   display: inline-block;
 }
 
@@ -67,8 +79,8 @@
   background: linear-gradient(135deg, rgba(58, 45, 125, 0.5), rgba(27, 16, 64, 0.7)) !important;
   border-left: 5px solid var(--sable) !important;
   border-radius: 8px;
-  padding: 0.8em 1.2em !important;
-  margin: 0.8em auto !important;
+  padding: 0.5em 1em !important;
+  margin: 0.4em auto !important;
   max-width: 85%;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   color: var(--ivoire) !important;
@@ -82,13 +94,13 @@
 /* ---- Tableaux ---- */
 .reveal table {
   border-collapse: collapse;
-  margin: 1em auto;
+  margin: 0.4em auto;
 }
 
 .reveal table th,
 .reveal table td {
   border: 1px solid var(--indigo-light) !important;
-  padding: 0.5em 1em !important;
+  padding: 0.3em 0.8em !important;
   color: var(--text-main) !important;
 }
 
@@ -101,16 +113,41 @@
   background: rgba(58, 45, 125, 0.2);
 }
 
-/* ---- Code (frise des phases) ---- */
-.reveal pre {
-  background: rgba(94, 77, 178, 0.15) !important;
-  border: 1px solid var(--indigo-light) !important;
-  border-radius: 8px;
-  box-shadow: none !important;
+/* ---- Frise des phases (slide 10) ---- */
+.frise-vertical {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px;
+  margin: 0.5em auto;
+  max-width: 70%;
 }
 
-.reveal code {
-  color: var(--sable-light) !important;
+.frise-phase {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background: linear-gradient(135deg, var(--indigo), var(--indigo-light)) !important;
+  border-radius: 8px;
+  border: 2px solid var(--sable);
+  padding: 0.4em 0.6em;
+}
+
+.frise-phase--warning {
+  background: linear-gradient(135deg, #4a1942, #6b2158) !important;
+  border-color: var(--terre) !important;
+}
+
+.frise-label {
+  font-weight: 700 !important;
+  font-size: 0.9em !important;
+  color: var(--sable) !important;
+}
+
+.frise-duree {
+  font-size: 0.75em !important;
+  color: var(--text-muted) !important;
+  margin-top: 0.2em;
 }
 
 /* ---- Listes ---- */
@@ -145,18 +182,18 @@
   display: flex !important;
   justify-content: center !important;
   align-items: flex-start !important;
-  gap: 3em;
-  margin: 1em 0;
+  gap: 2em;
+  margin: 0.5em 0;
 }
 
 .speaker-card {
   text-align: center;
-  max-width: 280px;
+  max-width: 400px;
 }
 
 .speaker-card img {
-  width: 160px !important;
-  height: 160px !important;
+  width: 120px !important;
+  height: 120px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
   border: 3px solid var(--sable) !important;
@@ -164,17 +201,24 @@
 }
 
 .speaker-card p {
-  margin-top: 0.5em;
-  font-size: 0.85em;
+  margin-top: 0.3em;
+  font-size: 0.8em;
   color: var(--text-muted) !important;
 }
 
-/* ---- Images BD ---- */
+/* ---- Images (défaut) ---- */
 .reveal section img {
   border: none !important;
   border-radius: 12px;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4) !important;
   background: none !important;
+}
+
+/* ---- Photos speakers (override) ---- */
+.reveal .speaker-card img {
+  border-radius: 50% !important;
+  border: 3px solid var(--sable) !important;
+  box-shadow: 0 4px 16px rgba(232, 185, 68, 0.3) !important;
 }
 
 /* ---- Séparateurs d'acte ---- */
@@ -187,24 +231,6 @@
   display: inline-block;
 }
 
-/* ---- Motif décoratif afro-caraïbéen discret ---- */
-.reveal .slides > section::after {
-  content: '';
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
-  background: linear-gradient(90deg,
-    var(--sable) 0%,
-    var(--terre) 33%,
-    var(--indigo-light) 66%,
-    var(--sable) 100%
-  );
-  border-radius: 2px;
-  opacity: 0.6;
-}
 
 /* ---- Numéro de slide ---- */
 .reveal .slide-number {
@@ -221,9 +247,13 @@
   font-size: 2.4em !important;
 }
 
-/* ---- Transitions d'acte (backgrounds indigo) ---- */
-[data-background-color="#1b1040"] h1,
-[data-background-color="#1b1040"] h2 {
+/* ---- Slides accentuées (transitions d'acte, titre, conclusion) ---- */
+.slide-accent {
+  background: var(--indigo-deep) !important;
+}
+
+.slide-accent h1,
+.slide-accent h2 {
   color: var(--sable) !important;
 }
 

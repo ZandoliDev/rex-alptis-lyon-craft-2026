@@ -71,8 +71,8 @@ Note : les phases ci-dessous concernent le back. Côté front, un seul dev (auss
 - ~3 semaines absorbées par des contraintes organisationnelles (standardisation des produits) — pas de la complexité technique.
 - L'accompagnement craft se réduit progressivement en 4 phases :
   1. **Mob** (~1,5 mois, fév–mi-mars) : 3 back dont Didier. Transfert craft + expertise fonctionnelle. Review et recette croisée allégées.
-  2. **Pair** (~1,5 mois, mi-mars–avr) : 2 back dont Didier. TDD maintenu, review pour ancrer les bonnes pratiques.
-  3. **Hybride** (~1 mois, mai–juin) : solo, pair et review en alternance. Absences tantôt de Didier, tantôt du dev expérimenté. Arrivée d'une dev expérimentée Alptis, qui suit le TDD sur les modules intégrés en TDD.
+  2. **Pair** (~2 mois, mi-mars–avr) : 2 back dont Didier. TDD maintenu, review pour ancrer les bonnes pratiques.
+  3. **Hybride** (~1,5 mois, mai–juin) : solo, pair et review en alternance. Absences tantôt de Didier, tantôt du dev expérimenté. Arrivée d'une dev expérimentée Alptis, qui suit le TDD sur les modules intégrés en TDD.
   4. **Sans Didier** (~2 mois, juil–août) : dev senior seul sur certains modules, sous pression de deadline, pas suffisamment à l'aise pour pratiquer le TDD de manière autonome. Résultat : certaines zones livrées sans TDD.
 - Résultat : là où le craft est appliqué, l'intention est garantie sans régression. Là où il est abandonné sous pression, les modules livrés sont globalement éprouvés — peu de bugs — mais on perd la certitude avant les tests. On retourne à la dépendance à la recette pour valider ce qu'on ne sait plus garantir soi-même.
 
@@ -83,7 +83,7 @@ Note : les phases ci-dessous concernent le back. Côté front, un seul dev (auss
 - Mais le résultat en durée reste similaire : 7 mois, avec un mois de retard sur la mise en marché. Les pratiques craft ne produisent pas encore un gain de temps visible — elles posent les fondations.
 - La certitude sur l'intention implémentée est là. Le goulot commence à se déplacer.
 
-**Formulation clé :** *"On a mis 7 mois. Mais on desserre les fesses."*
+**Formulation clé :** *"On a mis 7 mois. Mais on desserre les fesses."* / *"On livre sûr et simplifié, on peut aller plus vite."*
 
 **Pont vers l'acte 3 :** Une fois l'intention capturée, la structure posée, les compétences acquises — une question émerge naturellement : et si on dupliquait ?
 
@@ -122,24 +122,14 @@ Quatre éléments combinés — aucun ne suffit seul :
 - Formation TDD en cours pour les développeurs hors équipe expérimentale, qui avaient besoin de monter en compétence.
 - Le TDD continue sur les produits déjà livrés pour les évolutions et la maintenance.
 
-**Formulation clé :** *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
+**Formulation clé :** *"Mais alors ? L'industrialisation devient rationnelle !"*
 
 ---
 
-## Conclusion — Fermeture de l'analogie et punchline
+## Conclusion — Fermeture de l'analogie
 
-**Retour à l'atelier :**
-L'atelier n'est plus le même. On ne réinvente plus la chaise à chaque commande. On a conçu un modèle de fabrication — testé, validé, vivant. Les artisans se concentrent sur ce qui est spécifique à chaque client, pas sur ce qui est déjà résolu.
-
-Ce n'est pas de l'industrialisation au sens fordiste du terme. C'est de la maîtrise artisanale mise à l'échelle.
-
-**Honnêteté finale :**
-On n'a pas tout réussi du premier coup. Il y a eu des compromis, des zones sans TDD, des periodes de turbulence. Le craft n'est pas une recette magique — c'est un investissement, avec une courbe d'apprentissage réelle.
-
-Mais là où l'intention a été tenue : pas de régression. Pas de surprise. De la prévisibilité.
-
-**Punchline assumée :**
-*"Développer est un métier. Être artisan développeur en est un autre."*
+**Retour à l'atelier (slide 16) :**
+Retour à Liza. Elle est plus sereine. Elle enchaîne les commandes et se concentre sur les besoins spécifiques de ses clients. Elle peut se revendiquer artisane, Alptis également. La BD ferme l'analogie visuellement. Le message clé est porté à l'oral : *"Être artisan développeur, c'est une autre conception du métier."*
 
 ---
 

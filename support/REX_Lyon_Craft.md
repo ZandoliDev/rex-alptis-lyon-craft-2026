@@ -4,45 +4,42 @@ theme: moon
 css: assets/custom.css
 revealOptions:
   transition: slide
-  slideNumber: true
+  slideNumber: false
   hash: true
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 # Et Craft la chaise !
 
-### REX Alptis Assurances
 ### Le TDD, de l'optimisation à l'industrialisation
 
-![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; margin-top: 2em;" -->
+REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
-**Didier ERIN** · **Laure CHAMPEL** — Lyon Craft 2026
+**Didier ERIN** · **Laure CHAMPEL** 
 
-Note: Slide de titre. Laisser la salle s'installer.
+Lyon Craft 2026
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
-## L'atelier
+## L'atelier de Liza
 
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
-
-Note: Didier. Vignette 1 : on a fini la chaise, on s'assoit. Vignette 2 : ça craque. Vignette 3 : retour à l'établi. « C'est pas de la négligence — c'est comme ça qu'on a toujours fait. »
 
 ---
 
 ## La douleur et le déclic
 
-Le contexte : migration Java 11 → 21 en cours<br/>
- Bugs et régressions détectés tardivement.
+### Migration Java 11 → 21
 
-Beaucoup d'allers-retours dev ↔ recette. Cycles qui s'étirent.
+Absence d'une batterie de test pertinente
+- Bugs et régressions détectés tardivement 
+- Allers-retours dev ↔ recette 
+- « Alors, ... qu'est-ce que j'ai cassé ? »
 
-L'envie d'aller plus vite existe — mais sans filet, chaque accélération reste un pari.
-
-Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs tard, allers-retours. D : incertitude « qu'est-ce que j'ai cassé ? », recette rallongée par précaution. D : c'est cette douleur qui fait émerger l'idée.
+**Sans filet, vouloir accélérer reste un pari.** <!-- .element: class="fragment" -->
 
 ---
 
@@ -51,7 +48,7 @@ Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs ta
 <div class="speaker-row">
   <div class="speaker-card">
     <img src="assets/Didier.jpg" alt="Didier ERIN"/>
-    <p><strong>Didier ERIN</strong><br/>Tech lead java<br/>L'artisan qui arrive, impulse le craft, structure les pivots</p>
+    <p><strong>Didier ERIN</strong><br/>Tech lead java<br/>Piqué par le Craft depuis 3 ans</p>
   </div>
   <div class="speaker-card">
     <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
@@ -59,9 +56,7 @@ Note: Duo (Laure lead, Didier réagit). L : contexte migration en cours, bugs ta
   </div>
 </div>
 
-*On va vous raconter comment cet atelier s'est transformé.*
-
-Note: Duo — chacun se présente en une phrase. D : freelance craft, proposition de repartir sur des bases saines. L : Engineering manager. Continuité post-départ Didier.
+*Comment l'atelier de Liza s'est transformé ?*
 
 ---
 
@@ -73,140 +68,142 @@ Note: Duo — chacun se présente en une phrase. D : freelance craft, propositio
 | **Équipe** | 4-5 personnes (PO, QA, 3 devs) |
 | **Produits** | Santé Select, Santé Protect, Santé Pro + |
 
-C'est la norme et le produit est satisfaisant, <br/>
-mais besoin de produire plus vite pour en sortir plus.
+C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 
-Note: Laure. Confirmé sur 3 produits. Ça fonctionne, le métier voudrait qu'on produise plus vite pour sortir plus de produits.
+**Mais besoin de produire plus.** <!-- .element: class="fragment" -->
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
-> *"On veut produire plus vite, mais on serre les fesses quand on s'assoit sur la chaise."*
+> *On veut produire plus vite, <br>
+mais on serre les fesses quand on s'assoit sur la chaise.*
 
-Et si le vrai problème n'était pas la vitesse à laquelle on fabrique — mais **la façon** dont on fabrique ?
-
-Note: Didier. Écho au craquement de la slide 2. La question ouvre l'acte 2.
+**Faut-il revoir la façon dont on fabrique nos chaises ?** <!-- .element: class="fragment" -->
 
 ---
 
 ## Repartir de zéro avec le craft
 
-**Santé Frontaliers Suisses** — nouveau produit.
+**Nouveau produit : Santé Frontaliers Suisses** <!-- .element: class="fragment" data-fragment-index="1" -->
 
-Équipe nouvelle — zéro expérience Alptis.
+Nouvelle équipe <!-- .element: class="fragment" data-fragment-index="2" -->
 
-Double courbe d'apprentissage : **craft** + **contexte métier**.
-
-Note: Duo (L puis D). L : L'occasion de repartir sur des bases saines, nouveau produit, nouvelle équipe, nous décidons d'expérimenter le TDD. D : double pari craft + contexte métier. Pas un labo, un vrai produit avec une vraie date.
+**Triple courbe d'apprentissage** <!-- .element: class="fragment" data-fragment-index="3" -->
+* TDD <!-- .element: class="fragment" data-fragment-index="3" -->
+* La santé individuelle <!-- .element: class="fragment" data-fragment-index="3" -->
+* L'environnement Alptis <!-- .element: class="fragment" data-fragment-index="3" -->
 
 ---
 
 ## Ce qu'on met en place
 
-- **TDD** — conception émergente, code construit par petits pas, refactoré en continu
-- **Mob programming** — montée en compétence craft et fonctionnelle, en temps réel
-- **US itératives** — pas de cahier des charges figé, le produit émerge par incréments
-- **Livraison continue en prod** — on déploie tout au long du projet
-- **Allègement du périmètre** — focus sur le cœur métier
+TDD <!-- .element: class="fragment" -->
 
-Note: Didier. Donner le pourquoi de chaque levier, pas juste le quoi.
+Mob programming <!-- .element: class="fragment" -->
+
+US itératives <!-- .element: class="fragment" -->
+
+Livraison continue <!-- .element: class="fragment" -->
+
+Périmètre allégé <!-- .element: class="fragment" -->
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 ## L'apprentissage
 
 ![BD — L'apprentissage](assets/2_l_apprentissage.png) <!-- .element: style="max-height: 65vh;" -->
 
-Note: Didier. Vignette 1 : le maître artisan montre les techniques. Vignette 2 : l'apprentie essaye. Vignette 3 : pas encore à l'aise, mais quelque chose a changé.
-
 ---
 
 ## Ce qui se passe vraiment
 
-```
-Mob (~1,5 mois) → Pair (~1,5 mois) → Hybride (~1 mois) → Sans Didier (~2 mois)
-```
-
-~3 semaines de friction organisationnelle. Congés successifs. TDD lâché sous pression de deadline sur certaines zones.
-
-Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers mois (TDD lâché sous pression). L : ~3 semaines de friction orga (standardisation produit). D : côté front — 1 dev formé en pair, adopte le TDD en autonomie.
+<div class="frise-vertical">
+  <div class="frise-phase fragment">
+    <span class="frise-label">Mob</span>
+    <span class="frise-duree">~1,5 mois</span>
+  </div>
+  <div class="frise-phase fragment">
+    <span class="frise-label">Pair</span>
+    <span class="frise-duree">~2 mois</span>
+  </div>
+  <div class="frise-phase fragment">
+    <span class="frise-label">Hybride</span>
+    <span class="frise-duree">~1,5 mois</span>
+  </div>
+  <div class="frise-phase frise-phase--warning fragment">
+    <span class="frise-label">Sans Didier</span>
+    <span class="frise-duree">~2 mois</span>
+  </div>
+</div>
 
 ---
 
 ## 7 mois — résultat contrasté
 
-*dont 1 mois de retard*
+dont 1 mois de retard
 
-**Périmètre en TDD** — Intention garantie, pas de régression<br/>
-**Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette<br/>
+<blockquote class="fragment"><em>Mais on desserre les fesses.</em></blockquote>
 
-> *"On a mis 7 mois. Mais on desserre les fesses."*
-
-*"Pour aller plus vite, il faut apprendre à livrer sûr."*
-
-Note: Didier. Rappeler le contexte : équipe neuve, friction orga, double apprentissage → en conditions normales ~6 mois. Thèse : « pour aller plus vite, il faut apprendre à livrer sûr ».
+On livre sûr et simplifié, on peut aller plus vite <!-- .element: class="fragment" -->
 
 ---
 
 ## Le métier vient à nous
 
-On doit sortir un nouveau produit.
+Nouveau produit à sortir.
 
-Le métier nous demande<br/> **comment concevoir le produit pour minimiser le temps de réalisation ?**
+*"Comment aller plus vite ?"*
 
-*"Si la chaise a les mêmes pieds, ça ira vite. Si vous voulez des pieds ronds devant, il nous faudra plus de temps — on préconise d'avoir les mêmes pieds."*
+*"Si toutes les chaises ont les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
 
-→ *"OK pour les mêmes pieds."* — Décision technique de dupliquer Santé Frontaliers Suisses
-
-Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craft seul ne suffit pas.
+*"OK pour les mêmes pieds."* <!-- .element: class="fragment" -->
 
 ---
 
-## Résultat : Santé Équilibre en 3 mois
+## La décision
 
+- Nouveau produit très similaire
+- Code stable et testé
+- Base saine pour des adaptations rapides
 
-+ Au bout de 2 mois, version quasi complète en prod
-+ 1 mois pour gérer les branchements aux services externes
+**Décision : dupliquer Santé Frontaliers Suisses** <!-- .element: class="fragment" -->
 
-> *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."*
+---
 
-*"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."*
+## Santé Équilibre en 3 mois
 
-Note: Didier. Duplication SFR : tests + structure du code. Nouveau levier : découplage services externes. En recette : quasi aucun retour. Le dev n'est le goulot à aucun moment.
+2 mois : produit quasi complet
+
+→ La recette devient le goulot d'étranglement <!-- .element: class="fragment" -->
+
+→ mécanisme d'activation de la simulation des services externes <!-- .element: class="fragment" -->
+
+*"Mais alors ? L'industrialisation devient rationnelle !"* <!-- .element: class="fragment" -->
 
 ---
 
 ## Le déclic du template
 
-Un produit vivant, recetté, toujours à jour.
+Un produit interne vivant, recetté, toujours à jour.
 
-Chaque nouveau produit part du template — les déclinaisons se concentrent sur les **spécificités**.
+Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragment" --> 
 
-**Objectif DSI 2026** : parcours de vente en **150 jours**
-> *Plan de la chaise en cours de réalisation*
-
-Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD en cours hors équipe expérimentale. L'organisation a internalisé.
+**150 jours**  <!-- .element: class="fragment" -->
 
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 ## L'atelier, aujourd'hui
 
 ![BD — L'atelier transformé](assets/3_atelier_transforme.png) <!-- .element: style="max-height: 50vh;" -->
 
-> *"Développer est un métier.*
->
-> *Être artisan développeur en est un autre."*
-
-Note: Duo (D puis L). Vignette 1 : l'atelier transformé, les chaises tiennent. Vignette 2 : on se concentre sur la personnalisation. Punchline après silence. L : « Merci ».
-
 ---
 
-<!-- .slide: data-background="#1b1040" -->
+<!-- .slide: class="slide-accent" -->
 
 ## Merci
 

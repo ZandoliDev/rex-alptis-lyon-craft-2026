@@ -2,6 +2,8 @@
 
 Repo de travail collaboratif pour la préparation du talk REX à Lyon Craft.
 
+**[Voir la présentation en ligne](https://zandolidev.github.io/rex-alptis-lyon-craft-2026/)**
+
 ## Organisation
 
 ```
