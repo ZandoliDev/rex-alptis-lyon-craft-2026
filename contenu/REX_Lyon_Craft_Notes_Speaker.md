@@ -77,17 +77,17 @@ Elle a fait appel à un maître artisan qui lui apprend à maîtriser la techniq
 
 ## Slide 11 — 7 mois : résultat contrasté (D)
 
-Bilan : On a mis 7 mois pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. Est ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel :
+Bilan : On a mis 7 mois pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel :
 - équipe inexpérimentée sur les pratiques Craft
 - équipe inexpérimentée sur les produits Alptis
-- équipe inéxpérimentée sur le contexte Alptis
-- de nouvelles exigences architecturalles à intégrer
+- équipe inexpérimentée sur le contexte Alptis
+- de nouvelles exigences architecturales à intégrer
 
-Mais étrangement, on a mis 7 mois, mais on dessere les fesses. 
+Mais étrangement, on a mis 7 mois, mais on desserre les fesses.
 
 Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code est conçu sur mesure masquant une certaine complexité derrière sa simplicité.
 
-A partir de là on a le sentiment que les prochaines fois seront bien.
+À partir de là on a le sentiment que les prochaines fois seront bien.
 
 ## Slide 12 — Le métier vient à nous (L)
 
