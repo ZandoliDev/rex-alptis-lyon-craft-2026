@@ -71,8 +71,8 @@ Note : les phases ci-dessous concernent le back. Côté front, un seul dev (auss
 - ~3 semaines absorbées par des contraintes organisationnelles (standardisation des produits) — pas de la complexité technique.
 - L'accompagnement craft se réduit progressivement en 4 phases :
   1. **Mob** (~1,5 mois, fév–mi-mars) : 3 back dont Didier. Transfert craft + expertise fonctionnelle. Review et recette croisée allégées.
-  2. **Pair** (~1,5 mois, mi-mars–avr) : 2 back dont Didier. TDD maintenu, review pour ancrer les bonnes pratiques.
-  3. **Hybride** (~1 mois, mai–juin) : solo, pair et review en alternance. Absences tantôt de Didier, tantôt du dev expérimenté. Arrivée d'une dev expérimentée Alptis, qui suit le TDD sur les modules intégrés en TDD.
+  2. **Pair** (~2 mois, mi-mars–avr) : 2 back dont Didier. TDD maintenu, review pour ancrer les bonnes pratiques.
+  3. **Hybride** (~1,5 mois, mai–juin) : solo, pair et review en alternance. Absences tantôt de Didier, tantôt du dev expérimenté. Arrivée d'une dev expérimentée Alptis, qui suit le TDD sur les modules intégrés en TDD.
   4. **Sans Didier** (~2 mois, juil–août) : dev senior seul sur certains modules, sous pression de deadline, pas suffisamment à l'aise pour pratiquer le TDD de manière autonome. Résultat : certaines zones livrées sans TDD.
 - Résultat : là où le craft est appliqué, l'intention est garantie sans régression. Là où il est abandonné sous pression, les modules livrés sont globalement éprouvés — peu de bugs — mais on perd la certitude avant les tests. On retourne à la dépendance à la recette pour valider ce qu'on ne sait plus garantir soi-même.
 
