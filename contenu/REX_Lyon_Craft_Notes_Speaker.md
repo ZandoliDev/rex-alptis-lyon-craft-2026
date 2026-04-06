@@ -68,12 +68,12 @@ Elle a fait appel à un maître artisan qui lui apprend à maîtriser la techniq
 ## Slide 10 — Ce qui se passe vraiment (D puis L)
 
 - **D** : Revenons chez Alptis ... Ce n'était pas un long fleuve tranquille. La physionomie de l'équipe côté backend a évolué dans le temps et ses pratiques aussi :
-- D'abord, ~1,5 mois : mod programmning avec le précédent tech lead => je coach la pratique du TDD, il nous mets au parfum sur les subtilité du produit et de l'environnement Alptis. On avance assez vite.
-- Ensuite, il nous lâche. On n'est plus que deux côté backend, plus de mob, on essaye de faire du pair. c'est moins évident mais on ne lâche pas le TDD
-- S'en suit une période hybride : période de congés, on a du renfort mais qui aime bien travailler seul. On a pris de retard. Moins de pair, pas de mob, toujours du TDD (ou plutôt toujours des tests), mais moins maîtrisé.
-- Et pour finir, c'est moi qui part en congés (pendant 2 mois, rien que ça), globalement, il ne reste plus qu'un développeur, il fait ce qu'il peut, du bon travaille mais ne se sentant pas encore très à l'aise avec le TDD, il reprend ses pratique précédentes et assure la MEP avec succès.
-- **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment là). La solution a donc été rechallengée avec la nouvelle équipe.
-- **D** : côté front, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussi, il est conquis, il s'y emploi pendant toute la durée du projet.
+- D'abord, ~1,5 mois : mob programming avec le précédent tech lead => je coach la pratique du TDD, il nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite.
+- Ensuite, il nous lâche. On n'est plus que deux côté backend, plus de mob, on essaye de faire du pair. C'est moins évident mais on ne lâche pas le TDD.
+- S'ensuit une période hybride : période de congés, on a du renfort mais qui aime bien travailler seul. On a pris du retard. Moins de pair, pas de mob, toujours du TDD (ou plutôt toujours des tests), mais moins maîtrisé.
+- Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça), globalement, il ne reste plus qu'un développeur, il fait ce qu'il peut, du bon travail mais ne se sentant pas encore très à l'aise avec le TDD, il reprend ses pratiques précédentes et assure la MEP avec succès.
+- **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
+- **D** : côté front, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
 
 ## Slide 11 — 7 mois : résultat contrasté (D)
 
