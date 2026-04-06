@@ -114,19 +114,18 @@
 }
 
 /* ---- Frise des phases (slide 10) ---- */
-.frise {
+.frise-vertical {
   display: flex !important;
-  gap: 4px;
-  margin: 1.2em auto;
-  max-width: 90%;
-  min-height: 80px;
-  align-items: stretch;
+  flex-direction: column !important;
+  gap: 8px;
+  margin: 0.5em auto;
+  max-width: 70%;
 }
 
 .frise-phase {
   display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
   align-items: center !important;
   background: linear-gradient(135deg, var(--indigo), var(--indigo-light)) !important;
   border-radius: 8px;

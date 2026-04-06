@@ -120,20 +120,20 @@ Périmètre allégé <!-- .element: class="fragment" -->
 
 ## Ce qui se passe vraiment
 
-<div class="frise">
-  <div class="frise-phase" style="flex: 1.5;">
+<div class="frise-vertical">
+  <div class="frise-phase fragment">
     <span class="frise-label">Mob</span>
     <span class="frise-duree">~1,5 mois</span>
   </div>
-  <div class="frise-phase" style="flex: 1.5;">
+  <div class="frise-phase fragment">
     <span class="frise-label">Pair</span>
     <span class="frise-duree">~1,5 mois</span>
   </div>
-  <div class="frise-phase" style="flex: 1;">
+  <div class="frise-phase fragment">
     <span class="frise-label">Hybride</span>
     <span class="frise-duree">~1 mois</span>
   </div>
-  <div class="frise-phase frise-phase--warning" style="flex: 2;">
+  <div class="frise-phase frise-phase--warning fragment">
     <span class="frise-label">Sans Didier</span>
     <span class="frise-duree">~2 mois</span>
   </div>
