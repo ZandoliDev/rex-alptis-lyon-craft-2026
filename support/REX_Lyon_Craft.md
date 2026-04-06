@@ -143,11 +143,11 @@ Périmètre allégé <!-- .element: class="fragment" -->
 
 ## 7 mois — résultat contrasté
 
-*dont 1 mois de retard*
+dont 1 mois de retard
 
 <blockquote class="fragment"><em>Mais on desserre les fesses.</em></blockquote>
 
-*On livre sûr et simplifié, on peut aller plus vite* <!-- .element: class="fragment" -->
+On livre sûr et simplifié, on peut aller plus vite <!-- .element: class="fragment" -->
 
 ---
 
