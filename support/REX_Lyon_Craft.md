@@ -173,29 +173,25 @@ Nouveau produit à sortir.
 
 ---
 
-## Résultat : Santé Équilibre en 3 mois
+## Santé Équilibre en 3 mois
 
-Au bout de 2 mois, version quasi complète en prod.<br/>
-\+ 1 mois pour les branchements aux services externes.
+2 mois : produit quasi complet
 
-> *"Le goulot s'est déplacé : du développement vers la recette et les dépendances externes."* <!-- .element: class="fragment" -->
+→ La recette devient le goulot d'étranglement <!-- .element: class="fragment" -->
 
-*"Quand le changement devient maîtrisé, l'industrialisation devient rationnelle."* <!-- .element: class="fragment" -->
+→ mécanimse d'activation de la simulation des services externes <!-- .element: class="fragment" -->
 
-Note: Didier. Duplication SFR : tests + structure du code. Nouveau levier : découplage services externes. En recette : quasi aucun retour. Le dev n'est le goulot à aucun moment.
+*"Mais alors ? L'industrialisation devient rationnelle !"* <!-- .element: class="fragment" -->
 
 ---
 
 ## Le déclic du template
 
-Un produit vivant, recetté, toujours à jour.
+Un produit interne vivant, recetté, toujours à jour.
 
-Chaque nouveau produit part du template — les déclinaisons se concentrent sur les **spécificités**.
+Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragment" --> 
 
-**Objectif DSI 2026** : parcours de vente en **150 jours**
-> *Plan de la chaise en cours de réalisation*
-
-Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD en cours hors équipe expérimentale. L'organisation a internalisé.
+**150 jours**  <!-- .element: class="fragment" -->
 
 ---
 
@@ -204,12 +200,6 @@ Note: Laure. Template vivant, corrections sur produit ET template. Formation TDD
 ## L'atelier, aujourd'hui
 
 ![BD — L'atelier transformé](assets/3_atelier_transforme.png) <!-- .element: style="max-height: 50vh;" -->
-
-> *"Développer est un métier.*
->
-> *Être artisan développeur en est un autre."*
-
-Note: Duo (D puis L). Vignette 1 : l'atelier transformé, les chaises tiennent. Vignette 2 : on se concentre sur la personnalisation. Punchline après silence. L : « Merci ».
 
 ---
 
