@@ -145,7 +145,7 @@ Périmètre allégé <!-- .element: class="fragment" -->
 
 *dont 1 mois de retard*
 
-> *Mais on desserre les fesses.* <!-- .element: class="fragment" -->
+<blockquote class="fragment"><em>Mais on desserre les fesses.</em></blockquote>
 
 *On livre sûr et simplifié, on peut aller plus vite* <!-- .element: class="fragment" -->
 
