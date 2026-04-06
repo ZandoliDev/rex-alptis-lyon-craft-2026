@@ -1,7 +1,7 @@
 # Plan slide-by-slide — REX Lyon Craft
 
 > Livrable de l'étape 2.
-> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 15 slides.
+> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 16 slides (+1 slide Merci).
 > Ce document décrit la **structure** de chaque slide : idée centrale, qui parle, intention.
 > Le détail de ce qui se dit à l'oral est dans `REX_Lyon_Craft_Notes_Speaker.md`.
 
@@ -72,25 +72,30 @@
 
 ---
 
-## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 12-15) — ~12 min
+## Acte 3 — L'industrialisation : la maîtrise comme levier (slides 12-16) — ~12 min
 
 ### Slide 12 — Le métier vient à nous
 - **Qui parle** : Laure
-- **Affichage** : Le métier demande comment minimiser le temps → décision de dupliquer SFR
+- **Affichage** : Le métier demande comment aller plus vite → analogie des pieds de chaise
 - **Intention** : Le renversement ouvre l'acte 3. Le craft seul ne suffit pas — il faut que l'organisation bouge aussi.
 
-### Slide 13 — Résultat : Santé Équilibre en 3 mois
+### Slide 13 — La décision
+- **Qui parle** : Laure
+- **Affichage** : Produit similaire, code stable et testé → décision de dupliquer SFR
+- **Intention** : La décision est collégiale et rationnelle, rendue possible par le TDD.
+
+### Slide 14 — Résultat : Santé Équilibre en 3 mois
 - **Qui parle** : Didier
 - **Affichage** : 2 mois dev + 1 mois services externes + thèses
 - **Donnée** : 3 mois vs 7 mois vs 6-7 mois — la courbe se dessine
 - **Intention** : La décomposition du chiffre EST la preuve. Le public fait le calcul lui-même.
 
-### Slide 14 — Le déclic du template + projection
+### Slide 15 — Le déclic du template + projection
 - **Qui parle** : Laure
 - **Affichage** : Template → déclinaison produit + objectif DSI 150j
 - **Intention** : L'histoire ne s'arrête pas au départ de Didier. L'organisation a internalisé.
 
-### Slide 15 — L'atelier transformé + punchline
+### Slide 16 — L'atelier transformé + punchline
 - **Qui parle** : Duo
 - **Affichage** : Mini BD + punchline "Développer est un métier. Être artisan développeur en est un autre."
 - **Intention** : Boucler l'analogie. Silence. Émotion. Le public repart avec cette phrase.
@@ -112,15 +117,16 @@
 | 9 | Acte 2 | Analogie — l'apprentissage | Didier | ~15 min |
 | 10 | Acte 2 | Ce qui se passe vraiment | Duo | ~17 min |
 | 11 | Acte 2 | 7 mois — résultat contrasté | Didier | ~20 min |
-| 12 | Acte 3 | Le métier vient à nous | Laure | ~23 min |
-| 13 | Acte 3 | Résultat : Santé Équilibre en 3 mois | Didier | ~26 min |
-| 14 | Acte 3 | Template + projection 2026 | Laure | ~28 min |
-| 15 | Acte 3 | L'atelier transformé + punchline | Duo | ~31 min |
+| 12 | Acte 3 | Le métier vient à nous | Laure | ~22 min |
+| 13 | Acte 3 | La décision | Laure | ~24 min |
+| 14 | Acte 3 | Résultat : Santé Équilibre en 3 mois | Didier | ~26 min |
+| 15 | Acte 3 | Template + projection 2026 | Laure | ~28 min |
+| 16 | Acte 3 | L'atelier transformé + punchline | Duo | ~31 min |
 
 ### Répartition du temps de parole
 
 | | Didier solo | Laure solo | Duo |
 |---|---|---|---|
-| Slides | 2, 6, 8, 9, 11, 13 | 5, 12, 14 | 3, 4, 7, 10, 15 |
-| Nombre | 6 | 3 | 5 |
-| Durée estimée | ~13 min | ~8 min | ~10 min |
+| Slides | 2, 6, 8, 9, 11, 14 | 5, 12, 13, 15 | 3, 4, 7, 10, 16 |
+| Nombre | 6 | 4 | 5 |
+| Durée estimée | ~12 min | ~9 min | ~10 min |

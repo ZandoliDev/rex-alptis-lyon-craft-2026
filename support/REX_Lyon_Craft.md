@@ -155,7 +155,7 @@ On livre sûr et simplifié, on peut aller plus vite <!-- .element: class="fragm
 
 Nouveau produit à sortir.
 
-*"Comment allez plus vite ?"*
+*"Comment aller plus vite ?"*
 
 *"Si toutes les chaises ont les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
 

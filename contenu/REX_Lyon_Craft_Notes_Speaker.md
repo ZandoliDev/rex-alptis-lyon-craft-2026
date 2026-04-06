@@ -93,8 +93,8 @@ Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code est con�
 
 - Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Aller plus vite !
 Pour cela, les personnes du métier ont compris qu'il va falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
-Nous avions déjà beaucoup discuté avec eux sur les autres produits en leur faisant des propositions pour aller plus vite, mais le métier n'était pas vraiment prêts à les entendre à l'époque.
-A force de rappel, finalement cela infuse ! Il est prêt à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.
+Nous avions déjà beaucoup discuté avec eux sur les autres produits en leur faisant des propositions pour aller plus vite, mais le métier n'était pas vraiment prêt à les entendre à l'époque.
+À force de rappel, finalement cela infuse ! Il est prêt à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.
 
 ## Slide 13 — La décision (L)
 
@@ -102,20 +102,20 @@ A force de rappel, finalement cela infuse ! Il est prêt à simplifier et travai
 Nous décidons collégialement que le produit Santé Frontaliers Suisses (qui bénéficiait du TDD) était assez stable pour le dupliquer. Le TDD rendait plus facile le fait de l'adapter au métier du nouveau produit.
 L'équipe était confiante que cela serait confortable pour tout le monde et nous faciliterait le développement.
 
-## Slide 13 — Résultat : Santé Équilibre en 3 mois (D)
+## Slide 14 — Résultat : Santé Équilibre en 3 mois (D)
 
 - Duplication SFR : tests + structure du code
 - Nouveau levier : découplage services externes (contrats d'interface, mock/réel par config)
 - En recette : quasi aucun retour
 - Le dev n'est le goulot à aucun moment
 
-## Slide 14 — Template + projection (L)
+## Slide 15 — Template + projection (L)
 
 - Template vivant, recetté, corrections sur produit ET template
 - Formation TDD en cours hors équipe expérimentale
 - L'organisation a internalisé
 
-## Slide 15 — L'atelier transformé + punchline (D puis L)
+## Slide 16 — L'atelier transformé + punchline (D puis L)
 
 - Vignette 1 : l'atelier transformé, les chaises tiennent
 - Vignette 2 : on se concentre sur la personnalisation
