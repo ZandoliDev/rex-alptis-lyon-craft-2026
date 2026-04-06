@@ -139,12 +139,6 @@ Périmètre allégé <!-- .element: class="fragment" -->
   </div>
 </div>
 
-~3 semaines de friction organisationnelle. Congés successifs. <!-- .element: class="fragment" -->
-
-TDD lâché sous pression de deadline sur certaines zones. <!-- .element: class="fragment" -->
-
-Note: Duo (D puis L). D : détailler les 4 phases, insister sur les 2 derniers mois (TDD lâché sous pression). L : ~3 semaines de friction orga (standardisation produit). D : côté front — 1 dev formé en pair, adopte le TDD en autonomie.
-
 ---
 
 ## 7 mois — résultat contrasté
