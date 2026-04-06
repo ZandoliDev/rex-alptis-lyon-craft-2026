@@ -1,7 +1,7 @@
 # Plan slide-by-slide — REX Lyon Craft
 
 > Livrable de l'étape 2.
-> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 16 slides (+1 slide Merci).
+> Talk de 45 minutes (30-35 min de présentation + 10-15 min de Q&R) — 17 slides (dont Merci).
 > Ce document décrit la **structure** de chaque slide : idée centrale, qui parle, intention.
 > Le détail de ce qui se dit à l'oral est dans `REX_Lyon_Craft_Notes_Speaker.md`.
 
@@ -84,21 +84,26 @@
 - **Affichage** : Produit similaire, code stable et testé → décision de dupliquer SFR
 - **Intention** : La décision est collégiale et rationnelle, rendue possible par le TDD.
 
-### Slide 14 — Résultat : Santé Équilibre en 3 mois
+### Slide 14 — Santé Équilibre en 3 mois
 - **Qui parle** : Didier
-- **Affichage** : 2 mois dev + 1 mois services externes + thèses
+- **Affichage** : 2 mois MVP + recette comme goulot + mécanisme de simulation services externes
 - **Donnée** : 3 mois vs 7 mois vs 6-7 mois — la courbe se dessine
 - **Intention** : La décomposition du chiffre EST la preuve. Le public fait le calcul lui-même.
 
 ### Slide 15 — Le déclic du template + projection
 - **Qui parle** : Laure
-- **Affichage** : Template → déclinaison produit + objectif DSI 150j
+- **Affichage** : Template vivant + objectif DSI 150 jours
 - **Intention** : L'histoire ne s'arrête pas au départ de Didier. L'organisation a internalisé.
 
-### Slide 16 — L'atelier transformé + punchline
-- **Qui parle** : Duo
-- **Affichage** : Mini BD + punchline "Développer est un métier. Être artisan développeur en est un autre."
-- **Intention** : Boucler l'analogie. Silence. Émotion. Le public repart avec cette phrase.
+### Slide 16 — L'atelier transformé
+- **Qui parle** : Didier
+- **Affichage** : Mini BD — l'atelier transformé
+- **Intention** : Boucler l'analogie avec Liza. Être artisan développeur, c'est une autre conception du métier.
+
+### Slide 17 — Merci
+- **Qui parle** : Laure
+- **Affichage** : Photos speakers + Lyon Craft 2026
+- **Intention** : Remercier et ouvrir les questions.
 
 ---
 
@@ -119,14 +124,15 @@
 | 11 | Acte 2 | 7 mois — résultat contrasté | Didier | ~20 min |
 | 12 | Acte 3 | Le métier vient à nous | Laure | ~22 min |
 | 13 | Acte 3 | La décision | Laure | ~24 min |
-| 14 | Acte 3 | Résultat : Santé Équilibre en 3 mois | Didier | ~26 min |
+| 14 | Acte 3 | Santé Équilibre en 3 mois | Didier | ~26 min |
 | 15 | Acte 3 | Template + projection 2026 | Laure | ~28 min |
-| 16 | Acte 3 | L'atelier transformé + punchline | Duo | ~31 min |
+| 16 | Acte 3 | L'atelier transformé | Didier | ~30 min |
+| 17 | — | Merci | Laure | ~31 min |
 
 ### Répartition du temps de parole
 
 | | Didier solo | Laure solo | Duo |
 |---|---|---|---|
-| Slides | 2, 6, 8, 9, 11, 14 | 5, 12, 13, 15 | 3, 4, 7, 10, 16 |
-| Nombre | 6 | 4 | 5 |
-| Durée estimée | ~12 min | ~9 min | ~10 min |
+| Slides | 2, 6, 8, 9, 11, 14, 16 | 5, 12, 13, 15, 17 | 3, 4, 7, 10 |
+| Nombre | 7 | 5 | 4 |
+| Durée estimée | ~12 min | ~10 min | ~9 min |

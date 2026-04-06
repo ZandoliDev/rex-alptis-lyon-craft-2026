@@ -179,7 +179,7 @@ Nouveau produit à sortir.
 
 → La recette devient le goulot d'étranglement <!-- .element: class="fragment" -->
 
-→ mécanimse d'activation de la simulation des services externes <!-- .element: class="fragment" -->
+→ mécanisme d'activation de la simulation des services externes <!-- .element: class="fragment" -->
 
 *"Mais alors ? L'industrialisation devient rationnelle !"* <!-- .element: class="fragment" -->
 

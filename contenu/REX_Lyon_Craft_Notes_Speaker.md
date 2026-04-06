@@ -104,11 +104,11 @@ L'équipe était confiante que cela serait confortable pour tout le monde et nou
 
 ## Slide 14 — Santé Équilibre en 3 mois (D)
 
-Résultat, Santé Equilibre est sorti au bout de 3 mois.
+Résultat, Santé Équilibre est sorti au bout de 3 mois.
 2 mois pour avoir un premier MVP quasi complet
-- duplication et adaptations réalisée en deux semaines
-- ce qui pris de temps ? La recette. La stratégie a été de faire une recette comme si le produit avait été créé from scratch par mesure de sécurité. 
-- très peu de retour bien évidemment imputables également avec Santé Frontaliers Suisses
+- duplication et adaptations réalisées en deux semaines
+- ce qui a pris du temps ? La recette. La stratégie a été de faire une recette comme si le produit avait été créé from scratch par mesure de sécurité.
+- très peu de retours, bien évidemment imputables également à Santé Frontaliers Suisses
 - Pour permettre à la recette d'avancer au plus loin, nous avons pu créer un mécanisme pour simuler le comportement des services externes en attendant leur branchement via les fichiers de configuration
 
 1 mois pour 
@@ -124,20 +124,20 @@ Mais alors, l'industrialisation devient rationnelle !
 Nous avons tout ce qu'il faut pour partir sur des bases solides. Les 2 derniers produits nous ont montré que cela était possible et que le gain de temps était réel, mais nous devons aller plus loin.
 L'idée du template maintenable et évolutif est là ! Cela nous pose des questions au niveau de l'organisation des équipes. Nous revoyons un peu les choses et décidons de créer une nouvelle équipe socle qui serait en charge de ce genre de projet.
 Le projet est remonté au niveau de la DSI afin de valider les changements d'organisation et un budget est décidé pour l'année suivante.
-Aujourd'hui, l'équipe socle est montée et le template est en cours de réalisation. 200 jours ont été alloué dans le budget de la DSI pour soutenir notre projet.
+Aujourd'hui, l'équipe socle est montée et le template est en cours de réalisation. 200 jours ont été alloués dans le budget de la DSI pour soutenir notre projet.
 Des réflexions sont en cours avec d'autres services au sein de la DSI afin de mettre en place cette notion de template plus largement notamment sur les documents contractuels.
 Des formations sont en cours également pour propager le TDD dans les autres équipes.
 
 ## Slide 16 — L'atelier transformé (D)
 
-Et Liza ? Et bien maintenant, elle est plus sereine.
-Elle enchaîne les commandes et se concentre maintenant sur les besoins spécifiques de ces clients.
+Et Liza ? Eh bien maintenant, elle est plus sereine.
+Elle enchaîne les commandes et se concentre maintenant sur les besoins spécifiques de ses clients.
 Elle peut se revendiquer artisane, Alptis également.
 
-Etre artisant développeur, c'est une autre conception du métier.
+Être artisan développeur, c'est une autre conception du métier.
 
-- **L** : « Merci à tous de nous avoir écouté. A vos questions !»
+- **L** : « Merci à tous de nous avoir écoutés. À vos questions ! »
 
 ## Slide 17 — Merci (L)
 
-« Merci à tous de nous avoir écouté. A vos questions !»
+« Merci à tous de nous avoir écoutés. À vos questions ! »
