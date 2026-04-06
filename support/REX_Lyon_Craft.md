@@ -76,8 +76,8 @@ C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 
 <!-- .slide: class="slide-accent" -->
 
-> *"On veut produire plus vite, <br>
-mais on serre les fesses quand on s'assoit sur la chaise."*
+> *On veut produire plus vite, <br>
+mais on serre les fesses quand on s'assoit sur la chaise.*
 
 **Faut-il revoir la façon dont on fabrique nos chaises ?** <!-- .element: class="fragment" -->
 
@@ -145,15 +145,9 @@ Périmètre allégé <!-- .element: class="fragment" -->
 
 *dont 1 mois de retard*
 
-**Périmètre en TDD** — Intention garantie, pas de régression <!-- .element: class="fragment" -->
+> *Mais on desserre les fesses.* <!-- .element: class="fragment" -->
 
-**Périmètre sans TDD** — Modules éprouvés, mais retour à la dépendance de la recette <!-- .element: class="fragment" -->
-
-> *"On a mis 7 mois. Mais on desserre les fesses."* <!-- .element: class="fragment" -->
-
-*"Pour aller plus vite, il faut apprendre à livrer sûr."* <!-- .element: class="fragment" -->
-
-Note: Didier. Rappeler le contexte : équipe neuve, friction orga, double apprentissage → en conditions normales ~6 mois. Thèse : « pour aller plus vite, il faut apprendre à livrer sûr ».
+*On livre sûr et simplifié, on peut aller plus vite* <!-- .element: class="fragment" -->
 
 ---
 
