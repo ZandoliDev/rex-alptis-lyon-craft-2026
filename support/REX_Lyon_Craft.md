@@ -153,17 +153,23 @@ On livre sûr et simplifié, on peut aller plus vite <!-- .element: class="fragm
 
 ## Le métier vient à nous
 
-Nouveau produit à sortir. Le métier demande :
+Nouveau produit à sortir.
 
-**"Comment minimiser le temps de réalisation ?"**
+*"Comment allez plus vite ?"*
 
-*"Si la chaise a les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
+*"Si toutes les chaises ont les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
 
-→ *"OK pour les mêmes pieds."* <!-- .element: class="fragment" -->
+*"OK pour les mêmes pieds."* <!-- .element: class="fragment" -->
 
-Décision : **dupliquer Santé Frontaliers Suisses** <!-- .element: class="fragment" -->
+---
 
-Note: Laure. Raconter l'anecdote. Ce renversement a pris des années — le craft seul ne suffit pas.
+## La décision
+
+- Nouveau produit très similaire
+- Code stable et testé
+- Base saine pour des adaptations rapides
+
+**Décision : dupliquer Santé Frontaliers Suisses** <!-- .element: class="fragment" -->
 
 ---
 

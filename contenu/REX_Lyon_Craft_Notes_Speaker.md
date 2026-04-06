@@ -91,10 +91,16 @@ Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code est con�
 
 ## Slide 12 — Le métier vient à nous (L)
 
-- On doit sortir un nouveau produit, le métier demande comment minimiser le temps de réalisation
-- « Si la chaise a les mêmes pieds, ça ira vite. Sinon, plus long — on préconise les mêmes pieds. » → « OK pour les mêmes pieds. »
-- Décision technique de dupliquer SFR
-- Ce renversement a pris des années — le craft seul ne suffit pas
+- Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Aller plus vite !
+Pour cela, les personnes du métier ont compris qu'il va falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
+Nous avions déjà beaucoup discuté avec eux sur les autres produits en leur faisant des propositions pour aller plus vite, mais le métier n'était pas vraiment prêts à les entendre à l'époque.
+A force de rappel, finalement cela infuse ! Il est prêt à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.
+
+## Slide 13 — La décision (L)
+
+- Suite aux différentes réunions avec le métier et plusieurs ateliers techniques derrière, le produit ressemble beaucoup à Santé Frontaliers Suisses qu'on finissait de développer en parallèle. Ce nouveau produit était même plus simple.
+Nous décidons collégialement que le produit Santé Frontaliers Suisses (qui bénéficiait du TDD) était assez stable pour le dupliquer. Le TDD rendait plus facile le fait de l'adapter au métier du nouveau produit.
+L'équipe était confiante que cela serait confortable pour tout le monde et nous faciliterait le développement.
 
 ## Slide 13 — Résultat : Santé Équilibre en 3 mois (D)
 
