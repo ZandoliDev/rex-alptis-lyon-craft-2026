@@ -9,6 +9,7 @@
 ## Slide 1 — Titre
 
 - Bonjour, Merci de votre présence pour ce retour d'expérience "Et Craft ! La chaise".
+---> à compléter
 
 ## Slide 2 — L'atelier de Liza (D)
 
@@ -20,19 +21,30 @@
 ## Slide 3 — La douleur et le déclic (L puis D)
 
 - **L** : Le contexte de l'équipe : en pleine migration de java 11 vers java 21 sur plusieurs applications. La migration prend du temps et s'avère compliquée. Il y a beaucoup d'aller/retour au niveau de la recette car pas mal de régressions dans le code. Les bugs sont détectés tard dans le workflow. Cela est inconfortable pour l'équipe et fait perdre du temps.
+---> à compléter
 - **D** : C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead
-- **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler. Ils veulent produire plus vite, sans filet, vouloir accélérer reste un pari.
+---> à compléter (j'ai vécu cette période ...)
+- **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler.
+---> à ce moment on ne parle pas encore d'aller plus vite. Ayant plutôt expérimenté le TDD, je sais qu'on peut être plus à l'aise
+---> supprimer sur la slide la phrase "Sans filet, vouloir accélérer reste un pari."
 
 ## Slide 4 — Qui sommes-nous (D puis L)
 
 - **D** : Bonjour à tous et merci pour votre présence, il est temps de faire les présentations. Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années. Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimenter ça grandeur nature.
+---> à compléter (aspect tech lead)
 - **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. Arrivée chez Alptis en 2013, avec l'expérience et de l'ambition, j'ai été Lead et je suis maintenant Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
 - Nous allons vous raconter comment l'atelier de Liza s'est transformé.
+
+## Slide Alptis : présenter Alptis (L)
+- coutier grossiste en assurance
+- ce qu'on développe dans le service, spécifiquement santé indiv
+---> à compléter
 
 ## Slide 5 — La norme (L)
 
 - Effectivement, jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers avec une équipe de 4 à 5 personnes (1 PO, 1 QA et 3 devs front/back). 
 - Cela s'est confirmé sur les 3 produits Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. Cela fonctionne, les métiers sont contents, mais (car il y a toujours un mais quelque part) ils aimeraient sortir plus de produits et notre cadence actuelle ne le permet pas.
+---> à reformuler / compléter
 
 ## Slide 6 — Formulation clé + question (D)
 
@@ -40,7 +52,7 @@ Pour le moment, la situation est la suivante :
 On veut produire plus vite,
 mais on serre les fesses quand on s'assoit sur la chaise.
 
-Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique ?
+Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique les chaises ?
 
 ## Slide 7 — Repartir de zéro avec le craft (L puis D)
 
@@ -48,12 +60,13 @@ Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique
 Nouveau produit, 
 nouvelle équipe, on décide d'expérimenter autre chose.
 C'est l'occasion de repartir sur des bases saines. Didier intègre cette nouvelle équipe et instaure le TDD.
-- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le TDD, l'environnement Alptis, ... C'est une autre histoire.
+---> à compléter : indiquer qu'on se cotoyait avant que j'intègre Alptis
+- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience sur la stack technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le TDD, l'environnement Alptis, ... C'est une autre histoire.
 Il faut donc monter en compétence sur ces trois axes.
 
 ## Slide 8 — Ce qu'on met en place (D)
 
-On va quand même un peu plus loin : 
+On va quand même un peu plus loin : ---> à reformuler
 - Le TDD pour la conception émergente et la refactorisation continue
 - Le Mob programming, pour une montée en compétence plurielle et partagée (très efficace)
 - Des US itératives pour construire le produit pas à pas sans anticipation
@@ -63,17 +76,25 @@ On va quand même un peu plus loin :
 ## Slide 9 — L'apprentissage (D)
 
 Revenons à Liza, il se trouve que dans son atelier aussi ça bouge.
-Elle a fait appel à un maître artisan qui lui apprend à maîtriser la technique du tenon-mortaise. Elle doit prendre le temps pour l'acquérir. Mais une fois acquise, elle n'aura plus besoin de vérifier la solidité de ses chaises.
+Elle a fait appel à un maître artisan qui lui apprend à maîtriser, par exemple, la technique du tenon-mortaise. 
+Elle doit prendre le temps pour l'acquérir. 
+Mais une fois acquise, elle n'aura plus besoin de vérifier la solidité de ses chaises.
+---> à mieux formuler
 
-## Slide 10 — Ce qui se passe vraiment (D puis L)
+## Slide 10 — Ce qui se passe vraiment (D)
 
 - **D** : Revenons chez Alptis ... Ce n'était pas un long fleuve tranquille. La physionomie de l'équipe côté backend a évolué dans le temps et ses pratiques aussi :
 - D'abord, ~1,5 mois : mob programming avec le précédent tech lead => je coach la pratique du TDD, il nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite.
 - Ensuite, il nous lâche. On n'est plus que deux côté backend, plus de mob, on essaye de faire du pair. C'est moins évident mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, Des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard.
 - S'ensuit une période hybride : mêlées aux congés, on a du renfort mais qui aime bien travailler seul. Moins de pair, pas de mob, toujours du TDD (ou plutôt toujours des tests), mais moins maîtrisé. On n'arrive pas à rattraper le retard.
 - Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il fait ce qu'il peut, du bon travail mais ne se sentant pas encore très à l'aise avec le TDD, il reprend ses pratiques précédentes et assure la MEP avec succès.
-- **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
+---> à reformuler
 - **D** : côté front, j'ai fait une journée de pair programming avec notre dev front en début de projet. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
+
+## Slide : Comme si ça ne suffisait pas ...  (L)
+- **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
+---> a compléter : rajouter les échange avec les dépendances externes
+
 
 ## Slide 11 — 7 mois : résultat contrasté (D)
 
