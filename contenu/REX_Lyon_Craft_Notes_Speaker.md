@@ -91,10 +91,13 @@ Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code est con�
 
 ## Slide 12 — Le métier vient à nous (L)
 
-- Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : aller plus vite !
+- Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Comment aller plus vite ?
 Pour cela, les personnes du métier ont compris qu'il va falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
 Nous avions déjà beaucoup discuté avec eux sur les autres produits en leur faisant des propositions pour aller plus vite, mais le métier n'était pas vraiment prêt à les entendre à l'époque.
+C'est sur que si toutes les chaises ont les mêmes pieds, ça ira plus vite !
 À force de rappel, finalement cela infuse ! Il est prêt à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.
+Ok pour avoir les mêmes pieds !
+
 
 ## Slide 13 — La décision (L)
 
@@ -122,8 +125,11 @@ Mais alors, l'industrialisation devient rationnelle !
 
 - Suite à cette réussite, une nouvelle idée survient et si on industrialisait pour ce type de produit !
 Nous avons tout ce qu'il faut pour partir sur des bases solides. Les 2 derniers produits nous ont montré que cela était possible et que le gain de temps était réel, mais nous devons aller plus loin.
-L'idée du template maintenable et évolutif est là ! Cela nous pose des questions au niveau de l'organisation des équipes. Nous revoyons un peu les choses et décidons de créer une nouvelle équipe socle qui serait en charge de ce genre de projet.
-Le projet est remonté au niveau de la DSI afin de valider les changements d'organisation et un budget est décidé pour l'année suivante.
+L'idée du template maintenable et évolutif est là ! Un template interne vivant, recetté et toujours à jour.
+
+Cela nous pose des questions au niveau de l'organisation des équipes. Nous revoyons un peu les choses et décidons de créer une nouvelle équipe socle qui serait en charge de ce genre de projet.
+Le projet est remonté au niveau de la DSI afin de valider les changements d'organisation et un budget est décidé pour l'année suivante. Le projet produire un parcours de vente en 150 jours est acté.
+
 Aujourd'hui, l'équipe socle est montée et le template est en cours de réalisation. 200 jours ont été alloués dans le budget de la DSI pour soutenir notre projet.
 Des réflexions sont en cours avec d'autres services au sein de la DSI afin de mettre en place cette notion de template plus largement notamment sur les documents contractuels.
 Des formations sont en cours également pour propager le TDD dans les autres équipes.
