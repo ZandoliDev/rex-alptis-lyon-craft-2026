@@ -12,7 +12,7 @@ revealOptions:
 
 # Et Craft la chaise !
 
-### Le TDD, de l'optimisation à l'industrialisation
+### De l'optimisation à l'industrialisation
 
 REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
@@ -32,19 +32,6 @@ Notes : blabla
 
 ---
 
-## La douleur et le déclic
-
-### Migration Java 11 → 21
-
-Absence d'une batterie de test pertinente
-- Bugs et régressions détectés tardivement 
-- Allers-retours dev ↔ recette 
-- « Alors, ... qu'est-ce que j'ai cassé ? »
-
-**Sans filet, vouloir accélérer reste un pari.** <!-- .element: class="fragment" -->
-
----
-
 ## Qui sommes-nous
 
 <div class="speaker-row">
@@ -59,6 +46,29 @@ Absence d'une batterie de test pertinente
 </div>
 
 *Comment l'atelier de Liza s'est transformé ?*
+
+---
+
+## La douleur et le déclic
+
+### Migration Java 11 → 21
+
+Absence d'une batterie de test pertinente
+- Bugs et régressions détectés tardivement 
+- Allers-retours dev ↔ recette 
+- « Alors, ... qu'est-ce que j'ai cassé ? »
+
+**Il va falloir changer notre façon de travailler** <!-- .element: class="fragment" -->
+
+---
+
+## Quelques mots sur Alptis
+
+Courtier grossiste en assurance
+
+Parcours de vente
+
+Santé individuelle (mutuelle)
 
 ---
 
@@ -81,7 +91,7 @@ C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 > *On veut produire plus vite, <br>
 mais on serre les fesses quand on s'assoit sur la chaise.*
 
-**Faut-il revoir la façon dont on fabrique nos chaises ?** <!-- .element: class="fragment" -->
+**Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique les chaises ?** <!-- .element: class="fragment" -->
 
 ---
 
@@ -143,6 +153,15 @@ Périmètre allégé <!-- .element: class="fragment" -->
 
 ---
 
+## Comme si ça ne suffisait pas ... 
+
+Un besoin de standardisation mal exprimé à l'équipe <!-- .element: class="fragment" -->
+
+Des dépendances avec des équipes externes <!-- .element: class="fragment" -->
+
+
+---
+
 ## 7 mois — résultat contrasté
 
 dont 1 mois de retard
@@ -181,15 +200,19 @@ Nouveau produit à sortir.
 
 → La recette devient le goulot d'étranglement <!-- .element: class="fragment" -->
 
-→ mécanisme d'activation de la simulation des services externes <!-- .element: class="fragment" -->
+→ Des retours imputables à Santé Frontaliers Suisses <!-- .element: class="fragment" -->
 
-*"Mais alors ? L'industrialisation devient rationnelle !"* <!-- .element: class="fragment" -->
+→ simulation des services externes à la demande <!-- .element: class="fragment" -->
+
+**"Mais alors ? L'industrialisation devient rationnelle !"** <!-- .element: class="fragment" -->
 
 ---
 
 ## Le déclic du template
 
 Un produit interne vivant, recetté, toujours à jour.
+
+200 jours alloués à la création de ce template <!-- .element: class="fragment" --> 
 
 Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragment" --> 
 
