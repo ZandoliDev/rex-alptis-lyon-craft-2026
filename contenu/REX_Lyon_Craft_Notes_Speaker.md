@@ -8,45 +8,49 @@
 
 ## Slide 1 — Titre
 
-- Bonjour, Merci de votre présence pour ce retour d'expérience "Et Craft ! La chaise".
----> à compléter
+- Bonjour, Merci de votre présence.
+Nous vous faisons part d'un retour d'expérience à travers ce talk : "Et Craft ! La chaise".
+Vous allez suivre avec nous, comment des pratiques Craft, ont permis chez Alptis,
+Nous sommes passés de l'optimisation à l'industrialisation.
 
 ## Slide 2 — L'atelier de Liza (D)
 
-- Voici l'atelier de Liza, elle fabrique des chaises
+- Et pour illustrer tout ça, nous vous proposons cette analogie avec l'atelier de Liza.
+- Liza fabrique des chaises. Et jusqu'à présent.
 - Une fois que Liza a fini sa chaise, elle teste et CRAC ! La chaise casse, il n'y a plus qu'à recommencer
 - Cette histoire est une analogie de ce qui arrive sur de nombreux projets
-- C'est ce qui arrivait chez Alptis et nous allons vous raconter comment le Craft a permis de faire évoluer les choses, de transformer l'atelier de Liza.
+- C'était un peu comme ça chez Alptis et nous allons vous raconter comment le Craft a permis de faire évoluer les choses, de transformer l'atelier de Liza.
 
-## Slide 3 — La douleur et le déclic (L puis D)
+## Slide 3 — Qui sommes-nous (D puis L)
+
+- **D** : Bonjour à tous et merci pour votre présence, il est temps de faire les présentations.
+Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années et tech lead Java depuis quelques années.
+Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité de l'expérimenter grandeur nature.
+- **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. Arrivée chez Alptis en 2013, avec l'expérience et de l'ambition, j'ai été Lead et je suis maintenant Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
+- Nous allons vous raconter comment l'atelier de Liza s'est transformé.
+
+## Slide 4 — La douleur et le déclic (L puis D)
 
 - **L** : Le contexte de l'équipe : en pleine migration de java 11 vers java 21 sur plusieurs applications. La migration prend du temps et s'avère compliquée. Il y a beaucoup d'aller/retour au niveau de la recette car pas mal de régressions dans le code. Les bugs sont détectés tard dans le workflow. Cela est inconfortable pour l'équipe et fait perdre du temps.
 ---> à compléter
 - **D** : C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead
----> à compléter (j'ai vécu cette période ...)
+J'ai donc vécu cette période de flou et d'incertitude emprunte de lassitude et de frustration. Et je sais qu'on peut faire mieux.
 - **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler.
----> à ce moment on ne parle pas encore d'aller plus vite. Ayant plutôt expérimenté le TDD, je sais qu'on peut être plus à l'aise
+Ayant déjà expérimenté le TDD, je sais qu'on peut être plus à l'aise
 ---> supprimer sur la slide la phrase "Sans filet, vouloir accélérer reste un pari."
 
-## Slide 4 — Qui sommes-nous (D puis L)
-
-- **D** : Bonjour à tous et merci pour votre présence, il est temps de faire les présentations. Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années. Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une opportunité d'expérimenter ça grandeur nature.
----> à compléter (aspect tech lead)
-- **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. Arrivée chez Alptis en 2013, avec l'expérience et de l'ambition, j'ai été Lead et je suis maintenant Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
-- Nous allons vous raconter comment l'atelier de Liza s'est transformé.
-
-## Slide Alptis : présenter Alptis (L)
+## Slide 5 — Quelques mots sur Alptis
 - coutier grossiste en assurance
 - ce qu'on développe dans le service, spécifiquement santé indiv
 ---> à compléter
 
-## Slide 5 — La norme (L)
+## Slide 6 — La norme (L)
 
 - Effectivement, jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers avec une équipe de 4 à 5 personnes (1 PO, 1 QA et 3 devs front/back). 
 - Cela s'est confirmé sur les 3 produits Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. Cela fonctionne, les métiers sont contents, mais (car il y a toujours un mais quelque part) ils aimeraient sortir plus de produits et notre cadence actuelle ne le permet pas.
 ---> à reformuler / compléter
 
-## Slide 6 — Formulation clé + question (D)
+## Slide 7 — Formulation clé + question (D)
 
 Pour le moment, la situation est la suivante : 
 On veut produire plus vite,
@@ -54,7 +58,7 @@ mais on serre les fesses quand on s'assoit sur la chaise.
 
 Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique les chaises ?
 
-## Slide 7 — Repartir de zéro avec le craft (L puis D)
+## Slide 8 — Repartir de zéro avec le craft (L puis D)
 
 - **L** : Cela faisait un moment qu'on parlait de craft avec Didier. J'en avais parlé au sein d'Alptis, nous parlions déjà DDD, mais peu ambitionnait le TDD. Pas toujours facile de s'y mettre quand personne ne le maitrise vraiment. 
 Nouveau produit, 
@@ -64,32 +68,31 @@ C'est l'occasion de repartir sur des bases saines. Didier intègre cette nouvell
 - **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience sur la stack technique. Java, VueJs, on maîtrise. Par contre, les parcours santé individuel, le TDD, l'environnement Alptis, ... C'est une autre histoire.
 Il faut donc monter en compétence sur ces trois axes.
 
-## Slide 8 — Ce qu'on met en place (D)
+## Slide 9 — Ce qu'on met en place (D)
 
-On va quand même un peu plus loin : ---> à reformuler
+Et voilà ce que nous décidons d'expérimenter :
 - Le TDD pour la conception émergente et la refactorisation continue
 - Le Mob programming, pour une montée en compétence plurielle et partagée (très efficace)
 - Des US itératives pour construire le produit pas à pas sans anticipation
 - Une livraison continue pour réduire la charge mentale liée à la MEP
 - Un périmètre allégé, on négocie avec le métier pour réduire au strict minimum les fonctionnalités de confort et se cantonner à un MVP
 
-## Slide 9 — L'apprentissage (D)
+## Slide 10 — L'apprentissage (D)
 
 Revenons à Liza, il se trouve que dans son atelier aussi ça bouge.
-Elle a fait appel à un maître artisan qui lui apprend à maîtriser, par exemple, la technique du tenon-mortaise. 
+Elle a fait appel à un maître artisan qui va tenter de lui apprendre à maîtriser, par exemple, la technique du tenon-mortaise. 
 Elle doit prendre le temps pour l'acquérir. 
-Mais une fois acquise, elle n'aura plus besoin de vérifier la solidité de ses chaises.
----> à mieux formuler
+Mais une fois acquise, avec cette technique d'assemblage, elle n'aura plus besoin de vérifier la solidité de ses chaises.
+En tout cas, c'est l'idée.
 
 ## Slide 10 — Ce qui se passe vraiment (D)
 
-- **D** : Revenons chez Alptis ... Ce n'était pas un long fleuve tranquille. La physionomie de l'équipe côté backend a évolué dans le temps et ses pratiques aussi :
+- **D** : Retour chez Alptis ... Ce n'était pas un long fleuve tranquille. La physionomie de l'équipe côté backend a évolué dans le temps et ses pratiques aussi :
 - D'abord, ~1,5 mois : mob programming avec le précédent tech lead => je coach la pratique du TDD, il nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite.
 - Ensuite, il nous lâche. On n'est plus que deux côté backend, plus de mob, on essaye de faire du pair. C'est moins évident mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, Des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard.
 - S'ensuit une période hybride : mêlées aux congés, on a du renfort mais qui aime bien travailler seul. Moins de pair, pas de mob, toujours du TDD (ou plutôt toujours des tests), mais moins maîtrisé. On n'arrive pas à rattraper le retard.
-- Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il fait ce qu'il peut, du bon travail mais ne se sentant pas encore très à l'aise avec le TDD, il reprend ses pratiques précédentes et assure la MEP avec succès.
----> à reformuler
-- **D** : côté front, j'ai fait une journée de pair programming avec notre dev front en début de projet. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
+- Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle.
+- **D** : côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
 
 ## Slide : Comme si ça ne suffisait pas ...  (L)
 - **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
@@ -98,17 +101,18 @@ Mais une fois acquise, elle n'aura plus besoin de vérifier la solidité de ses 
 
 ## Slide 11 — 7 mois : résultat contrasté (D)
 
-Bilan : On a mis 7 mois pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel :
-- équipe inexpérimentée sur les pratiques Craft
-- équipe inexpérimentée sur les produits Alptis
-- équipe inexpérimentée sur le contexte Alptis
+Bilan : On a mis 7 mois pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. 
+Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel, nous avions :
+- une équipe inexpérimentée sur les pratiques Craft
+- une équipe inexpérimentée sur les produits Alptis
+- une équipe inexpérimentée sur le contexte Alptis
 - de nouvelles exigences architecturales à intégrer
 
-Mais étrangement, on a mis 7 mois, mais on desserre les fesses.
+Et étrangement, on a mis 7 mois à produire moins, mais on desserre les fesses.
 
-Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code est conçu sur mesure masquant une certaine complexité derrière sa simplicité.
+Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code affiche une simplicité qui masque une certaine complexité.
 
-À partir de là on a le sentiment que les prochaines fois seront bien.
+A partir de là, on est assez serein sur le prochain produit à développer.
 
 ## Slide 12 — Le métier vient à nous (L)
 
@@ -130,17 +134,17 @@ L'équipe était confiante que cela serait confortable pour tout le monde et nou
 
 Résultat, Santé Équilibre est sorti au bout de 3 mois.
 2 mois pour avoir un premier MVP quasi complet
-- duplication et adaptations réalisées en deux semaines
-- ce qui a pris du temps ? La recette. La stratégie a été de faire une recette comme si le produit avait été créé from scratch par mesure de sécurité.
+- En deux semaines, nous avions terminé
+- ce qui a pris du temps ? La recette. C'est elle le nouveau goulot d'étranglement. La stratégie adoptée, par prudence, a été de faire une recette comme si le produit avait été créé from scratch.
 - très peu de retours, bien évidemment imputables également à Santé Frontaliers Suisses
-- Pour permettre à la recette d'avancer au plus loin, nous avons pu créer un mécanisme pour simuler le comportement des services externes en attendant leur branchement via les fichiers de configuration
+- Et pour éviter d'attendre les livrables des autres équipe, nous avons pu mettre en place, très facilement, un système de simulation des services externes en attendant leur branchement
 
 1 mois pour 
 - implémenter un nouveau comportement spécifique
 - implémenter les branchements avec les services externes
 - implémenter quelques fonctionnalités de confort
 
-Mais alors, l'industrialisation devient rationnelle !
+Mais alors ? l'industrialisation devient rationnelle !
 
 ## Slide 15 — Template + projection (L)
 
