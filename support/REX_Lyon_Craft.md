@@ -89,7 +89,7 @@ C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 > *On veut produire plus vite, <br>
 mais on serre les fesses quand on s'assoit sur la chaise.*
 
-**Faut-il revoir la façon dont on fabrique nos chaises ?** <!-- .element: class="fragment" -->
+**Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique les chaises ?** <!-- .element: class="fragment" -->
 
 ---
 

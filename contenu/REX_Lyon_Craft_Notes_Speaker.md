@@ -37,7 +37,6 @@ Je m'appelle Didier et je suis dans le développement logiciel depuis une quinza
 J'ai donc vécu cette période de flou et d'incertitude emprunte de lassitude et de frustration. Et je sais qu'on peut faire mieux.
 - **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler.
 Ayant déjà expérimenté le TDD, je sais qu'on peut être plus à l'aise
----> supprimer sur la slide la phrase "Sans filet, vouloir accélérer reste un pari."
 
 ## Slide 5 — Quelques mots sur Alptis
 - coutier grossiste en assurance
@@ -85,7 +84,7 @@ Elle doit prendre le temps pour l'acquérir.
 Mais une fois acquise, avec cette technique d'assemblage, elle n'aura plus besoin de vérifier la solidité de ses chaises.
 En tout cas, c'est l'idée.
 
-## Slide 10 — Ce qui se passe vraiment (D)
+## Slide 11 — Ce qui se passe vraiment (D)
 
 - **D** : Retour chez Alptis ... Ce n'était pas un long fleuve tranquille. La physionomie de l'équipe côté backend a évolué dans le temps et ses pratiques aussi :
 - D'abord, ~1,5 mois : mob programming avec le précédent tech lead => je coach la pratique du TDD, il nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite.
@@ -94,12 +93,12 @@ En tout cas, c'est l'idée.
 - Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle.
 - **D** : côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
 
-## Slide : Comme si ça ne suffisait pas ...  (L)
+## Slide 12 — Comme si ça ne suffisait pas ... (L)
 - **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
 ---> a compléter : rajouter les échange avec les dépendances externes
 
 
-## Slide 11 — 7 mois : résultat contrasté (D)
+## Slide 13 — 7 mois : résultat contrasté (D)
 
 Bilan : On a mis 7 mois pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. 
 Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel, nous avions :
@@ -114,7 +113,7 @@ Pourquoi ? Parce qu'on est maintenant sûr de ce qu'on livre et le code affiche 
 
 A partir de là, on est assez serein sur le prochain produit à développer.
 
-## Slide 12 — Le métier vient à nous (L)
+## Slide 14 — Le métier vient à nous (L)
 
 - Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Comment aller plus vite ?
 Pour cela, les personnes du métier ont compris qu'il va falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
@@ -124,13 +123,13 @@ C'est sur que si toutes les chaises ont les mêmes pieds, ça ira plus vite !
 Ok pour avoir les mêmes pieds !
 
 
-## Slide 13 — La décision (L)
+## Slide 15 — La décision (L)
 
 - Suite aux différentes réunions avec le métier et plusieurs ateliers techniques derrière, le produit ressemble beaucoup à Santé Frontaliers Suisses qu'on finissait de développer en parallèle. Ce nouveau produit était même plus simple.
 Nous décidons collégialement que le produit Santé Frontaliers Suisses (qui bénéficiait du TDD) était assez stable pour le dupliquer. Le TDD rendait plus facile le fait de l'adapter au métier du nouveau produit.
 L'équipe était confiante que cela serait confortable pour tout le monde et nous faciliterait le développement.
 
-## Slide 14 — Santé Équilibre en 3 mois (D)
+## Slide 16 — Santé Équilibre en 3 mois (D)
 
 Résultat, Santé Équilibre est sorti au bout de 3 mois.
 2 mois pour avoir un premier MVP quasi complet
@@ -146,7 +145,7 @@ Résultat, Santé Équilibre est sorti au bout de 3 mois.
 
 Mais alors ? l'industrialisation devient rationnelle !
 
-## Slide 15 — Template + projection (L)
+## Slide 17 — Le déclic du template (L)
 
 - Suite à cette réussite, une nouvelle idée survient et si on industrialisait pour ce type de produit !
 Nous avons tout ce qu'il faut pour partir sur des bases solides. Les 2 derniers produits nous ont montré que cela était possible et que le gain de temps était réel, mais nous devons aller plus loin.
@@ -159,16 +158,12 @@ Aujourd'hui, l'équipe socle est montée et le template est en cours de réalisa
 Des réflexions sont en cours avec d'autres services au sein de la DSI afin de mettre en place cette notion de template plus largement notamment sur les documents contractuels.
 Des formations sont en cours également pour propager le TDD dans les autres équipes.
 
-## Slide 16 — L'atelier transformé (D)
+## Slide 18 — L'atelier transformé (D)
 
 Et Liza ? Eh bien maintenant, elle est plus sereine.
 Elle enchaîne les commandes et se concentre maintenant sur les besoins spécifiques de ses clients.
 Elle peut se revendiquer artisane, Alptis également.
 
-Être artisan développeur, c'est une autre conception du métier.
-
-- **L** : « Merci à tous de nous avoir écoutés. À vos questions ! »
-
-## Slide 17 — Merci (L)
+## Slide 19 — Merci (L)
 
 « Merci à tous de nous avoir écoutés. À vos questions ! »
