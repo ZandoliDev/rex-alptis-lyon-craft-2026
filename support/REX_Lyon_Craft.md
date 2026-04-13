@@ -20,8 +20,6 @@ REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 20
 
 Lyon Craft 2026
 
-Notes : blabla
-
 ---
 
 <!-- .slide: class="slide-accent" -->
