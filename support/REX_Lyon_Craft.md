@@ -62,11 +62,13 @@ Absence d'une batterie de test pertinente
 
 ## Quelques mots sur Alptis
 
+![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
+
 Courtier grossiste en assurance
 
 Parcours de vente
 
-Santé individuelle (mutuelle)
+Santé individuelle (complémentaire santé)
 
 ---
 
