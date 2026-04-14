@@ -31,7 +31,7 @@ Je m'appelle Didier et je suis dans le développement logiciel depuis une quinza
 
 ## Slide 4 — La douleur et le déclic (L puis D)
 
-- **L** : L'équipe était en pleine migration de java 11 vers java 21 sur plusieurs applications de son périmètre. La migration a pris du temps et s'est avéré compliquée. Il y avait des tests en place mais pas toujours pertinents. Cela ne permettait pas de constater les impacts réels de la migration. Les bugs sont détectés tard dans le workflow, il y a eu beaucoup d'aller/retour au niveau de la recette car pas mal de régressions dans le code. Cela était inconfortable pour l'équipe et faisait perdre du temps.
+- **L** : L'équipe était en pleine migration de java 11 vers java 21 sur plusieurs applications de son périmètre. La migration a pris du temps et s'est avérée compliquée. Il y avait des tests en place mais pas toujours pertinents. Cela ne permettait pas de constater les impacts réels de la migration. Les bugs sont détectés tard dans le workflow, il y a eu beaucoup d'aller/retour au niveau de la recette car pas mal de régressions dans le code. Cela était inconfortable pour l'équipe et faisait perdre du temps.
 - **D** : C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead
 J'ai donc vécu cette période de flou et d'incertitude emprunte de lassitude et de frustration. Et je sais qu'on peut faire mieux.
 - **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler.
@@ -47,7 +47,7 @@ Les courtiers se rendent donc sur l'extranet Alptis Connect afin d'avoir accès 
 
 - Alors quelle est la norme à ce moment là ? 
 Jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers avec une équipe de 4 à 5 personnes (1 PO, 1 QA et 3 devs front/back). 
-- Nous avons pu le contstater sur les 3 produits précédents Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. 
+- Nous avons pu le constater sur les 3 produits précédents Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. 
 Cela fonctionne, les métiers sont contents, le produit est satisfaisant à sa sortie. Nous sortions 2 produits sur le périmètre santé individuel par an. Cela n'est pas suffisant pour le métier, ils aimeraient en sortir plus dans le but d'être plus concurrentiel et d'avoir plus d'offres à proposer aux courtiers.
 
 
@@ -61,7 +61,7 @@ Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique
 
 ## Slide 8 — Repartir de zéro avec le craft (L puis D)
 
-- **L** : Avant qu'il intègre notre pôle, je connaissais déjà Didier. Il avait fait une première mission chez Alptis mais dans un autre pôle et nous nous sommes recroisés plusieurs fois lors de conférences dont Lyon Craft. Nous avions échangé plusieurs fois sur les pratiques craft. J'en avais parlé au sein d'Alptis, nous parlions déjà DDD, mais peu ambitionnait le TDD. Pas toujours facile de s'y mettre quand personne ne le maitrise vraiment. Lors d'un remplacement de prestation, j'ai vu une opportunité d'intégré quelqu'un qui pourrait m'aider à mettre en place des pratiques dans nos équipes plus facilement. Didier était disponible et était motivé pour faire bouger les choses avec moi, super opportunité pour nous !
+- **L** : Avant qu'il intègre notre pôle, je connaissais déjà Didier. Il avait fait une première mission chez Alptis mais dans un autre pôle et nous nous sommes recroisés plusieurs fois lors de conférences dont Lyon Craft. Nous avions échangé plusieurs fois sur les pratiques craft. J'en avais parlé au sein d'Alptis, nous parlions déjà DDD, mais peu ambitionnait le TDD. Pas toujours facile de s'y mettre quand personne ne le maitrise vraiment. Lors d'un remplacement de prestation, j'ai vu une opportunité d'intégrer quelqu'un qui pourrait m'aider à mettre en place des pratiques dans nos équipes plus facilement. Didier était disponible et était motivé pour faire bouger les choses avec moi, super opportunité pour nous !
 Nouveau produit : Santé Frontaliers Suisses, 
 Nouvelle équipe, on décide d'expérimenter autre chose.
 C'est l'occasion de repartir sur des bases saines. Didier intègre cette nouvelle équipe et instaure le TDD.
@@ -96,7 +96,7 @@ En tout cas, c'est l'idée.
 
 ## Slide 12 — Comme si ça ne suffisait pas ... (L)
 - **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
-Dans tous nos parcours, nous avons de dépendances avec des services externes. Notamment, pour ce qui concerne la gestion des documents contractuels, la tarification, la partie signature électronique et j'en passe... Et comme on dit souvent "Tout ce qui est dehors de l'équipe c'est le mal " ! Forcément, ces équipes ne travaillent pas de la même manière, n'ont pas toujours les mêmes workflow ou les mêmes contraintes. Cela demande de la coordination, des réunions de synchronisation et donc du temps.
+Dans tous nos parcours, nous avons des dépendances avec des services externes. Notamment, pour ce qui concerne la gestion des documents contractuels, la tarification, la partie signature électronique et j'en passe... Et comme on dit souvent "Tout ce qui est dehors de l'équipe c'est le mal " ! Forcément, ces équipes ne travaillent pas de la même manière, n'ont pas toujours les mêmes workflow ou les mêmes contraintes. Cela demande de la coordination, des réunions de synchronisation et donc du temps.
 
 
 ## Slide 13 — 7 mois : résultat contrasté (D)
@@ -127,7 +127,7 @@ Ils sont Ok pour avoir les mêmes pieds !
 ## Slide 15 — La décision (L)
 
 - Suite aux différentes réunions avec le métier et plusieurs ateliers techniques, le produit ressemble beaucoup à Santé Frontaliers Suisses qu'on finissait de développer en parallèle. Ce nouveau produit était même plus simple.
-Le produit Santé Fronatliers Suisses bénéficiait du TDD, était stable, les bases étaient saines.
+Le produit Santé Frontaliers Suisses bénéficiait du TDD, était stable, les bases étaient saines.
 Si nous partons de là, il serait simple de faire les adaptations pour les nouvelles règles sur le prochain produit.
 Nous décidons collégialement que le produit Santé Frontaliers Suisses sera dupliqué.
 L'équipe était confiante que cela serait confortable pour tout le monde et nous faciliterait le développement.
