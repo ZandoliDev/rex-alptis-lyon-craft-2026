@@ -33,19 +33,19 @@ Je m'appelle Didier et je suis dans le développement logiciel depuis une quinza
 
 - **L** : L'équipe était en pleine migration de java 11 vers java 21 sur plusieurs applications de son périmètre. La migration a pris du temps et s'est avérée compliquée. Il y avait des tests en place mais pas toujours pertinents. Cela ne permettait pas de constater les impacts réels de la migration. Les bugs sont détectés tard dans le workflow, il y a eu beaucoup d'aller/retour au niveau de la recette car pas mal de régressions dans le code. Cela était inconfortable pour l'équipe et faisait perdre du temps.
 - **D** : C'est dans ce contexte que j'arrive chez Alptis en tant que futur Tech Lead
-J'ai donc vécu cette période de flou et d'incertitude emprunte de lassitude et de frustration. Et je sais qu'on peut faire mieux.
+J'ai donc vécu cette période de flou et d'incertitude empreinte de lassitude et de frustration. Et je sais qu'on peut faire mieux.
 - **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — il va falloir changer la façon de travailler.
 Ayant déjà expérimenté le TDD, je sais qu'on peut être plus à l'aise
 
 ## Slide 5 — Quelques mots sur Alptis
 - Alptis Assurance est un courtier grossiste en assurance spécialisé dans la protection de la personne. Nous concevons et distribuons des solutions de santé, prévoyance, retraite et emprunteur, destinées aux particuliers, travailleurs indépendants et entreprises. 
 Alptis s’appuie sur un modèle collaboratif avec des réseaux de courtiers pour distribuer ses offres.
-Les courtiers se rendent donc sur l'extranet Alptis Connect afin d'avoir accès aux différents parcours de vente qui leur permet de tarifer nos offres et de les proposer à leur client et de souscrire.
+Les courtiers se rendent donc sur l'extranet Alptis Connect afin d'avoir accès aux différents parcours de vente qui leur permettent de tarifer nos offres et de les proposer à leur client et de souscrire.
 - Didier faisait partie de l'équipe en charge des parcours de vente pour les offres de santé individuelles, ce sont des complémentaires santé. Les clients cibles pour ces offres sont des particuliers et des travailleurs indépendants principalement.
 
 ## Slide 6 — La norme (L)
 
-- Alors quelle est la norme à ce moment là ? 
+- Alors quelle est la norme à ce moment-là ? 
 Jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers avec une équipe de 4 à 5 personnes (1 PO, 1 QA et 3 devs front/back). 
 - Nous avons pu le constater sur les 3 produits précédents Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. 
 Cela fonctionne, les métiers sont contents, le produit est satisfaisant à sa sortie. Nous sortions 2 produits sur le périmètre santé individuel par an. Cela n'est pas suffisant pour le métier, ils aimeraient en sortir plus dans le but d'être plus concurrentiel et d'avoir plus d'offres à proposer aux courtiers.
@@ -89,14 +89,14 @@ En tout cas, c'est l'idée.
 
 - **D** : Retour chez Alptis ... Ce n'était pas un long fleuve tranquille. La physionomie de l'équipe côté backend a évolué dans le temps et ses pratiques aussi :
 - D'abord, ~1,5 mois : mob programming avec le précédent tech lead => je coach la pratique du TDD, il nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite.
-- Ensuite, il nous lâche. On n'est plus que deux côté backend, plus de mob, on essaye de faire du pair. C'est moins évident mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, Des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard.
+- Ensuite, il nous lâche. On n'est plus que deux côté backend, plus de mob, on essaye de faire du pair. C'est moins évident mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard.
 - S'ensuit une période hybride : mêlées aux congés, on a du renfort mais qui aime bien travailler seul. Moins de pair, pas de mob, toujours du TDD (ou plutôt toujours des tests), mais moins maîtrisé. On n'arrive pas à rattraper le retard.
 - Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle.
 - **D** : côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
 
 ## Slide 12 — Comme si ça ne suffisait pas ... (L)
 - **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
-Dans tous nos parcours, nous avons des dépendances avec des services externes. Notamment, pour ce qui concerne la gestion des documents contractuels, la tarification, la partie signature électronique et j'en passe... Et comme on dit souvent "Tout ce qui est dehors de l'équipe c'est le mal " ! Forcément, ces équipes ne travaillent pas de la même manière, n'ont pas toujours les mêmes workflow ou les mêmes contraintes. Cela demande de la coordination, des réunions de synchronisation et donc du temps.
+Dans tous nos parcours, nous avons des dépendances avec des équipes externes. Notamment, pour ce qui concerne la gestion des documents contractuels, la tarification, la partie signature électronique et j'en passe... Et comme on dit souvent "Tout ce qui est dehors de l'équipe c'est le mal " ! Forcément, ces équipes ne travaillent pas de la même manière, n'ont pas toujours les mêmes workflows ou les mêmes contraintes. Cela demande de la coordination, des réunions de synchronisation et donc du temps.
 
 
 ## Slide 13 — 7 mois : résultat contrasté (D)
@@ -139,7 +139,7 @@ Résultat, Santé Équilibre est sorti au bout de 3 mois.
 - En deux semaines, nous avions terminé
 - ce qui a pris du temps ? La recette. C'est elle le nouveau goulot d'étranglement. La stratégie adoptée, par prudence, a été de faire une recette comme si le produit avait été créé from scratch.
 - très peu de retours, bien évidemment imputables également à Santé Frontaliers Suisses
-- Et pour éviter d'attendre les livrables des autres équipe, nous avons pu mettre en place, très facilement, un système de simulation des services externes en attendant leur branchement
+- Et pour éviter d'attendre les livrables des autres équipes, nous avons pu mettre en place, très facilement, un système de simulation des services externes en attendant leur branchement
 
 1 mois pour 
 - implémenter un nouveau comportement spécifique
