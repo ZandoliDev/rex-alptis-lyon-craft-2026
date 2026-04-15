@@ -11,7 +11,7 @@
 - Bonjour, Merci de votre présence.
 Nous vous faisons part d'un retour d'expérience à travers ce talk : "Et Craft ! La chaise".
 Vous allez suivre avec nous, comment des pratiques Craft, ont permis chez Alptis,
-Nous sommes passés de l'optimisation à l'industrialisation.
+De passés de l'optimisation à l'industrialisation.
 
 ## Slide 2 — L'atelier de Liza (D)
 
@@ -102,7 +102,7 @@ Dans tous nos parcours, nous avons des dépendances avec des équipes externes. 
 ## Slide 13 — 7 mois : résultat contrasté (D)
 
 Bilan : On a mis 7 mois pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. 
-Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel, nous avions :
+Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel, nous avions :  --> compléter avec mois de retard
 - une équipe inexpérimentée sur les pratiques Craft
 - une équipe inexpérimentée sur les produits Alptis
 - une équipe inexpérimentée sur le contexte Alptis
@@ -119,6 +119,7 @@ A partir de là, on est assez serein sur le prochain produit à développer.
 - Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Comment aller plus vite ?
 Pour cela, les personnes du métier ont compris qu'il va falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
 Nous avions déjà beaucoup discuté avec eux sur les autres produits en leur faisant des propositions plus agiles pour aller plus vite, mais le métier n'était pas vraiment prêt à les entendre à l'époque.
+--> étoffer cette partie pour expliquer c'était sur les année précédantes
 Si on revient sur notre analogie ça équivaut à leur faire remarquer que "Si toutes les chaises ont les mêmes pieds, ça ira plus vite !".
 À force de rappel, finalement cela infuse ! Ils sont prêts à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.
 Ils sont Ok pour avoir les mêmes pieds !
@@ -136,12 +137,12 @@ L'équipe était confiante que cela serait confortable pour tout le monde et nou
 
 Résultat, Santé Équilibre est sorti au bout de 3 mois.
 2 mois pour avoir un premier MVP quasi complet
-- En deux semaines, nous avions terminé
+- En deux semaines, nous avions terminé la duplication et les adaptations.
 - ce qui a pris du temps ? La recette. C'est elle le nouveau goulot d'étranglement. La stratégie adoptée, par prudence, a été de faire une recette comme si le produit avait été créé from scratch.
 - très peu de retours, bien évidemment imputables également à Santé Frontaliers Suisses
 - Et pour éviter d'attendre les livrables des autres équipes, nous avons pu mettre en place, très facilement, un système de simulation des services externes en attendant leur branchement
 
-1 mois pour 
+1 mois pour --> slide à faire pour étoffer cette partie avec les fonctionnalités conforts ajoutées sur SFR et SEQ
 - implémenter un nouveau comportement spécifique
 - implémenter les branchements avec les services externes
 - implémenter quelques fonctionnalités de confort
@@ -157,6 +158,7 @@ L'idée du template maintenable et évolutif est là ! Un produit interne vivant
 Cela nous pose des questions au niveau de l'organisation des équipes. Nous revoyons un peu les choses et décidons de créer une nouvelle équipe socle qui serait en charge de ce genre de projet.
 Le projet est remonté au niveau de la DSI afin de valider les changements d'organisation et un budget est décidé pour l'année suivante. 200 jours ont été alloués dans le budget de la DSI pour soutenir notre projet. Le projet "produire un parcours de vente en 150 jours" est acté.
 
+--> faire slide sur la partie et aujourd'hui en détaillant plus
 Aujourd'hui, l'équipe socle est montée et le template est en cours de réalisation.
 Des réflexions sont en cours avec d'autres services au sein de la DSI afin de mettre en place cette notion de template plus largement notamment sur les documents contractuels.
 Des formations sont en cours également pour propager le TDD dans les autres équipes.
