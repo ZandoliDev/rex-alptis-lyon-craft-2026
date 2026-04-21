@@ -220,6 +220,16 @@ Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragm
 
 ---
 
+## Et la suite ...
+
+L'équipe socle est en place, le template est en cours de développement
+
+Des formations sur le TDD pour les autres équipes
+
+Des réflexions en cours dans d'autres services pour industrialiser via des templates
+
+---
+
 <!-- .slide: class="slide-accent" -->
 
 ## L'atelier, aujourd'hui
