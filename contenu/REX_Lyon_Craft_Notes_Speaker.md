@@ -37,6 +37,7 @@ J'ai donc vécu cette période de flou et d'incertitude empreinte de lassitude e
 - **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — Je sais déjà que je vais proposer de revoir la façon de travailler. Ayant déjà expérimenté le TDD de manière isolée, je sais qu'on peut être plus à l'aise et plus sûr de nos livraisons.
 
 ## Slide 5 — Quelques mots sur Alptis
+
 - Alptis Assurance est un courtier grossiste en assurance spécialisé dans la protection de la personne. Nous concevons et distribuons des solutions de santé, prévoyance, retraite et emprunteur, destinées aux particuliers, travailleurs indépendants et entreprises. 
 Alptis s’appuie sur un modèle collaboratif avec des réseaux de courtiers pour distribuer ses offres.
 Les courtiers se rendent sur l'extranet Alptis Connect afin d'avoir accès aux différents parcours de vente qui leur permettent de tarifer nos offres et de les proposer à leur client et enfin de souscrire.
@@ -82,16 +83,21 @@ Et voilà ce que nous décidons d'expérimenter :
 
 Revenons à Liza, il se trouve que dans son atelier aussi ça bouge.
 Elle a fait appel à un maître artisan qui va tenter de lui apprendre à maîtriser, par exemple, la technique du tenon-mortaise. 
-Elle doit prendre le temps pour l'acquérir. 
-Mais une fois acquise, avec cette technique d'assemblage, elle n'aura plus besoin de vérifier la solidité de ses chaises.
+Elle doit prendre le temps pour l'acquérir, ce n'est pas forcément simple 
+Mais une fois cette technique d'assemblage acquise, elle n'aura plus besoin de vérifier la solidité de ses chaises.
 En tout cas, c'est l'idée.
 
 ## Slide 11 — Ce qui se passe vraiment (D)
 
-- **D** : Retour chez Alptis ... Ce n'était pas un long fleuve tranquille. La physionomie de notre équipe côté backend a évolué dans le temps et nos pratiques aussi :
-- D'abord, ~1,5 mois : on travaille en mob programming avec le précédent tech lead qui fait encore parti des effectifs => je coach la pratique du TDD, lui nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite. Ça marche très bien, petit à petit le rythme se fluidifient. On est au top et confiant. J'insiste pas mal sur l'aspect refacto en continue, c'est elle qui va assurer la maniabilité du code dans le temps.
+- **D** : Voyons comment ça avance chez Alptis ... Et bien, ce n'était pas un long fleuve tranquille. La physionomie de notre équipe côté backend a évolué dans le temps et nos pratiques aussi :
+
+- D'abord, ~1,5 mois : on travaille en mob programming avec le précédent tech lead qui fait encore parti des effectifs => je coach la pratique du TDD, lui nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite. Ça marche très bien, petit à petit le rythme se fluidifient. On est au top et confiant. J'insiste pas mal sur deux choses :
+- le test first en baby step, qui aide à obtenir une conception taillée sur mesure
+- et l'aspect refacto en continue, c'est elle qui va assurer la maniabilité du code dans le temps. 
+
 - Ensuite, il nous lâche. On n'est plus que deux côté backend, Et bien forcément, on ne fait plus de mob, on essaye de faire du pair. 
 C'est moins évident parce que c'est un exercice qui demande plus d'énergie dans cette configuration. mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard et à perdre confiance.
+
 - S'ensuit une période hybride : mêlées aux congés, on a du renfort expérimentée. Elle est ouverte au TDD mais préfère travailler seule. Le délai mets un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continue. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
 - Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle, reprenant principalement ce qui a été fait sur les autres produits. Heureusement, on est sur des fonctionnalités très éprouvées et le manque de teste n'impacte pas la qualité.
 - **D** : côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
@@ -103,16 +109,16 @@ Dans tous nos parcours, nous avons des dépendances avec des équipes externes. 
 
 ## Slide 13 — 7 mois : résultat contrasté (D)
 
-Bilan : On a mis 7 mois pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. 
-Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel, nous avions :  --> compléter avec mois de retard
+Bilan : On a mis 7 mois, dont 1vmois de retard sur la date de livraison initiale, pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. 
+Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel, nous avions :  
 - une équipe inexpérimentée sur les pratiques Craft
 - une équipe inexpérimentée sur les produits Alptis
 - une équipe inexpérimentée sur le contexte Alptis
 - de nouvelles exigences architecturales à intégrer
 
-je ne peux pas dire qu'on n'a pas eu de retours de recette, il y en a eu mais ce n'est pas parce que ce qu'on a livré ne fonctionnait pas, mais surtout parce que certaines subtilités n'ont pas été exprimées et donc n'ont pas été prises en compte.
+je ne peux pas dire qu'on n'a pas eu de retours de recette, il y en a eu mais ce n'est pas parce que ce qu'on a livré ne fonctionnait pas, mais il s'agissait surtout de subtilités dont nous n'avions pas connaissance en tant que dev, mais qui pouvait paraître parfois implicite pour notre PO par exemple.
 
-Et étrangement, on a mis 7 mois à produire moins, mais on desserre les fesses.
+Ceci dit, étrangement, on a mis 7 mois à produire moins, mais on desserre les fesses.
 
 Pourquoi ? 
 
@@ -143,13 +149,13 @@ L'équipe était confiante, cela serait confortable pour tout le monde et nous f
 ## Slide 16 — Santé Équilibre en 3 mois (D)
 
 Résultat, Santé Équilibre est sorti au bout de 3 mois.
-2 mois pour avoir un premier MVP quasi complet
-- En deux semaines, nous avions terminé la duplication et les adaptations.
+En 2 mois pour avoir un premier MVP quasi complet
+- pendant les deux premières semaines, nous avions terminé la duplication et les adaptations.
 - ce qui a pris du temps ? La recette. C'est elle le nouveau goulot d'étranglement. La stratégie adoptée, par prudence, a été de faire une recette comme si le produit avait été créé from scratch.
 - très peu de retours, bien évidemment imputables également à Santé Frontaliers Suisses
 - Et pour éviter d'attendre les livrables des autres équipes, nous avons pu mettre en place, très facilement, un système de simulation des services externes en attendant leur branchement
 
-1 mois pour --> slide à faire pour étoffer cette partie avec les fonctionnalités conforts ajoutées sur SFR et SEQ
+Le mois suivant a servi à : --> slide à faire pour étoffer cette partie avec les fonctionnalités conforts ajoutées sur SFR et SEQ
 - implémenter un nouveau comportement spécifique
 - implémenter les branchements avec les services externes
 - implémenter quelques fonctionnalités de confort
