@@ -116,9 +116,9 @@ Mob programming <!-- .element: class="fragment" -->
 
 US itératives <!-- .element: class="fragment" -->
 
-Livraison continue <!-- .element: class="fragment" -->
-
 Périmètre allégé <!-- .element: class="fragment" -->
+
+Livraison continue <!-- .element: class="fragment" -->
 
 ---
 
@@ -204,6 +204,18 @@ Nouveau produit à sortir.
 
 → simulation des services externes à la demande <!-- .element: class="fragment" -->
 
+---
+
+## Santé Équilibre en 3 mois
+
+1 mois de rab pour :
+
+→ nouveau comportement spécifique <!-- .element: class="fragment" -->
+
+→ branchement avec les services externes <!-- .element: class="fragment" -->
+
+→ quelques fonctionnalitées de confort sur Santé Frontalier Suisses Et Santé Equilibre <!-- .element: class="fragment" -->
+
 **"Mais alors ? L'industrialisation devient rationnelle !"** <!-- .element: class="fragment" -->
 
 ---
@@ -222,11 +234,10 @@ Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragm
 
 ## Et la suite ...
 
-L'équipe socle est en place, le template est en cours de développement
-
-Des formations sur le TDD pour les autres équipes
-
-Des réflexions en cours dans d'autres services pour industrialiser via des templates
+- Equipe socle est en place
+- Template est en cours de développement
+- Formations sur le TDD pour les autres équipes
+- Réflexions dans d'autres services pour industrialiser via des templates
 
 ---
 
