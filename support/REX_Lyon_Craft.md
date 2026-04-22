@@ -214,7 +214,7 @@ Nouveau produit à sortir.
 
 → branchement avec les services externes <!-- .element: class="fragment" -->
 
-→ quelques fonctionnalitées de confort sur Santé Frontalier Suisses Et Santé Equilibre <!-- .element: class="fragment" -->
+→ quelques fonctionnalités de confort sur Santé Frontaliers Suisses et Santé Équilibre <!-- .element: class="fragment" -->
 
 **"Mais alors ? L'industrialisation devient rationnelle !"** <!-- .element: class="fragment" -->
 
@@ -234,7 +234,7 @@ Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragm
 
 ## Et la suite ...
 
-- Equipe socle est en place
+- Équipe socle est en place
 - Template est en cours de développement
 - Formations sur le TDD pour les autres équipes
 - Réflexions dans d'autres services pour industrialiser via des templates
