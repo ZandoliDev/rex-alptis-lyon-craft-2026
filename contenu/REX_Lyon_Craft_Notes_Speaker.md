@@ -23,9 +23,9 @@ De passer de l'optimisation à l'industrialisation.
 
 ## Slide 3 — Qui sommes-nous (D puis L)
 
-- **D** : Bonjour à tous et merci pour votre présence, il est temps de faire les présentations.
+- **D** : Il est temps de faire les présentations.
 Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années principalement en tant que tech lead Java. Et depuis 5 ans, je suis freelance.
-Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une vrai première opportunité d'expérimenter ces pratiques grandeur nature.
+Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une vraie première opportunité d'expérimenter ces pratiques grandeur nature.
 - **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. J'ai enchainé plusieurs entreprises avant d'arriver chez Alptis en 2013. Avec l'expérience acquise et de l'ambition, je suis passée Lead sur des plus ou moins grandes équipes. Et à présent, je suis Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
 - Maintenant que vous en savez plus sur nous, nous allons vous raconter comment l'atelier de Liza s'est transformé.
 
@@ -65,18 +65,18 @@ Et si le vrai problème n'était pas seulement la vitesse, mais surtout la faço
 Nous profitons alors d'un nouveau produit : Santé Frontaliers Suisses, 
 Une nouvelle équipe est en place, nous décidons d'expérimenter autre chose.
 C'est l'occasion de repartir sur des bases saines. Didier est dans cette nouvelle équipe et instaure le TDD.
-- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience sur la stack technique. Java, VueJs, on maîtrise. Par contre, les parcours de vente de complémentaire santé santé, le TDD, l'environnement Alptis, ... C'est une autre histoire.
+- **D** : Et l'ambition est de taille. L'équipe ne manque pas d'expérience sur la stack technique. Java, VueJs, on maîtrise. Par contre, les parcours de vente de complémentaire santé, le TDD, l'environnement Alptis, ... C'est une autre histoire.
 Il faut donc monter en compétence sur ces trois axes ... et faire plus vite !
 
 ## Slide 9 — Ce qu'on met en place (D)
 
-Je l'ai dit plus tôt, il sont vraiment sympas chez Alptis et je suis soutenu par l'équipe et le management du service pour tenter l'expérimentation de pratiques Craft malgré les enjeux forts sur ce nouveau produit.
+Je l'ai dit plus tôt, ils sont vraiment sympas chez Alptis et je suis soutenu par l'équipe et le management du service pour tenter l'expérimentation de pratiques Craft malgré les enjeux forts sur ce nouveau produit.
 
 Et voilà ce que nous décidons d'expérimenter :
-- Le TDD pour la conception émergente et la refactorisation continue. on espère réussir à améliorer le code, sa stabilité et sa maniabilité.
+- Le TDD pour la conception émergente et la refactorisation continue. On espère réussir à améliorer le code, sa stabilité et sa maniabilité.
 - Le Mob programming, pour une montée en compétence plurielle et partagée
-- Des US itératives pour construire le produit pas à pas comme si on était sûr un tout nouveau produit. Nous avions la chance de pouvoir compter sur des personnes, dont notre PO, qui ont une très bonne connaissance du produit et du contexte Alptis.
-- Un périmètre allégé. En effet, notre PO réussi à négocier avec le métier pour réduire au strict minimum les fonctionnalités dites de confort et se cantonner à un produit qui se rapproche le plus possible d'un MVP.
+- Des US itératives pour construire le produit pas à pas comme si on était sur un tout nouveau produit. Nous avions la chance de pouvoir compter sur des personnes, dont notre PO, qui ont une très bonne connaissance du produit et du contexte Alptis.
+- Un périmètre allégé. En effet, notre PO réussit à négocier avec le métier pour réduire au strict minimum les fonctionnalités dites de confort et se cantonner à un produit qui se rapproche le plus possible d'un MVP. Un MVP ou minimal viable product est un produit avec le minimum de fonctionnalités possibles pour être exploité.
 - Et enfin, une livraison continue pour réduire la charge mentale liée à la MEP
 
 ## Slide 10 — L'apprentissage (D)
@@ -91,15 +91,17 @@ En tout cas, c'est l'idée.
 
 - **D** : Voyons comment ça avance chez Alptis ... Et bien, ce n'était pas un long fleuve tranquille. La physionomie de notre équipe côté backend a évolué dans le temps et nos pratiques aussi :
 
-- D'abord, ~1,5 mois : on travaille en mob programming avec le précédent tech lead qui fait encore parti des effectifs => je coach la pratique du TDD, lui nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite. Ça marche très bien, petit à petit le rythme se fluidifient. On est au top et confiant. J'insiste pas mal sur deux choses :
-- le test first en baby step, qui aide à obtenir une conception taillée sur mesure
-- et l'aspect refacto en continue, c'est elle qui va assurer la maniabilité du code dans le temps. 
+- D'abord, ~1,5 mois : on travaille en mob programming avec le précédent tech lead qui fait encore partie des effectifs => je coach la pratique du TDD, lui nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite. Ça marche très bien, petit à petit le rythme se fluidifie. On est au top et confiant. J'insiste pas mal sur deux choses :
+  - le test first en baby step, qui aide à obtenir une conception taillée sur mesure
+  - et l'aspect refacto en continu, c'est elle qui va assurer la maniabilité du code dans le temps. 
 
-- Ensuite, il nous lâche. On n'est plus que deux côté backend, Et bien forcément, on ne fait plus de mob, on essaye de faire du pair. 
-C'est moins évident parce que c'est un exercice qui demande plus d'énergie dans cette configuration. mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard et à perdre confiance.
+- Ensuite, notre précédent tech lead nous lâche. On n'est plus que deux côté backend, Et bien forcément, on ne fait plus de mob, on essaye de faire du pair. 
+C'est moins évident parce que c'est un exercice qui demande plus d'énergie dans cette configuration. Mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard et à perdre confiance.
 
-- S'ensuit une période hybride : mêlées aux congés, on a du renfort expérimentée. Elle est ouverte au TDD mais préfère travailler seule. Le délai mets un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continue. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
-- Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle, reprenant principalement ce qui a été fait sur les autres produits. Heureusement, on est sur des fonctionnalités très éprouvées et le manque de teste n'impacte pas la qualité.
+D'ailleurs, des aller-retour en recette, il y en a eu, mais il s'agissait surtout de subtilités dont nous n'avions pas connaissance en tant que dev, et qui pouvaient paraître parfois implicites pour notre PO.
+
+- S'ensuit une période hybride : mêlées aux congés, on a du renfort expérimenté. Elle est ouverte au TDD mais préfère travailler seule. Le délai mets un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continu. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
+- Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle, reprenant principalement ce qui a été fait sur les autres produits. Heureusement, on est sur des fonctionnalités très éprouvées et le manque de tests n'impacte pas la qualité.
 - **D** : côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
 
 ## Slide 12 — Comme si ça ne suffisait pas ... (L)
@@ -109,29 +111,27 @@ Dans tous nos parcours, nous avons des dépendances avec des équipes externes. 
 
 ## Slide 13 — 7 mois : résultat contrasté (D)
 
-Bilan : On a mis 7 mois, dont 1vmois de retard sur la date de livraison initiale, pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. 
+Bilan : On a mis 7 mois, dont 1 mois de retard sur la date de livraison initiale, pour faire un nouveau produit épuré. Globalement c'est le même temps que sur les produits précédents. 
 Est-ce qu'on a été moins rapide pour autant ? Pas si sûr. Pour rappel, nous avions :  
 - une équipe inexpérimentée sur les pratiques Craft
 - une équipe inexpérimentée sur les produits Alptis
 - une équipe inexpérimentée sur le contexte Alptis
 - de nouvelles exigences architecturales à intégrer
 
-je ne peux pas dire qu'on n'a pas eu de retours de recette, il y en a eu mais ce n'est pas parce que ce qu'on a livré ne fonctionnait pas, mais il s'agissait surtout de subtilités dont nous n'avions pas connaissance en tant que dev, mais qui pouvait paraître parfois implicite pour notre PO par exemple.
-
 Ceci dit, étrangement, on a mis 7 mois à produire moins, mais on desserre les fesses.
 
 Pourquoi ? 
 
-D'une part parce qu'on est maintenant sûr de ce qu'on livre  grâce à une batterie de tests riche, pertinente et découpléed des implémentations.
+D'une part parce qu'on est maintenant sûr de ce qu'on livre  grâce à une batterie de tests riche, pertinente et découplée des implémentations.
 
-D'aute part, le code affiche une simplicité qui masque une certaine complexité. Grâce au TDD et son principe d'émergence de la conception et de refacto continue, certaines briques angoissantes sur les précédents produits ont gagné en simplicité si bien que ce ne sont plus des sujets de craintes.
+D'autre part, le code affiche une simplicité qui masque une certaine complexité. Grâce au TDD et son principe d'émergence de la conception et de refacto continue, certaines briques angoissantes sur les précédents produits ont gagné en simplicité si bien que ce ne sont plus des sujets de craintes.
 
 A partir de là, on est assez serein sur le prochain produit à développer.
 
 ## Slide 14 — Le métier vient à nous (L)
 
 - Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Comment aller plus vite ?
-Nous avions déjà beaucoup discuté avec eux sur les précédents produits en leur faisant des propositions plus agiles pour aller plus vite. Par exemple, ne sortir qu'une partie du parcours à présenter aux courtiers pour leur permettre de tester les tarifs d'une offre et qu'ils puissent souscrire, bon en mode papier, mais on est agile, ça aurait été une première version. Cela aurait permis de tester l'offre et de voir si les tarifs étaient compétitifs. Le métier, à ce moment là n'était pas prêt à rogner sur les fonctionalités. Nous leur avons donc présenter les choses différemment en leur disant que s'ils ne veulent pas rogner sur les fonctionnalités, il faudra beaucoup simplifier les règles métier.
+Nous avions déjà beaucoup discuté avec eux sur les précédents produits en leur faisant des propositions plus agiles pour aller plus vite. Par exemple, ne sortir qu'une partie du parcours à présenter aux courtiers pour leur permettre de tester les tarifs d'une offre et qu'ils puissent souscrire, bon en mode papier, mais on est agile, ça aurait été une première version. Cela aurait permis de tester l'offre et de voir si les tarifs étaient compétitifs. Le métier, à ce moment-là n'était pas prêt à rogner sur les fonctionnalités. Nous leur avons donc présenté les choses différemment en leur disant que s'ils ne veulent pas rogner sur les fonctionnalités, il faudra beaucoup simplifier les règles métier.
 Les personnes du métier ont compris qu'il allait falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
 Si on revient sur notre analogie ça équivaut à leur faire remarquer que "Si toutes les chaises ont les mêmes pieds, ça ira plus vite !".
 À force de rappel, finalement cela infuse ! Ils sont prêts à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.
@@ -148,21 +148,23 @@ L'équipe était confiante, cela serait confortable pour tout le monde et nous f
 
 ## Slide 16 — Santé Équilibre en 3 mois (D)
 
-Résultat, Santé Équilibre est sorti au bout de 3 mois.
+Résultat, Santé Équilibre est sorti au bout de 3 mois, à l'heure !
 En 2 mois pour avoir un premier MVP quasi complet
 - pendant les deux premières semaines, nous avions terminé la duplication et les adaptations.
 - ce qui a pris du temps ? La recette. C'est elle le nouveau goulot d'étranglement. La stratégie adoptée, par prudence, a été de faire une recette comme si le produit avait été créé from scratch.
 - très peu de retours, bien évidemment imputables également à Santé Frontaliers Suisses
 - Et pour éviter d'attendre les livrables des autres équipes, nous avons pu mettre en place, très facilement, un système de simulation des services externes en attendant leur branchement
 
-Le mois suivant a servi à : --> slide à faire pour étoffer cette partie avec les fonctionnalités conforts ajoutées sur SFR et SEQ
+## Slide 17 — Santé Équilibre en 3 mois (D)
+
+Ensuite, le mois suivant a servi à : 
 - implémenter un nouveau comportement spécifique
 - implémenter les branchements avec les services externes
-- implémenter quelques fonctionnalités de confort
+- mais également à implémenter quelques fonctionnalités de confort sur Santé Equilibre comme sur Santé Frontaliers Suisses
 
 Mais alors ? l'industrialisation devient rationnelle !
 
-## Slide 17 — Le déclic du template (L)
+## Slide 18 — Le déclic du template (L)
 
 - Suite à cette réussite, une nouvelle idée survient et si on industrialisait pour ce type de produit !
 Nous avons tout ce qu'il faut pour partir sur des bases solides. Les 2 derniers produits nous ont montré que cela était possible et que le gain de temps était réel, mais nous devons aller plus loin.
@@ -171,19 +173,19 @@ L'idée du template maintenable et évolutif est là ! Un produit interne vivant
 Cela nous pose des questions au niveau de l'organisation des équipes. Nous revoyons un peu les choses et décidons de créer une nouvelle équipe socle qui serait en charge de ce genre de projet.
 Le projet est remonté au niveau de la DSI afin de valider les changements d'organisation et un budget est décidé pour l'année suivante. 200 jours ont été alloués dans le budget de la DSI pour soutenir notre projet. Le projet "produire un parcours de vente en 150 jours" est acté.
 
-## Slide - Et aujourd'hui ... (L)
+## Slide 19 — Et aujourd'hui ... (L)
 
 - Aujourd'hui, l'équipe socle est en place (1 PO, 2 devs front/back) et le template est en développement.
 Des formations sont en cours pour propager le TDD dans les autres équipes du pôle.
 Il existe plusieurs réflexions avec d'autres services au sein de la DSI afin de mettre en place cette notion de template plus largement notamment sur les documents contractuels.
 
 
-## Slide 18 — L'atelier transformé (D)
+## Slide 20 — L'atelier transformé (D)
 
 Et Liza ? Eh bien maintenant, elle est plus sereine.
 Elle enchaîne les commandes et se concentre maintenant sur les besoins spécifiques de ses clients.
 Elle peut se revendiquer artisane, Alptis également.
 
-## Slide 19 — Merci (L)
+## Slide 21 — Merci (L)
 
 « Merci à tous de nous avoir écoutés. Nous pouvons répondre à vos questions. »
