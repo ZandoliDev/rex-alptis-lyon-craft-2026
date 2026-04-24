@@ -82,7 +82,14 @@ Santé individuelle (complémentaire santé)
 
 C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 
-**Mais besoin de produire plus.** <!-- .element: class="fragment" -->
+---
+## Le constat
+
+On repart chaque fois de zéro. <!-- .element: class="fragment" -->
+
+Seulement 2 produits par an. <!-- .element: class="fragment" -->
+
+**Mais souhait de produire plus.** <!-- .element: class="fragment" -->
 
 ---
 
