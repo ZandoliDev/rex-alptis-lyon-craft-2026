@@ -239,9 +239,7 @@ Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragm
 
 ---
 
----
-
-## Au delà de la vitesse de production ?
+## Au-delà de la vitesse de production ?
 
 J'ai planté des graines qui germent. <!-- .element: class="fragment" --> 
 

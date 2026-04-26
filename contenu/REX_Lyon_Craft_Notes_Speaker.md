@@ -52,7 +52,7 @@ Cela fonctionne. Les métiers sont contents. Le produit est satisfaisant à sa s
 
 ## Slide — Le constat (L)
 
-- Quelque chose est récurrent, on constate qu'on repart à chaque fois de zéro, beaucoup de modules se ressemblent mais les règles métier sont spécifiques et demande à revoir l'implémentation à chaque fois.
+- Quelque chose est récurrent, on constate qu'on repart à chaque fois de zéro, beaucoup de modules se ressemblent mais les règles métier sont spécifiques et demandent à revoir l'implémentation à chaque fois.
 
 - Les étapes d'un parcours de vente restent souvent les mêmes. Certaines dont la partie choix des garanties et la tarification sont à réadapter pour chaque produit. Cela prend du temps et nous ne sortions que 2 produits sur le périmètre santé individuel par an.
  
@@ -108,7 +108,7 @@ C'est moins évident parce que c'est un exercice qui demande plus d'énergie dan
 
 D'ailleurs, des aller-retour en recette, il y en a eu, mais il s'agissait surtout de subtilités dont nous n'avions pas connaissance en tant que dev, et qui pouvaient paraître parfois implicites pour notre PO.
 
-- S'ensuit une période hybride : mêlées aux congés, on a du renfort expérimenté. Elle est ouverte au TDD mais préfère travailler seule. Le délai mets un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continu. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
+- S'ensuit une période hybride : mêlées aux congés, on a du renfort expérimenté. Elle est ouverte au TDD mais préfère travailler seule. Le délai met un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continu. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
 - Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle, reprenant principalement ce qui a été fait sur les autres produits. Heureusement, on est sur des fonctionnalités très éprouvées et le manque de tests n'impacte pas la qualité.
 - **D** : côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
 
@@ -168,7 +168,7 @@ En 2 mois pour avoir un premier MVP quasi complet
 Ensuite, le mois suivant a servi à : 
 - implémenter un nouveau comportement spécifique
 - implémenter les branchements avec les services externes
-- mais également à implémenter quelques fonctionnalités de confort sur Santé Equilibre comme sur Santé Frontaliers Suisses
+- mais également à implémenter quelques fonctionnalités de confort sur Santé Équilibre comme sur Santé Frontaliers Suisses
 
 Mais alors ? l'industrialisation devient rationnelle !
 
@@ -181,15 +181,15 @@ L'idée du template maintenable et évolutif est là ! Un produit interne vivant
 Cela nous pose des questions au niveau de l'organisation des équipes. Nous revoyons un peu les choses et décidons de créer une nouvelle équipe socle qui serait en charge de ce genre de projet.
 Le projet est remonté au niveau de la DSI afin de valider les changements d'organisation et un budget est décidé pour l'année suivante. 200 jours ont été alloués dans le budget de la DSI pour soutenir notre projet. Le projet "produire un parcours de vente en 150 jours" est acté.
 
-## Slide - Au delà de la vitesse de production ? (D)
+## Slide — Au-delà de la vitesse de production ? (D)
 
 - Il y a un résultat non quantifiable de cette expérimentation et non négligeable pour autant.
-- D'abord auprès des développeurs qui ont travaillés avec moi. Je peux dire que j'ai planté des graines qui commencent à germer. Aucun d'eux ne savaient véritablement ce qu'est le Craft. Le TDD et le mob programming, ils avaient entendus les termes mais sans jamais s'y intéressé, se cantonnant aux idées reçues.
- - Depuis, l'un deux s'est vraiment plongé dans le monde du Craft en allant jusqu'à explorer les autres pratiques, se rendant compte du vaste monde derrière ce mot
-- J'ai pu toucher également les développeurs d'autres équipes. Avant la fin de ma mission, je voulais trouver le moyen de faire perdurer ce que j'avais commencé à mettre en place. J'ai donc proposé un atelier avec d'autres développeurs que ceux de mon équipe sur le TDD en mob programming. J'ai eu d'excellents retours et tous (bon, ils n'étaient que 3 hein) se sont rendus compte de la pertinence de ces méthodes de développement et ont formulés le souhait de le mettre en pratique.
-- Pour les autres (PO, mannagers, ...), je crois que malgré la confiance qu'ils me faisaient, ils n'étaient pas tous convaincus qu'on aurait vraiment faire mieux. Comme dit au début, le produits étaient déjà très satisfaisants. Et le premier projet n'a pas aidé en ce sens. Leur avis est différent aujourd'hui mais ils restent conscient que ces pratiques se travaillent et que les bénéfices n'arrivent pas du jour au lendemain. Le TDD n'est pas juste un buzzword.
-- Et poour moi ? Cette expérience a été tellement enrichissante. Déjà parce qu'elle m'a assuré que je ne me trompais pas de direction.
-- Ensuite parce que ça n'a pas été simple de s'adapter à tous les tempéramment. Toutes les méthodes ne conviennent pas à tout le monde. 
+- D'abord auprès des développeurs qui ont travaillé avec moi. Je peux dire que j'ai planté des graines qui commencent à germer. Aucun d'eux ne savait véritablement ce qu'est le Craft. Le TDD et le mob programming, ils avaient entendu les termes mais sans jamais s'y intéresser, se cantonnant aux idées reçues.
+ - Depuis, l'un d'eux s'est vraiment plongé dans le monde du Craft en allant jusqu'à explorer les autres pratiques, se rendant compte du vaste monde derrière ce mot
+- J'ai pu toucher également les développeurs d'autres équipes. Avant la fin de ma mission, je voulais trouver le moyen de faire perdurer ce que j'avais commencé à mettre en place. J'ai donc proposé un atelier avec d'autres développeurs que ceux de mon équipe sur le TDD en mob programming. J'ai eu d'excellents retours et tous (bon, ils n'étaient que 3 hein) se sont rendus compte de la pertinence de ces méthodes de développement et ont formulé le souhait de le mettre en pratique.
+- Pour les autres (PO, managers, ...), je crois que malgré la confiance qu'ils me faisaient, ils n'étaient pas tous convaincus qu'on aurait pu vraiment faire mieux. Comme dit au début, le produits étaient déjà très satisfaisants. Et le premier projet n'a pas aidé en ce sens. Leur avis est différent aujourd'hui mais ils restent conscients que ces pratiques se travaillent et que les bénéfices n'arrivent pas du jour au lendemain. Le TDD n'est pas juste un buzzword.
+- Et pour moi ? Cette expérience a été tellement enrichissante. Déjà parce qu'elle m'a assuré que je ne me trompais pas de direction.
+- Ensuite parce que ça n'a pas été simple de s'adapter à tous les tempérament. Toutes les méthodes ne conviennent pas à tout le monde. 
 - Et puis, j'étais loin d'imaginer l'ampleur de l'impact qu'elle aurait eu chez Alptis. Et j'en suis fier.
 - Enfin, pour les puristes, je sais pertinemment qu'on a expérimenté qu'une micro partie du panel du monde du Craft. Ceci dit, d'abord je ne suis moi même pas un puriste, et surtout, je suis persuadé que l'infusion en douceur est le meilleur gage de réussite.
 
