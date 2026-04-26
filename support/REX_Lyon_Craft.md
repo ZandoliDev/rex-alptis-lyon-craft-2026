@@ -82,7 +82,14 @@ Santé individuelle (complémentaire santé)
 
 C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
 
-**Mais besoin de produire plus.** <!-- .element: class="fragment" -->
+---
+## Le constat
+
+On repart chaque fois de zéro. <!-- .element: class="fragment" -->
+
+Seulement 2 produits par an. <!-- .element: class="fragment" -->
+
+**Mais souhait de produire plus.** <!-- .element: class="fragment" -->
 
 ---
 
@@ -229,6 +236,18 @@ Un produit interne vivant, recetté, toujours à jour.
 Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragment" --> 
 
 **150 jours**  <!-- .element: class="fragment" -->
+
+---
+
+## Au-delà de la vitesse de production ?
+
+J'ai planté des graines qui germent. <!-- .element: class="fragment" --> 
+
+Le TDD n'est pas juste un buzzword <!-- .element: class="fragment" --> 
+
+Une expérience tellement enrichissante <!-- .element: class="fragment" --> 
+
+Une infusion en douceur est le meilleur gage de réussite <!-- .element: class="fragment" --> 
 
 ---
 
