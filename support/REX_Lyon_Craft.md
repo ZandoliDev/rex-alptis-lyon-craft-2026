@@ -239,6 +239,20 @@ Objectif DSI 2026 : produire un parcours de vente en <!-- .element: class="fragm
 
 ---
 
+---
+
+## Au delà de la vitesse de production ?
+
+J'ai planté des graines qui germent. <!-- .element: class="fragment" --> 
+
+Le TDD n'est pas juste un buzzword <!-- .element: class="fragment" --> 
+
+Une expérience tellement enrichissante <!-- .element: class="fragment" --> 
+
+Une infusion en douceur est le meilleur gage de réussite <!-- .element: class="fragment" --> 
+
+---
+
 ## Et la suite ...
 
 - Équipe socle est en place
