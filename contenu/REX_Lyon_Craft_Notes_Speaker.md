@@ -138,11 +138,12 @@ A partir de là, on est assez serein sur le prochain produit à développer.
 
 ## Slide — Le métier vient à nous (L)
 
-- Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit. Le challenge qu'il nous lance : Comment aller plus vite ?
+- Un peu avant la fin du produit Santé Frontaliers Suisses, le métier vient pour nous dire qu'ils veulent sortir un nouveau produit qui s'appellerait Santé Equilibre. Le challenge qu'il nous lance : Comment aller plus vite ?
+  
 Nous avions déjà beaucoup discuté avec eux sur les précédents produits en leur faisant des propositions plus agiles pour aller plus vite. Par exemple, ne sortir qu'une partie du parcours à présenter aux courtiers pour leur permettre de tester les tarifs d'une offre et qu'ils puissent souscrire, bon en mode papier, mais on est agile, ça aurait été une première version. Cela aurait permis de tester l'offre et de voir si les tarifs étaient compétitifs. Le métier, à ce moment-là n'était pas prêt à rogner sur les fonctionnalités. Nous leur avons donc présenté les choses différemment en leur disant que s'ils ne veulent pas rogner sur les fonctionnalités, il faudra beaucoup simplifier les règles métier.
 Les personnes du métier ont compris qu'il allait falloir qu'elles nous aident et qu'elles travaillent avec nous pour simplifier le nouveau produit.
 Si on revient sur notre analogie ça équivaut à leur faire remarquer que "Si toutes les chaises ont les mêmes pieds, ça ira plus vite !".
-À force de rappel, finalement cela infuse ! Ils sont prêts à simplifier et travailler avec nous pour co-construire le prochain produit et gagner du temps.
+À force de rappel, finalement cela infuse ! Ils sont prêts à simplifier et travailler avec nous pour co-construire Santé Equilibre et gagner du temps.
 Ils sont Ok pour avoir les mêmes pieds !
 
 
