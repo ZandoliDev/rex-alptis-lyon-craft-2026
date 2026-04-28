@@ -27,6 +27,15 @@ De passer de l'optimisation à l'industrialisation.
 Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années principalement en tant que tech lead Java. Et depuis 5 ans, je suis freelance.
 Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une vraie première opportunité d'expérimenter ces pratiques grandeur nature.
 - **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. J'ai enchainé plusieurs entreprises avant d'arriver chez Alptis en 2013. Avec l'expérience acquise et de l'ambition, je suis passée Lead sur des plus ou moins grandes équipes. Et à présent, je suis Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
+
+
+## Slide — Quelques mots sur Alptis (L)
+
+- Alptis Assurance est un courtier grossiste en assurance spécialisé dans la protection de la personne. Nous concevons et distribuons des solutions de santé, prévoyance, retraite et emprunteur, destinées aux particuliers, travailleurs indépendants et entreprises. 
+Alptis s’appuie sur un modèle collaboratif avec des réseaux de courtiers pour distribuer ses offres.
+Les courtiers se rendent sur l'extranet Alptis Connect afin d'avoir accès aux différents parcours de vente qui leur permettent de tarifer nos offres et de les proposer à leur client et enfin de souscrire.
+- Didier faisait partie de l'équipe en charge des parcours de vente pour les offres de santé individuelles, pour faire simple, ce sont des complémentaires santé. Les clients cibles pour ces offres sont des particuliers et des travailleurs indépendants principalement.
+
 - Maintenant que vous en savez plus sur nous, nous allons vous raconter comment l'atelier de Liza s'est transformé.
 
 ## Slide — La douleur et le déclic (L puis D)
@@ -36,18 +45,22 @@ Je m'appelle Didier et je suis dans le développement logiciel depuis une quinza
 J'ai donc vécu cette période de flou et d'incertitude empreinte de lassitude et de frustration. Et je sais qu'on peut faire mieux, avec le TDD notamment.
 - **D** : Ils sont bien gentils chez Alptis (et c'est vrai !) mais je n'ai clairement pas envie de revivre ça — Je sais déjà que je vais proposer de revoir la façon de travailler. Ayant déjà expérimenté le TDD de manière isolée, je sais qu'on peut être plus à l'aise et plus sûr de nos livraisons.
 
-## Slide — Quelques mots sur Alptis
-
-- Alptis Assurance est un courtier grossiste en assurance spécialisé dans la protection de la personne. Nous concevons et distribuons des solutions de santé, prévoyance, retraite et emprunteur, destinées aux particuliers, travailleurs indépendants et entreprises. 
-Alptis s’appuie sur un modèle collaboratif avec des réseaux de courtiers pour distribuer ses offres.
-Les courtiers se rendent sur l'extranet Alptis Connect afin d'avoir accès aux différents parcours de vente qui leur permettent de tarifer nos offres et de les proposer à leur client et enfin de souscrire.
-- Didier faisait partie de l'équipe en charge des parcours de vente pour les offres de santé individuelles, pour faire simple, ce sont des complémentaires santé. Les clients cibles pour ces offres sont des particuliers et des travailleurs indépendants principalement.
 
 ## Slide — La norme (L)
 
 - Alors quelle est la norme à ce moment-là ? 
-Jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers, avec généralement une équipe de 4 à 5 personnes (1 PO, 1 QA et 3 devs front/back). 
+Jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers, avec généralement une équipe de 4 à 5 personnes (1 PO, 1 QA et 2 à 3 devs front/back). 
+Au niveau du rythme de livraisons sur un produit, on était à 1 livraisons en prod. 
+Une finale pour la mise en marché de l'offre (généralement date définies avec le métier).
+
+- le workflow des équipes est le suivant: d'abord la partie conception pour réfléchir dans l'équipe à la fonctionnalité (sous forme de User Story) aussi bien technique que fonctionnel. 
+Ensuite le développement est réalisé, puis suis une première recette croisée technique (seulement les devs), cela leur permet de faire une première passe et de corriger plus rapidement entre eux. 
+Une fois cette recette croisée réalisée et validée, la recette fonctionnelle par le/la PO et/ou le/la QA peut se faire. 
+Suivait ensuite une démo faite au métier pour avoir différents feedback.
+Bon en fait je vous ai un peu menti, on faisait bien plusieurs livraisons au métier mais seulement en environnement de recette. Le métier ne voulait pas que cela soit mis en prod tant que tout le périmètre cible n'était pas atteint.
+
 - Nous avons pu constater ce temps de réalisation sur les 3 produits précédents Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. 
+
 Cela fonctionne. Les métiers sont contents. Le produit est satisfaisant à sa sortie. 
 
 ## Slide — Le constat (L)

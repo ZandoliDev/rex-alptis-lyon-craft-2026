@@ -14,7 +14,7 @@ revealOptions:
 
 ### De l'optimisation à l'industrialisation
 
-REX ![Logo Alptis](assets/logo-alptis-white.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
+REX ![Logo Alptis](assets/logo-alptis-color.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
 **Didier ERIN** · **Laure CHAMPEL** 
 
@@ -43,26 +43,10 @@ Lyon Craft 2026
   </div>
 </div>
 
-*Comment l'atelier de Liza s'est transformé ?*
-
 ---
-
-## La douleur et le déclic
-
-### Migration Java 11 → 21
-
-Absence d'une batterie de test pertinente
-- Bugs et régressions détectés tardivement 
-- Allers-retours dev ↔ recette 
-- « Alors, ... qu'est-ce que j'ai cassé ? »
-
-**Il va falloir changer notre façon de travailler** <!-- .element: class="fragment" -->
-
----
-
 ## Quelques mots sur Alptis
 
-![Logo Alptis](assets/logo-alptis-dark.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
+![Logo Alptis](assets/logo-alptis-color.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
 Courtier grossiste en assurance
 
@@ -70,17 +54,48 @@ Parcours de vente
 
 Santé individuelle (complémentaire santé)
 
+*Comment l'atelier de Liza s'est transformé ?* <!-- .element: class="fragment" -->
+
+---
+
+## La douleur et le déclic
+
+- Contexte : Migration Java 11 → 21 <!-- .element: class="fragment" -->
+- Absence d'une batterie de test pertinente <!-- .element: class="fragment" -->
+- Bugs et régressions détectés tardivement <!-- .element: class="fragment" -->
+- Allers-retours dev ↔ recette <!-- .element: class="fragment" -->
+- « Alors, ... qu'est-ce que j'ai cassé ? » <!-- .element: class="fragment" -->
+
+**Il va falloir changer notre façon de travailler** <!-- .element: class="fragment" -->
+
 ---
 
 ## La norme
 
-| | |
-|---|---|
-| **Durée** | 6 à 7 mois / produit |
-| **Équipe** | 4-5 personnes (PO, QA, 3 devs) |
-| **Produits** | Santé Select, Santé Protect, Santé Pro + |
+<div class="norme-grid">
+  <div class="norme-card">
+    <span class="norme-chiffre">6–7</span>
+    <span class="norme-unite">mois / produit</span>
+  </div>
+  <div class="norme-card">
+    <span class="norme-chiffre">4–5</span>
+    <span class="norme-unite">personnes</span>
+    <span class="norme-detail">PO · QA · 2–3 devs</span>
+  </div>
+  <div class="norme-card">
+    <span class="norme-chiffre">1</span>
+    <span class="norme-unite">livraison en prod</span>
+  </div>
+</div>
 
-C'est la norme. Le produit est satisfaisant. <!-- .element: class="fragment" -->
+<div class="norme-workflow fragment">
+<div><strong>Le worflow</strong></div>
+  conception &nbsp;→&nbsp; dev &nbsp;→&nbsp; recette technique &nbsp;→&nbsp; recette fonctionnelle &nbsp;→&nbsp; démo métier
+</div>
+
+*Santé Select · Santé Protect · Santé Pro +* <!-- .element: class="fragment" style="font-size:0.7em; color: var(--text-muted);" -->
+
+**C'est la norme. Le produit est satisfaisant.** <!-- .element: class="fragment" -->
 
 ---
 ## Le constat
@@ -181,9 +196,9 @@ On livre sûr et simplifié, on peut aller plus vite <!-- .element: class="fragm
 
 ## Le métier vient à nous
 
-Nouveau produit à sortir.
+Nouveau produit à sortir : <strong>Santé Equilibre</strong>
 
-*"Comment aller plus vite ?"*
+*<strong>"Comment aller plus vite ?"</strong>* <!-- .element: class="fragment" -->
 
 *"Si toutes les chaises ont les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
 
@@ -193,9 +208,9 @@ Nouveau produit à sortir.
 
 ## La décision
 
-- Nouveau produit très similaire
-- Code stable et testé
-- Base saine pour des adaptations rapides
+- Nouveau produit très similaire <!-- .element: class="fragment" -->
+- Code stable et testé <!-- .element: class="fragment" -->
+- Base saine pour des adaptations rapides <!-- .element: class="fragment" -->
 
 **Décision : dupliquer Santé Frontaliers Suisses** <!-- .element: class="fragment" -->
 
@@ -253,10 +268,10 @@ Une infusion en douceur est le meilleur gage de réussite <!-- .element: class="
 
 ## Et la suite ...
 
-- Équipe socle est en place
-- Template est en cours de développement
-- Formations sur le TDD pour les autres équipes
-- Réflexions dans d'autres services pour industrialiser via des templates
+- Équipe socle est en place <!-- .element: class="fragment" -->
+- Template est en cours de développement <!-- .element: class="fragment" -->
+- Formations sur le TDD pour les autres équipes <!-- .element: class="fragment" -->
+- Réflexions dans d'autres services pour industrialiser via des templates <!-- .element: class="fragment" -->
 
 ---
 
