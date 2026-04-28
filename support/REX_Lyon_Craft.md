@@ -91,7 +91,7 @@ Santé individuelle (complémentaire santé) <!-- .element: class="fragment" -->
 </div>
 
 <div class="norme-workflow fragment">
-<div><strong>Le worflow</strong></div>
+<div><strong>Le workflow</strong></div>
   conception &nbsp;→&nbsp; dev &nbsp;→&nbsp; recette technique &nbsp;→&nbsp; recette fonctionnelle &nbsp;→&nbsp; démo métier
 </div>
 
@@ -313,7 +313,7 @@ Réflexions dans d'autres services pour industrialiser via des templates <!-- .e
   </div>
   <div style="background-color:white;padding:20px;">
     <img src="assets/qr-code-openfeedback.png" alt="feedback" height="150px"  />
-    <p><strong>Feeback</strong></p>
+    <p><strong>Feedback</strong></p>
   </div>
 </div>
 
