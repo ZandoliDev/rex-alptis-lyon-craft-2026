@@ -91,14 +91,19 @@ Il faut donc monter en compétence sur ces trois axes ... et faire plus vite !
 
 ## Slide — Ce qu'on met en place (D)
 
-Je l'ai dit plus tôt, ils sont vraiment sympas chez Alptis et je suis soutenu par l'équipe et le management du service pour tenter l'expérimentation de pratiques Craft malgré les enjeux forts sur ce nouveau produit.
+Je l'ai dit plus tôt, ils sont vraiment sympas chez Alptis à ce point que quand je propose d'expérimenter le TDD sur le nouveau produit, je suis soutenu, évidemment par Laure, mais surtout par le management du service et mon équipe pour tenter l'expérimentation de cette pratique malgré les enjeux forts sur ce nouveau produit. Et pas que ...
 
-Et voilà ce que nous décidons d'expérimenter :
-- Le TDD pour la conception émergente et la refactorisation continue. On espère réussir à améliorer le code, sa stabilité et sa maniabilité.
-- Le Mob programming, pour une montée en compétence plurielle et partagée
-- Des US itératives pour construire le produit pas à pas comme si on était sur un tout nouveau produit. Nous avions la chance de pouvoir compter sur des personnes, dont notre PO, qui ont une très bonne connaissance du produit et du contexte Alptis.
+Voilà ce que nous décidons d'expérimenter pour développer ce Santé Frontaliers Suisses :
+- Le TDD pour profiter de la conception émergente et la refactorisation continue. On espère ainsi réussir à améliorer le code, sa stabilité et sa maniabilité.
+C'est une méthode de développement en un cycle itératif de 3 phases :
+  - un test en échec
+  - une implémentation bête, même crade pour valider le test
+  - une refactorisation pour nettoyer et sculpter le code
+- Le Mob programming, pour une montée en compétence plurielle, partagée et homogène dans l'équipe
+Il s'agit d'une pratique qui consiste réunir plusieurs développeurs autour d'un même clavier pour développer une même fonctionnalité.
+- Des user stories itératives pour construire le produit pas à pas comme si on était sur un tout nouveau produit. Nous avions la chance de pouvoir compter sur des personnes, dont notre PO, qui ont une très bonne connaissance du produit et du contexte Alptis et garantir l'efficacité de cette approche.
 - Un périmètre allégé. En effet, notre PO réussit à négocier avec le métier pour réduire au strict minimum les fonctionnalités dites de confort et se cantonner à un produit qui se rapproche le plus possible d'un MVP. Un MVP ou minimal viable product est un produit avec le minimum de fonctionnalités possibles pour être exploité.
-- Et enfin, une livraison continue pour réduire la charge mentale liée à la MEP
+- Et enfin, une livraison continue pour réduire la charge mentale liée à la MEP. On a la possibilité technique de le faire sans que le produit ne soit accessible aux clients, on ne va pas se priver. Globalement, on livre toutes les semaines.
 
 ## Slide — L'apprentissage (D)
 
@@ -110,20 +115,25 @@ En tout cas, c'est l'idée.
 
 ## Slide — Ce qui se passe vraiment (D)
 
-- **D** : Voyons comment ça avance chez Alptis ... Et bien, ce n'était pas un long fleuve tranquille. La physionomie de notre équipe côté backend a évolué dans le temps et nos pratiques aussi :
+- Voyons comment ça avance chez Alptis ... Et bien, ce n'était pas un long fleuve tranquille. La physionomie de notre équipe côté backend a évolué dans le temps et nos pratiques aussi :
 
-- D'abord, ~1,5 mois : on travaille en mob programming avec le précédent tech lead qui fait encore partie des effectifs => je coach la pratique du TDD, lui nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite. Ça marche très bien, petit à petit le rythme se fluidifie. On est au top et confiant. J'insiste pas mal sur deux choses :
-  - le test first en baby step, qui aide à obtenir une conception taillée sur mesure
-  - et l'aspect refacto en continu, c'est elle qui va assurer la maniabilité du code dans le temps. 
+- D'abord, ~1,5 mois : on travaille en mob programming avec le précédent tech lead qui fait encore partie des effectifs => je coach la pratique du TDD, lui nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite. Ça marche très bien, petit à petit le rythme se fluidifie. On est au top et confiant. Le workflow s'en trouve simplifié : plus de conception en amont, plus de revue de pr, plus de recette croisée, on fait tout en même temps pendant le développement.
+
+Durant cette phase, j'insiste sur notions importante  :
+  - le test first en baby step, qui aide à obtenir une conception taillée sur mesure. Baby step car à chaque étape, le nouveau test n'ajoute qu'une infime contrainte supplémentaire par rapport aux tests existants.
+  - et l'aspect refacto en continu, cette 3eme phase du TDD à ne pas négligée et qui demande des bonnes compétences de design logiciel. C'est elle qui va assurer la maniabilité du code dans le temps.
 
 - Ensuite, notre précédent tech lead nous lâche. On n'est plus que deux côté backend, Et bien forcément, on ne fait plus de mob, on essaye de faire du pair. 
 C'est moins évident parce que c'est un exercice qui demande plus d'énergie dans cette configuration. Mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard et à perdre confiance.
 
-D'ailleurs, des aller-retour en recette, il y en a eu, mais il s'agissait surtout de subtilités dont nous n'avions pas connaissance en tant que dev, et qui pouvaient paraître parfois implicites pour notre PO.
+D'ailleurs, il y a quelques aller-retour en recette, mais il s'agissait surtout de subtilités sur le produit et l'environnement Alptis dont nous n'avions pas connaissance.
+
+La reveu de code et la recette croisée refont surface. Pas la phase de conception en amont.
 
 - S'ensuit une période hybride : mêlées aux congés, on a du renfort expérimenté. Elle est ouverte au TDD mais préfère travailler seule. Le délai met un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continu. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
 - Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle, reprenant principalement ce qui a été fait sur les autres produits. Heureusement, on est sur des fonctionnalités très éprouvées et le manque de tests n'impacte pas la qualité.
-- **D** : côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
+
+- côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
 
 ## Slide — Comme si ça ne suffisait pas ... (L)
 - **L** : Dans le lot, il y a eu ~3 semaines de friction organisationnelle comprenant des allers/retours avec l'architecte solutions afin de prendre en compte la standardisation du produit (qui avait été réfléchie en amont mais l'équipe n'était pas présente à ce moment-là). La solution a donc été rechallengée avec la nouvelle équipe.
@@ -219,6 +229,8 @@ Il existe plusieurs réflexions avec d'autres services au sein de la DSI afin de
 Et Liza ? Eh bien maintenant, elle est plus sereine.
 Elle enchaîne les commandes et se concentre maintenant sur les besoins spécifiques de ses clients.
 Elle peut se revendiquer artisane, Alptis également.
+
+Par manque de temps, nous ne sommes pas rentrer dans certains détails : le détail de pratiques, comment je me suis adaptés aux affinités de chacun
 
 ## Slide — Merci (L)
 

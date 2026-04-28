@@ -5,21 +5,35 @@
    =================================================== */
 
 :root {
-  --indigo-deep: #1b1040;   /* titres, accents forts — 15.8:1 sur blanc */
-  --indigo: #2d2266;        /* h2, bordures — 12.5:1 sur blanc */
-  --indigo-light: #4a3d8f;  /* éléments secondaires — 7.3:1 sur blanc */
-  --green: #19A36D;         /* accent vert Alptis — 4.6:1 sur blanc */
-  --green-dark: #0a5c38;    /* vert foncé — 10.2:1 sur blanc */
-  --green-bg: #e6f4ef;      /* fond accent vert très clair */
-  --sable-dark: #7a5c10;    /* accents texte sur blanc — 5.8:1 */
-  --sable: #8a6d1b;         /* marqueurs, bordures — 4.9:1 sur blanc */
-  --terre: #6b4512;         /* h3 — 7.2:1 sur blanc */
+  --indigo-deep: #1b1040;
+  /* titres, accents forts — 15.8:1 sur blanc */
+  --indigo: #2d2266;
+  /* h2, bordures — 12.5:1 sur blanc */
+  --indigo-light: #4a3d8f;
+  /* éléments secondaires — 7.3:1 sur blanc */
+  --green: #19A36D;
+  /* accent vert Alptis — 4.6:1 sur blanc */
+  --green-dark: #0a5c38;
+  /* vert foncé — 10.2:1 sur blanc */
+  --green-bg: #e6f4ef;
+  /* fond accent vert très clair */
+  --sable-dark: #7a5c10;
+  /* accents texte sur blanc — 5.8:1 */
+  --sable: #8a6d1b;
+  /* marqueurs, bordures — 4.9:1 sur blanc */
+  --terre: #6b4512;
+  /* h3 — 7.2:1 sur blanc */
   --bg-main: #ffffff;
-  --bg-subtle: #f0f4f2;     /* fonds subtils légèrement verts */
-  --bg-accent: #e6f4ef;     /* slides accentuées — fond clair vert */
-  --text-main: #1a1a2a;     /* texte principal — 16.2:1 sur blanc */
-  --text-muted: #2e4a40;    /* texte secondaire — 8.2:1 sur fond clair */
-  --warning: #8b1a1a;       /* alerte — 8.5:1 sur blanc */
+  --bg-subtle: #f0f4f2;
+  /* fonds subtils légèrement verts */
+  --bg-accent: #e6f4ef;
+  /* slides accentuées — fond clair vert */
+  --text-main: #1a1a2a;
+  /* texte principal — 16.2:1 sur blanc */
+  --text-muted: #2e4a40;
+  /* texte secondaire — 8.2:1 sur fond clair */
+  --warning: #8b1a1a;
+  /* alerte — 8.5:1 sur blanc */
 }
 
 /* ---- Fond global ---- */
@@ -38,10 +52,12 @@
   color: var(--text-main) !important;
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
   font-size: 36px !important;
+  line-height: 1.6 !important;
 }
 
 .reveal .slides section p {
   margin: 0.3em 0 !important;
+  line-height: 1.6 !important;
 }
 
 .reveal h1 {
@@ -180,7 +196,7 @@
 }
 
 /* ---- Slide de titre ---- */
-.reveal .slides > section:first-child h1 {
+.reveal .slides>section:first-child h1 {
   font-size: 2.6em !important;
   margin-bottom: 0.2em;
 }
@@ -317,7 +333,7 @@
   background: var(--green-bg) !important;
   border: 2px solid var(--green);
   border-radius: 12px;
-  padding: 0.5em 1.2em;
+  padding: 0.35em 0.9em;
   min-width: 130px;
 }
 
@@ -336,19 +352,24 @@
 }
 
 .norme-detail {
-  font-size: 0.55em !important;
+  font-size: 0.75em !important;
   color: var(--text-muted) !important;
   margin-top: 0.1em;
 }
 
 .norme-workflow {
-  font-size: 0.65em !important;
+  font-size: 0.9em !important;
   color: var(--text-muted) !important;
   background: var(--bg-subtle);
   border-radius: 8px;
   padding: 0.4em 1em;
   margin: 0.4em auto !important;
   display: inline-block;
+}
+
+.norme-products {
+  font-size: 0.85em !important;
+  color: var(--text-muted) !important;
 }
 
 /* ---- Controls ---- */

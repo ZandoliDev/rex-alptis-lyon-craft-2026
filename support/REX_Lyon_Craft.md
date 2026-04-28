@@ -14,7 +14,7 @@ revealOptions:
 
 ### De l'optimisation à l'industrialisation
 
-REX ![Logo Alptis](assets/logo-alptis-color.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
+**REX** ![Logo Alptis](assets/logo-alptis-color.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
 **Didier ERIN** · **Laure CHAMPEL** 
 
@@ -42,7 +42,7 @@ Lyon Craft 2026
 </div>
 
 ---
-## Quelques mots sur Alptis
+## Quelques mots sur
 
 ![Logo Alptis](assets/logo-alptis-color.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
@@ -138,7 +138,7 @@ TDD <!-- .element: class="fragment" -->
 
 Mob programming <!-- .element: class="fragment" -->
 
-US itératives <!-- .element: class="fragment" -->
+User stories itératives <!-- .element: class="fragment" -->
 
 Périmètre allégé <!-- .element: class="fragment" -->
 
@@ -188,23 +188,35 @@ Des dépendances avec des équipes externes <!-- .element: class="fragment" -->
 
 ## 7 mois — résultat contrasté
 
-dont 1 mois de retard
+dont 1 mois de retard <!-- .element: class="fragment" -->
+
+avec une équipe <!-- .element: class="fragment" -->
+* inexpérimentée sur les pratiques Craft  <!-- .element: class="fragment" -->
+* inexpérimentée sur les produits Alptis  <!-- .element: class="fragment" -->
+* inexpérimentée sur le contexte Alptis <!-- .element: class="fragment" -->
+* de nouvelle exigences à intégrer <!-- .element: class="fragment" -->
+
+---
+
+On a mis 7 mois
 
 <blockquote class="fragment"><em>Mais on desserre les fesses.</em></blockquote>
 
-On livre sûr et simplifié, on peut aller plus vite <!-- .element: class="fragment" -->
+On livre du code sûr, simplifié <!-- .element: class="fragment" -->
+
+*On peut maintenant aller plus vite* <!-- .element: class="fragment" -->
 
 ---
 
 ## Le métier vient à nous
 
-Nouveau produit à sortir : <strong>Santé Equilibre</strong>
+<div class="fragment">Nouveau produit à sortir : <em>Santé Equilibre</em></div>
 
-*<strong>"Comment aller plus vite ?"</strong>* <!-- .element: class="fragment" -->
+**"Comment aller plus vite ?"** <!-- .element: class="fragment" -->
 
 *"Si toutes les chaises ont les mêmes pieds, ça ira vite."* <!-- .element: class="fragment" -->
 
-*"OK pour les mêmes pieds."* <!-- .element: class="fragment" -->
+**"OK pour les mêmes pieds."** <!-- .element: class="fragment" -->
 
 ---
 
@@ -220,7 +232,7 @@ Nouveau produit à sortir : <strong>Santé Equilibre</strong>
 
 ## Santé Équilibre en 3 mois
 
-2 mois : produit quasi complet
+2 mois : produit quasi complet <!-- .element: class="fragment" -->
 
 → La recette devient le goulot d'étranglement <!-- .element: class="fragment" -->
 
@@ -230,9 +242,7 @@ Nouveau produit à sortir : <strong>Santé Equilibre</strong>
 
 ---
 
-## Santé Équilibre en 3 mois
-
-1 mois de rab pour :
+## Et pendant le mois de rab
 
 → nouveau comportement spécifique <!-- .element: class="fragment" -->
 
@@ -240,13 +250,13 @@ Nouveau produit à sortir : <strong>Santé Equilibre</strong>
 
 → quelques fonctionnalités de confort sur Santé Frontaliers Suisses et Santé Équilibre <!-- .element: class="fragment" -->
 
-**"Mais alors ? L'industrialisation devient rationnelle !"** <!-- .element: class="fragment" -->
+*Mais alors ? L'industrialisation devient rationnelle !* <!-- .element: class="fragment" -->
 
 ---
 
 ## Le déclic du template
 
-Un produit interne vivant, recetté, toujours à jour.
+Un produit interne vivant, recetté, toujours à jour. <!-- .element: class="fragment" -->
 
 200 jours alloués à la création de ce template <!-- .element: class="fragment" --> 
 
@@ -264,16 +274,19 @@ Le TDD n'est pas juste un buzzword <!-- .element: class="fragment" -->
 
 Une expérience tellement enrichissante <!-- .element: class="fragment" --> 
 
-Une infusion en douceur est le meilleur gage de réussite <!-- .element: class="fragment" --> 
+Une infusion en douceur est un bon gage de réussite <!-- .element: class="fragment" --> 
 
 ---
 
 ## Et la suite ...
 
-- Équipe socle est en place <!-- .element: class="fragment" -->
-- Template est en cours de développement <!-- .element: class="fragment" -->
-- Formations sur le TDD pour les autres équipes <!-- .element: class="fragment" -->
-- Réflexions dans d'autres services pour industrialiser via des templates <!-- .element: class="fragment" -->
+Équipe socle est en place <!-- .element: class="fragment" -->
+
+Template est en cours de développement <!-- .element: class="fragment" -->
+
+Formations sur le TDD pour les autres équipes <!-- .element: class="fragment" -->
+
+Réflexions dans d'autres services pour industrialiser via des templates <!-- .element: class="fragment" -->
 
 ---
 
