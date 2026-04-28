@@ -22,8 +22,6 @@ Lyon Craft 2026
 
 ---
 
-<!-- .slide: class="slide-accent" -->
-
 ## L'atelier de Liza
 
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
@@ -48,13 +46,15 @@ Lyon Craft 2026
 
 ![Logo Alptis](assets/logo-alptis-color.svg) <!-- .element: style="width: 200px; vertical-align: middle; margin-bottom: 0.9em;" -->
 
-Courtier grossiste en assurance
+Courtier grossiste en assurance <!-- .element: class="fragment" -->
 
-Parcours de vente
+Parcours de vente <!-- .element: class="fragment" -->
 
-Santé individuelle (complémentaire santé)
+Santé individuelle (complémentaire santé) <!-- .element: class="fragment" -->
 
-*Comment l'atelier de Liza s'est transformé ?* <!-- .element: class="fragment" -->
+---
+
+*Comment l'atelier de Liza s'est transformé ?*
 
 ---
 
@@ -66,7 +66,9 @@ Santé individuelle (complémentaire santé)
 - Allers-retours dev ↔ recette <!-- .element: class="fragment" -->
 - « Alors, ... qu'est-ce que j'ai cassé ? » <!-- .element: class="fragment" -->
 
-**Il va falloir changer notre façon de travailler** <!-- .element: class="fragment" -->
+---
+
+*Il faut que ça change !*
 
 ---
 

@@ -72,6 +72,7 @@
 .reveal em {
   color: var(--green-dark) !important;
   font-style: italic;
+  font-weight: 600 !important;
 }
 
 .reveal a {
