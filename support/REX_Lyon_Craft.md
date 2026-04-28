@@ -281,6 +281,10 @@ Une infusion en douceur est le meilleur gage de réussite <!-- .element: class="
     <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
     <p><strong>Laure CHAMPEL</strong></p>
   </div>
+  <div style="background-color:white;padding:20px;">
+    <img src="assets/qr-code-openfeedback.png" alt="feedback" height="150px"  />
+    <p><strong>Feeback</strong></p>
+  </div>
 </div>
 
 Lyon Craft 2026
