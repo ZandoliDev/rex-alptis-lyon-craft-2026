@@ -50,10 +50,11 @@ J'ai donc vécu cette période de flou et d'incertitude empreinte de lassitude e
 
 - Alors quelle est la norme à ce moment-là ? 
 Jusqu'à présent un produit était réalisé en 6 à 7 mois suivant les spécificités métiers, avec généralement une équipe de 4 à 5 personnes (1 PO, 1 QA et 2 à 3 devs front/back). 
-Au niveau du rythme de livraisons sur un produit, on était à 1 livraisons en prod. 
-Une finale pour la mise en marché de l'offre (généralement date définies avec le métier).
+Au niveau du rythme de livraisons sur un produit, on était à 1 livraison en prod. Donc celle finale pour la mise en marché de l'offre (généralement date définies avec le métier).
 
-- le workflow des équipes est le suivant: d'abord la partie conception pour réfléchir dans l'équipe à la fonctionnalité (sous forme de User Story) aussi bien technique que fonctionnel. 
+- le workflow des équipes est le suivant: 
+L'équipe s'inspire de la méthode Kanban pour la partie agile. Elle est en flux continue.
+D'abord la partie conception pour réfléchir dans l'équipe à la fonctionnalité (sous forme de User Story) aussi bien technique que fonctionnel. 
 Ensuite le développement est réalisé, puis suis une première recette croisée technique (seulement les devs), cela leur permet de faire une première passe et de corriger plus rapidement entre eux. 
 Une fois cette recette croisée réalisée et validée, la recette fonctionnelle par le/la PO et/ou le/la QA peut se faire. 
 Suivait ensuite une démo faite au métier pour avoir différents feedback.
@@ -61,7 +62,7 @@ Bon en fait je vous ai un peu menti, on faisait bien plusieurs livraisons au mé
 
 - Nous avons pu constater ce temps de réalisation sur les 3 produits précédents Santé Select, Santé Protect et Santé Pro +. Tous sont des produits dédiés à la santé individuelle. 
 
-Cela fonctionne. Les métiers sont contents. Le produit est satisfaisant à sa sortie. 
+Cela fonctionne. Le métier est content. Le produit est satisfaisant à sa sortie.
 
 ## Slide — Le constat (L)
 
