@@ -26,6 +26,10 @@ Lyon Craft 2026
 
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
 
+Note:
+- Liza fabrique des chaises → la chaise casse → recommencer
+- Analogie du projet logiciel chez Alptis
+
 ---
 
 ## Qui sommes-nous
