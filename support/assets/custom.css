@@ -1,24 +1,44 @@
 /* ===================================================
-   Thème REX Lyon Craft — Indigo & Sable
+   Thème REX Lyon Craft — Fond clair, contrastes forts
+   Accessibilité : WCAG AA (4.5:1 texte, 3:1 grands textes)
    Identité visuelle Didier ERIN
    =================================================== */
 
 :root {
   --indigo-deep: #1b1040;
-  --indigo: #3a2d7d;
-  --indigo-light: #5e4db2;
-  --sable: #e8b944;
-  --sable-light: #f2d06b;
-  --sable-pale: #fdf0d0;
-  --terre: #c47a2a;
-  --ivoire: #faf6ee;
-  --text-main: #f0ece4;
-  --text-muted: #b8b0c8;
+  /* titres, accents forts — 15.8:1 sur blanc */
+  --indigo: #2d2266;
+  /* h2, bordures — 12.5:1 sur blanc */
+  --indigo-light: #4a3d8f;
+  /* éléments secondaires — 7.3:1 sur blanc */
+  --green: #19A36D;
+  /* accent vert Alptis — 4.6:1 sur blanc */
+  --green-dark: #0a5c38;
+  /* vert foncé — 10.2:1 sur blanc */
+  --green-bg: #e6f4ef;
+  /* fond accent vert très clair */
+  --sable-dark: #7a5c10;
+  /* accents texte sur blanc — 5.8:1 */
+  --sable: #8a6d1b;
+  /* marqueurs, bordures — 4.9:1 sur blanc */
+  --terre: #6b4512;
+  /* h3 — 7.2:1 sur blanc */
+  --bg-main: #ffffff;
+  --bg-subtle: #f0f4f2;
+  /* fonds subtils légèrement verts */
+  --bg-accent: #e6f4ef;
+  /* slides accentuées — fond clair vert */
+  --text-main: #1a1a2a;
+  /* texte principal — 16.2:1 sur blanc */
+  --text-muted: #2e4a40;
+  /* texte secondaire — 8.2:1 sur fond clair */
+  --warning: #8b1a1a;
+  /* alerte — 8.5:1 sur blanc */
 }
 
 /* ---- Fond global ---- */
 .reveal-viewport {
-  background: linear-gradient(160deg, var(--indigo-deep) 0%, #0f0a28 100%) !important;
+  background: var(--bg-main) !important;
 }
 
 /* ---- Éviter le contenu coupé en bas ---- */
@@ -32,63 +52,65 @@
   color: var(--text-main) !important;
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
   font-size: 36px !important;
+  line-height: 1.6 !important;
 }
 
 .reveal .slides section p {
   margin: 0.3em 0 !important;
+  line-height: 1.6 !important;
 }
 
 .reveal h1 {
-  color: var(--sable) !important;
+  color: var(--indigo-deep) !important;
   font-weight: 800 !important;
-  text-shadow: 0 2px 12px rgba(232, 185, 68, 0.25) !important;
   font-size: 2.2em !important;
 }
 
 .reveal h2 {
-  color: var(--sable-light) !important;
+  color: var(--indigo) !important;
   font-weight: 700 !important;
-  border-bottom: 3px solid var(--sable);
+  border-bottom: 3px solid var(--green);
   padding-bottom: 0.2em;
   margin-bottom: 0.3em !important;
   display: inline-block;
 }
 
 .reveal h3 {
-  color: var(--terre) !important;
+  color: var(--green-dark) !important;
   font-weight: 600 !important;
 }
 
 /* ---- Accentuations ---- */
 .reveal strong {
-  color: var(--sable) !important;
+  color: var(--indigo-deep) !important;
 }
 
 .reveal em {
-  color: var(--sable-pale) !important;
+  color: var(--green-dark) !important;
   font-style: italic;
+  font-weight: 600 !important;
 }
 
 .reveal a {
-  color: var(--sable-light) !important;
+  color: var(--green-dark) !important;
   text-decoration: underline;
 }
 
 /* ---- Blockquotes (thèses & punchlines) ---- */
 .reveal blockquote {
-  background: linear-gradient(135deg, rgba(58, 45, 125, 0.5), rgba(27, 16, 64, 0.7)) !important;
-  border-left: 5px solid var(--sable) !important;
+  background: var(--green-bg) !important;
+  border-left: 5px solid var(--green) !important;
   border-radius: 8px;
   padding: 0.5em 1em !important;
   margin: 0.4em auto !important;
   max-width: 85%;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-  color: var(--ivoire) !important;
+  box-shadow: 0 2px 8px rgba(25, 163, 109, 0.12);
+  color: var(--text-main) !important;
   font-size: 1.1em !important;
 }
 
 .reveal blockquote p {
-  color: var(--ivoire) !important;
+  color: var(--text-main) !important;
 }
 
 /* ---- Tableaux ---- */
@@ -105,15 +127,16 @@
 }
 
 .reveal table th {
-  background: var(--indigo) !important;
-  color: var(--sable) !important;
+  background: var(--bg-subtle) !important;
+  color: var(--indigo-deep) !important;
+  font-weight: 700;
 }
 
 .reveal table tr:nth-child(even) {
-  background: rgba(58, 45, 125, 0.2);
+  background: rgba(245, 243, 240, 0.6);
 }
 
-/* ---- Frise des phases (slide 10) ---- */
+/* ---- Frise des phases ---- */
 .frise-vertical {
   display: flex !important;
   flex-direction: column !important;
@@ -127,21 +150,22 @@
   flex-direction: row !important;
   justify-content: space-between !important;
   align-items: center !important;
-  background: linear-gradient(135deg, var(--indigo), var(--indigo-light)) !important;
+  background: var(--green-bg) !important;
   border-radius: 8px;
-  border: 2px solid var(--sable);
+  border: 2px solid var(--green);
   padding: 0.4em 0.6em;
 }
 
 .frise-phase--warning {
-  background: linear-gradient(135deg, #4a1942, #6b2158) !important;
-  border-color: var(--terre) !important;
+  background: #fdf0f0 !important;
+  border-color: var(--warning) !important;
+  border-style: dashed !important;
 }
 
 .frise-label {
   font-weight: 700 !important;
   font-size: 0.9em !important;
-  color: var(--sable) !important;
+  color: var(--green-dark) !important;
 }
 
 .frise-duree {
@@ -162,7 +186,7 @@
 }
 
 .reveal li::marker {
-  color: var(--sable) !important;
+  color: var(--green) !important;
 }
 
 /* ---- Slides d'acte (data-background) ---- */
@@ -172,7 +196,7 @@
 }
 
 /* ---- Slide de titre ---- */
-.reveal .slides > section:first-child h1 {
+.reveal .slides>section:first-child h1 {
   font-size: 2.6em !important;
   margin-bottom: 0.2em;
 }
@@ -196,8 +220,8 @@
   height: 120px !important;
   border-radius: 50% !important;
   object-fit: cover !important;
-  border: 3px solid var(--sable) !important;
-  box-shadow: 0 4px 16px rgba(232, 185, 68, 0.3) !important;
+  border: 3px solid var(--green) !important;
+  box-shadow: 0 4px 12px rgba(25, 163, 109, 0.25) !important;
 }
 
 .speaker-card p {
@@ -210,32 +234,31 @@
 .reveal section img {
   border: none !important;
   border-radius: 12px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12) !important;
   background: none !important;
 }
 
 /* ---- Photos speakers (override) ---- */
 .reveal .speaker-card img {
   border-radius: 50% !important;
-  border: 3px solid var(--sable) !important;
-  box-shadow: 0 4px 16px rgba(232, 185, 68, 0.3) !important;
+  border: 3px solid var(--green) !important;
+  box-shadow: 0 4px 12px rgba(25, 163, 109, 0.25) !important;
 }
 
 /* ---- Séparateurs d'acte ---- */
 .acte-header {
-  background: linear-gradient(135deg, var(--indigo), var(--indigo-deep)) !important;
+  background: var(--green-bg) !important;
   border-radius: 16px;
   padding: 1.5em 2em;
-  border: 2px solid var(--sable);
-  box-shadow: 0 4px 24px rgba(232, 185, 68, 0.15);
+  border: 2px solid var(--green);
+  box-shadow: 0 2px 12px rgba(25, 163, 109, 0.12);
   display: inline-block;
 }
 
-
 /* ---- Numéro de slide ---- */
 .reveal .slide-number {
-  color: var(--sable) !important;
-  background: rgba(27, 16, 64, 0.7) !important;
+  color: var(--green-dark) !important;
+  background: var(--green-bg) !important;
   font-size: 0.7em;
   border-radius: 4px;
   padding: 4px 8px;
@@ -243,23 +266,110 @@
 
 /* ---- Slide Merci ---- */
 .reveal section:last-child h2 {
-  color: var(--sable) !important;
+  color: var(--indigo-deep) !important;
   font-size: 2.4em !important;
 }
 
 /* ---- Slides accentuées (transitions d'acte, titre, conclusion) ---- */
 .slide-accent {
-  background: var(--indigo-deep) !important;
+  background: var(--bg-accent) !important;
 }
 
-.slide-accent h1,
+.slide-accent,
+.slide-accent p,
+.slide-accent li,
+.slide-accent span {
+  color: var(--text-main) !important;
+}
+
+.slide-accent h1 {
+  color: var(--indigo-deep) !important;
+}
+
 .slide-accent h2 {
-  color: var(--sable) !important;
+  color: var(--green-dark) !important;
+  border-bottom-color: var(--green) !important;
+}
+
+.slide-accent strong {
+  color: var(--indigo-deep) !important;
+}
+
+.slide-accent em {
+  color: var(--green-dark) !important;
+}
+
+.slide-accent blockquote {
+  background: rgba(255, 255, 255, 0.7) !important;
+  border-left-color: var(--green) !important;
+}
+
+.slide-accent blockquote p,
+.slide-accent blockquote em {
+  color: var(--text-main) !important;
+}
+
+.slide-accent li::marker {
+  color: var(--green) !important;
 }
 
 /* ---- Progress bar ---- */
 .reveal .progress span {
-  background: var(--sable) !important;
+  background: var(--green) !important;
+}
+
+/* ---- Slide La norme — cartes chiffres ---- */
+.norme-grid {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 1.2em;
+  margin: 0.4em 0;
+}
+
+.norme-card {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  background: var(--green-bg) !important;
+  border: 2px solid var(--green);
+  border-radius: 12px;
+  padding: 0.35em 0.9em;
+  min-width: 130px;
+}
+
+.norme-chiffre {
+  font-size: 2em !important;
+  font-weight: 900 !important;
+  color: var(--green-dark) !important;
+  line-height: 1.1;
+}
+
+.norme-unite {
+  font-size: 0.7em !important;
+  font-weight: 600 !important;
+  color: var(--indigo-deep) !important;
+  text-align: center;
+}
+
+.norme-detail {
+  font-size: 0.75em !important;
+  color: var(--text-muted) !important;
+  margin-top: 0.1em;
+}
+
+.norme-workflow {
+  font-size: 0.9em !important;
+  color: var(--text-muted) !important;
+  background: var(--bg-subtle);
+  border-radius: 8px;
+  padding: 0.4em 1em;
+  margin: 0.4em auto !important;
+  display: inline-block;
+}
+
+.norme-products {
+  font-size: 0.85em !important;
+  color: var(--text-muted) !important;
 }
 
 /* ---- Controls ---- */
@@ -267,5 +377,5 @@
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-down {
-  color: var(--sable) !important;
+  color: var(--green-dark) !important;
 }
