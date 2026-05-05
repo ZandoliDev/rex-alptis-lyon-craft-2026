@@ -10,7 +10,7 @@ revealOptions:
 
 <!-- .slide: class="slide-accent" -->
 
-# Et Craft la chaise !
+# Et Craft ! la chaise.
 
 ### De l'optimisation à l'industrialisation
 
@@ -27,8 +27,10 @@ Lyon Craft 2026
 ![BD — Ça craque](assets/1_ca_craque.png) <!-- .element: style="max-height: 65vh;" -->
 
 Note:
-- Liza fabrique des chaises → la chaise casse → recommencer
-- Analogie du projet logiciel chez Alptis
+- illustrer ce talk
+- Analogie
+- nombreux projets informatique
+- c'était comme ça chez Alptis
 
 ---
 
@@ -46,8 +48,13 @@ Note:
 </div>
 
 Note:
-- **D** : freelance, tech lead Java, Craft depuis 3 ans, première opportunité d'expérimenter grandeur nature
-- **L** : 20 ans de tech, dev fullstack → Engineering manager, accompagne 5 équipes
+- **D** :
+  - 15zaine d'année .. tech lead java .. 5 ans freelance 
+  - 3 ans craft
+  - opportunité
+- **L** : 
+  - 20 ans de tech, dev fullstack → 
+  - Engineering manager, accompagne 5 équipes
 
 ---
 ## Quelques mots sur
@@ -61,8 +68,11 @@ Parcours de vente <!-- .element: class="fragment" -->
 Santé individuelle (complémentaire santé) <!-- .element: class="fragment" -->
 
 Note:
-- **L** Courtier grossiste assurance, santé, prévoyance, retraite, emprunteur : modèle collaboratif réseau courtiers → extranet → parcours de vente → souscription
-- Didier était équipe parcours de vente santé individuelle: clients cibles particulier, independant
+- **L** 
+  - Courtier grossiste assurance, santé, prévoyance, retraite, emprunteur 
+  - Modèle collaboratif réseau courtiers → extranet → parcours de vente → souscription
+  - Didier était équipe parcours de vente santé individuelle
+  - clients cibles particulier, independant
 
 ---
 
@@ -79,18 +89,29 @@ Note:
 - Absence d'une batterie de test pertinente <!-- .element: class="fragment" -->
 - Bugs et régressions détectés tardivement <!-- .element: class="fragment" -->
 - Allers-retours dev ↔ recette <!-- .element: class="fragment" -->
-- « Alors, ... qu'est-ce que j'ai cassé ? » <!-- .element: class="fragment" -->
 
 Note:
-- **L** — décembre 2024, migration Java 11→21, compliquée, tests non pertinents, régressions tardives, allers-retours en recette
-- **D** — J'arrive dans ce contexte de frustration. Je sais qu'on peut faire mieux avec le TDD
+- **L** 
+  - décembre 2024, migration Java 11→21, compliquée, 
+  - tests non pertinents, 
+  - régressions tardives, 
+  - allers-retours en recette
+- **D** 
+  - arrivé dans ce contexte
+  - futur tech lead
+  - période vécu : flou et d'incertitude empreinte de lassitude et de frustration
 
 ---
 
 *Il faut que ça change !*
 
 Note:
-**D** — Pas question de revivre ça : je vais proposer de revoir la façon de travailler
+**D**
+  - gentils chez Alptis
+  - pas envie de revivre ça
+  - TDD expérimenté de manière isolé
+  - je me prépare à proposer de changer la façon de travailler
+  - il faut que ça change
 
 ---
 
@@ -138,10 +159,13 @@ Seulement 2 produits par an. <!-- .element: class="fragment" -->
 **Mais souhait de produire plus.** <!-- .element: class="fragment" -->
 
 Note:
-**L** — Le constat structurel
-- On repart de zéro à chaque produit, modules se ressemblent mais les règles métier sont spécifiques
-- ré implémentation à chaque produit -> Seulement 2 produits/an sur la santé individuelle
-- pas suffisant pour le métier, plus concurrentiel sur le marché, plus de choix pour les coutiers
+**L** 
+- On repart de zéro à chaque produit, 
+- modules se ressemblent mais les règles métier sont spécifiques
+- ré implémentation à chaque produit 
+- -> Seulement 2 produits/an sur la santé individuelle
+- pas suffisant pour le métier, 
+- plus concurrentiel sur le marché, plus de choix pour les coutiers
 
 ---
 
@@ -153,9 +177,10 @@ mais on serre les fesses quand on s'assoit sur la chaise.*
 **Et si le vrai problème n'était pas la vitesse, mais la façon dont on fabrique les chaises ?** <!-- .element: class="fragment" -->
 
 Note:
-**D** — Pivot narratif central
-- On serre les fesses : livraison incertaine, code fragile
-- Le vrai problème c'est la façon de fabriquer, pas la vitesse
+**D** 
+- Pour le moment
+- la situation est a suivante
+- Et si 
 
 ---
 
@@ -166,20 +191,24 @@ Note:
 Nouvelle équipe <!-- .element: class="fragment" data-fragment-index="2" -->
 
 **Triple courbe d'apprentissage** <!-- .element: class="fragment" data-fragment-index="3" -->
-* TDD <!-- .element: class="fragment" data-fragment-index="3" -->
 * La santé individuelle <!-- .element: class="fragment" data-fragment-index="3" -->
+* TDD <!-- .element: class="fragment" data-fragment-index="3" -->
 * L'environnement Alptis <!-- .element: class="fragment" data-fragment-index="3" -->
 
 Note:
 - **L** : connaissait Didier,mission Alptis, via Lyon Craft, DDD chez Alptis, non maitrise TDD, recruté pour faire bouger les pratiques, super oppourtunité !
 - nouveau produit SFS, Nouvelle équipe → occasion de repartir sur des bases saines
-- **D** — Triple courbe d'apprentissage simultanée : TDD + santé individuelle + environnement Alptis
+- **D**
+  - Ambition de taille
+  - Stack tech -> on connait
+  - montée en compétence 3 axes
+  - il faut faire vite !
 
 ---
 
 ## Ce qu'on met en place
 
-TDD <!-- .element: class="fragment" -->
+TDD (Test driven development) <!-- .element: class="fragment" -->
 
 Mob programming <!-- .element: class="fragment" -->
 
@@ -190,11 +219,17 @@ Périmètre allégé <!-- .element: class="fragment" -->
 Livraison continue <!-- .element: class="fragment" -->
 
 Note:
-**D** — Ce qu'on expérimente avec le soutien du management
-- TDD : conception émergente, refacto continue → code stable et maniable
+**D** 
+- plus tôt : vraiment gentils -> propose expérimenter TDD nouveau produit
+- soutenu d'abord par Laure, management du service et mon équipe
+- TDD : concept emergente / refacto continu / simplifacation / maniabilité
+  - explications
 - Mob programming : montée en compétence collective
-- US itératives + périmètre MVP négocié par le PO avec le métier
-- Livraison continue : réduire la charge mentale des MEP
+  - explications
+- US itératives 
+- négociation PO / Métier : retrait fonctionnalité confort 
+  - MVP : explications
+- Livraison continue : charge mentale MEP
 
 ---
 
@@ -205,10 +240,11 @@ Note:
 ![BD — L'apprentissage](assets/2_l_apprentissage.png) <!-- .element: style="max-height: 65vh;" -->
 
 Note:
-**D** — Retour sur Liza
-- Liza apprend le tenon-mortaise avec un maître artisan
-- Long à acquérir, mais une fois maîtrisé : plus besoin de vérifier la solidité
-- C'est l'idée du TDD : la technique qu'on apprend une fois, et qui nous libère
+**D**
+- Liza fait appel à un maître artisan
+- tenon mortaise
+- ça prend du temps, long à acquérir
+- mais une fois maîtrisé : plus besoin de vérifier la solidité
 
 ---
 
@@ -216,29 +252,42 @@ Note:
 
 <div class="frise-vertical">
   <div class="frise-phase fragment">
-    <span class="frise-label">Mob</span>
+    <span class="frise-label">Mob programming</span>
     <span class="frise-duree">~1,5 mois</span>
   </div>
   <div class="frise-phase fragment">
-    <span class="frise-label">Pair</span>
+    <span class="frise-label">Pair & solo programming</span>
     <span class="frise-duree">~2 mois</span>
   </div>
   <div class="frise-phase fragment">
-    <span class="frise-label">Hybride</span>
+    <span class="frise-label">Renfort et congés programming</span>
     <span class="frise-duree">~1,5 mois</span>
   </div>
   <div class="frise-phase frise-phase--warning fragment">
-    <span class="frise-label">Sans Didier</span>
+    <span class="frise-label">Sans Didier programming</span>
     <span class="frise-duree">~2 mois</span>
   </div>
 </div>
 
 Note:
-**D** — Pas un long fleuve tranquille
-- Mob ~1,5 mois : co-coaching avec l'ancien tech lead, bon rythme, TDD bien installé
-- Pair ~2 mois : l'ancien TL part, moins efficace, retard commence, subtilités métier manquées
-- Hybride ~1,5 mois : renfort expérimenté mais moins de TDD, retard non rattrapé
-- Sans Didier ~2 mois : dev solo, retour aux habitudes — fonctionne car la base est saine
+- aveu : pas un long fleuve tranquille
+- physionomie de l'équipe côté back
+- Mob ~1,5 mois : ancien TL présent
+   - co-coaching / bon rythme confiant
+   - workflow : pas de conception / pas de revue de code / pas de recette croisée
+   - insiste sur 2 aspects TDD => baby step / refacto en continu
+- Pair / solo : ancien TL nous lache
+  - plus 2 / pas de mob / essaye pair mais ça demande plus d'énergie
+  - moins efficace, retard commence, subtilités métier / Alptis
+  - allers retours en recette à cause de la méconnaissance
+  - Revue de code / recette croisée / on prend du retard / pr => 2 mois
+- ~1,5 mois : périodes de congés, renfort expérimenté aime travaillé seule
+  - pas de mob / TDD survit tant bien que mal / test / refacto
+  - retart pas rattrapé / pressé par la deadline
+- Sans Didier, 2 mois de congés, dev solo / succes de la MEP
+  - pression de la deadline
+  - pas à l'aise pour le TDD
+  - retour aux habitudes, plus de TDD, plus de test / fonctionnalité éprouvée
 - Dev front : convaincu dès le départ après une journée de pair, TDD tout le long
 
 ---
@@ -266,9 +315,12 @@ avec une équipe <!-- .element: class="fragment" -->
 * de nouvelle exigences à intégrer <!-- .element: class="fragment" -->
 
 Note:
-**D** — Mise en contexte du chiffre
-- 7 mois sur un produit épuré, équipe inexpérimentée sur 3 axes en même temps
-- Pas si lent vu les conditions : nouvelles pratiques + nouveau domaine + nouvel environnement
+**D**
+- 7 mois ... dont 1 mois de retard
+- pour faire un produit épuré
+- c'est le même temps qu'avant pour faire moins
+- Mois rapide pour autant ?
+- Pour rappel
 
 ---
 
@@ -281,10 +333,14 @@ On livre du code sûr, simplifié <!-- .element: class="fragment" -->
 *On peut maintenant aller plus vite* <!-- .element: class="fragment" -->
 
 Note:
-**D** — Bilan : on desserre les fesses
-- Code livré avec une batterie de tests riche, pertinente, découplée des implémentations
-- Briques autrefois angoissantes ont gagné en simplicité grâce à la refacto continue
-- On est serein pour le prochain produit
+**D** 
+- On a mis 7 mois
+- mais on desserre les fesses
+- d'une part sûr de ce qu'on livre
+- d'autre part, code affiche simplicité
+- briques angoissantes -> plus un sujet de craintes.
+- serein prochain produit
+- on sait qu'on peut aller plus vite
 
 ---
 
@@ -315,7 +371,7 @@ Note:
 **Décision : dupliquer Santé Frontaliers Suisses** <!-- .element: class="fragment" -->
 
 Note:
-**L** — Décision collective
+**L**
 - réunions métiers et techniques → Santé Équilibre très similaire à SFS, même plus simple
 - SFS bénéficie du TDD : code stable, base saine → adaptations faciles
 - Décision collégiale : dupliquer SFS et adapter
@@ -333,11 +389,15 @@ Note:
 → simulation des services externes à la demande <!-- .element: class="fragment" -->
 
 Note:
-**D** — Santé Équilibre : 2 mois
-- Duplication + adaptations en 2 semaines
-- La recette est le nouveau goulot : stratégie “from scratch” par prudence
-- Très peu de retours, et imputables aussi à SFS
-- Simulation des services externes mise en place facilement grâce à la qualité du code
+**D**
+- Santé Equilibre est sorti au bout de 3 mois
+- Et à l'heure !
+- Concrètrement, 2 mois produit quasi complet
+  - 2 semaines dupliquer adapter
+  - La recette est le nouveau goulot : stratégie “from scratch” par prudence
+  - Très peu de retours, et imputables SFS
+  - Pour aider la recette périmètre
+    - Simulation des services externes mise en place facilement grâce à la qualité du code
 
 ---
 
@@ -352,10 +412,12 @@ Note:
 *Mais alors ? L'industrialisation devient rationnelle !* <!-- .element: class="fragment" -->
 
 Note:
-**D** — Santé Équilibre : le mois de rab
-- Nouveau comportement spécifique + branchements services externes
-- Fonctionnalités de confort sur les 2 produits
-- Conclusion : dupliquer un produit craft, c'est rationnel
+- implémenter nouveau comportement spécifique
+- branchements services externes
+- mais également
+  - luxe fonctionnalités de confort 
+    - Santé Équilibre
+    - comme Santé Frontaliers Suisses
 
 ---
 
@@ -377,22 +439,37 @@ Note:
 
 ---
 
-## Au-delà de la vitesse de production ?
+## Au-delà des chiffres ?
 
 J'ai planté des graines qui germent. <!-- .element: class="fragment" --> 
 
 Le TDD n'est pas juste un buzzword <!-- .element: class="fragment" --> 
 
-Une expérience tellement enrichissante <!-- .element: class="fragment" --> 
+Une infusion en douceur est un bon gage d'adoption <!-- .element: class="fragment" --> 
 
-Une infusion en douceur est un bon gage de réussite <!-- .element: class="fragment" --> 
+Une expérience très enrichissante <!-- .element: class="fragment" --> 
+
+Au-delà de mes espérances <!-- .element: class="fragment" --> 
 
 Note:
-**D** — Impact non quantifiable, non négligeable
-- Des graines qui germent : un dev s'est plongé dans le Craft, atelier TDD mob avec d'autres équipes
-- PO, managers : convaincus par les résultats, conscients que ça se travaille
-- TDD n'est pas juste un buzzword
-- Infusion en douceur : le meilleur gage de réussite
+- **D** résultat non quantifiable / non négligeable
+- mon équipe : J'ai planté des graines qui germent 
+  - Pas de connaissance du Craft /=> convaincu par le TDD
+  - un se lance à la découverte vaste nouveau monde
+- autres équipe curiosité piquée par l'exemple
+  - ma volonté de péréniser 
+  - Atelier TDD MOB en condition réelle (vrai code de 0)
+  - Tous très bon retours (que 3) / pertinence des pratiques
+- les autres (PO, managers) m'ont fait confiance mais 
+  - les produits sont plutôt stables
+  - SFS en retard donc pas trop convaincus par la méthode
+  - maintenant voient les bénéfices
+  - ça se travaille / TDD n'est pas juste un buzzword
+- Avec du recul
+  - attitue Agile Craft Infusion en douceur
+  - en co-construction / en baby step => infusion douce bon gage
+- Si on m'avait dit ... ouais bon, exagèe pas
+- FIER
 
 ---
 
