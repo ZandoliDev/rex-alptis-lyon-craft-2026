@@ -517,14 +517,11 @@ Note:
   <div class="speaker-card">
     <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
     <p><strong>Laure CHAMPEL</strong></p>
+    <img src="assets/qr-code-linkedin-laure.png" alt="feedback" height="150px" style="border-radius:10% !important"  />
   </div>
   <div style="background-color:white;padding:20px;">
     <img src="assets/qr-code-openfeedback.png" alt="feedback" height="150px"  />
     <p><strong>Feedback</strong></p>
-  </div>
-  <div style="background-color:white;padding:20px;">
-    <img src="assets/qr-code-emploi.png" alt="feedback" height="150px"  />
-    <p><strong>Alptis Recrute !</strong></p>
   </div>
 </div>
 
