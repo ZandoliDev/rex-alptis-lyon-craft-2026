@@ -522,6 +522,10 @@ Note:
     <img src="assets/qr-code-openfeedback.png" alt="feedback" height="150px"  />
     <p><strong>Feedback</strong></p>
   </div>
+  <div style="background-color:white;padding:20px;">
+    <img src="assets/qr-code-emploi.png" alt="feedback" height="150px"  />
+    <p><strong>Alptis Recrute !</strong></p>
+  </div>
 </div>
 
 Lyon Craft 2026
