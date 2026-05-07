@@ -513,6 +513,7 @@ Note:
   <div class="speaker-card">
     <img src="assets/Didier.jpg" alt="Didier ERIN"/>
     <p><strong>Didier ERIN</strong></p>
+    <img src="assets/qr-code-linkedin-didier.png" alt="feedback" height="150px" style="border-radius:10% !important"  />
   </div>
   <div class="speaker-card">
     <img src="assets/Laure.jpg" alt="Laure CHAMPEL"/>
