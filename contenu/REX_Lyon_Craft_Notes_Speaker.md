@@ -26,7 +26,7 @@ De passer de l'optimisation à l'industrialisation.
 - **D** : Il est temps de faire les présentations.
 Je m'appelle Didier et je suis dans le développement logiciel depuis une quinzaine d'années principalement en tant que tech lead Java. Et depuis 5 ans, je suis freelance.
 Ça fait 3 ans que le Craft me fascine et je vois chez Alptis une vraie première opportunité d'expérimenter ces pratiques grandeur nature.
-- **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. J'ai enchainé plusieurs entreprises avant d'arriver chez Alptis en 2013. Avec l'expérience acquise et de l'ambition, je suis passée Lead sur des plus ou moins grandes équipes. Et à présent, je suis Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
+- **L** : Moi c'est Laure, je suis dans la tech depuis plus de 20 ans. Et oui ça ne se voit pas ! J'ai commencé en tant que dev fullstack. J'ai enchaîné plusieurs entreprises avant d'arriver chez Alptis en 2013. Avec l'expérience acquise et de l'ambition, je suis passée Lead sur des plus ou moins grandes équipes. Et à présent, je suis Engineering manager depuis 3 ans. J'accompagne actuellement 5 équipes à plein temps.
 
 
 ## Slide — Quelques mots sur Alptis (L)
@@ -83,7 +83,7 @@ Et si le vrai problème n'était pas seulement la vitesse, mais surtout la faço
 
 ## Slide — Repartir de zéro avec le craft (L puis D)
 
-- **L** : Avant qu'il intègre notre pôle, je connaissais déjà Didier. Il avait fait une première mission chez Alptis mais dans un autre pôle et nous nous sommes recroisés plusieurs fois lors de conférences dont Lyon Craft. Nous avions échangé plusieurs fois sur les pratiques craft. J'en avais parlé au sein d'Alptis, nous parlions déjà DDD, mais peu ambitionnait le TDD. Pas toujours facile de s'y mettre quand personne ne le maitrise vraiment. Lors d'un remplacement de prestation, j'ai vu une opportunité d'intégrer quelqu'un qui pourrait m'aider à mettre en place des nouvelles pratiques dans nos équipes plus facilement. Didier était disponible et était motivé pour faire bouger les choses avec moi. Super opportunité pour nous !
+- **L** : Avant qu'il intègre notre pôle, je connaissais déjà Didier. Il avait fait une première mission chez Alptis mais dans un autre pôle et nous nous sommes recroisés plusieurs fois lors de conférences dont Lyon Craft. Nous avions échangé plusieurs fois sur les pratiques craft. J'en avais parlé au sein d'Alptis, nous parlions déjà DDD, mais peu ambitionnaient le TDD. Pas toujours facile de s'y mettre quand personne ne le maîtrise vraiment. Lors d'un remplacement de prestation, j'ai vu une opportunité d'intégrer quelqu'un qui pourrait m'aider à mettre en place des nouvelles pratiques dans nos équipes plus facilement. Didier était disponible et était motivé pour faire bouger les choses avec moi. Super opportunité pour nous !
 Nous profitons alors d'un nouveau produit : Santé Frontaliers Suisses, 
 Une nouvelle équipe est en place, nous décidons d'expérimenter autre chose.
 C'est l'occasion de repartir sur des bases saines. Didier est dans cette nouvelle équipe et instaure le TDD.
@@ -95,7 +95,7 @@ Il faut donc monter en compétence sur ces trois axes ... et faire plus vite !
 Je l'ai dit plus tôt, ils sont vraiment sympas chez Alptis à ce point que quand je propose d'expérimenter le TDD sur le nouveau produit, je suis soutenu, évidemment par Laure, mais surtout par le management du service et mon équipe pour tenter l'expérimentation de cette pratique malgré les enjeux forts sur ce nouveau produit. Et pas que ...
 
 Voilà ce que nous décidons d'expérimenter pour développer ce Santé Frontaliers Suisses :
-- Le TDD pour profiter de la conception émergente et la refactorisation continue. On espère ainsi réussir à améliorer le code, sa stabilité et sa maniabilité.
+- Le TDD pour profiter de la conception émergente et de la refactorisation continue. On espère ainsi réussir à améliorer le code, sa stabilité et sa maniabilité.
 C'est une méthode de développement en un cycle itératif de 3 phases :
   - un test en échec
   - une implémentation bête, même crade pour valider le test
@@ -116,23 +116,23 @@ En tout cas, c'est l'idée.
 
 ## Slide — Ce qui se passe vraiment (D)
 
-- Voyons comment ça avance chez Alptis ... Et bien, ce n'était pas un long fleuve tranquille. La physionomie de notre équipe côté backend a évolué dans le temps et nos pratiques aussi :
+- Voyons comment ça avance chez Alptis ... Eh bien, ce n'était pas un long fleuve tranquille. La physionomie de notre équipe côté backend a évolué dans le temps et nos pratiques aussi :
 
 - D'abord, ~1,5 mois : on travaille en mob programming avec le précédent tech lead qui fait encore partie des effectifs => je coach la pratique du TDD, lui nous met au parfum sur les subtilités du produit et de l'environnement Alptis. On avance assez vite. Ça marche très bien. On est au top. 
 - Le workflow s'en trouve simplifié : plus de conception en amont, plus de revue de pr, plus de recette croisée, on fait tout en même temps pendant le développement.
 
-Durant cette phase, j'insiste sur notions importante  :
+Durant cette phase, j'insiste sur des notions importantes  :
   - le test first en baby step, qui aide à obtenir une conception taillée sur mesure. Baby step car à chaque étape, le nouveau test n'ajoute qu'une infime contrainte supplémentaire par rapport aux tests existants.
-  - et l'aspect refacto en continu, cette 3eme phase du TDD à ne pas négligée et qui demande des bonnes compétences de design logiciel. C'est elle qui va assurer la maniabilité du code dans le temps.
+  - et l'aspect refacto en continu, cette 3eme phase du TDD à ne pas négliger et qui demande des bonnes compétences de design logiciel. C'est elle qui va assurer la maniabilité du code dans le temps.
 
 - Ensuite, notre précédent tech lead nous lâche. On n'est plus que deux côté backend, Et bien forcément, on ne fait plus de mob, on essaye de faire du pair. 
 C'est moins évident parce que c'est un exercice qui demande plus d'énergie dans cette configuration. Mais on ne lâche pas le TDD. Ça dure à peu près 2 mois. On est déjà moins efficace, des subtilités du métier et de l'environnement Alptis nous échappent. On commence à prendre du retard et à perdre confiance.
 
 D'ailleurs, il y a quelques aller-retour en recette, mais il s'agissait surtout de subtilités sur le produit et l'environnement Alptis dont nous n'avions pas connaissance.
 
-La reveu de code et la recette croisée refont surface. Pas la phase de conception en amont.
+La revue de code et la recette croisée refont surface. Pas la phase de conception en amont.
 
-- S'ensuit une période hybride : mêlées aux congés, on a du renfort expérimenté. Elle est ouverte au TDD mais préfère travailler seule. Le délai met un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continu. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
+- S'ensuit une période hybride : mêlée aux congés, on a du renfort expérimenté. Elle est ouverte au TDD mais préfère travailler seule. Le délai met un peu de pression, on fait moins de pair, pas de mob, l'esprit du TDD n'est pas loin pas sûr qu'il soit correctement appliqué. En tout cas on teste et on fait de la refacto en continu. Pendant cette phase, nous n'arrivons pas à rattraper le retard.
 - Et pour finir, c'est moi qui pars en congés (pendant 2 mois, rien que ça). Globalement, il ne reste plus qu'un développeur, il assure la MEP avec succès, mais, ne se sentant pas encore très à l'aise avec le TDD, il a repris sa méthode de travail habituelle, reprenant principalement ce qui a été fait sur les autres produits. Heureusement, on est sur des fonctionnalités très éprouvées et le manque de tests n'impacte pas la qualité.
 
 - côté front, notez qu'en début de projet, j'ai fait une journée de pair programming avec notre dev front. Le but étant de lui faire comprendre l'essence de la méthode TDD. Mission réussie, il est conquis, il s'y emploie pendant toute la durée du projet.
@@ -159,7 +159,7 @@ D'une part parce qu'on est maintenant sûr de ce qu'on livre  grâce à une batt
 
 D'autre part, le code affiche une simplicité qui masque une certaine complexité. Grâce au TDD et son principe d'émergence de la conception et de refacto continue, certaines briques angoissantes sur les précédents produits ont gagné en simplicité si bien que ce ne sont plus des sujets de craintes.
 
-A partir de là, on est assez serein sur le prochain produit à développer.
+À partir de là, on est assez serein sur le prochain produit à développer.
 
 ## Slide — Le métier vient à nous (L)
 
@@ -210,11 +210,10 @@ Le projet est remonté au niveau de la DSI afin de valider les changements d'org
 ## Slide — Au-delà de la vitesse de production ? (D)
 
 - Il y a un résultat non quantifiable de cette expérimentation et non négligeable pour autant.
-- D'abord auprès des développeurs qui ont travaillé avec moi. Je peux dire que j'ai planté des graines qui commencent à germer. Aucun d'eux ne savait véritablement ce qu'est le Craft. Aujourd'hui ils sont convaincues des bénéfices du TDD et l'un deux s'est engouffré dans l'apprentissage du Craft de manière globale. C'est un vaste monde qui s'ouvre à lui.
-- J'ai pu toucher également les développeurs des autres équipes, par l'exemple. Les résultats obtenus ont titillés leur curiosité. Avant la fin de ma mission, je voulais trouver le moyen de faire perdurer ce que j'avais commencé à mettre en place. J'ai donc proposé un atelier TDD en mob programming pour eux sen condition réelle (re-coder une vrai fonctionnalité de 0). J'ai eu d'excellents retours et tous (bon, ils n'étaient que 3 hein) se sont rendus compte de la pertinence de ces méthodes de développement et ont formulé le souhait de le mettre en pratique.
-- Pour les autres (PO, managers, ...), je crois que malgré la confiance qu'ils me faisaient, ils n'étaient pas tous convaincus qu'on aurait pu vraiment faire mieux. Comme dit au début, les produits étaient déjà très satisfaisants. Et le premier projet n'a pas vraiment aidé à vanter les mérites du Craft. Leur avis est différent aujourd'hui mais ils restent conscients que ces pratiques se travaillent et que les bénéfices n'arrivent pas du jour au lendemain. Le TDD n'est pas juste un buzzword.
-- Et pour moi ? Cette expérience a été tellement enrichissante. Il a fallu que je crois en moi, que je crois au Craft, que j'adapte les pratiques en fonctions de affinités et du contexte sans imposer.
-- Avec du recul, je me rends compte que j'ai adopté une posture assez Agile / Craft pour obtenir ce résultat, en co-construction, un peu en baby step. Je crois qu'une infusion en douceur est un bon gage d'adoption. 
+- D'abord auprès des développeurs qui ont travaillé avec moi. Je crois que les graines que j'ai plantées germent. Aucun d'eux ne savait véritablement ce qu'est le Craft. Aujourd'hui ils sont convaincus des bénéfices du TDD et l'un d'eux s'est engouffré dans l'apprentissage du Craft de manière globale. C'est un vaste monde qui s'ouvre à lui.
+- J'ai pu toucher également les développeurs des autres équipes, par l'exemple. Les résultats obtenus ont titillé leur curiosité. Avant la fin de ma mission, je voulais trouver le moyen de faire perdurer ce que j'avais commencé à mettre en place. J'ai donc proposé un atelier TDD en mob programming pour eux en conditions réelles (re-coder une vraie fonctionnalité de 0). J'ai eu d'excellents retours et tous (bon, ils n'étaient que 3 hein) se sont rendus compte de la pertinence de ces méthodes de développement et ont formulé le souhait de le mettre en pratique.
+- Pour les autres (PO, managers, ...), je crois que malgré la confiance qu'ils me faisaient, ils n'étaient pas tous convaincus qu'on aurait pu vraiment faire mieux. Comme dit au début, les produits étaient déjà très satisfaisants. Et le premier projet n'a pas vraiment aidé à vanter les mérites du Craft. Leur avis est différent aujourd'hui mais ils restent conscients que ces pratiques se travaillent et que les bénéfices n'arrivent pas du jour au lendemain. Le Craft n'est pas juste un buzzword.
+- Et pour moi ? Cette expérience a été tellement enrichissante. Il a fallu que je crois en moi, que je crois au Craft, que j'adapte les pratiques en fonction des affinités et du contexte sans imposer.
 - Enfin, si on m'avait dit que j'aurai pu avoir un tel impact avant le démarrage de ma mission, j'aurais sans doute répondu un truc du style : ouais bon ... n'exagère pas quand même !
 - En tout cas j'en suis fier
 
@@ -231,7 +230,7 @@ Et Liza ? Eh bien maintenant, elle est plus sereine.
 Elle enchaîne les commandes et se concentre maintenant sur les besoins spécifiques de ses clients.
 Elle peut se revendiquer artisane, Alptis également.
 
-Par manque de temps, nous ne sommes pas rentrer dans certains détails : le détail de pratiques, comment je me suis adaptés aux affinités de chacun
+Par manque de temps, nous ne sommes pas rentrés dans certains détails : le détail de pratiques, comment je me suis adapté aux affinités de chacun
 
 ## Slide — Merci (L)
 

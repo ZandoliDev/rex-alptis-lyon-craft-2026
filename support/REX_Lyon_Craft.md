@@ -29,7 +29,7 @@ Lyon Craft 2026
 Note:
 - illustrer ce talk
 - Analogie
-- nombreux projets informatique
+- nombreux projets informatiques
 - c'était comme ça chez Alptis
 
 ---
@@ -79,7 +79,7 @@ Note:
 *Comment l'atelier de Liza s'est transformé ?*
 
 Note:
-**L** — Nous allons vous racontez
+**L** — Nous allons vous raconter
 
 ---
 
@@ -108,10 +108,10 @@ Note:
 Note:
 **D**
   - gentils chez Alptis
+  - il faut que ça change
   - pas envie de revivre ça
   - TDD expérimenté de manière isolé
   - je me prépare à proposer de changer la façon de travailler
-  - il faut que ça change
 
 ---
 
@@ -222,7 +222,7 @@ Note:
 **D** 
 - plus tôt : vraiment gentils -> propose expérimenter TDD nouveau produit
 - soutenu d'abord par Laure, management du service et mon équipe
-- TDD : concept emergente / refacto continu / simplifacation / maniabilité
+- TDD : conception émergente / refacto continu / simplification / maniabilité
   - explications
 - Mob programming : montée en compétence collective
   - explications
@@ -283,8 +283,8 @@ Note:
   - Revue de code / recette croisée / on prend du retard / pr => 2 mois
 - ~1,5 mois : périodes de congés, renfort expérimenté aime travaillé seule
   - pas de mob / TDD survit tant bien que mal / test / refacto
-  - retart pas rattrapé / pressé par la deadline
-- Sans Didier, 2 mois de congés, dev solo / succes de la MEP
+  - retard pas rattrapé / pressé par la deadline
+- Sans Didier, 2 mois de congés, dev solo / succès de la MEP
   - pression de la deadline
   - pas à l'aise pour le TDD
   - retour aux habitudes, plus de TDD, plus de test / fonctionnalité éprouvée
@@ -312,7 +312,7 @@ avec une équipe <!-- .element: class="fragment" -->
 * inexpérimentée sur les pratiques Craft  <!-- .element: class="fragment" -->
 * inexpérimentée sur les produits Alptis  <!-- .element: class="fragment" -->
 * inexpérimentée sur le contexte Alptis <!-- .element: class="fragment" -->
-* de nouvelle exigences à intégrer <!-- .element: class="fragment" -->
+* de nouvelles exigences à intégrer <!-- .element: class="fragment" -->
 
 Note:
 **D**
@@ -441,35 +441,28 @@ Note:
 
 ## Au-delà des chiffres ?
 
-J'ai planté des graines qui germent. <!-- .element: class="fragment" --> 
+Des graines qui germent. <!-- .element: class="fragment" --> 
 
-Le TDD n'est pas juste un buzzword <!-- .element: class="fragment" --> 
-
-Une infusion en douceur est un bon gage d'adoption <!-- .element: class="fragment" --> 
-
-Une expérience très enrichissante <!-- .element: class="fragment" --> 
+Le Craft n'est pas juste un buzzword <!-- .element: class="fragment" --> 
 
 Au-delà de mes espérances <!-- .element: class="fragment" --> 
 
 Note:
 - **D** résultat non quantifiable / non négligeable
-- mon équipe : J'ai planté des graines qui germent 
-  - Pas de connaissance du Craft /=> convaincu par le TDD
-  - un se lance à la découverte vaste nouveau monde
-- autres équipe curiosité piquée par l'exemple
-  - ma volonté de péréniser 
+- mon équipe : graines semées germent 
+  - Pas de connaissance du Craft
+  - convaincu par les bénéfices du TDD
+- autres équipes curiosité piquée par l'exemple
+  - ma volonté de pérenniser 
   - Atelier TDD MOB en condition réelle (vrai code de 0)
   - Tous très bon retours (que 3) / pertinence des pratiques
 - les autres (PO, managers) m'ont fait confiance mais 
   - les produits sont plutôt stables
   - SFS en retard donc pas trop convaincus par la méthode
   - maintenant voient les bénéfices
-  - ça se travaille / TDD n'est pas juste un buzzword
-- Avec du recul
-  - attitue Agile Craft Infusion en douceur
-  - en co-construction / en baby step => infusion douce bon gage
-- Si on m'avait dit ... ouais bon, exagèe pas
-- FIER
+  - ça se travaille / Le craft n'est pas juste un buzzword
+- Si on m'avait dit ... ouais bon, exagère pas
+- Fier de cet impact
 
 ---
 
