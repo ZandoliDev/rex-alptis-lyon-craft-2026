@@ -47,3 +47,4 @@ Voir `contenu/REX_Lyon_Craft_Plan_Action.md` pour le statut de chaque étape.
 - Commits en français
 - Format : `type: description courte`
 - Types : `feat` (nouveau livrable), `fix` (correction), `refactor` (réécriture)
+  
